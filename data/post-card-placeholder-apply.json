@@ -1,0 +1,27 @@
+{
+  "backup": {
+    "json": "C:\\Users\\scurt\\Desktop\\Cursor Dosyalar\\adanaavukat.org\\data\\backups\\homepage-7-pre-post-card-placeholder-2026-06-13T21-38-27.json",
+    "html": "C:\\Users\\scurt\\Desktop\\Cursor Dosyalar\\adanaavukat.org\\data\\backups\\homepage-7-pre-post-card-placeholder-2026-06-13T21-38-27.html"
+  },
+  "snippet": {
+    "action": "updated",
+    "id": 7
+  },
+  "check": {
+    "homepage": {
+      "hasPostCard": true,
+      "hasPlaceholder": true,
+      "h1Count": 1,
+      "hasPlaceholderCss": true
+    },
+    "category": {
+      "hasAstraCss": true,
+      "hasPlaceholderStyle": true,
+      "articleNoThumb": true
+    },
+    "single": {
+      "articleSingle": true,
+      "noThumbHidden": true
+    }
+  }
+}

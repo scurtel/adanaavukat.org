@@ -1,0 +1,477 @@
+{
+  "checkedAt": "2026-06-13T21:12:49.074Z",
+  "homepage": {
+    "httpStatus": 200,
+    "headings": {
+      "h1": [
+        "Adana Avukat"
+      ],
+      "h2": [
+        "Hizmet Alanları",
+        "Av. Ceren Sümer Cilli",
+        "Neden Hukuki Destek Önemli?",
+        "Hukuk Rehberi — Son Yazılar",
+        "Sık Sorulan Sorular",
+        "Hukuki Sürecinizi Değerlendirmek İçin İletişime Geçin"
+      ],
+      "h3": [
+        "Boşanma Davaları",
+        "Anlaşmalı Boşanma",
+        "Çekişmeli Boşanma",
+        "Nafaka",
+        "Velayet",
+        "Mal Paylaşımı",
+        "Miras Hukuku",
+        "Kira Hukuku",
+        "İş Hukuku",
+        "Adana Aile Hukuku Davalarında Avukat Desteği",
+        "Adana&#8217;da Avukat Seçimi Rehberi",
+        "Adana&#8217;da Boşanma Davası Süreci",
+        "Adana Miras, Kira, İş Hukuku",
+        "Adana Nafaka ve Velayet Davaları",
+        "Adana&#8217;da avukat desteği hangi durumlarda alınmalıdır?",
+        "Boşanma davası açmadan önce nelere dikkat edilmelidir?",
+        "Nafaka ve velayet talepleri ne zaman ileri sürülür?",
+        "Avukatla görüşmeye giderken hangi belgeler hazırlanmalıdır?",
+        "Hukuki süreç ne kadar sürer?",
+        "İlk görüşmede neler değerlendirilir?"
+      ]
+    },
+    "h1Count": 1,
+    "h1Single": true,
+    "h1Text": "Adana Avukat",
+    "h1BeforeH2": true,
+    "internalLinkCount": 31,
+    "brokenLinks": []
+  },
+  "links": [
+    {
+      "link": "https://adanaavukat.org/",
+      "url": "https://adanaavukat.org/",
+      "status": 200,
+      "ok": true
+    },
+    {
+      "link": "https://adanaavukat.org/feed/",
+      "url": "https://adanaavukat.org/feed/",
+      "status": 200,
+      "ok": true
+    },
+    {
+      "link": "https://adanaavukat.org/comments/feed/",
+      "url": "https://adanaavukat.org/comments/feed/",
+      "status": 200,
+      "ok": true
+    },
+    {
+      "link": "https://adanaavukat.org/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fadanaavukat.org%2F",
+      "url": "https://adanaavukat.org/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fadanaavukat.org%2F",
+      "status": 200,
+      "ok": true
+    },
+    {
+      "link": "https://adanaavukat.org/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fadanaavukat.org%2F&",
+      "url": "https://adanaavukat.org/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fadanaavukat.org%2F&",
+      "status": 200,
+      "ok": true
+    },
+    {
+      "link": "https://adanaavukat.org/wp-content/litespeed/css/d9892f5d50e25eaae6ae413d02ce67e6.css?ver=37300",
+      "url": "https://adanaavukat.org/wp-content/litespeed/css/d9892f5d50e25eaae6ae413d02ce67e6.css?ver=37300",
+      "status": 200,
+      "ok": true
+    },
+    {
+      "link": "https://adanaavukat.org/wp-json/",
+      "url": "https://adanaavukat.org/wp-json/",
+      "status": 200,
+      "ok": true
+    },
+    {
+      "link": "https://adanaavukat.org/wp-json/wp/v2/pages/7",
+      "url": "https://adanaavukat.org/wp-json/wp/v2/pages/7",
+      "status": 200,
+      "ok": true
+    },
+    {
+      "link": "https://adanaavukat.org/xmlrpc.php?rsd",
+      "url": "https://adanaavukat.org/xmlrpc.php?rsd",
+      "status": 200,
+      "ok": true
+    },
+    {
+      "link": "https://adanaavukat.org/aile-hukuku-rehberi/",
+      "url": "https://adanaavukat.org/aile-hukuku-rehberi/",
+      "status": 200,
+      "ok": true
+    },
+    {
+      "link": "https://adanaavukat.org/faq/",
+      "url": "https://adanaavukat.org/faq/",
+      "status": 200,
+      "ok": true
+    },
+    {
+      "link": "https://adanaavukat.org/iletisim/",
+      "url": "https://adanaavukat.org/iletisim/",
+      "status": 200,
+      "ok": true
+    },
+    {
+      "link": "https://adanaavukat.org/hakkimizda/",
+      "url": "https://adanaavukat.org/hakkimizda/",
+      "status": 200,
+      "ok": true
+    },
+    {
+      "link": "https://adanaavukat.org/avukat-ceren-sumer-cilli-kimdir-adana-bosanma-ve-aile-hukuku/",
+      "url": "https://adanaavukat.org/avukat-ceren-sumer-cilli-kimdir-adana-bosanma-ve-aile-hukuku/",
+      "status": 200,
+      "ok": true
+    },
+    {
+      "link": "https://adanaavukat.org/hizmetlerimiz/",
+      "url": "https://adanaavukat.org/hizmetlerimiz/",
+      "status": 200,
+      "ok": true
+    },
+    {
+      "link": "https://adanaavukat.org/adana-bosanma-avukati/",
+      "url": "https://adanaavukat.org/adana-bosanma-avukati/",
+      "status": 200,
+      "ok": true
+    },
+    {
+      "link": "https://adanaavukat.org/cekismeli-bosanma-davasi/",
+      "url": "https://adanaavukat.org/cekismeli-bosanma-davasi/",
+      "status": 200,
+      "ok": true
+    },
+    {
+      "link": "https://adanaavukat.org/nafaka-davasi/",
+      "url": "https://adanaavukat.org/nafaka-davasi/",
+      "status": 200,
+      "ok": true
+    },
+    {
+      "link": "https://adanaavukat.org/adana-ortakligin-giderilmesi-davasi-avukat/",
+      "url": "https://adanaavukat.org/adana-ortakligin-giderilmesi-davasi-avukat/",
+      "status": 200,
+      "ok": true
+    },
+    {
+      "link": "https://adanaavukat.org/adana-miras-hukuku/",
+      "url": "https://adanaavukat.org/adana-miras-hukuku/",
+      "status": 200,
+      "ok": true
+    },
+    {
+      "link": "https://adanaavukat.org/adana-kira-hukuku/",
+      "url": "https://adanaavukat.org/adana-kira-hukuku/",
+      "status": 200,
+      "ok": true
+    },
+    {
+      "link": "https://adanaavukat.org/adana-is-hukuku/",
+      "url": "https://adanaavukat.org/adana-is-hukuku/",
+      "status": 200,
+      "ok": true
+    },
+    {
+      "link": "https://adanaavukat.org/about-us/",
+      "url": "https://adanaavukat.org/about-us/",
+      "status": 200,
+      "ok": true
+    },
+    {
+      "link": "https://adanaavukat.org/contact/",
+      "url": "https://adanaavukat.org/contact/",
+      "status": 200,
+      "ok": true
+    },
+    {
+      "link": "https://adanaavukat.org/anlasmali-bosanma-davasi-nedir/",
+      "url": "https://adanaavukat.org/anlasmali-bosanma-davasi-nedir/",
+      "status": 200,
+      "ok": true
+    },
+    {
+      "link": "https://adanaavukat.org/velayet-davasinda-hakim-nelere-dikkat-eder/",
+      "url": "https://adanaavukat.org/velayet-davasinda-hakim-nelere-dikkat-eder/",
+      "status": 200,
+      "ok": true
+    },
+    {
+      "link": "https://adanaavukat.org/adanada-aile-hukuku-davalarinda-avukat-destegi/",
+      "url": "https://adanaavukat.org/adanada-aile-hukuku-davalarinda-avukat-destegi/",
+      "status": 200,
+      "ok": true
+    },
+    {
+      "link": "https://adanaavukat.org/adanada-avukat-secerken-nelere-dikkat-edilmeli/",
+      "url": "https://adanaavukat.org/adanada-avukat-secerken-nelere-dikkat-edilmeli/",
+      "status": 200,
+      "ok": true
+    },
+    {
+      "link": "https://adanaavukat.org/adanada-bosanma-davasi-sureci/",
+      "url": "https://adanaavukat.org/adanada-bosanma-davasi-sureci/",
+      "status": 200,
+      "ok": true
+    },
+    {
+      "link": "https://adanaavukat.org/adanada-miras-kira-is-hukuku-avukat-destegi/",
+      "url": "https://adanaavukat.org/adanada-miras-kira-is-hukuku-avukat-destegi/",
+      "status": 200,
+      "ok": true
+    },
+    {
+      "link": "https://adanaavukat.org/adanada-nafaka-ve-velayet-uyusmazliklari/",
+      "url": "https://adanaavukat.org/adanada-nafaka-ve-velayet-uyusmazliklari/",
+      "status": 200,
+      "ok": true
+    }
+  ],
+  "servicePages": [
+    {
+      "path": "/adana-miras-hukuku/",
+      "status": 200,
+      "h1": "Adana Miras Hukuku | Veraset ve Miras Paylaşımı",
+      "hasContent": true,
+      "riskyPhrases": []
+    },
+    {
+      "path": "/adana-kira-hukuku/",
+      "status": 200,
+      "h1": "Adana Kira Hukuku | Kira Uyuşmazlıkları ve Tahliye",
+      "hasContent": true,
+      "riskyPhrases": []
+    },
+    {
+      "path": "/adana-is-hukuku/",
+      "status": 200,
+      "h1": "Adana İş Hukuku | İşçi-İşveren Uyuşmazlıkları",
+      "hasContent": true,
+      "riskyPhrases": []
+    }
+  ],
+  "menu": [
+    {
+      "title": "Aile Hukuku Rehberi",
+      "url": "https://adanaavukat.org/aile-hukuku-rehberi/",
+      "status": 200,
+      "ok": true
+    },
+    {
+      "title": "Sıkça Sorulan Sorular",
+      "url": "https://adanaavukat.org/faq/",
+      "status": 200,
+      "ok": true
+    },
+    {
+      "title": "İletişim",
+      "url": "https://adanaavukat.org/iletisim/",
+      "status": 200,
+      "ok": true
+    },
+    {
+      "title": "Hakkımızda",
+      "url": "https://adanaavukat.org/hakkimizda/",
+      "status": 200,
+      "ok": true
+    },
+    {
+      "title": "Avukat Ceren Sümer Cilli Kimdir?",
+      "url": "https://adanaavukat.org/avukat-ceren-sumer-cilli-kimdir-adana-bosanma-ve-aile-hukuku/",
+      "status": 200,
+      "ok": true
+    },
+    {
+      "title": "Hizmetlerimiz",
+      "url": "https://adanaavukat.org/hizmetlerimiz/",
+      "status": 200,
+      "ok": true
+    },
+    {
+      "title": "Adana Boşanma Avukatı",
+      "url": "https://adanaavukat.org/adana-bosanma-avukati/",
+      "status": 200,
+      "ok": true
+    },
+    {
+      "title": "Çekişmeli Boşanma Davası",
+      "url": "https://adanaavukat.org/cekismeli-bosanma-davasi/",
+      "status": 200,
+      "ok": true
+    },
+    {
+      "title": "Nafaka Davası",
+      "url": "https://adanaavukat.org/nafaka-davasi/",
+      "status": 200,
+      "ok": true
+    },
+    {
+      "title": "Adana Ortaklığın Giderilmesi Davası Avukat",
+      "url": "https://adanaavukat.org/adana-ortakligin-giderilmesi-davasi-avukat/",
+      "status": 200,
+      "ok": true
+    },
+    {
+      "title": "Miras Hukuku",
+      "url": "https://adanaavukat.org/adana-miras-hukuku/",
+      "status": 200,
+      "ok": true
+    },
+    {
+      "title": "Kira Hukuku",
+      "url": "https://adanaavukat.org/adana-kira-hukuku/",
+      "status": 200,
+      "ok": true
+    },
+    {
+      "title": "İş Hukuku",
+      "url": "https://adanaavukat.org/adana-is-hukuku/",
+      "status": 200,
+      "ok": true
+    }
+  ],
+  "seo": {
+    "title": "Adana Avukat – Boşanma, Velayet ve Nafaka | Ceren Sümer Cilli",
+    "metaDescription": "Adana’da boşanma, velayet ve nafaka davalarında deneyimli avukat desteği. Avukat Ceren Sümer Cilli Hukuk Bürosu ile profesyonel hukuki danışmanlık alın.",
+    "ogTitle": "Adana Avukat – Boşanma, Velayet ve Nafaka | Ceren Sümer Cilli"
+  },
+  "schema": {
+    "blocks": 2,
+    "validation": {
+      "types": [
+        "Place",
+        "Organization",
+        "WebSite",
+        "AboutPage",
+        "LegalService",
+        "Person",
+        "FAQPage",
+        "BreadcrumbList"
+      ],
+      "issues": [],
+      "valid": true
+    },
+    "rawTypes": [
+      "Place",
+      "Organization",
+      "WebSite",
+      "AboutPage",
+      "LegalService",
+      "Person",
+      "FAQPage",
+      "BreadcrumbList"
+    ],
+    "hasCerensumerDomain": true,
+    "hasAdanaavukatDomain": true
+  },
+  "sitemap": {
+    "totalUrls": 32,
+    "checked": [
+      {
+        "url": "https://adanaavukat.org/adana-miras-hukuku/",
+        "inSitemap": false
+      },
+      {
+        "url": "https://adanaavukat.org/adana-kira-hukuku/",
+        "inSitemap": false
+      },
+      {
+        "url": "https://adanaavukat.org/adana-is-hukuku/",
+        "inSitemap": false
+      },
+      {
+        "url": "https://adanaavukat.org/adanada-aile-hukuku-davalarinda-avukat-destegi/",
+        "inSitemap": false
+      },
+      {
+        "url": "https://adanaavukat.org/adanada-avukat-secerken-nelere-dikkat-edilmeli/",
+        "inSitemap": false
+      },
+      {
+        "url": "https://adanaavukat.org/adanada-bosanma-davasi-sureci/",
+        "inSitemap": false
+      },
+      {
+        "url": "https://adanaavukat.org/adanada-miras-kira-is-hukuku-avukat-destegi/",
+        "inSitemap": false
+      },
+      {
+        "url": "https://adanaavukat.org/adanada-nafaka-ve-velayet-uyusmazliklari/",
+        "inSitemap": false
+      },
+      {
+        "url": "https://adanaavukat.org/",
+        "inSitemap": true
+      }
+    ],
+    "missing": [
+      {
+        "url": "https://adanaavukat.org/adana-miras-hukuku/",
+        "inSitemap": false
+      },
+      {
+        "url": "https://adanaavukat.org/adana-kira-hukuku/",
+        "inSitemap": false
+      },
+      {
+        "url": "https://adanaavukat.org/adana-is-hukuku/",
+        "inSitemap": false
+      },
+      {
+        "url": "https://adanaavukat.org/adanada-aile-hukuku-davalarinda-avukat-destegi/",
+        "inSitemap": false
+      },
+      {
+        "url": "https://adanaavukat.org/adanada-avukat-secerken-nelere-dikkat-edilmeli/",
+        "inSitemap": false
+      },
+      {
+        "url": "https://adanaavukat.org/adanada-bosanma-davasi-sureci/",
+        "inSitemap": false
+      },
+      {
+        "url": "https://adanaavukat.org/adanada-miras-kira-is-hukuku-avukat-destegi/",
+        "inSitemap": false
+      },
+      {
+        "url": "https://adanaavukat.org/adanada-nafaka-ve-velayet-uyusmazliklari/",
+        "inSitemap": false
+      }
+    ]
+  },
+  "riskyPhrases": {
+    "homepage": [],
+    "homepageHtml": []
+  },
+  "mobile": {
+    "hasViewport": true,
+    "hasAaHomeStyles": true,
+    "hasOverflowXHidden": false,
+    "hasMediaQueries": true,
+    "hasHorizontalScrollRisk": false
+  },
+  "menuBroken": [],
+  "header": {
+    "hasContactButtonCss": true,
+    "hasMenuContactStyle": true,
+    "customCssHasIletisimRule": true,
+    "customCssApplied": true
+  },
+  "keyLinks": {
+    "profil": {
+      "url": "https://adanaavukat.org/avukat-ceren-sumer-cilli-kimdir-adana-bosanma-ve-aile-hukuku/",
+      "status": 200,
+      "ok": true
+    },
+    "iletisim": {
+      "url": "https://adanaavukat.org/iletisim/",
+      "status": 200,
+      "ok": true
+    }
+  }
+}

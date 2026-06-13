@@ -1,0 +1,475 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Adana Avukat — Ana Sayfa Tasarım Önerisi (Local Mockup)</title>
+  <meta name="description" content="Adana'da aile hukuku, boşanma, nafaka, velayet ve özel hukuk uyuşmazlıklarında hukuki destek. Local tasarım önerisi — canlıya uygulanmadı.">
+  <style>
+    :root {
+      --navy: #1B2A4A;
+      --blue: #2C4A7C;
+      --white: #FFFFFF;
+      --gray-50: #F4F6F8;
+      --gray-100: #E8ECF0;
+      --gray-600: #5A6474;
+      --gray-800: #2D3748;
+      --accent: #C8A96E;
+      --radius: 8px;
+      --shadow: 0 4px 24px rgba(27, 42, 74, 0.08);
+      --max-width: 1140px;
+    }
+
+    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+      color: var(--gray-800);
+      line-height: 1.65;
+      background: var(--white);
+    }
+
+    .mockup-banner {
+      background: #FFF3CD;
+      color: #856404;
+      text-align: center;
+      padding: 0.75rem 1rem;
+      font-size: 0.875rem;
+      border-bottom: 1px solid #FFE69C;
+    }
+
+    .container {
+      max-width: var(--max-width);
+      margin: 0 auto;
+      padding: 0 1.5rem;
+    }
+
+    section {
+      padding: 4rem 0;
+    }
+
+    section:nth-child(even) {
+      background: var(--gray-50);
+    }
+
+    h1 {
+      font-size: clamp(2rem, 5vw, 2.75rem);
+      color: var(--navy);
+      line-height: 1.2;
+      margin-bottom: 1rem;
+    }
+
+    h2 {
+      font-size: clamp(1.5rem, 3vw, 2rem);
+      color: var(--navy);
+      margin-bottom: 2rem;
+      text-align: center;
+    }
+
+    h3 {
+      font-size: 1.125rem;
+      color: var(--navy);
+      margin-bottom: 0.5rem;
+    }
+
+    p { margin-bottom: 1rem; color: var(--gray-600); }
+
+    .hero {
+      background: linear-gradient(135deg, var(--navy) 0%, var(--blue) 100%);
+      color: var(--white);
+      padding: 5rem 0 4rem;
+    }
+
+    .hero h1 { color: var(--white); }
+    .hero .subtitle {
+      font-size: clamp(1.05rem, 2.5vw, 1.25rem);
+      opacity: 0.92;
+      max-width: 640px;
+      margin-bottom: 2rem;
+      line-height: 1.6;
+    }
+
+    .hero .trust-note {
+      font-size: 0.9rem;
+      opacity: 0.8;
+      max-width: 600px;
+      margin-top: 2rem;
+      padding-top: 1.5rem;
+      border-top: 1px solid rgba(255,255,255,0.2);
+      font-style: italic;
+    }
+
+    .btn-group {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 1rem;
+    }
+
+    .btn {
+      display: inline-block;
+      padding: 0.875rem 1.75rem;
+      border-radius: var(--radius);
+      font-weight: 600;
+      font-size: 1rem;
+      text-decoration: none;
+      transition: transform 0.15s, box-shadow 0.15s;
+      cursor: pointer;
+      border: 2px solid transparent;
+    }
+
+    .btn:hover {
+      transform: translateY(-1px);
+      box-shadow: var(--shadow);
+    }
+
+    .btn-primary {
+      background: var(--white);
+      color: var(--navy);
+    }
+
+    .btn-outline {
+      background: transparent;
+      color: var(--white);
+      border-color: rgba(255,255,255,0.6);
+    }
+
+    .btn-navy {
+      background: var(--navy);
+      color: var(--white);
+    }
+
+    .btn-outline-navy {
+      background: transparent;
+      color: var(--navy);
+      border-color: var(--navy);
+    }
+
+    .grid-3 {
+      display: grid;
+      grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+      gap: 1.5rem;
+    }
+
+    .grid-2 {
+      display: grid;
+      grid-template-columns: repeat(auto-fill, minmax(340px, 1fr));
+      gap: 2rem;
+      align-items: center;
+    }
+
+    .card {
+      background: var(--white);
+      border-radius: var(--radius);
+      padding: 1.75rem;
+      box-shadow: var(--shadow);
+      border: 1px solid var(--gray-100);
+      transition: transform 0.15s, box-shadow 0.15s;
+    }
+
+    .card:hover {
+      transform: translateY(-2px);
+      box-shadow: 0 8px 32px rgba(27, 42, 74, 0.12);
+    }
+
+    .card a {
+      color: var(--blue);
+      text-decoration: none;
+      font-weight: 600;
+      font-size: 0.9rem;
+    }
+
+    .card a:hover { text-decoration: underline; }
+
+    .card .badge {
+      display: inline-block;
+      font-size: 0.75rem;
+      background: var(--gray-100);
+      color: var(--gray-600);
+      padding: 0.2rem 0.6rem;
+      border-radius: 4px;
+      margin-top: 0.75rem;
+    }
+
+    .entity-section .photo-placeholder {
+      width: 100%;
+      aspect-ratio: 4/5;
+      max-width: 320px;
+      background: var(--gray-100);
+      border-radius: var(--radius);
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      color: var(--gray-600);
+      font-size: 0.875rem;
+    }
+
+    .why-list {
+      list-style: none;
+      max-width: 700px;
+      margin: 0 auto;
+    }
+
+    .why-list li {
+      padding: 1rem 0 1rem 2.5rem;
+      position: relative;
+      border-bottom: 1px solid var(--gray-100);
+      color: var(--gray-600);
+    }
+
+    .why-list li::before {
+      content: "✓";
+      position: absolute;
+      left: 0;
+      color: var(--blue);
+      font-weight: 700;
+      font-size: 1.1rem;
+    }
+
+    .article-card h3 { margin-bottom: 0.75rem; }
+    .article-card .date {
+      font-size: 0.8rem;
+      color: var(--gray-600);
+      margin-bottom: 0.5rem;
+    }
+
+    .faq-item {
+      background: var(--white);
+      border-radius: var(--radius);
+      padding: 1.5rem;
+      margin-bottom: 1rem;
+      border: 1px solid var(--gray-100);
+    }
+
+    .faq-item h3 { font-size: 1rem; margin-bottom: 0.75rem; }
+    .faq-item p { margin-bottom: 0; font-size: 0.95rem; }
+
+    .cta-section {
+      background: var(--navy);
+      color: var(--white);
+      text-align: center;
+      padding: 4rem 0;
+    }
+
+    .cta-section h2 { color: var(--white); }
+    .cta-section p { color: rgba(255,255,255,0.85); max-width: 560px; margin: 0 auto 2rem; }
+
+    footer.mockup-footer {
+      text-align: center;
+      padding: 2rem;
+      font-size: 0.8rem;
+      color: var(--gray-600);
+      background: var(--gray-50);
+    }
+
+    @media (max-width: 768px) {
+      section { padding: 3rem 0; }
+      .hero { padding: 3.5rem 0 3rem; }
+      .btn-group { flex-direction: column; }
+      .btn { text-align: center; }
+      .grid-2 { grid-template-columns: 1fr; }
+    }
+  </style>
+</head>
+<body>
+
+  <div class="mockup-banner">
+    LOCAL TASARIM ÖNERİSİ — Canlı siteye uygulanmadı. Onay sonrası Gutenberg/Astra ile entegre edilecek.
+  </div>
+
+  <!-- A. Hero -->
+  <section class="hero" id="hero">
+    <div class="container">
+      <h1>Adana Avukat</h1>
+      <p class="subtitle">
+        Adana'da aile hukuku, boşanma, nafaka, velayet ve özel hukuk uyuşmazlıklarında hukuki destek.
+      </p>
+      <div class="btn-group">
+        <a href="https://adanaavukat.org/iletisim/" class="btn btn-primary">Hukuki Destek Al</a>
+        <a href="#hizmet-alanlari" class="btn btn-outline">Hizmet Alanlarını İncele</a>
+      </div>
+      <p class="trust-note">
+        Her dosya kendi koşulları içinde değerlendirilir; süreç, hak kaybı yaşanmaması için dikkatle ele alınmalıdır.
+      </p>
+    </div>
+  </section>
+
+  <!-- B. Hizmet Alanları -->
+  <section id="hizmet-alanlari">
+    <div class="container">
+      <h2>Hizmet Alanları</h2>
+      <div class="grid-3">
+        <div class="card">
+          <h3>Boşanma Davaları</h3>
+          <p>Boşanma sürecinin planlanması, dilekçe hazırlığı ve delillerin usule uygun sunulması.</p>
+          <a href="https://adanaavukat.org/adana-bosanma-avukati/">Detaylı Bilgi →</a>
+        </div>
+        <div class="card">
+          <h3>Anlaşmalı Boşanma</h3>
+          <p>Tarafların uzlaştığı boşanma türünde protokol hazırlığı ve süreç bilgilendirmesi.</p>
+          <a href="https://adanaavukat.org/anlasmali-bosanma-davasi-nedir/">Detaylı Bilgi →</a>
+        </div>
+        <div class="card">
+          <h3>Çekişmeli Boşanma</h3>
+          <p>Uyuşmazlık halinde delil toplama, süre takibi ve usul adımlarının değerlendirilmesi.</p>
+          <a href="https://adanaavukat.org/cekismeli-bosanma-davasi/">Detaylı Bilgi →</a>
+        </div>
+        <div class="card">
+          <h3>Nafaka</h3>
+          <p>Tedbir, iştirak ve yoksulluk nafakası taleplerinin hukuki çerçevesi.</p>
+          <a href="https://adanaavukat.org/nafaka-davasi/">Detaylı Bilgi →</a>
+        </div>
+        <div class="card">
+          <h3>Velayet</h3>
+          <p>Çocuğun üstün yararı ilkesi çerçevesinde velayet talepleri ve süreç adımları.</p>
+          <a href="https://adanaavukat.org/velayet-davasinda-hakim-nelere-dikkat-eder/">Detaylı Bilgi →</a>
+        </div>
+        <div class="card">
+          <h3>Mal Paylaşımı</h3>
+          <p>Edinilmiş mallara katılma rejimi ve ortaklığın giderilmesi uyuşmazlıkları.</p>
+          <a href="https://adanaavukat.org/adana-ortakligin-giderilmesi-davasi-avukat/">Detaylı Bilgi →</a>
+        </div>
+        <div class="card">
+          <h3>Miras Hukuku</h3>
+          <p>Veraset ilamı, miras paylaşımı ve tenkis süreçlerine ilişkin genel bilgilendirme.</p>
+          <a href="https://adanaavukat.org/adanada-miras-kira-is-hukuku-avukat-destegi/">Rehber Yazısı →</a>
+          <span class="badge">Ayrı sayfa oluşturulacak</span>
+        </div>
+        <div class="card">
+          <h3>Kira Hukuku</h3>
+          <p>Kira uyuşmazlıkları, tahliye süreçleri ve kira bedeli uyarlaması konuları.</p>
+          <a href="https://adanaavukat.org/adanada-miras-kira-is-hukuku-avukat-destegi/">Rehber Yazısı →</a>
+          <span class="badge">Ayrı sayfa oluşturulacak</span>
+        </div>
+        <div class="card">
+          <h3>İş Hukuku</h3>
+          <p>İşçi-işveren uyuşmazlıkları, işe iade ve arabuluculuk süreçleri.</p>
+          <a href="https://adanaavukat.org/adanada-miras-kira-is-hukuku-avukat-destegi/">Rehber Yazısı →</a>
+          <span class="badge">Ayrı sayfa oluşturulacak</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- C. Av. Ceren Sümer Cilli -->
+  <section class="entity-section">
+    <div class="container">
+      <div class="grid-2">
+        <div class="photo-placeholder">Profil görseli alanı<br>(mevcut siteden alınacak)</div>
+        <div>
+          <h2 style="text-align: left;">Av. Ceren Sümer Cilli</h2>
+          <p>
+            Adana'da aile hukuku, boşanma, nafaka, velayet ve özel hukuk uyuşmazlıkları hakkında
+            genel bilgilendirme ve hukuki süreç yönetimi sunulmaktadır. Her dosya kendi koşulları
+            içinde değerlendirilir; süreç adımları somut olaya göre planlanır.
+          </p>
+          <a href="https://adanaavukat.org/avukat-ceren-sumer-cilli-kimdir-adana-bosanma-ve-aile-hukuku/" class="btn btn-navy">Profili İncele</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- D. Neden Hukuki Destek -->
+  <section>
+    <div class="container">
+      <h2>Neden Hukuki Destek Önemli?</h2>
+      <ul class="why-list">
+        <li>Dilekçe ve delillerin usule uygun hazırlanması</li>
+        <li>Sürelerin kaçırılmaması</li>
+        <li>Nafaka, velayet ve mal paylaşımı taleplerinin doğru kurulması</li>
+        <li>Hak kayıplarının önlenmesi</li>
+        <li>Somut olaya göre strateji belirlenmesi</li>
+      </ul>
+    </div>
+  </section>
+
+  <!-- E. Son Yazılar -->
+  <section>
+    <div class="container">
+      <h2>Hukuk Rehberi — Son Yazılar</h2>
+      <div class="grid-3">
+        <div class="card article-card">
+          <div class="date">Haziran 2026</div>
+          <h3>Adana Aile Hukuku Davalarında Avukat Desteği</h3>
+          <p>Aile mahkemelerinde görülen davalarda süreç, delil ve hukuki destek konularına genel bakış.</p>
+          <a href="https://adanaavukat.org/adanada-aile-hukuku-davalarinda-avukat-destegi/">Yazıyı Oku →</a>
+        </div>
+        <div class="card article-card">
+          <div class="date">Haziran 2026</div>
+          <h3>Adana'da Avukat Seçimi Rehberi</h3>
+          <p>Hukuki süreç öncesinde dikkat edilmesi gereken genel kriterler ve bilgilendirme.</p>
+          <a href="https://adanaavukat.org/adanada-avukat-secerken-nelere-dikkat-edilmeli/">Yazıyı Oku →</a>
+        </div>
+        <div class="card article-card">
+          <div class="date">Haziran 2026</div>
+          <h3>Adana'da Boşanma Davası Süreci</h3>
+          <p>Anlaşmalı ve çekişmeli boşanma türleri, nafaka, velayet ve mal paylaşımı adımları.</p>
+          <a href="https://adanaavukat.org/adanada-bosanma-davasi-sureci/">Yazıyı Oku →</a>
+        </div>
+        <div class="card article-card">
+          <div class="date">Haziran 2026</div>
+          <h3>Adana Miras, Kira, İş Hukuku</h3>
+          <p>Miras, kira ve iş hukuku alanlarındaki uyuşmazlıklara ilişkin genel rehber.</p>
+          <a href="https://adanaavukat.org/adanada-miras-kira-is-hukuku-avukat-destegi/">Yazıyı Oku →</a>
+        </div>
+        <div class="card article-card">
+          <div class="date">Haziran 2026</div>
+          <h3>Adana Nafaka ve Velayet Davaları</h3>
+          <p>Nafaka türleri, velayet ilkesi ve süreç adımlarına dair bilgilendirme.</p>
+          <a href="https://adanaavukat.org/adanada-nafaka-ve-velayet-uyusmazliklari/">Yazıyı Oku →</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- F. FAQ -->
+  <section>
+    <div class="container" style="max-width: 800px;">
+      <h2>Sık Sorulan Sorular</h2>
+
+      <div class="faq-item">
+        <h3>Adana'da avukat desteği hangi durumlarda alınmalıdır?</h3>
+        <p>Boşanma, nafaka, velayet, mal paylaşımı, miras, kira veya iş hukuku gibi uyuşmazlıklarda dilekçe hazırlığı, süre takibi veya delil düzenlemesi gerektiğinde hukuki destek alınması değerlendirilebilir. Somut olayın koşullarına göre ihtiyaç farklılık gösterebilir.</p>
+      </div>
+
+      <div class="faq-item">
+        <h3>Boşanma davası açmadan önce nelere dikkat edilmelidir?</h3>
+        <p>Evlilik birliğinin durumu, çocukların varlığı, mal rejimi ve taraflar arasındaki uzlaşma düzeyi değerlendirilmelidir. Anlaşmalı veya çekişmeli boşanma yolu, somut olaya göre belirlenir.</p>
+      </div>
+
+      <div class="faq-item">
+        <h3>Nafaka ve velayet talepleri ne zaman ileri sürülür?</h3>
+        <p>Nafaka talepleri boşanma davası ile birlikte veya sonrasında, velayet talepleri ise çocuğun üstün yararı ilkesi çerçevesinde dava sürecinde ileri sürülebilir.</p>
+      </div>
+
+      <div class="faq-item">
+        <h3>Avukatla görüşmeye giderken hangi belgeler hazırlanmalıdır?</h3>
+        <p>Kimlik belgesi, evlilik cüzdanı, nüfus kayıt örneği, varsa önceki dava evrakları, gelir belgeleri ve uyuşmazlıkla ilgili yazışmalar görüşme öncesinde hazırlanabilir.</p>
+      </div>
+
+      <div class="faq-item">
+        <h3>Hukuki süreç ne kadar sürer?</h3>
+        <p>Süre, dava türüne, mahkemenin iş yüküne ve tarafların uzlaşma düzeyine göre değişir. Kesin süre verilemez.</p>
+      </div>
+
+      <div class="faq-item">
+        <h3>İlk görüşmede neler değerlendirilir?</h3>
+        <p>Uyuşmazlığın konusu, mevcut belgeler, süre durumu, talep edilebilecek haklar ve izlenebilecek hukuki yollar genel hatlarıyla değerlendirilir.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- G. İletişim CTA -->
+  <section class="cta-section">
+    <div class="container">
+      <h2>Hukuki Sürecinizi Değerlendirmek İçin İletişime Geçin</h2>
+      <p>Somut olayınızın koşullarına göre genel bilgilendirme almak için iletişim sayfasından randevu talep edebilirsiniz.</p>
+      <a href="https://adanaavukat.org/iletisim/" class="btn btn-primary">İletişim Sayfasına Git</a>
+    </div>
+  </section>
+
+  <footer class="mockup-footer">
+    adanaavukat.org — Ana Sayfa Tasarım Önerisi v1.0 (2026-06-13) — Local mockup, canlıya uygulanmadı.
+  </footer>
+
+</body>
+</html>

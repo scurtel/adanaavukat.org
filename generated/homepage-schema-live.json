@@ -1,0 +1,169 @@
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "WebSite",
+      "@id": "https://adanaavukat.org/#website",
+      "url": "https://adanaavukat.org/",
+      "name": "Adana Avukat",
+      "description": "Adana'da aile hukuku, boşanma, nafaka, velayet ve özel hukuk uyuşmazlıklarında hukuki destek ve genel bilgilendirme.",
+      "publisher": {
+        "@id": "https://adanaavukat.org/#person"
+      },
+      "inLanguage": "tr-TR",
+      "potentialAction": {
+        "@type": "SearchAction",
+        "target": {
+          "@type": "EntryPoint",
+          "urlTemplate": "https://adanaavukat.org/?s={search_term_string}"
+        },
+        "query-input": "required name=search_term_string"
+      }
+    },
+    {
+      "@type": "Person",
+      "@id": "https://adanaavukat.org/#person",
+      "name": "Av. Ceren Sümer Cilli",
+      "url": "https://adanaavukat.org/avukat-ceren-sumer-cilli-kimdir-adana-bosanma-ve-aile-hukuku/",
+      "jobTitle": "Avukat",
+      "image": "https://www.cerensumer.av.tr/wp-content/uploads/2024/01/ceren-sumer-cilli.jpg",
+      "email": "av.cerensumer@gmail.com",
+      "telephone": "+90 533 634 24 25",
+      "address": {
+        "@type": "PostalAddress",
+        "streetAddress": "Gazipaşa Mh, Ordu Cd. Dinçkan Apt No:7 A Blok Daire:3",
+        "addressLocality": "Seyhan",
+        "addressRegion": "Adana",
+        "postalCode": "01010",
+        "addressCountry": "TR"
+      },
+      "sameAs": [
+        "https://www.linkedin.com/in/avukat-ceren-s%C3%BCmer-cilli-375873b0/",
+        "https://www.instagram.com/av.cerensumercilli/",
+        "https://www.facebook.com/cerensumercilli/",
+        "https://www.google.com/maps/search/?api=1&query=Avukat+Ceren+S%C3%BCmer+Cilli+Adana"
+      ],
+      "worksFor": {
+        "@id": "https://adanaavukat.org/#legalservice"
+      },
+      "knowsAbout": [
+        "Aile Hukuku",
+        "Boşanma Hukuku",
+        "Nafaka",
+        "Velayet",
+        "Mal Paylaşımı",
+        "Miras Hukuku",
+        "Kira Hukuku",
+        "İş Hukuku"
+      ],
+      "areaServed": {
+        "@type": "City",
+        "name": "Adana",
+        "containedInPlace": {
+          "@type": "Country",
+          "name": "Türkiye"
+        }
+      }
+    },
+    {
+      "@type": "LegalService",
+      "@id": "https://adanaavukat.org/#legalservice",
+      "name": "Adana Avukat — Av. Ceren Sümer Cilli",
+      "url": "https://adanaavukat.org/",
+      "description": "Adana'da aile hukuku, boşanma, nafaka, velayet ve özel hukuk uyuşmazlıklarında hukuki destek ve genel bilgilendirme.",
+      "telephone": "+90 533 634 24 25",
+      "email": "av.cerensumer@gmail.com",
+      "provider": {
+        "@id": "https://adanaavukat.org/#person"
+      },
+      "areaServed": {
+        "@type": "City",
+        "name": "Adana"
+      },
+      "address": {
+        "@type": "PostalAddress",
+        "streetAddress": "Gazipaşa Mh, Ordu Cd. Dinçkan Apt No:7 A Blok Daire:3",
+        "addressLocality": "Seyhan",
+        "addressRegion": "Adana",
+        "postalCode": "01010",
+        "addressCountry": "TR"
+      },
+      "serviceType": [
+        "Aile Hukuku Danışmanlığı",
+        "Boşanma Davası",
+        "Nafaka Davası",
+        "Velayet Davası",
+        "Mal Paylaşımı",
+        "Miras Hukuku",
+        "Kira Hukuku",
+        "İş Hukuku"
+      ]
+    },
+    {
+      "@type": "FAQPage",
+      "@id": "https://adanaavukat.org/#faq",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "Adana'da avukat desteği hangi durumlarda alınmalıdır?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Boşanma, nafaka, velayet, mal paylaşımı, miras, kira veya iş hukuku gibi uyuşmazlıklarda dilekçe hazırlığı, süre takibi veya delil düzenlemesi gerektiğinde hukuki destek alınması değerlendirilebilir. Somut olayın koşullarına göre ihtiyaç farklılık gösterebilir."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Boşanma davası açmadan önce nelere dikkat edilmelidir?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Evlilik birliğinin durumu, çocukların varlığı, mal rejimi ve taraflar arasındaki uzlaşma düzeyi değerlendirilmelidir. Anlaşmalı veya çekişmeli boşanma yolu, somut olaya göre belirlenir. Süre ve usul kurallarına dikkat edilmesi önemlidir."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Nafaka ve velayet talepleri ne zaman ileri sürülür?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Nafaka talepleri boşanma davası ile birlikte veya sonrasında, velayet talepleri ise çocuğun üstün yararı ilkesi çerçevesinde dava sürecinde ileri sürülebilir. Talep zamanlaması ve içeriği somut dosyaya göre değişir."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Avukatla görüşmeye giderken hangi belgeler hazırlanmalıdır?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Kimlik belgesi, evlilik cüzdanı, nüfus kayıt örneği, varsa önceki dava evrakları, gelir belgeleri ve uyuşmazlıkla ilgili yazışmalar görüşme öncesinde hazırlanabilir."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Hukuki süreç ne kadar sürer?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Süre, dava türüne, mahkemenin iş yüküne ve tarafların uzlaşma düzeyine göre değişir. Anlaşmalı boşanma genellikle daha kısa sürede sonuçlanabilir; çekişmeli davalarda süre uzayabilir."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "İlk görüşmede neler değerlendirilir?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Uyuşmazlığın konusu, mevcut belgeler, süre durumu, talep edilebilecek haklar ve izlenebilecek hukuki yollar genel hatlarıyla değerlendirilir. İlk görüşme bilgilendirme amaçlıdır."
+          }
+        }
+      ]
+    },
+    {
+      "@type": "BreadcrumbList",
+      "@id": "https://adanaavukat.org/#breadcrumb",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Ana Sayfa",
+          "item": "https://adanaavukat.org/"
+        }
+      ]
+    }
+  ]
+}

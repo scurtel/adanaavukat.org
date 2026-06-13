@@ -1,0 +1,114 @@
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "BlogPosting",
+      "@id": "https://adanaavukat.org/adanada-nafaka-ve-velayet-uyusmazliklari/#article",
+      "headline": "Adana Nafaka ve Velayet Davaları: Hukuki Süreç ve Haklarınız",
+      "description": "Adana'da nafaka ve velayet davalarına dair kapsamlı rehber. Tedbir, iştirak, yoksulluk nafakası türleri, velayet ilkesi ve hukuki süreçler hakkında bilgi alın. Haklarınızı korumak için Adana aile hukuku avukatından destek.",
+      "url": "https://adanaavukat.org/adanada-nafaka-ve-velayet-uyusmazliklari/",
+      "inLanguage": "tr-TR",
+      "author": {
+        "@type": "Person",
+        "name": "Av. Ceren Sümer Cilli",
+        "jobTitle": "Avukat"
+      },
+      "reviewedBy": {
+        "@type": "Person",
+        "name": "Av. Ceren Sümer Cilli",
+        "jobTitle": "Avukat"
+      },
+      "publisher": {
+        "@type": "Organization",
+        "name": "adanaavukat.org",
+        "url": "https://adanaavukat.org"
+      },
+      "about": [
+        {
+          "@type": "Thing",
+          "name": "Nafaka"
+        },
+        {
+          "@type": "Thing",
+          "name": "Velayet"
+        },
+        {
+          "@type": "Thing",
+          "name": "Çocuğun üstün yararı"
+        },
+        {
+          "@type": "Thing",
+          "name": "Adana"
+        }
+      ],
+      "mentions": [
+        {
+          "@type": "Thing",
+          "name": "Nafaka"
+        },
+        {
+          "@type": "Thing",
+          "name": "Velayet"
+        },
+        {
+          "@type": "Thing",
+          "name": "Çocuğun üstün yararı"
+        },
+        {
+          "@type": "Thing",
+          "name": "Adana"
+        }
+      ],
+      "areaServed": {
+        "@type": "City",
+        "name": "Adana"
+      }
+    },
+    {
+      "@type": "FAQPage",
+      "@id": "https://adanaavukat.org/adanada-nafaka-ve-velayet-uyusmazliklari/#faq",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "Nafaka davası ne kadar sürer?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Nafaka davalarının süresi, davanın karmaşıklığına, delillerin toplanma hızına, mahkemenin iş yüküne ve tarafların uzlaşma durumuna göre değişiklik gösterir. Adana Aile Mahkemeleri&#8217;nde ortalama olarak 6 ay ile 1,5 yıl arasında sürebilir."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Velayet davası açmak için hangi şartlar aranır?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Velayet davası açmak için, mevcut velayet kararının çocuğun üstün yararına aykırı hale geldiğini gösteren somut delillerin bulunması gerekmektedir. Örneğin, velayet sahibi ebeveynin çocuğun bakımını ihmal etmesi, kötü muamele etmesi veya yaşam koşullarının çocuğun gelişimini olumsuz etkilemesi gibi durumlar dava sebebi olabilir."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Çocuğun velayeti kime verilirken nelere dikkat edilir?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Mahkeme, velayet kararını verirken çocuğun yaşı, sağlık durumu, eğitimi, ebeveynlerin ekonomik ve sosyal koşulları, çocuğa gösterebilecekleri ilgi ve en önemlisi &#8220;çocuğun üstün yararı&#8221; ilkesini esas alır. Çocuğun dinlenmesi ve uzman raporları da belirleyici olabilir."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Nafaka ödememek suç mudur?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Evet, mahkeme tarafından hükmedilen nafakayı ödememek, İcra ve İflas Kanunu&#8217;na göre &#8220;nafaka yükümlülüğünü ihlal&#8221; suçunu oluşturur ve şikayet üzerine tazyik hapsi cezası ile sonuçlanabilir."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Velayeti kendisinde olmayan ebeveynin çocuğuyla kişisel ilişki hakkı nasıldır?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Velayeti kendisinde olmayan ebeveynin çocuğuyla düzenli olarak kişisel ilişki kurma hakkı vardır. Bu hak, mahkeme tarafından çocuğun yaşına ve ihtiyaçlarına uygun olarak belirlenir. Genellikle hafta sonları, resmi tatiller ve yaz tatillerinde belirli sürelerle kişisel ilişki kurulması kararı verilir."
+          }
+        }
+      ]
+    }
+  ]
+}

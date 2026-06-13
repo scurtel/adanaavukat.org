@@ -1,0 +1,31 @@
+{
+  "generatedAt": "2026-06-13T20:25:39.312Z",
+  "model": "gemini-2.5-flash",
+  "articles": [
+    {
+      "slug": "adanada-avukat-secerken-nelere-dikkat-edilmeli",
+      "status": "ok",
+      "file": "C:\\Users\\scurt\\Desktop\\Cursor Dosyalar\\adanaavukat.org\\generated\\adanaavukat-authority-articles\\adanada-avukat-secerken-nelere-dikkat-edilmeli.md"
+    },
+    {
+      "slug": "adanada-aile-hukuku-davalarinda-avukat-destegi",
+      "status": "ok",
+      "file": "C:\\Users\\scurt\\Desktop\\Cursor Dosyalar\\adanaavukat.org\\generated\\adanaavukat-authority-articles\\adanada-aile-hukuku-davalarinda-avukat-destegi.md"
+    },
+    {
+      "slug": "adanada-bosanma-davasi-sureci",
+      "status": "ok",
+      "file": "C:\\Users\\scurt\\Desktop\\Cursor Dosyalar\\adanaavukat.org\\generated\\adanaavukat-authority-articles\\adanada-bosanma-davasi-sureci.md"
+    },
+    {
+      "slug": "adanada-nafaka-ve-velayet-uyusmazliklari",
+      "status": "ok",
+      "file": "C:\\Users\\scurt\\Desktop\\Cursor Dosyalar\\adanaavukat.org\\generated\\adanaavukat-authority-articles\\adanada-nafaka-ve-velayet-uyusmazliklari.md"
+    },
+    {
+      "slug": "adanada-miras-kira-is-hukuku-avukat-destegi",
+      "status": "ok",
+      "file": "C:\\Users\\scurt\\Desktop\\Cursor Dosyalar\\adanaavukat.org\\generated\\adanaavukat-authority-articles\\adanada-miras-kira-is-hukuku-avukat-destegi.md"
+    }
+  ]
+}

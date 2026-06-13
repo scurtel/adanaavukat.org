@@ -1,0 +1,1769 @@
+{
+  "fetchedAt": "2026-06-13T20:22:54.217Z",
+  "baseUrl": "https://adanaavukat.org",
+  "summary": {
+    "posts": 15,
+    "pages": 13,
+    "categories": 6,
+    "tags": 2
+  },
+  "categories": [
+    {
+      "id": 3,
+      "name": "Aile Hukuku",
+      "slug": "aile-hukuku",
+      "count": 14,
+      "link": "https://adanaavukat.org/category/aile-hukuku/"
+    },
+    {
+      "id": 5,
+      "name": "Boşanma Davaları",
+      "slug": "bosanma-davalari",
+      "count": 4,
+      "link": "https://adanaavukat.org/category/aile-hukuku/bosanma-davalari/"
+    },
+    {
+      "id": 7,
+      "name": "Mal Paylaşımı",
+      "slug": "mal-paylasimi",
+      "count": 0,
+      "link": "https://adanaavukat.org/category/aile-hukuku/mal-paylasimi/"
+    },
+    {
+      "id": 4,
+      "name": "Nafaka",
+      "slug": "nafaka",
+      "count": 2,
+      "link": "https://adanaavukat.org/category/aile-hukuku/nafaka/"
+    },
+    {
+      "id": 1,
+      "name": "Uncategorized",
+      "slug": "uncategorized",
+      "count": 0,
+      "link": "https://adanaavukat.org/category/uncategorized/"
+    },
+    {
+      "id": 6,
+      "name": "Velayet",
+      "slug": "velayet",
+      "count": 1,
+      "link": "https://adanaavukat.org/category/aile-hukuku/velayet/"
+    }
+  ],
+  "tags": [
+    {
+      "id": 9,
+      "name": "Adana’da Çekişmeli Boşanma Davası Nasıl İlerler?",
+      "slug": "adanada-cekismeli-bosanma-davasi-nasil-ilerler",
+      "count": 0,
+      "link": "https://adanaavukat.org/tag/adanada-cekismeli-bosanma-davasi-nasil-ilerler/"
+    },
+    {
+      "id": 8,
+      "name": "Boşanma Davasında Hâkimin Takdir Yetkisi Nedir?",
+      "slug": "bosanma-davasinda-hakimin-takdir-yetkisi-nedir",
+      "count": 1,
+      "link": "https://adanaavukat.org/tag/bosanma-davasinda-hakimin-takdir-yetkisi-nedir/"
+    }
+  ],
+  "posts": [
+    {
+      "id": 263,
+      "title": "Ekşi Sözlük ve Uludağ Sözlük, Türkiye’nin En Değerli Web Siteleri Arasında Gösterildi",
+      "slug": "eksi-sozluk-ve-uludag-sozluk-turkiyenin-en-degerli-web-siteleri",
+      "link": "https://adanaavukat.org/eksi-sozluk-ve-uludag-sozluk-turkiyenin-en-degerli-web-siteleri/",
+      "type": "post",
+      "status": "publish",
+      "date": "2026-04-23T18:01:11",
+      "modified": "2026-04-23T18:01:12",
+      "excerpt": "Ekşi Sözlük ve Uludağ Sözlük, Türkiye’de internet kültürünün şekillenmesinde önemli rol oynayan iki büyük platform olarak uzun yıllardır dikkat çekiyor. [&hellip;]",
+      "contentLength": 2571,
+      "wordCount": 351,
+      "categories": [
+        {
+          "id": 3,
+          "name": "Aile Hukuku",
+          "slug": "aile-hukuku"
+        }
+      ],
+      "tags": [],
+      "internalLinks": [],
+      "externalLinks": [],
+      "authorId": 1,
+      "entityMentions": [],
+      "topicMentions": {},
+      "authorBoxSignals": []
+    },
+    {
+      "id": 260,
+      "title": "Adana’da Boşanma Davası Nasıl Açılır? 2026 Güncel Rehber",
+      "slug": "adana-bosanma-davasi-nasil-acilir",
+      "link": "https://adanaavukat.org/adana-bosanma-davasi-nasil-acilir/",
+      "type": "post",
+      "status": "publish",
+      "date": "2026-04-21T09:58:58",
+      "modified": "2026-04-21T09:59:00",
+      "excerpt": "Boşanma süreci, hem hukuki hem de duygusal açıdan bireylerin hayatındaki en kritik dönemeçlerden biridir. Türk Medeni Kanunu çerçevesinde yürütülen bu [&hellip;]",
+      "contentLength": 10944,
+      "wordCount": 1398,
+      "categories": [
+        {
+          "id": 3,
+          "name": "Aile Hukuku",
+          "slug": "aile-hukuku"
+        }
+      ],
+      "tags": [],
+      "internalLinks": [],
+      "externalLinks": [],
+      "authorId": 1,
+      "entityMentions": [
+        "Ceren Sümer Cilli",
+        "Avukat Ceren Sümer Cilli"
+      ],
+      "topicMentions": {
+        "adana": [
+          "adana",
+          "adana adliyesi",
+          "adana aile mahkemeleri"
+        ],
+        "aile_hukuku": [
+          "aile hukuku",
+          "aile mahkemesi"
+        ],
+        "bosanma": [
+          "boşanma",
+          "evlilik birliği",
+          "anlaşmalı boşanma",
+          "çekişmeli boşanma"
+        ],
+        "nafaka": [
+          "nafaka",
+          "yoksulluk nafakası",
+          "tedbir nafakası"
+        ],
+        "velayet": [
+          "velayet",
+          "kişisel ilişki",
+          "çocuğun üstün yararı"
+        ],
+        "miras": [
+          "miras"
+        ]
+      },
+      "authorBoxSignals": [
+        "entity_name_in_content"
+      ]
+    },
+    {
+      "id": 257,
+      "title": "Trump’tan Kritik Talimat: Gizli Projelerde Görevli 11 Bilim İnsanı Dosyası Mercek Altında",
+      "slug": "trumptan-kritik-talimat-gizli-projelerde-gorevli-11-bilim-insani-dosyasi-mercek-altinda",
+      "link": "https://adanaavukat.org/trumptan-kritik-talimat-gizli-projelerde-gorevli-11-bilim-insani-dosyasi-mercek-altinda/",
+      "type": "post",
+      "status": "publish",
+      "date": "2026-04-20T14:02:48",
+      "modified": "2026-04-20T14:46:53",
+      "excerpt": "ABD’nin savunma, nükleer enerji ve havacılık projelerinde görev alan stratejik isimlerin şüpheli ölümleri ve kaybolma vakaları, Başkan Trump’ın talimatıyla ulusal [&hellip;]",
+      "contentLength": 2291,
+      "wordCount": 276,
+      "categories": [
+        {
+          "id": 3,
+          "name": "Aile Hukuku",
+          "slug": "aile-hukuku"
+        }
+      ],
+      "tags": [],
+      "internalLinks": [],
+      "externalLinks": [],
+      "authorId": 1,
+      "entityMentions": [],
+      "topicMentions": {
+        "ceza_hukuku": [
+          "savunma"
+        ]
+      },
+      "authorBoxSignals": []
+    },
+    {
+      "id": 252,
+      "title": "Yapay Zeka Yüzünden 120 Bin TL Ceza Ödedi",
+      "slug": "yapay-zeka-yuzunden-120-bin-tl-ceza-odedi",
+      "link": "https://adanaavukat.org/yapay-zeka-yuzunden-120-bin-tl-ceza-odedi/",
+      "type": "post",
+      "status": "publish",
+      "date": "2026-04-16T12:53:38",
+      "modified": "2026-04-16T12:53:39",
+      "excerpt": "Hukuk teknolojileri (LegalTech) dünyasında yapay zeka; dilekçe yazımından içtihat araştırmasına kadar birçok alanda devrim yaratıyor. Ancak bu teknolojik konfor, beraberinde [&hellip;]",
+      "contentLength": 2502,
+      "wordCount": 336,
+      "categories": [
+        {
+          "id": 3,
+          "name": "Aile Hukuku",
+          "slug": "aile-hukuku"
+        }
+      ],
+      "tags": [],
+      "internalLinks": [],
+      "externalLinks": [],
+      "authorId": 1,
+      "entityMentions": [],
+      "topicMentions": {
+        "ceza_hukuku": [
+          "savunma"
+        ]
+      },
+      "authorBoxSignals": []
+    },
+    {
+      "id": 167,
+      "title": "Boşanmada Gizlenen Mallar Nasıl Tespit Edilir? Süreç, Delil Stratejisi ve Adana Uygulama Notları",
+      "slug": "bosanmada-gizlenen-mallar-nasil-tespit-edilir-1474",
+      "link": "https://adanaavukat.org/bosanmada-gizlenen-mallar-nasil-tespit-edilir-1474/",
+      "type": "post",
+      "status": "publish",
+      "date": "2026-04-04T19:00:46",
+      "modified": "2026-04-04T19:07:29",
+      "excerpt": "Boşanma sürecinde gizlenen malların tespiti, adil paylaşım için kritik öneme sahiptir. Bu rehberde, boşanmada gizlenen mallar nasıl tespit edilir sorusuna yanıt ararken, delil toplama yöntemleri, uygulamada karşılaşılan sorunlar ve Adana da öne çıkan usul adımları detaylı şekilde ele alınmaktadır.",
+      "contentLength": 6885,
+      "wordCount": 858,
+      "categories": [
+        {
+          "id": 5,
+          "name": "Boşanma Davaları",
+          "slug": "bosanma-davalari"
+        },
+        {
+          "id": 3,
+          "name": "Aile Hukuku",
+          "slug": "aile-hukuku"
+        }
+      ],
+      "tags": [],
+      "internalLinks": [
+        {
+          "href": "http://adanaavukat.org",
+          "anchor": "aile hukuku",
+          "path": "/"
+        }
+      ],
+      "externalLinks": [],
+      "authorId": 1,
+      "entityMentions": [],
+      "topicMentions": {
+        "adana": [
+          "adana"
+        ],
+        "aile_hukuku": [
+          "aile hukuku"
+        ],
+        "bosanma": [
+          "boşanma"
+        ],
+        "nafaka": [
+          "nafaka"
+        ],
+        "velayet": [
+          "velayet"
+        ],
+        "gayrimenkul": [
+          "tapu"
+        ]
+      },
+      "authorBoxSignals": []
+    },
+    {
+      "id": 164,
+      "title": "12. Yargı Paketi: Aile Arabuluculuğu ve Uygulamadaki Yenilikler",
+      "slug": "12-yargi-paketi-aile-arabuluculugu-3901",
+      "link": "https://adanaavukat.org/12-yargi-paketi-aile-arabuluculugu-3901/",
+      "type": "post",
+      "status": "publish",
+      "date": "2026-04-04T14:47:36",
+      "modified": "2026-04-04T18:26:11",
+      "excerpt": "12. yargı paketi ile gelen aile arabuluculuğu düzenlemesi, boşanma ve aile içi uyuşmazlıklarda yeni bir dönemi başlatıyor. Uygulamadaki etkileri ve Adana’daki yansımalarıyla birlikte, sürecin temel hukuki çerçevesi ve dikkat edilmesi gereken noktalar burada.",
+      "contentLength": 8588,
+      "wordCount": 1023,
+      "categories": [
+        {
+          "id": 3,
+          "name": "Aile Hukuku",
+          "slug": "aile-hukuku"
+        }
+      ],
+      "tags": [],
+      "internalLinks": [],
+      "externalLinks": [
+        {
+          "href": "https://www.cerenummer.com/arsiv?topic=cmnkec1c00001fjik03ntwbrj",
+          "anchor": "Adana’da çekişmeli boşanma davası süreci"
+        }
+      ],
+      "authorId": 1,
+      "entityMentions": [],
+      "topicMentions": {
+        "adana": [
+          "adana"
+        ],
+        "aile_hukuku": [
+          "aile hukuku"
+        ],
+        "bosanma": [
+          "boşanma",
+          "çekişmeli boşanma"
+        ],
+        "nafaka": [
+          "nafaka",
+          "iştirak nafakası",
+          "yoksulluk nafakası"
+        ],
+        "velayet": [
+          "velayet",
+          "kişisel ilişki",
+          "çocuğun üstün yararı"
+        ]
+      },
+      "authorBoxSignals": []
+    },
+    {
+      "id": 159,
+      "title": "Adana’da Çekişmeli Boşanma Davası Nasıl İlerler? (Adım Adım Rehber)",
+      "slug": "adana-cekismeli-bosanma-davasi-adim-adim-5986",
+      "link": "https://adanaavukat.org/adana-cekismeli-bosanma-davasi-adim-adim-5986/",
+      "type": "post",
+      "status": "publish",
+      "date": "2026-04-04T14:31:24",
+      "modified": "2026-04-04T14:36:06",
+      "excerpt": "Adana’da çekişmeli boşanma davası sürecinin adım adım nasıl ilerlediğini, usulden delil değerlendirmesine kadar tüm aşamaları ve yerel pratikleri detaylıca inceleyin.",
+      "contentLength": 9119,
+      "wordCount": 1116,
+      "categories": [
+        {
+          "id": 3,
+          "name": "Aile Hukuku",
+          "slug": "aile-hukuku"
+        }
+      ],
+      "tags": [],
+      "internalLinks": [
+        {
+          "href": "/arsiv",
+          "anchor": "içerik arşivimize göz atabilirsiniz",
+          "path": "/arsiv"
+        }
+      ],
+      "externalLinks": [],
+      "authorId": 1,
+      "entityMentions": [
+        "Ceren Sümer Cilli",
+        "Avukat Ceren Sümer Cilli"
+      ],
+      "topicMentions": {
+        "adana": [
+          "adana",
+          "adana aile mahkemeleri"
+        ],
+        "aile_hukuku": [
+          "aile hukuku",
+          "aile mahkemesi"
+        ],
+        "bosanma": [
+          "boşanma",
+          "evlilik birliği",
+          "çekişmeli boşanma"
+        ],
+        "nafaka": [
+          "nafaka",
+          "iştirak nafakası",
+          "yoksulluk nafakası"
+        ],
+        "velayet": [
+          "velayet",
+          "kişisel ilişki",
+          "çocuğun üstün yararı"
+        ],
+        "ceza_hukuku": [
+          "savunma"
+        ]
+      },
+      "authorBoxSignals": [
+        "disclaimer_author_text",
+        "entity_name_in_content"
+      ]
+    },
+    {
+      "id": 131,
+      "title": "Nafaka Türleri Nelerdir? Tedbir, İştirak ve Yoksulluk Nafakası",
+      "slug": "nafaka-turleri-nelerdir-tedbir-istirak-ve-yoksulluk-nafakasi",
+      "link": "https://adanaavukat.org/nafaka-turleri-nelerdir-tedbir-istirak-ve-yoksulluk-nafakasi/",
+      "type": "post",
+      "status": "publish",
+      "date": "2026-02-24T08:13:16",
+      "modified": "2026-02-24T13:00:56",
+      "excerpt": "Yazan: Av. Ceren Sümer Cilli Adana Barosu – Aile Hukuku Nafaka, boşanma veya ayrılık sürecinde ekonomik olarak zayıf duruma düşecek [&hellip;]",
+      "contentLength": 5037,
+      "wordCount": 631,
+      "categories": [
+        {
+          "id": 4,
+          "name": "Nafaka",
+          "slug": "nafaka"
+        },
+        {
+          "id": 3,
+          "name": "Aile Hukuku",
+          "slug": "aile-hukuku"
+        }
+      ],
+      "tags": [],
+      "internalLinks": [],
+      "externalLinks": [
+        {
+          "href": "https://cerensumer.av.tr",
+          "anchor": "cerensumer.av.tr"
+        }
+      ],
+      "authorId": 1,
+      "entityMentions": [
+        "Av. Ceren Sümer Cilli",
+        "Ceren Sümer Cilli"
+      ],
+      "topicMentions": {
+        "adana": [
+          "adana"
+        ],
+        "aile_hukuku": [
+          "aile hukuku"
+        ],
+        "bosanma": [
+          "boşanma"
+        ],
+        "nafaka": [
+          "nafaka",
+          "iştirak nafakası",
+          "yoksulluk nafakası",
+          "tedbir nafakası"
+        ],
+        "velayet": [
+          "velayet",
+          "çocuğun üstün yararı"
+        ]
+      },
+      "authorBoxSignals": [
+        "entity_name_in_content"
+      ]
+    },
+    {
+      "id": 126,
+      "title": "Velayet Davasında Hakim Nelere Dikkat Eder?",
+      "slug": "velayet-davasinda-hakim-nelere-dikkat-eder",
+      "link": "https://adanaavukat.org/velayet-davasinda-hakim-nelere-dikkat-eder/",
+      "type": "post",
+      "status": "publish",
+      "date": "2026-02-24T07:58:21",
+      "modified": "2026-02-24T13:01:15",
+      "excerpt": "Yazan: Av. Ceren Sümer Cilli Adana Barosu – Aile Hukuku Velayet davaları, aile hukukunun en hassas ve en dikkat gerektiren [&hellip;]",
+      "contentLength": 7727,
+      "wordCount": 983,
+      "categories": [
+        {
+          "id": 6,
+          "name": "Velayet",
+          "slug": "velayet"
+        },
+        {
+          "id": 3,
+          "name": "Aile Hukuku",
+          "slug": "aile-hukuku"
+        }
+      ],
+      "tags": [],
+      "internalLinks": [],
+      "externalLinks": [
+        {
+          "href": "https://cerensumer.av.tr",
+          "anchor": "cerensumer.av.tr"
+        },
+        {
+          "href": "http://cerensumer.av.tr",
+          "anchor": "cerensumer.av.tr"
+        },
+        {
+          "href": "https://cerensumer.av.tr",
+          "anchor": "cerensumer.av.tr"
+        }
+      ],
+      "authorId": 1,
+      "entityMentions": [
+        "Av. Ceren Sümer Cilli",
+        "Ceren Sümer Cilli"
+      ],
+      "topicMentions": {
+        "adana": [
+          "adana"
+        ],
+        "aile_hukuku": [
+          "aile hukuku"
+        ],
+        "bosanma": [
+          "boşanma"
+        ],
+        "velayet": [
+          "velayet",
+          "çocuğun üstün yararı"
+        ]
+      },
+      "authorBoxSignals": [
+        "entity_name_in_content"
+      ]
+    },
+    {
+      "id": 122,
+      "title": "Boşanma Davasında Hakimin Takdir Yetkisi Nedir?",
+      "slug": "bosanma-davasinda-hakimin-takdir-yetkisi-nedir",
+      "link": "https://adanaavukat.org/bosanma-davasinda-hakimin-takdir-yetkisi-nedir/",
+      "type": "post",
+      "status": "publish",
+      "date": "2026-02-24T07:43:15",
+      "modified": "2026-02-24T13:01:32",
+      "excerpt": "Yazan: Av. Ceren Sümer Cilli Adana Barosu – Aile Hukuku Boşanma davaları, aile hukukunun en hassas ve en karmaşık alanlarından [&hellip;]",
+      "contentLength": 8755,
+      "wordCount": 1125,
+      "categories": [
+        {
+          "id": 5,
+          "name": "Boşanma Davaları",
+          "slug": "bosanma-davalari"
+        },
+        {
+          "id": 3,
+          "name": "Aile Hukuku",
+          "slug": "aile-hukuku"
+        }
+      ],
+      "tags": [],
+      "internalLinks": [],
+      "externalLinks": [
+        {
+          "href": "https://cerensumer.av.tr",
+          "anchor": "cerensumer.av.tr"
+        },
+        {
+          "href": "https://cerensumer.av.tr",
+          "anchor": "cerensumer.av.tr"
+        },
+        {
+          "href": "https://cerensumer.av.tr",
+          "anchor": "cerensumer.av.tr"
+        }
+      ],
+      "authorId": 1,
+      "entityMentions": [
+        "Av. Ceren Sümer Cilli",
+        "Ceren Sümer Cilli"
+      ],
+      "topicMentions": {
+        "adana": [
+          "adana"
+        ],
+        "aile_hukuku": [
+          "aile hukuku"
+        ],
+        "bosanma": [
+          "boşanma",
+          "evlilik birliği"
+        ],
+        "nafaka": [
+          "nafaka",
+          "iştirak nafakası",
+          "yoksulluk nafakası",
+          "tedbir nafakası"
+        ],
+        "velayet": [
+          "velayet",
+          "çocuğun üstün yararı"
+        ],
+        "ceza_hukuku": [
+          "savunma"
+        ]
+      },
+      "authorBoxSignals": [
+        "entity_name_in_content"
+      ]
+    },
+    {
+      "id": 98,
+      "title": "Anlaşmalı Boşanma Davası Nedir? Şartları, Süreci ve Güncel Uygulamalar",
+      "slug": "anlasmali-bosanma-davasi-nedir-sartlari-sureci-ve-guncel-uygulamalar",
+      "link": "https://adanaavukat.org/anlasmali-bosanma-davasi-nedir-sartlari-sureci-ve-guncel-uygulamalar/",
+      "type": "post",
+      "status": "publish",
+      "date": "2026-02-23T17:11:27",
+      "modified": "2026-02-24T13:01:44",
+      "excerpt": "Yazan: Av. Ceren Sümer Cilli Adana Barosu – Aile Hukuku Anlaşmalı boşanma davası, eşlerin evlilik birliğini sona erdirme konusunda ve [&hellip;]",
+      "contentLength": 8415,
+      "wordCount": 1038,
+      "categories": [
+        {
+          "id": 5,
+          "name": "Boşanma Davaları",
+          "slug": "bosanma-davalari"
+        },
+        {
+          "id": 3,
+          "name": "Aile Hukuku",
+          "slug": "aile-hukuku"
+        }
+      ],
+      "tags": [],
+      "internalLinks": [],
+      "externalLinks": [
+        {
+          "href": "https://cerensumer.av.tr",
+          "anchor": "Av. Ceren Sümer Cilli"
+        }
+      ],
+      "authorId": 1,
+      "entityMentions": [
+        "Av. Ceren Sümer Cilli",
+        "Ceren Sümer Cilli"
+      ],
+      "topicMentions": {
+        "adana": [
+          "adana"
+        ],
+        "aile_hukuku": [
+          "aile hukuku",
+          "aile mahkemesi"
+        ],
+        "bosanma": [
+          "boşanma",
+          "evlilik birliği",
+          "anlaşmalı boşanma",
+          "çekişmeli boşanma"
+        ],
+        "nafaka": [
+          "nafaka",
+          "iştirak nafakası",
+          "yoksulluk nafakası"
+        ],
+        "velayet": [
+          "velayet",
+          "kişisel ilişki",
+          "çocuğun üstün yararı"
+        ]
+      },
+      "authorBoxSignals": [
+        "entity_name_in_content"
+      ]
+    },
+    {
+      "id": 88,
+      "title": "Boşanma Davasında Hâkimin Takdir Yetkisi Nedir?",
+      "slug": "bosanma-davasinda-hakimin-takdir-yetkisi",
+      "link": "https://adanaavukat.org/bosanma-davasinda-hakimin-takdir-yetkisi/",
+      "type": "post",
+      "status": "publish",
+      "date": "2026-02-22T21:19:19",
+      "modified": "2026-02-22T21:27:50",
+      "excerpt": "Yazan: Av. Ceren Sümer CilliAdana Barosu – Aile Hukuku Boşanma davaları, tarafların kişisel, ekonomik ve ailevi durumlarına göre farklılık gösteren [&hellip;]",
+      "contentLength": 4638,
+      "wordCount": 547,
+      "categories": [
+        {
+          "id": 3,
+          "name": "Aile Hukuku",
+          "slug": "aile-hukuku"
+        },
+        {
+          "id": 5,
+          "name": "Boşanma Davaları",
+          "slug": "bosanma-davalari"
+        }
+      ],
+      "tags": [
+        {
+          "id": 8,
+          "name": "Boşanma Davasında Hâkimin Takdir Yetkisi Nedir?",
+          "slug": "bosanma-davasinda-hakimin-takdir-yetkisi-nedir"
+        }
+      ],
+      "internalLinks": [],
+      "externalLinks": [],
+      "authorId": 1,
+      "entityMentions": [
+        "Av. Ceren Sümer Cilli",
+        "Ceren Sümer Cilli"
+      ],
+      "topicMentions": {
+        "adana": [
+          "adana"
+        ],
+        "aile_hukuku": [
+          "aile hukuku"
+        ],
+        "bosanma": [
+          "boşanma",
+          "evlilik birliği"
+        ],
+        "nafaka": [
+          "nafaka",
+          "iştirak nafakası",
+          "yoksulluk nafakası"
+        ],
+        "velayet": [
+          "velayet",
+          "kişisel ilişki",
+          "çocuğun üstün yararı"
+        ]
+      },
+      "authorBoxSignals": [
+        "entity_name_in_content"
+      ]
+    },
+    {
+      "id": 76,
+      "title": "Adana’da Çekişmeli Boşanma Davası Nedir?",
+      "slug": "adanada-cekismeli-bosanma-davasi-nedir",
+      "link": "https://adanaavukat.org/adanada-cekismeli-bosanma-davasi-nedir/",
+      "type": "post",
+      "status": "publish",
+      "date": "2026-02-15T17:45:17",
+      "modified": "2026-02-22T19:59:02",
+      "excerpt": "Çekişmeli boşanma davası, eşlerin boşanma konusunda veya boşanmanın hukuki sonuçları üzerinde anlaşmaya varamaması halinde açılan dava türüdür. Evlilik birliğinin temelinden [&hellip;]",
+      "contentLength": 3419,
+      "wordCount": 403,
+      "categories": [
+        {
+          "id": 3,
+          "name": "Aile Hukuku",
+          "slug": "aile-hukuku"
+        }
+      ],
+      "tags": [],
+      "internalLinks": [],
+      "externalLinks": [],
+      "authorId": 1,
+      "entityMentions": [],
+      "topicMentions": {
+        "adana": [
+          "adana"
+        ],
+        "aile_hukuku": [
+          "aile mahkemesi"
+        ],
+        "bosanma": [
+          "boşanma",
+          "evlilik birliği",
+          "anlaşmalı boşanma",
+          "çekişmeli boşanma"
+        ],
+        "nafaka": [
+          "nafaka",
+          "iştirak nafakası",
+          "yoksulluk nafakası",
+          "tedbir nafakası"
+        ],
+        "velayet": [
+          "velayet",
+          "çocuğun üstün yararı"
+        ],
+        "ceza_hukuku": [
+          "savunma"
+        ]
+      },
+      "authorBoxSignals": []
+    },
+    {
+      "id": 61,
+      "title": "Anlaşmalı Boşanma Davası Nedir? Şartları ve Süreci (2026)",
+      "slug": "anlasmali-bosanma-davasi-nedir",
+      "link": "https://adanaavukat.org/anlasmali-bosanma-davasi-nedir/",
+      "type": "post",
+      "status": "publish",
+      "date": "2026-02-05T18:42:34",
+      "modified": "2026-02-22T20:55:37",
+      "excerpt": "Yazan: Av. Ceren Sümer CilliAdana Barosu – Aile Hukuku Anlaşmalı boşanma, Türk Medeni Kanunu’nda düzenlenen ve eşlerin boşanma iradesi ile [&hellip;]",
+      "contentLength": 6024,
+      "wordCount": 715,
+      "categories": [
+        {
+          "id": 3,
+          "name": "Aile Hukuku",
+          "slug": "aile-hukuku"
+        }
+      ],
+      "tags": [],
+      "internalLinks": [],
+      "externalLinks": [],
+      "authorId": 1,
+      "entityMentions": [
+        "Av. Ceren Sümer Cilli",
+        "Ceren Sümer Cilli"
+      ],
+      "topicMentions": {
+        "adana": [
+          "adana"
+        ],
+        "aile_hukuku": [
+          "aile hukuku",
+          "aile mahkemesi"
+        ],
+        "bosanma": [
+          "boşanma",
+          "anlaşmalı boşanma",
+          "çekişmeli boşanma"
+        ],
+        "nafaka": [
+          "nafaka",
+          "yoksulluk nafakası"
+        ],
+        "velayet": [
+          "velayet",
+          "kişisel ilişki"
+        ]
+      },
+      "authorBoxSignals": [
+        "entity_name_in_content"
+      ]
+    },
+    {
+      "id": 55,
+      "title": "Adana Nafaka Rehberi – Tedbir, İştirak, Yoksulluk Nafakası",
+      "slug": "adana-nafaka-rehberi",
+      "link": "https://adanaavukat.org/adana-nafaka-rehberi/",
+      "type": "post",
+      "status": "publish",
+      "date": "2026-02-05T11:06:03",
+      "modified": "2026-02-05T11:18:08",
+      "excerpt": "Adana’da nafaka konusu; boşanma davası devam ederken ya da boşanma sonrasında en çok tartışılan başlıklardan biridir. Nafaka “ceza” değil; eşin [&hellip;]",
+      "contentLength": 7049,
+      "wordCount": 900,
+      "categories": [
+        {
+          "id": 4,
+          "name": "Nafaka",
+          "slug": "nafaka"
+        }
+      ],
+      "tags": [],
+      "internalLinks": [],
+      "externalLinks": [],
+      "authorId": 1,
+      "entityMentions": [],
+      "topicMentions": {
+        "adana": [
+          "adana"
+        ],
+        "bosanma": [
+          "boşanma"
+        ],
+        "nafaka": [
+          "nafaka",
+          "iştirak nafakası",
+          "yoksulluk nafakası",
+          "tedbir nafakası"
+        ],
+        "velayet": [
+          "velayet"
+        ],
+        "kira": [
+          "kira"
+        ]
+      },
+      "authorBoxSignals": []
+    }
+  ],
+  "pages": [
+    {
+      "id": 268,
+      "title": "Avukat Ceren Sümer Cilli Kimdir?",
+      "slug": "avukat-ceren-sumer-cilli-kimdir-adana-bosanma-ve-aile-hukuku",
+      "link": "https://adanaavukat.org/avukat-ceren-sumer-cilli-kimdir-adana-bosanma-ve-aile-hukuku/",
+      "type": "page",
+      "status": "publish",
+      "date": "2026-05-17T08:46:12",
+      "modified": "2026-05-17T08:46:13",
+      "excerpt": "Avukat Ceren Sümer Cilli, Adana’da aile hukuku ve özel hukuk uyuşmazlıkları alanında çalışan bir avukattır. Mesleki faaliyetlerinde özellikle boşanma davaları, [&hellip;]",
+      "contentLength": 10473,
+      "wordCount": 1227,
+      "categories": [],
+      "tags": [],
+      "internalLinks": [],
+      "externalLinks": [
+        {
+          "href": "https://www.cerensumer.av.tr/adana-bosanma-avukati-ceren-sumer-cilli-kimdir/",
+          "anchor": "https://www.cerensumer.av.tr/adana-bosanma-avukati-ceren-sumer-cilli-kimdir/"
+        },
+        {
+          "href": "https://www.google.com/maps/search/?api=1&amp;query=Avukat+Ceren+S%C3%BCmer+Cilli+Adana",
+          "anchor": "https://www.google.com/maps/search/?api=1&query=Avukat+Ceren+S%C3%BCmer+Cilli+Adana"
+        },
+        {
+          "href": "https://www.linkedin.com/in/avukat-ceren-s%C3%BCmer-cilli-375873b0/",
+          "anchor": "https://www.linkedin.com/in/avukat-ceren-s%C3%BCmer-cilli-375873b0/"
+        },
+        {
+          "href": "https://www.instagram.com/av.cerensumercilli/",
+          "anchor": "https://www.instagram.com/av.cerensumercilli/"
+        },
+        {
+          "href": "https://www.facebook.com/cerensumercilli/",
+          "anchor": "https://www.facebook.com/cerensumercilli/"
+        }
+      ],
+      "authorId": 1,
+      "entityMentions": [
+        "Ceren Sümer Cilli",
+        "Avukat Ceren Sümer Cilli"
+      ],
+      "topicMentions": {
+        "adana": [
+          "adana"
+        ],
+        "aile_hukuku": [
+          "aile hukuku",
+          "özel hukuk"
+        ],
+        "bosanma": [
+          "boşanma",
+          "bosanma",
+          "evlilik birliği",
+          "anlaşmalı boşanma",
+          "çekişmeli boşanma"
+        ],
+        "nafaka": [
+          "nafaka",
+          "iştirak nafakası",
+          "yoksulluk nafakası"
+        ],
+        "velayet": [
+          "velayet",
+          "kişisel ilişki",
+          "çocuğun üstün yararı"
+        ],
+        "miras": [
+          "miras"
+        ],
+        "ceza_hukuku": [
+          "savunma"
+        ],
+        "gayrimenkul": [
+          "gayrimenkul",
+          "tapu"
+        ]
+      },
+      "authorBoxSignals": [
+        "entity_name_in_content"
+      ]
+    },
+    {
+      "id": 241,
+      "title": "Adana Ortaklığın Giderilmesi Davası Avukat",
+      "slug": "adana-ortakligin-giderilmesi-davasi-avukat",
+      "link": "https://adanaavukat.org/adana-ortakligin-giderilmesi-davasi-avukat/",
+      "type": "page",
+      "status": "publish",
+      "date": "2026-04-09T09:00:51",
+      "modified": "2026-04-09T09:22:39",
+      "excerpt": "Paylı mülkiyet veya elbirliği mülkiyeti altında bulunan bir taşınmazın ya da taşınır malın ortaklar arasındaki uyuşmazlıklar nedeniyle paylaştırılamaması, Türk hukuk [&hellip;]",
+      "contentLength": 13012,
+      "wordCount": 1622,
+      "categories": [],
+      "tags": [],
+      "internalLinks": [
+        {
+          "href": "https://adanaavukat.org/hizmetlerimiz/",
+          "anchor": "Hizmetlerimiz sayfası",
+          "path": "/hizmetlerimiz/"
+        }
+      ],
+      "externalLinks": [
+        {
+          "href": "https://www.mevzuat.gov.tr/",
+          "anchor": "Türk Medeni Kanunu ilgili hükümleri"
+        }
+      ],
+      "authorId": 1,
+      "entityMentions": [
+        "Ceren Sümer Cilli",
+        "Avukat Ceren Sümer Cilli"
+      ],
+      "topicMentions": {
+        "adana": [
+          "adana"
+        ],
+        "aile_hukuku": [
+          "aile hukuku"
+        ],
+        "bosanma": [
+          "boşanma"
+        ],
+        "miras": [
+          "miras"
+        ],
+        "gayrimenkul": [
+          "gayrimenkul",
+          "tapu"
+        ]
+      },
+      "authorBoxSignals": [
+        "entity_name_in_content"
+      ]
+    },
+    {
+      "id": 237,
+      "title": "Hizmetlerimiz | Adana Avukatlık Hizmetleri",
+      "slug": "hizmetlerimiz",
+      "link": "https://adanaavukat.org/hizmetlerimiz/",
+      "type": "page",
+      "status": "publish",
+      "date": "2026-04-09T08:43:11",
+      "modified": "2026-04-09T09:12:59",
+      "excerpt": "Adana avukat arayışında olanlar için doğru hukuki destek, dava sürecinin en kritik aşamasını oluşturur.Adana’da hukuki destek arayan müvekkillerimiz için geniş [&hellip;]",
+      "contentLength": 3578,
+      "wordCount": 444,
+      "categories": [],
+      "tags": [],
+      "internalLinks": [
+        {
+          "href": "https://adanaavukat.org/adana-bosanma-avukati/",
+          "anchor": "Adana Aile Hukuku Avukatı",
+          "path": "/adana-bosanma-avukati/"
+        },
+        {
+          "href": "https://adanaavukat.org/nafaka-davasi/",
+          "anchor": "Nafaka Hesaplama ve Davaları",
+          "path": "/nafaka-davasi/"
+        },
+        {
+          "href": "https://adanaavukat.org/adana-ortakligin-giderilmesi-davasi-avukat/",
+          "anchor": "Ortaklığın Giderilmesi Davası",
+          "path": "/adana-ortakligin-giderilmesi-davasi-avukat/"
+        }
+      ],
+      "externalLinks": [],
+      "authorId": 1,
+      "entityMentions": [
+        "Ceren Sümer Cilli",
+        "Avukat Ceren Sümer Cilli"
+      ],
+      "topicMentions": {
+        "adana": [
+          "adana"
+        ],
+        "aile_hukuku": [
+          "aile hukuku"
+        ],
+        "bosanma": [
+          "boşanma",
+          "anlaşmalı boşanma",
+          "çekişmeli boşanma"
+        ],
+        "nafaka": [
+          "nafaka"
+        ],
+        "velayet": [
+          "velayet",
+          "çocuğun üstün yararı"
+        ],
+        "gayrimenkul": [
+          "gayrimenkul",
+          "tapu"
+        ]
+      },
+      "authorBoxSignals": [
+        "entity_name_in_content"
+      ]
+    },
+    {
+      "id": 223,
+      "title": "Nafaka Davası | Adana Nafaka Avukatı ile Haklarınızı Koruyun",
+      "slug": "nafaka-davasi",
+      "link": "https://adanaavukat.org/nafaka-davasi/",
+      "type": "page",
+      "status": "publish",
+      "date": "2026-04-08T13:01:54",
+      "modified": "2026-04-08T13:29:12",
+      "excerpt": "Nafaka davası, boşanma sürecinde veya sonrasında tarafların ekonomik dengesinin korunması amacıyla açılan önemli bir dava türüdür. Adana nafaka avukatı desteği, [&hellip;]",
+      "contentLength": 7058,
+      "wordCount": 891,
+      "categories": [],
+      "tags": [],
+      "internalLinks": [
+        {
+          "href": "https://adanaavukat.org",
+          "anchor": "Adana avukat hizmetleri",
+          "path": "/"
+        },
+        {
+          "href": "https://adanaavukat.org/cekismeli-bosanma-davasi",
+          "anchor": "çekişmeli boşanma davası",
+          "path": "/cekismeli-bosanma-davasi"
+        }
+      ],
+      "externalLinks": [],
+      "authorId": 1,
+      "entityMentions": [
+        "Ceren Sümer Cilli",
+        "Avukat Ceren Sümer Cilli"
+      ],
+      "topicMentions": {
+        "adana": [
+          "adana"
+        ],
+        "bosanma": [
+          "boşanma",
+          "çekişmeli boşanma"
+        ],
+        "nafaka": [
+          "nafaka",
+          "iştirak nafakası",
+          "yoksulluk nafakası",
+          "tedbir nafakası"
+        ],
+        "velayet": [
+          "velayet",
+          "çocuğun üstün yararı"
+        ]
+      },
+      "authorBoxSignals": [
+        "entity_name_in_content",
+        "json_ld_present"
+      ]
+    },
+    {
+      "id": 216,
+      "title": "Çekişmeli Boşanma Davası | Adana Boşanma Avukatı ile Güçlü Hukuki Süreç",
+      "slug": "cekismeli-bosanma-davasi",
+      "link": "https://adanaavukat.org/cekismeli-bosanma-davasi/",
+      "type": "page",
+      "status": "publish",
+      "date": "2026-04-08T12:48:07",
+      "modified": "2026-04-08T12:51:06",
+      "excerpt": "Çekişmeli boşanma davası, eşler arasında boşanma veya boşanmanın sonuçları konusunda anlaşma sağlanamaması halinde açılan ve hukuki açıdan en kapsamlı süreçlerden [&hellip;]",
+      "contentLength": 4895,
+      "wordCount": 630,
+      "categories": [],
+      "tags": [],
+      "internalLinks": [
+        {
+          "href": "https://adanaavukat.org",
+          "anchor": "Adana avukat hizmetleri",
+          "path": "/"
+        }
+      ],
+      "externalLinks": [],
+      "authorId": 1,
+      "entityMentions": [
+        "Ceren Sümer Cilli",
+        "Avukat Ceren Sümer Cilli"
+      ],
+      "topicMentions": {
+        "adana": [
+          "adana"
+        ],
+        "aile_hukuku": [
+          "aile hukuku",
+          "aile mahkemesi"
+        ],
+        "bosanma": [
+          "boşanma",
+          "çekişmeli boşanma"
+        ],
+        "nafaka": [
+          "nafaka",
+          "yoksulluk nafakası",
+          "tedbir nafakası"
+        ],
+        "velayet": [
+          "velayet",
+          "çocuğun üstün yararı"
+        ],
+        "ceza_hukuku": [
+          "savunma"
+        ]
+      },
+      "authorBoxSignals": [
+        "entity_name_in_content",
+        "json_ld_present"
+      ]
+    },
+    {
+      "id": 205,
+      "title": "Adana Boşanma Avukatı | Anlaşmalı ve Çekişmeli Davalarda Uzman Hukuki Destek",
+      "slug": "adana-bosanma-avukati",
+      "link": "https://adanaavukat.org/adana-bosanma-avukati/",
+      "type": "page",
+      "status": "publish",
+      "date": "2026-04-08T12:31:55",
+      "modified": "2026-04-08T12:40:16",
+      "excerpt": "Adana boşanma avukatı desteği, boşanma sürecinin hızlı, güvenli ve hak kaybı yaşanmadan tamamlanabilmesi açısından kritik bir rol oynamaktadır. Boşanma süreci, [&hellip;]",
+      "contentLength": 5565,
+      "wordCount": 718,
+      "categories": [],
+      "tags": [],
+      "internalLinks": [
+        {
+          "href": "https://adanaavukat.org",
+          "anchor": "Adana avukat hizmetleri",
+          "path": "/"
+        }
+      ],
+      "externalLinks": [],
+      "authorId": 1,
+      "entityMentions": [
+        "Ceren Sümer Cilli",
+        "Avukat Ceren Sümer Cilli"
+      ],
+      "topicMentions": {
+        "adana": [
+          "adana"
+        ],
+        "aile_hukuku": [
+          "aile hukuku"
+        ],
+        "bosanma": [
+          "boşanma",
+          "anlaşmalı boşanma",
+          "çekişmeli boşanma"
+        ],
+        "nafaka": [
+          "nafaka"
+        ],
+        "velayet": [
+          "velayet",
+          "çocuğun üstün yararı"
+        ]
+      },
+      "authorBoxSignals": [
+        "entity_name_in_content",
+        "json_ld_present"
+      ]
+    },
+    {
+      "id": 105,
+      "title": "Aile Hukuku Rehberi",
+      "slug": "aile-hukuku-rehberi",
+      "link": "https://adanaavukat.org/aile-hukuku-rehberi/",
+      "type": "page",
+      "status": "publish",
+      "date": "2026-02-24T07:22:28",
+      "modified": "2026-02-24T08:10:00",
+      "excerpt": "",
+      "contentLength": 2770,
+      "wordCount": 389,
+      "categories": [],
+      "tags": [],
+      "internalLinks": [
+        {
+          "href": "https://adanaavukat.org/eksi-sozluk-ve-uludag-sozluk-turkiyenin-en-degerli-web-siteleri/",
+          "anchor": "Ekşi Sözlük ve Uludağ Sözlük, Türkiye’nin En Değerli Web Siteleri Arasında Gösterildi",
+          "path": "/eksi-sozluk-ve-uludag-sozluk-turkiyenin-en-degerli-web-siteleri/"
+        },
+        {
+          "href": "https://adanaavukat.org/eksi-sozluk-ve-uludag-sozluk-turkiyenin-en-degerli-web-siteleri/",
+          "anchor": "Devamını Oku »",
+          "path": "/eksi-sozluk-ve-uludag-sozluk-turkiyenin-en-degerli-web-siteleri/"
+        },
+        {
+          "href": "https://adanaavukat.org/adana-bosanma-davasi-nasil-acilir/",
+          "anchor": "Adana’da Boşanma Davası Nasıl Açılır? 2026 Güncel Rehber",
+          "path": "/adana-bosanma-davasi-nasil-acilir/"
+        },
+        {
+          "href": "https://adanaavukat.org/adana-bosanma-davasi-nasil-acilir/",
+          "anchor": "Devamını Oku »",
+          "path": "/adana-bosanma-davasi-nasil-acilir/"
+        },
+        {
+          "href": "https://adanaavukat.org/trumptan-kritik-talimat-gizli-projelerde-gorevli-11-bilim-insani-dosyasi-mercek-altinda/",
+          "anchor": "Trump’tan Kritik Talimat: Gizli Projelerde Görevli 11 Bilim İnsanı Dosyası Mercek Altında",
+          "path": "/trumptan-kritik-talimat-gizli-projelerde-gorevli-11-bilim-insani-dosyasi-mercek-altinda/"
+        },
+        {
+          "href": "https://adanaavukat.org/trumptan-kritik-talimat-gizli-projelerde-gorevli-11-bilim-insani-dosyasi-mercek-altinda/",
+          "anchor": "Devamını Oku »",
+          "path": "/trumptan-kritik-talimat-gizli-projelerde-gorevli-11-bilim-insani-dosyasi-mercek-altinda/"
+        },
+        {
+          "href": "https://adanaavukat.org/yapay-zeka-yuzunden-120-bin-tl-ceza-odedi/",
+          "anchor": "Yapay Zeka Yüzünden 120 Bin TL Ceza Ödedi",
+          "path": "/yapay-zeka-yuzunden-120-bin-tl-ceza-odedi/"
+        },
+        {
+          "href": "https://adanaavukat.org/yapay-zeka-yuzunden-120-bin-tl-ceza-odedi/",
+          "anchor": "Devamını Oku »",
+          "path": "/yapay-zeka-yuzunden-120-bin-tl-ceza-odedi/"
+        },
+        {
+          "href": "https://adanaavukat.org/bosanmada-gizlenen-mallar-nasil-tespit-edilir-1474/",
+          "anchor": "Boşanmada Gizlenen Mallar Nasıl Tespit Edilir? Süreç, Delil Stratejisi ve Adana Uygulama Notları",
+          "path": "/bosanmada-gizlenen-mallar-nasil-tespit-edilir-1474/"
+        },
+        {
+          "href": "https://adanaavukat.org/bosanmada-gizlenen-mallar-nasil-tespit-edilir-1474/",
+          "anchor": "Devamını Oku »",
+          "path": "/bosanmada-gizlenen-mallar-nasil-tespit-edilir-1474/"
+        },
+        {
+          "href": "https://adanaavukat.org/12-yargi-paketi-aile-arabuluculugu-3901/",
+          "anchor": "12. Yargı Paketi: Aile Arabuluculuğu ve Uygulamadaki Yenilikler",
+          "path": "/12-yargi-paketi-aile-arabuluculugu-3901/"
+        },
+        {
+          "href": "https://adanaavukat.org/12-yargi-paketi-aile-arabuluculugu-3901/",
+          "anchor": "Devamını Oku »",
+          "path": "/12-yargi-paketi-aile-arabuluculugu-3901/"
+        },
+        {
+          "href": "https://adanaavukat.org/adana-cekismeli-bosanma-davasi-adim-adim-5986/",
+          "anchor": "Adana’da Çekişmeli Boşanma Davası Nasıl İlerler? (Adım Adım Rehber)",
+          "path": "/adana-cekismeli-bosanma-davasi-adim-adim-5986/"
+        },
+        {
+          "href": "https://adanaavukat.org/adana-cekismeli-bosanma-davasi-adim-adim-5986/",
+          "anchor": "Devamını Oku »",
+          "path": "/adana-cekismeli-bosanma-davasi-adim-adim-5986/"
+        },
+        {
+          "href": "https://adanaavukat.org/nafaka-turleri-nelerdir-tedbir-istirak-ve-yoksulluk-nafakasi/",
+          "anchor": null,
+          "path": "/nafaka-turleri-nelerdir-tedbir-istirak-ve-yoksulluk-nafakasi/"
+        },
+        {
+          "href": "https://adanaavukat.org/nafaka-turleri-nelerdir-tedbir-istirak-ve-yoksulluk-nafakasi/",
+          "anchor": "Nafaka Türleri Nelerdir? Tedbir, İştirak ve Yoksulluk Nafakası",
+          "path": "/nafaka-turleri-nelerdir-tedbir-istirak-ve-yoksulluk-nafakasi/"
+        },
+        {
+          "href": "https://adanaavukat.org/nafaka-turleri-nelerdir-tedbir-istirak-ve-yoksulluk-nafakasi/",
+          "anchor": "Devamını Oku »",
+          "path": "/nafaka-turleri-nelerdir-tedbir-istirak-ve-yoksulluk-nafakasi/"
+        },
+        {
+          "href": "https://adanaavukat.org/velayet-davasinda-hakim-nelere-dikkat-eder/",
+          "anchor": null,
+          "path": "/velayet-davasinda-hakim-nelere-dikkat-eder/"
+        },
+        {
+          "href": "https://adanaavukat.org/velayet-davasinda-hakim-nelere-dikkat-eder/",
+          "anchor": "Velayet Davasında Hakim Nelere Dikkat Eder?",
+          "path": "/velayet-davasinda-hakim-nelere-dikkat-eder/"
+        },
+        {
+          "href": "https://adanaavukat.org/velayet-davasinda-hakim-nelere-dikkat-eder/",
+          "anchor": "Devamını Oku »",
+          "path": "/velayet-davasinda-hakim-nelere-dikkat-eder/"
+        },
+        {
+          "href": "https://adanaavukat.org/bosanma-davasinda-hakimin-takdir-yetkisi-nedir/",
+          "anchor": null,
+          "path": "/bosanma-davasinda-hakimin-takdir-yetkisi-nedir/"
+        },
+        {
+          "href": "https://adanaavukat.org/bosanma-davasinda-hakimin-takdir-yetkisi-nedir/",
+          "anchor": "Boşanma Davasında Hakimin Takdir Yetkisi Nedir?",
+          "path": "/bosanma-davasinda-hakimin-takdir-yetkisi-nedir/"
+        },
+        {
+          "href": "https://adanaavukat.org/bosanma-davasinda-hakimin-takdir-yetkisi-nedir/",
+          "anchor": "Devamını Oku »",
+          "path": "/bosanma-davasinda-hakimin-takdir-yetkisi-nedir/"
+        },
+        {
+          "href": "https://adanaavukat.org/anlasmali-bosanma-davasi-nedir-sartlari-sureci-ve-guncel-uygulamalar/",
+          "anchor": null,
+          "path": "/anlasmali-bosanma-davasi-nedir-sartlari-sureci-ve-guncel-uygulamalar/"
+        },
+        {
+          "href": "https://adanaavukat.org/anlasmali-bosanma-davasi-nedir-sartlari-sureci-ve-guncel-uygulamalar/",
+          "anchor": "Anlaşmalı Boşanma Davası Nedir? Şartları, Süreci ve Güncel Uygulamalar",
+          "path": "/anlasmali-bosanma-davasi-nedir-sartlari-sureci-ve-guncel-uygulamalar/"
+        },
+        {
+          "href": "https://adanaavukat.org/anlasmali-bosanma-davasi-nedir-sartlari-sureci-ve-guncel-uygulamalar/",
+          "anchor": "Devamını Oku »",
+          "path": "/anlasmali-bosanma-davasi-nedir-sartlari-sureci-ve-guncel-uygulamalar/"
+        },
+        {
+          "href": "https://adanaavukat.org/bosanma-davasinda-hakimin-takdir-yetkisi/",
+          "anchor": "Boşanma Davasında Hâkimin Takdir Yetkisi Nedir?",
+          "path": "/bosanma-davasinda-hakimin-takdir-yetkisi/"
+        },
+        {
+          "href": "https://adanaavukat.org/bosanma-davasinda-hakimin-takdir-yetkisi/",
+          "anchor": "Devamını Oku »",
+          "path": "/bosanma-davasinda-hakimin-takdir-yetkisi/"
+        },
+        {
+          "href": "https://adanaavukat.org/adanada-cekismeli-bosanma-davasi-nedir/",
+          "anchor": "Adana’da Çekişmeli Boşanma Davası Nedir?",
+          "path": "/adanada-cekismeli-bosanma-davasi-nedir/"
+        },
+        {
+          "href": "https://adanaavukat.org/adanada-cekismeli-bosanma-davasi-nedir/",
+          "anchor": "Devamını Oku »",
+          "path": "/adanada-cekismeli-bosanma-davasi-nedir/"
+        },
+        {
+          "href": "https://adanaavukat.org/anlasmali-bosanma-davasi-nedir/",
+          "anchor": "Anlaşmalı Boşanma Davası Nedir? Şartları ve Süreci (2026)",
+          "path": "/anlasmali-bosanma-davasi-nedir/"
+        },
+        {
+          "href": "https://adanaavukat.org/anlasmali-bosanma-davasi-nedir/",
+          "anchor": "Devamını Oku »",
+          "path": "/anlasmali-bosanma-davasi-nedir/"
+        },
+        {
+          "href": "https://adanaavukat.org/adana-nafaka-rehberi/",
+          "anchor": "Adana Nafaka Rehberi – Tedbir, İştirak, Yoksulluk Nafakası",
+          "path": "/adana-nafaka-rehberi/"
+        },
+        {
+          "href": "https://adanaavukat.org/adana-nafaka-rehberi/",
+          "anchor": "Devamını Oku »",
+          "path": "/adana-nafaka-rehberi/"
+        }
+      ],
+      "externalLinks": [],
+      "authorId": 1,
+      "entityMentions": [
+        "Av. Ceren Sümer Cilli",
+        "Ceren Sümer Cilli"
+      ],
+      "topicMentions": {
+        "adana": [
+          "adana"
+        ],
+        "aile_hukuku": [
+          "aile hukuku"
+        ],
+        "bosanma": [
+          "boşanma",
+          "anlaşmalı boşanma",
+          "çekişmeli boşanma"
+        ],
+        "nafaka": [
+          "nafaka",
+          "yoksulluk nafakası"
+        ],
+        "velayet": [
+          "velayet"
+        ],
+        "ceza_hukuku": [
+          "savunma"
+        ]
+      },
+      "authorBoxSignals": [
+        "entity_name_in_content"
+      ]
+    },
+    {
+      "id": 47,
+      "title": "İletişim",
+      "slug": "iletisim",
+      "link": "https://adanaavukat.org/iletisim/",
+      "type": "page",
+      "status": "publish",
+      "date": "2026-01-25T16:25:27",
+      "modified": "2026-01-25T16:27:25",
+      "excerpt": "Avukat Ceren Sümer Cilli📍 Adres: Gazipaşa Mh, Ordu Cd. Dinçkan Apt No:7 A Blok Daire:3, 01010 Seyhan/Adana📞 Telefon: 0533 634 [&hellip;]",
+      "contentLength": 318,
+      "wordCount": 53,
+      "categories": [],
+      "tags": [],
+      "internalLinks": [],
+      "externalLinks": [
+        {
+          "href": "https://www.google.com/maps?cid=5899068364885847053",
+          "anchor": "📍 Yol Tarifi Al"
+        }
+      ],
+      "authorId": 1,
+      "entityMentions": [
+        "Ceren Sümer Cilli",
+        "Avukat Ceren Sümer Cilli"
+      ],
+      "topicMentions": {
+        "adana": [
+          "adana"
+        ]
+      },
+      "authorBoxSignals": [
+        "entity_name_in_content"
+      ]
+    },
+    {
+      "id": 41,
+      "title": "Hakkımızda",
+      "slug": "hakkimizda",
+      "link": "https://adanaavukat.org/hakkimizda/",
+      "type": "page",
+      "status": "publish",
+      "date": "2026-01-25T16:20:22",
+      "modified": "2026-04-23T17:52:23",
+      "excerpt": "Adana merkezli olarak faaliyet gösteren Avukat Ceren Sümer Cilli, aile hukuku alanında müvekkillerine kapsamlı ve stratejik hukuki destek sunmaktadır. Aile [&hellip;]",
+      "contentLength": 9188,
+      "wordCount": 1107,
+      "categories": [],
+      "tags": [],
+      "internalLinks": [],
+      "externalLinks": [
+        {
+          "href": "https://www.cerensumer.av.tr/adana-bosanma-avukati-ceren-sumer-cilli-kimdir/",
+          "anchor": "https://www.cerensumer.av.tr/adana-bosanma-avukati-ceren-sumer-cilli-kimdir/"
+        },
+        {
+          "href": "https://www.google.com/maps/search/?api=1&amp;query=Avukat+Ceren+S%C3%BCmer+Cilli+Adana",
+          "anchor": "https://www.google.com/maps/search/?api=1&query=Avukat+Ceren+S%C3%BCmer+Cilli+Adana"
+        },
+        {
+          "href": "https://www.linkedin.com/in/avukat-ceren-s%C3%BCmer-cilli-375873b0/",
+          "anchor": "https://www.linkedin.com/in/avukat-ceren-s%C3%BCmer-cilli-375873b0/"
+        },
+        {
+          "href": "https://www.instagram.com/av.cerensumercilli/",
+          "anchor": "https://www.instagram.com/av.cerensumercilli/"
+        },
+        {
+          "href": "https://www.facebook.com/cerensumercilli/",
+          "anchor": "https://www.facebook.com/cerensumercilli/"
+        }
+      ],
+      "authorId": 1,
+      "entityMentions": [
+        "Ceren Sümer Cilli",
+        "Avukat Ceren Sümer Cilli"
+      ],
+      "topicMentions": {
+        "adana": [
+          "adana"
+        ],
+        "aile_hukuku": [
+          "aile hukuku"
+        ],
+        "bosanma": [
+          "boşanma",
+          "bosanma",
+          "anlaşmalı boşanma",
+          "çekişmeli boşanma"
+        ],
+        "nafaka": [
+          "nafaka"
+        ],
+        "velayet": [
+          "velayet"
+        ],
+        "miras": [
+          "miras"
+        ],
+        "ceza_hukuku": [
+          "savunma"
+        ],
+        "gayrimenkul": [
+          "gayrimenkul"
+        ]
+      },
+      "authorBoxSignals": [
+        "entity_name_in_content",
+        "json_ld_present"
+      ]
+    },
+    {
+      "id": 29,
+      "title": "Contact",
+      "slug": "contact",
+      "link": "https://adanaavukat.org/contact/",
+      "type": "page",
+      "status": "publish",
+      "date": "2026-01-25T15:52:28",
+      "modified": "2026-01-25T16:34:40",
+      "excerpt": "Avukat Ceren Sümer Cilli📍 Adres: Gazipaşa Mh, Ordu Cd. Dinçkan Apt No:7 A Blok Daire:3, 01010 Seyhan/Adana📞 Telefon: 0533 634 [&hellip;]",
+      "contentLength": 318,
+      "wordCount": 53,
+      "categories": [],
+      "tags": [],
+      "internalLinks": [],
+      "externalLinks": [
+        {
+          "href": "https://www.google.com/maps?cid=5899068364885847053",
+          "anchor": "📍 Yol Tarifi Al"
+        }
+      ],
+      "authorId": 1,
+      "entityMentions": [
+        "Ceren Sümer Cilli",
+        "Avukat Ceren Sümer Cilli"
+      ],
+      "topicMentions": {
+        "adana": [
+          "adana"
+        ]
+      },
+      "authorBoxSignals": [
+        "entity_name_in_content"
+      ]
+    },
+    {
+      "id": 27,
+      "title": "Sıkça Sorulan Sorular",
+      "slug": "faq",
+      "link": "https://adanaavukat.org/faq/",
+      "type": "page",
+      "status": "publish",
+      "date": "2026-01-25T15:49:23",
+      "modified": "2026-04-08T11:40:30",
+      "excerpt": "Aile hukuku, boşanma süreçleri ve taşınmaz hukukuna dair merak edilen konular, hem duygusal hem de hukuki karmaşıklıklar içerebilir. Adana bölgesinde [&hellip;]",
+      "contentLength": 10773,
+      "wordCount": 1370,
+      "categories": [],
+      "tags": [],
+      "internalLinks": [],
+      "externalLinks": [],
+      "authorId": 1,
+      "entityMentions": [
+        "Ceren Sümer Cilli",
+        "Avukat Ceren Sümer Cilli"
+      ],
+      "topicMentions": {
+        "adana": [
+          "adana",
+          "adana aile mahkemeleri"
+        ],
+        "aile_hukuku": [
+          "aile hukuku",
+          "aile mahkemesi"
+        ],
+        "bosanma": [
+          "boşanma",
+          "evlilik birliği",
+          "anlaşmalı boşanma",
+          "çekişmeli boşanma"
+        ],
+        "nafaka": [
+          "nafaka",
+          "iştirak nafakası",
+          "yoksulluk nafakası",
+          "tedbir nafakası"
+        ],
+        "velayet": [
+          "velayet",
+          "kişisel ilişki",
+          "çocuğun üstün yararı"
+        ],
+        "miras": [
+          "miras"
+        ],
+        "is_hukuku": [
+          "iş hukuku"
+        ],
+        "gayrimenkul": [
+          "gayrimenkul",
+          "tapu"
+        ]
+      },
+      "authorBoxSignals": [
+        "entity_name_in_content"
+      ]
+    },
+    {
+      "id": 25,
+      "title": "About Us",
+      "slug": "about-us",
+      "link": "https://adanaavukat.org/about-us/",
+      "type": "page",
+      "status": "publish",
+      "date": "2026-01-25T15:48:11",
+      "modified": "2026-01-25T16:34:00",
+      "excerpt": "Adana’da aile hukuku alanında faaliyet gösteren Avukat Ceren Sümer Cilli, başta boşanma, velayet ve nafaka davaları olmak üzere aile hukukuna [&hellip;]",
+      "contentLength": 890,
+      "wordCount": 113,
+      "categories": [],
+      "tags": [],
+      "internalLinks": [],
+      "externalLinks": [],
+      "authorId": 1,
+      "entityMentions": [
+        "Ceren Sümer Cilli",
+        "Avukat Ceren Sümer Cilli"
+      ],
+      "topicMentions": {
+        "adana": [
+          "adana"
+        ],
+        "aile_hukuku": [
+          "aile hukuku"
+        ],
+        "bosanma": [
+          "boşanma"
+        ],
+        "nafaka": [
+          "nafaka"
+        ],
+        "velayet": [
+          "velayet"
+        ]
+      },
+      "authorBoxSignals": [
+        "entity_name_in_content"
+      ]
+    },
+    {
+      "id": 7,
+      "title": "Adana Avukat",
+      "slug": "adana-avukat",
+      "link": "https://adanaavukat.org/",
+      "type": "page",
+      "status": "publish",
+      "date": "2025-12-27T19:22:56",
+      "modified": "2026-04-08T12:03:45",
+      "excerpt": "Adana’da Boşanma, Velayet ve Nafaka Alanında Hukuki Danışmanlık Adana’da avukat arayan kişiler için aile hukuku başta olmak üzereboşanma, velayet ve [&hellip;]",
+      "contentLength": 5452,
+      "wordCount": 693,
+      "categories": [],
+      "tags": [],
+      "internalLinks": [],
+      "externalLinks": [
+        {
+          "href": "https://www.cerensumer.av.tr/",
+          "anchor": "Avukat Ceren Sümer Cilli Hukuk Bürosu"
+        }
+      ],
+      "authorId": 1,
+      "entityMentions": [
+        "Ceren Sümer Cilli",
+        "Avukat Ceren Sümer Cilli"
+      ],
+      "topicMentions": {
+        "adana": [
+          "adana"
+        ],
+        "aile_hukuku": [
+          "aile hukuku",
+          "aile mahkemesi"
+        ],
+        "bosanma": [
+          "boşanma",
+          "anlaşmalı boşanma",
+          "çekişmeli boşanma"
+        ],
+        "nafaka": [
+          "nafaka"
+        ],
+        "velayet": [
+          "velayet",
+          "çocuğun üstün yararı"
+        ]
+      },
+      "authorBoxSignals": [
+        "entity_name_in_content",
+        "json_ld_present"
+      ]
+    }
+  ]
+}

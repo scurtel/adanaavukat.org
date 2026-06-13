@@ -1,0 +1,285 @@
+{
+  "appliedAt": "2026-06-13T21:25:54.386Z",
+  "backupFile": "C:\\Users\\scurt\\Desktop\\Cursor Dosyalar\\adanaavukat.org\\data\\backups\\homepage-7-pre-rankmath-seo-2026-06-13T21-25-41.json",
+  "snippet": {
+    "installed": true,
+    "action": "created",
+    "id": 6
+  },
+  "updateMethods": [
+    {
+      "method": "adanaavukat/v1",
+      "ok": true,
+      "custom": {
+        "post_id": 7,
+        "updated": {
+          "rank_math_title": "Adana Avukat | Ceren Sümer Cilli Hukuk ve Danışmanlık",
+          "rank_math_description": "Adana’da aile hukuku, boşanma, nafaka, velayet, miras ve iş hukuku alanlarında hukuki destek. Av. Ceren Sümer Cilli ile iletişime geçin.",
+          "rank_math_focus_keyword": "Adana Avukat",
+          "rank_math_facebook_title": "Adana Avukat | Av. Ceren Sümer Cilli",
+          "rank_math_facebook_description": "Adana’da boşanma, nafaka, velayet, miras ve iş hukuku süreçlerinde hukuki destek alın.",
+          "rank_math_twitter_title": "Adana Avukat | Av. Ceren Sümer Cilli",
+          "rank_math_twitter_description": "Adana’da boşanma, nafaka, velayet, miras ve iş hukuku süreçlerinde hukuki destek alın.",
+          "rank_math_robots": [
+            "index",
+            "follow"
+          ],
+          "rank_math_additional_keywords": "Adana boşanma avukatı, Adana aile hukuku avukatı, Adana miras avukatı, Adana iş hukuku avukatı"
+        }
+      }
+    },
+    {
+      "method": "wp/v2/pages meta",
+      "ok": true,
+      "metaKeys": [
+        "rank_math_title",
+        "rank_math_description",
+        "rank_math_focus_keyword",
+        "rank_math_facebook_title",
+        "rank_math_facebook_description",
+        "rank_math_twitter_title",
+        "rank_math_twitter_description",
+        "rank_math_additional_keywords"
+      ]
+    },
+    {
+      "method": "rankmath/v1/updateMeta",
+      "ok": false,
+      "status": 403
+    }
+  ],
+  "archiveNoindex": {
+    "ok": true,
+    "data": {
+      "changed": {
+        "noindex_archive": "on",
+        "noindex_category": "on",
+        "noindex_tag": "on",
+        "noindex_author": "on",
+        "noindex_date": "on",
+        "noindex_search": "on",
+        "sitemap": "on",
+        "flush_sitemap": true
+      }
+    }
+  },
+  "cacheFlush": [
+    {
+      "name": "litespeed purge all",
+      "status": 404,
+      "body": "{\"code\":\"rest_no_route\",\"message\":\"\\u0130stek y\\u00f6ntemi ve ba\\u011flant\\u0131yla e\\u015fle\\u015fen yol bulunamad\\u013"
+    },
+    {
+      "name": "rankmath tools flush_sitemap",
+      "status": 200,
+      "body": "\"Something went wrong.\""
+    }
+  ],
+  "target": {
+    "title": "Adana Avukat | Ceren Sümer Cilli Hukuk ve Danışmanlık",
+    "description": "Adana’da aile hukuku, boşanma, nafaka, velayet, miras ve iş hukuku alanlarında hukuki destek. Av. Ceren Sümer Cilli ile iletişime geçin.",
+    "focusKeyword": "Adana Avukat",
+    "additionalKeywords": [
+      "Adana boşanma avukatı",
+      "Adana aile hukuku avukatı",
+      "Adana miras avukatı",
+      "Adana iş hukuku avukatı"
+    ],
+    "ogTitle": "Adana Avukat | Av. Ceren Sümer Cilli",
+    "ogDescription": "Adana’da boşanma, nafaka, velayet, miras ve iş hukuku süreçlerinde hukuki destek alın."
+  },
+  "live": {
+    "title": "Adana Avukat | Ceren Sümer Cilli Hukuk ve Danışmanlık",
+    "description": "Adana’da aile hukuku, boşanma, nafaka, velayet, miras ve iş hukuku alanlarında hukuki destek. Av. Ceren Sümer Cilli ile iletişime geçin.",
+    "robots": "index, follow, max-snippet:-1, max-video-preview:-1, max-image-preview:large",
+    "ogTitle": "Adana Avukat | Av. Ceren Sümer Cilli",
+    "ogDescription": "Adana’da boşanma, nafaka, velayet, miras ve iş hukuku süreçlerinde hukuki destek alın.",
+    "h1": [
+      "Adana Avukat"
+    ],
+    "h1Count": 1
+  },
+  "validation": {
+    "titleMatch": true,
+    "descMatch": true,
+    "ogTitleMatch": true,
+    "ogDescMatch": true,
+    "singleH1": true,
+    "titleLength": 53,
+    "titleLengthOk": true,
+    "descLength": 136,
+    "descLengthOk": false,
+    "robotsIndexFollow": true
+  },
+  "sitemap": {
+    "ok": true,
+    "childSitemaps": [
+      "https://adanaavukat.org/post-sitemap.xml",
+      "https://adanaavukat.org/page-sitemap.xml",
+      "https://adanaavukat.org/category-sitemap.xml"
+    ],
+    "urls": [
+      "https://adanaavukat.org/aile-hukuku-rehberi",
+      "https://adanaavukat.org/eksi-sozluk-ve-uludag-sozluk-turkiyenin-en-degerli-web-siteleri",
+      "https://adanaavukat.org/adana-bosanma-davasi-nasil-acilir",
+      "https://adanaavukat.org/trumptan-kritik-talimat-gizli-projelerde-gorevli-11-bilim-insani-dosyasi-mercek-altinda",
+      "https://adanaavukat.org/yapay-zeka-yuzunden-120-bin-tl-ceza-odedi",
+      "https://adanaavukat.org/bosanmada-gizlenen-mallar-nasil-tespit-edilir-1474",
+      "https://adanaavukat.org/12-yargi-paketi-aile-arabuluculugu-3901",
+      "https://adanaavukat.org/adana-cekismeli-bosanma-davasi-adim-adim-5986",
+      "https://adanaavukat.org/anlasmali-bosanma-davasi-nedir-sartlari-sureci-ve-guncel-uygulamalar",
+      "https://adanaavukat.org/bosanma-davasinda-hakimin-takdir-yetkisi-nedir",
+      "https://adanaavukat.org/velayet-davasinda-hakim-nelere-dikkat-eder",
+      "https://adanaavukat.org/nafaka-turleri-nelerdir-tedbir-istirak-ve-yoksulluk-nafakasi",
+      "https://adanaavukat.org/bosanma-davasinda-hakimin-takdir-yetkisi",
+      "https://adanaavukat.org/anlasmali-bosanma-davasi-nedir",
+      "https://adanaavukat.org/adanada-cekismeli-bosanma-davasi-nedir",
+      "https://adanaavukat.org/adana-nafaka-rehberi",
+      "https://adanaavukat.org",
+      "https://adanaavukat.org/avukat-ceren-sumer-cilli-kimdir-adana-bosanma-ve-aile-hukuku",
+      "https://adanaavukat.org/hakkimizda",
+      "https://adanaavukat.org/adana-ortakligin-giderilmesi-davasi-avukat",
+      "https://adanaavukat.org/hizmetlerimiz",
+      "https://adanaavukat.org/nafaka-davasi",
+      "https://adanaavukat.org/cekismeli-bosanma-davasi",
+      "https://adanaavukat.org/adana-bosanma-avukati",
+      "https://adanaavukat.org/faq",
+      "https://adanaavukat.org/contact",
+      "https://adanaavukat.org/about-us",
+      "https://adanaavukat.org/iletisim",
+      "https://adanaavukat.org/category/aile-hukuku",
+      "https://adanaavukat.org/category/aile-hukuku/nafaka",
+      "https://adanaavukat.org/category/aile-hukuku/bosanma-davalari",
+      "https://adanaavukat.org/category/aile-hukuku/velayet"
+    ],
+    "checked": [
+      {
+        "url": "https://adanaavukat.org",
+        "inSitemap": true
+      },
+      {
+        "url": "https://adanaavukat.org/adana-miras-hukuku",
+        "inSitemap": false
+      },
+      {
+        "url": "https://adanaavukat.org/adana-kira-hukuku",
+        "inSitemap": false
+      },
+      {
+        "url": "https://adanaavukat.org/adana-is-hukuku",
+        "inSitemap": false
+      }
+    ],
+    "missing": [
+      {
+        "url": "https://adanaavukat.org/adana-miras-hukuku",
+        "inSitemap": false
+      },
+      {
+        "url": "https://adanaavukat.org/adana-kira-hukuku",
+        "inSitemap": false
+      },
+      {
+        "url": "https://adanaavukat.org/adana-is-hukuku",
+        "inSitemap": false
+      }
+    ]
+  },
+  "pageChecks": [
+    {
+      "path": "/",
+      "status": 200,
+      "title": "Adana Avukat | Ceren Sümer Cilli Hukuk ve Danışmanlık",
+      "description": "Adana’da aile hukuku, boşanma, nafaka, velayet, miras ve iş hukuku alanlarında hukuki destek. Av. Ceren Sümer Cilli ile iletişime geçin.",
+      "robots": "index, follow, max-snippet:-1, max-video-preview:-1, max-image-preview:large",
+      "ogTitle": "Adana Avukat | Av. Ceren Sümer Cilli",
+      "ogDescription": "Adana’da boşanma, nafaka, velayet, miras ve iş hukuku süreçlerinde hukuki destek alın.",
+      "h1": [
+        "Adana Avukat"
+      ],
+      "h1Count": 1
+    },
+    {
+      "path": "/adana-miras-hukuku/",
+      "status": 200,
+      "title": "Adana Miras Hukuku | Veraset ve Miras Paylaşımı - adanaavukat.org",
+      "description": "Adana&#039;da miras hukuku uyuşmazlıklarında veraset ilamı, miras paylaşımı ve tenkis süreçlerine ilişkin genel bilgilendirme ve hukuki destek.",
+      "robots": "follow, index, max-snippet:-1, max-video-preview:-1, max-image-preview:large",
+      "ogTitle": "Adana Miras Hukuku | Veraset ve Miras Paylaşımı - adanaavukat.org",
+      "ogDescription": "Adana&#039;da miras hukuku uyuşmazlıklarında veraset ilamı, miras paylaşımı ve tenkis süreçlerine ilişkin genel bilgilendirme ve hukuki destek.",
+      "h1": [
+        "Adana Miras Hukuku | Veraset ve Miras Paylaşımı",
+        "Adana Miras Hukuku"
+      ],
+      "h1Count": 2
+    },
+    {
+      "path": "/adana-kira-hukuku/",
+      "status": 200,
+      "title": "Adana Kira Hukuku | Kira Uyuşmazlıkları ve Tahliye - adanaavukat.org",
+      "description": "Adana&#039;da kira hukuku uyuşmazlıklarında tahliye, kira bedeli uyarlaması ve kira sözleşmesi uyuşmazlıklarına ilişkin genel bilgilendirme.",
+      "robots": "follow, index, max-snippet:-1, max-video-preview:-1, max-image-preview:large",
+      "ogTitle": "Adana Kira Hukuku | Kira Uyuşmazlıkları ve Tahliye - adanaavukat.org",
+      "ogDescription": "Adana&#039;da kira hukuku uyuşmazlıklarında tahliye, kira bedeli uyarlaması ve kira sözleşmesi uyuşmazlıklarına ilişkin genel bilgilendirme.",
+      "h1": [
+        "Adana Kira Hukuku | Kira Uyuşmazlıkları ve Tahliye",
+        "Adana Kira Hukuku"
+      ],
+      "h1Count": 2
+    },
+    {
+      "path": "/adana-is-hukuku/",
+      "status": 200,
+      "title": "Adana İş Hukuku | İşçi-İşveren Uyuşmazlıkları - adanaavukat.org",
+      "description": "Adana&#039;da iş hukuku uyuşmazlıklarında işe iade, kıdem-ihbar tazminatı ve arabuluculuk süreçlerine ilişkin genel bilgilendirme.",
+      "robots": "follow, index, max-snippet:-1, max-video-preview:-1, max-image-preview:large",
+      "ogTitle": "Adana İş Hukuku | İşçi-İşveren Uyuşmazlıkları - adanaavukat.org",
+      "ogDescription": "Adana&#039;da iş hukuku uyuşmazlıklarında işe iade, kıdem-ihbar tazminatı ve arabuluculuk süreçlerine ilişkin genel bilgilendirme.",
+      "h1": [
+        "Adana İş Hukuku | İşçi-İşveren Uyuşmazlıkları",
+        "Adana İş Hukuku"
+      ],
+      "h1Count": 2
+    },
+    {
+      "path": "/category/",
+      "status": 404,
+      "title": "Page Not Found - adanaavukat.org",
+      "description": null,
+      "robots": "follow, noindex",
+      "ogTitle": "Page Not Found - adanaavukat.org",
+      "ogDescription": null,
+      "h1": [
+        "Maalesef aradığınız sayfayı bulamadık."
+      ],
+      "h1Count": 1
+    },
+    {
+      "path": "/tag/",
+      "status": 404,
+      "title": "Page Not Found - adanaavukat.org",
+      "description": null,
+      "robots": "follow, noindex",
+      "ogTitle": "Page Not Found - adanaavukat.org",
+      "ogDescription": null,
+      "h1": [
+        "Maalesef aradığınız sayfayı bulamadık."
+      ],
+      "h1Count": 1
+    },
+    {
+      "path": "/author/",
+      "status": 404,
+      "title": "Page Not Found - adanaavukat.org",
+      "description": null,
+      "robots": "follow, noindex",
+      "ogTitle": "Page Not Found - adanaavukat.org",
+      "ogDescription": null,
+      "h1": [
+        "Maalesef aradığınız sayfayı bulamadık."
+      ],
+      "h1Count": 1
+    }
+  ],
+  "brokenLinks": []
+}

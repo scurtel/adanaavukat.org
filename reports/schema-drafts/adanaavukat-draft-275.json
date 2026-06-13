@@ -1,0 +1,114 @@
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "BlogPosting",
+      "@id": "https://adanaavukat.org/adanada-bosanma-davasi-sureci/#article",
+      "headline": "Adana'da Boşanma Davası Süreci: Kapsamlı Rehber ve Hukuki Detaylar",
+      "description": "Adana'da boşanma davası sürecini adım adım öğrenin. Anlaşmalı ve çekişmeli boşanma türleri, nafaka, velayet, mal paylaşımı ve hukuki destek hakkında detaylı bilgiler. Adana Aile Mahkemeleri'ndeki süreci Av. Ceren Sümer Cilli ile yönetin.",
+      "url": "https://adanaavukat.org/adanada-bosanma-davasi-sureci/",
+      "inLanguage": "tr-TR",
+      "author": {
+        "@type": "Person",
+        "name": "Av. Ceren Sümer Cilli",
+        "jobTitle": "Avukat"
+      },
+      "reviewedBy": {
+        "@type": "Person",
+        "name": "Av. Ceren Sümer Cilli",
+        "jobTitle": "Avukat"
+      },
+      "publisher": {
+        "@type": "Organization",
+        "name": "adanaavukat.org",
+        "url": "https://adanaavukat.org"
+      },
+      "about": [
+        {
+          "@type": "Thing",
+          "name": "Boşanma hukuku"
+        },
+        {
+          "@type": "Thing",
+          "name": "Anlaşmalı boşanma"
+        },
+        {
+          "@type": "Thing",
+          "name": "Çekişmeli boşanma"
+        },
+        {
+          "@type": "Thing",
+          "name": "Adana"
+        }
+      ],
+      "mentions": [
+        {
+          "@type": "Thing",
+          "name": "Boşanma hukuku"
+        },
+        {
+          "@type": "Thing",
+          "name": "Anlaşmalı boşanma"
+        },
+        {
+          "@type": "Thing",
+          "name": "Çekişmeli boşanma"
+        },
+        {
+          "@type": "Thing",
+          "name": "Adana"
+        }
+      ],
+      "areaServed": {
+        "@type": "City",
+        "name": "Adana"
+      }
+    },
+    {
+      "@type": "FAQPage",
+      "@id": "https://adanaavukat.org/adanada-bosanma-davasi-sureci/#faq",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "Adana'da boşanma davası ne kadar sürer?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Adana&#8217;da boşanma davasının süresi, davanın türüne göre değişir. Anlaşmalı boşanma davaları genellikle tek celsede sonuçlanıp birkaç ay içinde kesinleşirken, çekişmeli boşanma davaları delil toplama, tanık dinleme, bilirkişi incelemeleri ve kanun yolları (istinaf/temyiz) süreçleriyle birlikte 1 ila 3 yıl veya daha uzun sürebilir."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Boşanma davası açmak için avukat tutmak zorunlu mu?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Hayır, boşanma davası açmak için avukat tutmak yasal bir zorunluluk değildir. Ancak, hukuki sürecin karmaşıklığı, dilekçelerin hazırlanması, delillerin sunulması, duruşmalara katılım ve hak kaybı risklerini minimize etmek adına Adana boşanma avukatı desteği almak şiddetle tavsiye edilir."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Anlaşmalı boşanma protokolünde nelere dikkat etmeliyim?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Anlaşmalı boşanma protokolünde nafaka (tedbir, iştirak, yoksulluk), çocukların velayeti, kişisel ilişki tesisi, mal paylaşımı, maddi ve manevi tazminat, ziynet eşyaları gibi tüm konularda açık ve net düzenlemeler bulunmalıdır. Protokolün eksiksiz ve yasalara uygun olması, ileride doğabilecek uyuşmazlıkları engeller. Hakim, protokolü çocukların menfaatine aykırı bulursa düzeltme isteyebilir."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Boşanma davasında delil olarak neler sunabilirim?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Boşanma davasında delil olarak tanık beyanları, yazılı belgeler (banka kayıtları, tapu kayıtları, faturalar vb.), elektronik deliller (mesajlaşmalar, e-postalar, sosyal medya paylaşımları, ses/video kayıtları &#8211; hukuka uygun elde edilmiş olmak kaydıyla), bilirkişi raporları, keşif tutanakları ve her türlü yasal araç kullanılabilir. Delillerin hukuka uygun yollarla elde edilmiş olması esastır."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Ortak çocukların velayeti kime verilirken hangi kriterler esas alınır?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Velayet kararında en temel kriter, çocuğun üstün yararıdır. Mahkeme, çocuğun yaşı, cinsiyeti, eğitim durumu, sağlık durumu, ebeveynleriyle ve kardeşleriyle olan ilişkisi, ebeveynlerin ekonomik ve sosyal koşulları, çocuğun barınma ve bakım imkanları gibi birçok faktörü değerlendirerek, çocuğun fiziksel ve ruhsal gelişimine en uygun kararı vermeye çalışır."
+          }
+        }
+      ]
+    }
+  ]
+}

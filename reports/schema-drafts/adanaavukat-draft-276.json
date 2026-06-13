@@ -1,0 +1,114 @@
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "BlogPosting",
+      "@id": "https://adanaavukat.org/adanada-miras-kira-is-hukuku-avukat-destegi/#article",
+      "headline": "Adana Miras, Kira, İş Hukuku Avukatı | Hukuki Destek ve Danışmanlık",
+      "description": "Adana'da miras, kira ve iş hukuku alanlarındaki uyuşmazlıklarınız için profesyonel avukat desteği mi arıyorsunuz? Haklarınızı korumak ve adil çözümlere ulaşmak için Av. Ceren Sümer Cilli ile iletişime geçin.",
+      "url": "https://adanaavukat.org/adanada-miras-kira-is-hukuku-avukat-destegi/",
+      "inLanguage": "tr-TR",
+      "author": {
+        "@type": "Person",
+        "name": "Av. Ceren Sümer Cilli",
+        "jobTitle": "Avukat"
+      },
+      "reviewedBy": {
+        "@type": "Person",
+        "name": "Av. Ceren Sümer Cilli",
+        "jobTitle": "Avukat"
+      },
+      "publisher": {
+        "@type": "Organization",
+        "name": "adanaavukat.org",
+        "url": "https://adanaavukat.org"
+      },
+      "about": [
+        {
+          "@type": "Thing",
+          "name": "Miras hukuku"
+        },
+        {
+          "@type": "Thing",
+          "name": "Kira hukuku"
+        },
+        {
+          "@type": "Thing",
+          "name": "İş hukuku"
+        },
+        {
+          "@type": "Thing",
+          "name": "Adana"
+        }
+      ],
+      "mentions": [
+        {
+          "@type": "Thing",
+          "name": "Miras hukuku"
+        },
+        {
+          "@type": "Thing",
+          "name": "Kira hukuku"
+        },
+        {
+          "@type": "Thing",
+          "name": "İş hukuku"
+        },
+        {
+          "@type": "Thing",
+          "name": "Adana"
+        }
+      ],
+      "areaServed": {
+        "@type": "City",
+        "name": "Adana"
+      }
+    },
+    {
+      "@type": "FAQPage",
+      "@id": "https://adanaavukat.org/adanada-miras-kira-is-hukuku-avukat-destegi/#faq",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "Mirasçılık belgesi (veraset ilamı) almak için hangi belgelere ihtiyaç duyulur?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Mirasçılık belgesi almak için genellikle vefat edenin nüfus kayıt örneği, ölüm belgesi ve mirasçıların kimlik bilgileri gereklidir. Başvuru, sulh hukuk mahkemesinden veya noterden yapılabilir. Avukatınız, gerekli belgeleri toplamanızda ve başvuru sürecini yönetmenizde size yardımcı olabilir."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Kiracının tahliyesi hangi durumlarda istenebilir?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Kiracının tahliyesi, kira bedelini ödememesi, kira sözleşmesine aykırı davranması (örneğin, konutu amacı dışında kullanması), kiralananın ihtiyaç nedeniyle tahliyesi (ev sahibinin kendisi, eşi veya çocuklarının ihtiyacı), yeniden inşa veya imar nedeniyle tahliye gibi birçok farklı sebeple istenebilir. Her durumun kendine özgü şartları ve yasal süreçleri bulunur."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "İşten çıkarıldığımda hangi tazminatlara hak kazanırım?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "İş sözleşmenizin sona erme şekline ve çalışma sürenize bağlı olarak kıdem tazminatı, ihbar tazminatı, yıllık izin ücreti, fazla mesai ücreti, ulusal bayram ve genel tatil ücreti gibi çeşitli alacaklara hak kazanabilirsiniz. Haksız fesih durumunda ise işe iade davası açma hakkınız da bulunabilir."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "İş hukuku uyuşmazlıklarında arabuluculuk zorunlu mudur?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Evet, işçi ve işveren arasındaki kıdem tazminatı, ihbar tazminatı, fazla mesai, ücret alacakları gibi birçok alacak ve tazminat talebinde, dava açmadan önce arabuluculuk yoluna başvurmak zorunludur. Arabuluculuk, tarafların uzlaşarak anlaşmazlığı mahkeme dışında çözmelerini amaçlar."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Adana&#8217;da hukuki danışmanlık almak için nasıl bir yol izlemeliyim?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Adana&#8217;da hukuki danışmanlık almak için öncelikle bir avukatlık ofisi ile iletişime geçerek randevu almanız önerilir. Görüşme sırasında yaşadığınız hukuki sorunu detaylı bir şekilde anlatmanız, elinizdeki tüm belge ve delilleri sunmanız, avukatınızın size en doğru ve kapsamlı danışmanlığı sağlaması açısından önemlidir."
+          }
+        }
+      ]
+    }
+  ]
+}

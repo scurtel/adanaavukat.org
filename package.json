@@ -1,0 +1,30 @@
+{
+  "name": "adanaavukat-org",
+  "version": "1.0.0",
+  "description": "SEO and entity authority tooling for adanaavukat.org WordPress site",
+  "type": "module",
+  "scripts": {
+    "check:wp": "node scripts/check-wp-connection.mjs",
+    "fetch:wp": "node scripts/fetch-wp-content.mjs",
+    "analyze:entity": "node scripts/analyze-entity-seo.mjs",
+    "generate:authority": "node scripts/generate-authority-content-with-gemini.mjs",
+    "draft:wp": "node scripts/create-wp-drafts.mjs",
+    "enhance:publish": "node scripts/enhance-and-publish-drafts.mjs",
+    "plan:links": "node scripts/internal-link-plan.mjs",
+    "audit:site": "node scripts/audit-site-structure.mjs",
+    "apply:homepage": "node scripts/apply-homepage-redesign.mjs",
+    "apply:header-polish": "node scripts/apply-header-polish.mjs",
+    "apply:rankmath-seo": "node scripts/apply-rankmath-seo.mjs",
+    "purge:sitemap": "node scripts/purge-and-submit-sitemap.mjs",
+    "apply:post-card-placeholder": "node scripts/apply-post-card-placeholder.mjs",
+    "apply:next": "node scripts/apply-next-steps.mjs",
+    "apply:menu-seo": "node scripts/apply-menu-and-seo.mjs",
+    "qc:post-redesign": "node scripts/post-redesign-qc.mjs",
+    "audit:services": "node scripts/service-authority-update.mjs --audit-only",
+    "apply:services": "node scripts/service-authority-update.mjs --apply",
+    "audit:all": "npm run check:wp && npm run fetch:wp && npm run analyze:entity && npm run plan:links && npm run generate:authority"
+  },
+  "dependencies": {
+    "dotenv": "^16.4.7"
+  }
+}

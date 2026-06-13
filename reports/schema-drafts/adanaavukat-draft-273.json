@@ -1,0 +1,122 @@
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "BlogPosting",
+      "@id": "https://adanaavukat.org/adanada-aile-hukuku-davalarinda-avukat-destegi/#article",
+      "headline": "Adana Aile Hukuku Davaları: Avukat Desteği ve Süreç Rehberi",
+      "description": "Adana'da aile hukuku davalarında profesyonel avukat desteğiyle haklarınızı koruyun. Boşanma, nafaka, velayet ve mal paylaşımı süreçlerinde adım adım rehberlik alın.",
+      "url": "https://adanaavukat.org/adanada-aile-hukuku-davalarinda-avukat-destegi/",
+      "inLanguage": "tr-TR",
+      "author": {
+        "@type": "Person",
+        "name": "Av. Ceren Sümer Cilli",
+        "jobTitle": "Avukat"
+      },
+      "reviewedBy": {
+        "@type": "Person",
+        "name": "Av. Ceren Sümer Cilli",
+        "jobTitle": "Avukat"
+      },
+      "publisher": {
+        "@type": "Organization",
+        "name": "adanaavukat.org",
+        "url": "https://adanaavukat.org"
+      },
+      "about": [
+        {
+          "@type": "Thing",
+          "name": "Aile hukuku"
+        },
+        {
+          "@type": "Thing",
+          "name": "Boşanma"
+        },
+        {
+          "@type": "Thing",
+          "name": "Nafaka"
+        },
+        {
+          "@type": "Thing",
+          "name": "Velayet"
+        },
+        {
+          "@type": "Thing",
+          "name": "Adana"
+        }
+      ],
+      "mentions": [
+        {
+          "@type": "Thing",
+          "name": "Aile hukuku"
+        },
+        {
+          "@type": "Thing",
+          "name": "Boşanma"
+        },
+        {
+          "@type": "Thing",
+          "name": "Nafaka"
+        },
+        {
+          "@type": "Thing",
+          "name": "Velayet"
+        },
+        {
+          "@type": "Thing",
+          "name": "Adana"
+        }
+      ],
+      "areaServed": {
+        "@type": "City",
+        "name": "Adana"
+      }
+    },
+    {
+      "@type": "FAQPage",
+      "@id": "https://adanaavukat.org/adanada-aile-hukuku-davalarinda-avukat-destegi/#faq",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "Boşanma davası ne kadar sürer?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Boşanma davasının süresi, davanın anlaşmalı mı yoksa çekişmeli mi olduğuna, tarafların uzlaşma düzeyine, mahkemenin iş yüküne ve delillerin toplanma hızına göre değişiklik gösterir. Anlaşmalı boşanma davaları genellikle birkaç hafta içinde sonuçlanabilirken, çekişmeli boşanma davaları ilk derece mahkemesinde 1-3 yıl, istinaf ve temyiz süreçleriyle birlikte daha da uzun sürebilir."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Nafaka miktarı nasıl belirlenir?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Nafaka miktarı belirlenirken, tarafların ekonomik ve sosyal durumları, müşterek çocukların yaş ve ihtiyaçları, davalı tarafın ödeme gücü ve davacı tarafın yoksulluğa düşme durumu gibi birçok faktör göz önünde bulundurulur. Hâkim, hakkaniyet ilkesine göre takdir yetkisini kullanarak uygun bir nafaka miktarına hükmeder."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Velayet davasında nelere dikkat edilir?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Velayet davasında en önemli ilke, çocuğun üstün yararıdır. Mahkeme, çocuğun yaşı, cinsiyeti, eğitim durumu, kardeşleriyle ilişkisi, ebeveynlerin yaşam koşulları, çocuğun kendi görüşü (belirli bir yaş ve olgunluğa erişmişse) gibi faktörleri değerlendirerek velayetin hangi ebeveyne verileceğine karar verir."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Anlaşmalı boşanma için hangi şartlar gereklidir?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Anlaşmalı boşanma için eşlerin en az bir yıl evli kalmış olmaları, boşanma ve boşanmanın tüm hukuki sonuçları (nafaka, velayet, tazminat, mal paylaşımı) üzerinde tam bir uzlaşmaya varmış olmaları ve bu uzlaşmayı yazılı bir protokolle mahkemeye sunmaları gerekmektedir. Hâkim, bu protokolü uygun bulursa boşanmaya karar verir."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Aile mahkemesine hangi durumlarda başvurulur?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Aile mahkemeleri, Türk Medeni Kanunu&#8217;nun aile hukuku ile ilgili hükümleri kapsamında doğan uyuşmazlıklara bakar. Başlıca başvuru durumları arasında boşanma, nafaka, velayet, mal rejiminin tasfiyesi, soybağının kurulması veya reddi, evlat edinme, nişanın bozulmasından kaynaklanan davalar ve 6284 sayılı Kanun kapsamında koruma tedbirleri yer alır."
+          }
+        }
+      ]
+    }
+  ]
+}

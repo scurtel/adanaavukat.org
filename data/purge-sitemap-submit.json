@@ -1,0 +1,63 @@
+{
+  "at": "2026-06-13T21:30:31.372Z",
+  "steps": {
+    "snippet": {
+      "ok": true,
+      "id": 5
+    },
+    "purge": {
+      "ok": true,
+      "status": 200,
+      "text": "{\"changed\":{\"flush_sitemap\":true,\"purge_litespeed\":true}}",
+      "data": {
+        "changed": {
+          "flush_sitemap": true,
+          "purge_litespeed": true
+        }
+      }
+    },
+    "indexNow": {
+      "ok": true,
+      "status": 200,
+      "text": "{\"success\":true,\"message\":\"5 URL ba\\u015far\\u0131yla g\\u00f6nderildi.\"}",
+      "data": {
+        "success": true,
+        "message": "5 URL başarıyla gönderildi."
+      }
+    },
+    "bingPing": {
+      "ok": false,
+      "status": 410,
+      "url": "https://www.bing.com/ping?sitemap=https%3A%2F%2Fadanaavukat.org%2Fsitemap_index.xml"
+    }
+  },
+  "sitemap": {
+    "indexStatus": 200,
+    "totalUrls": 41,
+    "checks": [
+      {
+        "url": "https://adanaavukat.org",
+        "ok": true
+      },
+      {
+        "url": "https://adanaavukat.org/adana-miras-hukuku",
+        "ok": true
+      },
+      {
+        "url": "https://adanaavukat.org/adana-kira-hukuku",
+        "ok": true
+      },
+      {
+        "url": "https://adanaavukat.org/adana-is-hukuku",
+        "ok": true
+      }
+    ],
+    "allOk": true
+  },
+  "seo": {
+    "title": "Adana Avukat | Ceren Sümer Cilli Hukuk ve Danışmanlık",
+    "description": "Adana’da aile hukuku, boşanma, nafaka, velayet, miras ve iş hukuku alanlarında hukuki destek. Av. Ceren Sümer Cilli ile iletişime geçin.",
+    "ogTitle": "Adana Avukat | Av. Ceren Sümer Cilli",
+    "h1Count": 1
+  }
+}
