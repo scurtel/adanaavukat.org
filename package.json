@@ -17,14 +17,19 @@
     "apply:rankmath-seo": "node scripts/apply-rankmath-seo.mjs",
     "purge:sitemap": "node scripts/purge-and-submit-sitemap.mjs",
     "apply:post-card-placeholder": "node scripts/apply-post-card-placeholder.mjs",
+    "apply:post-card-snippet": "node scripts/apply-post-card-placeholder.mjs --snippet-only",
     "apply:next": "node scripts/apply-next-steps.mjs",
     "apply:menu-seo": "node scripts/apply-menu-and-seo.mjs",
     "qc:post-redesign": "node scripts/post-redesign-qc.mjs",
     "audit:services": "node scripts/service-authority-update.mjs --audit-only",
     "apply:services": "node scripts/service-authority-update.mjs --apply",
+    "dry-run:featured-images": "node scripts/assign-stock-featured-images.mjs --dry-run",
+    "apply:featured-images": "node scripts/assign-stock-featured-images.mjs --apply",
+    "apply:p0-seo": "node scripts/apply-p0-seo-fixes.mjs",
     "audit:all": "npm run check:wp && npm run fetch:wp && npm run analyze:entity && npm run plan:links && npm run generate:authority"
   },
   "dependencies": {
-    "dotenv": "^16.4.7"
+    "dotenv": "^16.4.7",
+    "sharp": "^0.34.2"
   }
 }

@@ -1,0 +1,212 @@
+{
+  "generatedAt": "2026-06-15T08:47:11.640Z",
+  "uncategorizedCategoryId": 1,
+  "offTopicPosts": [
+    {
+      "id": 263,
+      "slug": "eksi-sozluk-ve-uludag-sozluk-turkiyenin-en-degerli-web-siteleri",
+      "label": "Ekşi / Uludağ Sözlük",
+      "before": {
+        "status": "publish",
+        "categories": [
+          3
+        ]
+      },
+      "actions": [
+        "status→draft",
+        "categories→[1]",
+        "rank_math_robots→noindex,nofollow"
+      ],
+      "after": {
+        "status": "draft",
+        "categories": [
+          1
+        ]
+      },
+      "rankMath": {
+        "method": "adanaavukat/v1",
+        "ok": true
+      }
+    },
+    {
+      "id": 257,
+      "slug": "trumptan-kritik-talimat-gizli-projelerde-gorevli-11-bilim-insani-dosyasi-mercek-altinda",
+      "label": "Trump / bilim insanı",
+      "before": {
+        "status": "publish",
+        "categories": [
+          3
+        ]
+      },
+      "actions": [
+        "status→draft",
+        "categories→[1]",
+        "rank_math_robots→noindex,nofollow"
+      ],
+      "after": {
+        "status": "draft",
+        "categories": [
+          1
+        ]
+      },
+      "rankMath": {
+        "method": "adanaavukat/v1",
+        "ok": true
+      }
+    },
+    {
+      "id": 252,
+      "slug": "yapay-zeka-yuzunden-120-bin-tl-ceza-odedi",
+      "label": "Yapay zeka ceza",
+      "before": {
+        "status": "publish",
+        "categories": [
+          3
+        ]
+      },
+      "actions": [
+        "status→draft",
+        "categories→[1]",
+        "rank_math_robots→noindex,nofollow"
+      ],
+      "after": {
+        "status": "draft",
+        "categories": [
+          1
+        ]
+      },
+      "rankMath": {
+        "method": "adanaavukat/v1",
+        "ok": true
+      }
+    }
+  ],
+  "publishedPages": [
+    {
+      "id": 305,
+      "slug": "adana-aile-hukuku-avukati",
+      "label": "Adana Aile Hukuku Avukatı",
+      "before": {
+        "status": "draft",
+        "link": "https://adanaavukat.org/?page_id=305"
+      },
+      "actions": [
+        "status→publish",
+        "rank_math_robots→index,follow"
+      ],
+      "after": {
+        "status": "publish",
+        "link": "https://adanaavukat.org/adana-aile-hukuku-avukati/"
+      },
+      "rankMath": {
+        "method": "adanaavukat/v1",
+        "ok": true
+      }
+    },
+    {
+      "id": 307,
+      "slug": "adana-anlasmali-bosanma-avukati",
+      "label": "Adana Anlaşmalı Boşanma Avukatı",
+      "before": {
+        "status": "draft",
+        "link": "https://adanaavukat.org/?page_id=307"
+      },
+      "actions": [
+        "status→publish",
+        "rank_math_robots→index,follow"
+      ],
+      "after": {
+        "status": "publish",
+        "link": "https://adanaavukat.org/adana-anlasmali-bosanma-avukati/"
+      },
+      "rankMath": {
+        "method": "adanaavukat/v1",
+        "ok": true
+      }
+    },
+    {
+      "id": 311,
+      "slug": "velayet-davasi-avukati-adana",
+      "label": "Velayet Davası Avukatı Adana",
+      "before": {
+        "status": "draft",
+        "link": "https://adanaavukat.org/?page_id=311"
+      },
+      "actions": [
+        "status→publish",
+        "rank_math_robots→index,follow"
+      ],
+      "after": {
+        "status": "publish",
+        "link": "https://adanaavukat.org/velayet-davasi-avukati-adana/"
+      },
+      "rankMath": {
+        "method": "adanaavukat/v1",
+        "ok": true
+      }
+    },
+    {
+      "id": 313,
+      "slug": "gayrimenkul-avukati-adana",
+      "label": "Gayrimenkul Avukatı Adana",
+      "before": {
+        "status": "draft",
+        "link": "https://adanaavukat.org/?page_id=313"
+      },
+      "actions": [
+        "status→publish",
+        "rank_math_robots→index,follow"
+      ],
+      "after": {
+        "status": "publish",
+        "link": "https://adanaavukat.org/gayrimenkul-avukati-adana/"
+      },
+      "rankMath": {
+        "method": "adanaavukat/v1",
+        "ok": true
+      }
+    }
+  ],
+  "cachePurged": true,
+  "verification": [
+    {
+      "slug": "eksi-sozluk-ve-uludag-sozluk-turkiyenin-en-degerli-web-siteleri",
+      "http": 404,
+      "public": false
+    },
+    {
+      "slug": "trumptan-kritik-talimat-gizli-projelerde-gorevli-11-bilim-insani-dosyasi-mercek-altinda",
+      "http": 404,
+      "public": false
+    },
+    {
+      "slug": "yapay-zeka-yuzunden-120-bin-tl-ceza-odedi",
+      "http": 404,
+      "public": false
+    },
+    {
+      "slug": "adana-aile-hukuku-avukati",
+      "http": 200,
+      "public": true,
+      "robots": "index, follow, max-snippet:-1, max-video-preview:-1, max-image-preview:large"
+    },
+    {
+      "slug": "adana-anlasmali-bosanma-avukati",
+      "http": 200,
+      "public": true,
+      "robots": "index, follow, max-snippet:-1, max-video-preview:-1, max-image-preview:large"
+    },
+    {
+      "slug": "velayet-davasi-avukati-adana",
+      "http": 200,
+      "public": true,
+      "robots": "index, follow, max-snippet:-1, max-video-preview:-1, max-image-preview:large"
+    },
+    {
+      "slug": "gayrimenkul-avukati-adana",
+      "http": 200,
+      "public": true,
+      "robots": "index, follow, max-snippet:-1, max-video-preview:-1, max-image-preview:large"
+    }
+  ]
+}
