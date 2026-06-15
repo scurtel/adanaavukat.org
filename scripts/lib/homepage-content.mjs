@@ -3,7 +3,7 @@
  * Reklam yasağına uygun metinler.
  */
 
-import { buildPostCardThumb, POST_CARD_HOMEPAGE_CSS } from './post-card-placeholder.mjs';
+import { buildPostCardThumb, POST_CARD_LABELS, POST_CARD_PLACEHOLDER_CSS } from './post-card-placeholder.mjs';
 
 const BASE = 'https://adanaavukat.org';
 
@@ -47,6 +47,7 @@ export function buildSchemaJson() {
           addressCountry: 'TR',
         },
         sameAs: [
+          'https://www.cerensumer.av.tr/',
           'https://www.linkedin.com/in/avukat-ceren-s%C3%BCmer-cilli-375873b0/',
           'https://www.instagram.com/av.cerensumercilli/',
           'https://www.facebook.com/cerensumercilli/',
@@ -399,7 +400,7 @@ body.page-id-7 .entry-content{margin-top:0}
   .aa-home .aa-card{padding:1.5rem 1.35rem 1.35rem}
   .aa-home .aa-section-lead{margin-bottom:2rem;font-size:.975rem}
 }
-${POST_CARD_HOMEPAGE_CSS}
+${POST_CARD_PLACEHOLDER_CSS}
 </style>
 <div class="aa-home">
 
@@ -468,11 +469,11 @@ ${POST_CARD_HOMEPAGE_CSS}
 <h2>Hukuk Rehberi — Son Yazılar</h2>
 <p class="aa-section-lead">Aile ve özel hukuk alanlarında güncel bilgilendirme yazıları.</p>
 <div class="aa-grid-3">
-<div class="aa-card aa-post-card">${buildPostCardThumb(`${BASE}/adanada-aile-hukuku-davalarinda-avukat-destegi/`)}<div class="aa-post-body"><div class="aa-date">Haziran 2026</div><h3>Adana Aile Hukuku Davalarında Avukat Desteği</h3><p>Aile mahkemelerinde görülen davalarda süreç, delil ve hukuki destek konularına genel bakış.</p><a class="aa-card-link" href="${BASE}/adanada-aile-hukuku-davalarinda-avukat-destegi/">Yazıyı Oku</a></div></div>
-<div class="aa-card aa-post-card">${buildPostCardThumb(`${BASE}/adanada-avukat-secerken-nelere-dikkat-edilmeli/`)}<div class="aa-post-body"><div class="aa-date">Haziran 2026</div><h3>Adana'da Avukat Seçimi Rehberi</h3><p>Hukuki süreç öncesinde dikkat edilmesi gereken genel kriterler ve bilgilendirme.</p><a class="aa-card-link" href="${BASE}/adanada-avukat-secerken-nelere-dikkat-edilmeli/">Yazıyı Oku</a></div></div>
-<div class="aa-card aa-post-card">${buildPostCardThumb(`${BASE}/adanada-bosanma-davasi-sureci/`)}<div class="aa-post-body"><div class="aa-date">Haziran 2026</div><h3>Adana'da Boşanma Davası Süreci</h3><p>Anlaşmalı ve çekişmeli boşanma türleri, nafaka, velayet ve mal paylaşımı adımları.</p><a class="aa-card-link" href="${BASE}/adanada-bosanma-davasi-sureci/">Yazıyı Oku</a></div></div>
-<div class="aa-card aa-post-card">${buildPostCardThumb(`${BASE}/adanada-miras-kira-is-hukuku-avukat-destegi/`)}<div class="aa-post-body"><div class="aa-date">Haziran 2026</div><h3>Adana Miras, Kira, İş Hukuku</h3><p>Miras, kira ve iş hukuku alanlarındaki uyuşmazlıklara ilişkin genel rehber.</p><a class="aa-card-link" href="${BASE}/adanada-miras-kira-is-hukuku-avukat-destegi/">Yazıyı Oku</a></div></div>
-<div class="aa-card aa-post-card">${buildPostCardThumb(`${BASE}/adanada-nafaka-ve-velayet-uyusmazliklari/`)}<div class="aa-post-body"><div class="aa-date">Haziran 2026</div><h3>Adana Nafaka ve Velayet Davaları</h3><p>Nafaka türleri, velayet ilkesi ve süreç adımlarına dair bilgilendirme.</p><a class="aa-card-link" href="${BASE}/adanada-nafaka-ve-velayet-uyusmazliklari/">Yazıyı Oku</a></div></div>
+<div class="aa-card aa-post-card">${buildPostCardThumb(`${BASE}/adanada-aile-hukuku-davalarinda-avukat-destegi/`, null, POST_CARD_LABELS.aile)}<div class="aa-post-body"><div class="aa-date">Haziran 2026</div><h3>Adana Aile Hukuku Davalarında Avukat Desteği</h3><p>Aile mahkemelerinde görülen davalarda süreç, delil ve hukuki destek konularına genel bakış.</p><a class="aa-card-link" href="${BASE}/adanada-aile-hukuku-davalarinda-avukat-destegi/">Yazıyı Oku</a></div></div>
+<div class="aa-card aa-post-card">${buildPostCardThumb(`${BASE}/adanada-avukat-secerken-nelere-dikkat-edilmeli/`, null, POST_CARD_LABELS.default)}<div class="aa-post-body"><div class="aa-date">Haziran 2026</div><h3>Adana'da Avukat Seçimi Rehberi</h3><p>Hukuki süreç öncesinde dikkat edilmesi gereken genel kriterler ve bilgilendirme.</p><a class="aa-card-link" href="${BASE}/adanada-avukat-secerken-nelere-dikkat-edilmeli/">Yazıyı Oku</a></div></div>
+<div class="aa-card aa-post-card">${buildPostCardThumb(`${BASE}/adanada-bosanma-davasi-sureci/`, null, POST_CARD_LABELS.bosanma)}<div class="aa-post-body"><div class="aa-date">Haziran 2026</div><h3>Adana'da Boşanma Davası Süreci</h3><p>Anlaşmalı ve çekişmeli boşanma türleri, nafaka, velayet ve mal paylaşımı adımları.</p><a class="aa-card-link" href="${BASE}/adanada-bosanma-davasi-sureci/">Yazıyı Oku</a></div></div>
+<div class="aa-card aa-post-card">${buildPostCardThumb(`${BASE}/adanada-miras-kira-is-hukuku-avukat-destegi/`, null, POST_CARD_LABELS.miras)}<div class="aa-post-body"><div class="aa-date">Haziran 2026</div><h3>Adana Miras, Kira, İş Hukuku</h3><p>Miras, kira ve iş hukuku alanlarındaki uyuşmazlıklara ilişkin genel rehber.</p><a class="aa-card-link" href="${BASE}/adanada-miras-kira-is-hukuku-avukat-destegi/">Yazıyı Oku</a></div></div>
+<div class="aa-card aa-post-card">${buildPostCardThumb(`${BASE}/adanada-nafaka-ve-velayet-uyusmazliklari/`, null, POST_CARD_LABELS.aile)}<div class="aa-post-body"><div class="aa-date">Haziran 2026</div><h3>Adana Nafaka ve Velayet Davaları</h3><p>Nafaka türleri, velayet ilkesi ve süreç adımlarına dair bilgilendirme.</p><a class="aa-card-link" href="${BASE}/adanada-nafaka-ve-velayet-uyusmazliklari/">Yazıyı Oku</a></div></div>
 </div>
 </div>
 </section>

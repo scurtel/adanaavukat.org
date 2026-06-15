@@ -26,6 +26,8 @@
     "dry-run:featured-images": "node scripts/assign-stock-featured-images.mjs --dry-run",
     "apply:featured-images": "node scripts/assign-stock-featured-images.mjs --apply",
     "apply:p0-seo": "node scripts/apply-p0-seo-fixes.mjs",
+    "apply:p1-seo": "node scripts/apply-p1-seo-fixes.mjs",
+    "apply:p2-seo": "node scripts/apply-p2-seo-fixes.mjs",
     "audit:all": "npm run check:wp && npm run fetch:wp && npm run analyze:entity && npm run plan:links && npm run generate:authority"
   },
   "dependencies": {

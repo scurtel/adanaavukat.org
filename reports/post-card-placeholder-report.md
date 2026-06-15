@@ -1,11 +1,11 @@
 # Yazı Kartı Placeholder — Uygulama Raporu
 
-> 2026-06-13T21:38:34.895Z
+> 2026-06-13T22:14:06.900Z
+> Mod: snippet-only
 
 ## Yedek
 
-- `C:\Users\scurt\Desktop\Cursor Dosyalar\adanaavukat.org\data\backups\homepage-7-pre-post-card-placeholder-2026-06-13T21-38-27.json`
-- `C:\Users\scurt\Desktop\Cursor Dosyalar\adanaavukat.org\data\backups\homepage-7-pre-post-card-placeholder-2026-06-13T21-38-27.html`
+- Snippet-only modu — ana sayfa yedeklenmedi
 
 ## Değiştirilen dosyalar (repo)
 
@@ -30,12 +30,14 @@
 | Ana sayfa aa-post-card | ✅ |
 | Ana sayfa placeholder SVG | ✅ |
 | Tek H1 | ✅ (1) |
-| Kategori snippet CSS | ✅ |
-| Kategori ast-no-thumb | ✅ |
+| Aile Hukuku Rehberi CSS | ❌ |
+| post-card-placeholder sınıfı | ❌ |
+| Etiket stili (#f5d77a) | ❌ |
+| Placeholder JS (Astra boş thumb) | ❌ |
 
 ## Tasarım
 
-- Tek inline SVG (belge ikonu, ~56px)
-- Lacivert gradient arka plan (#0a1f38 → #1a3a5c)
-- 16:9 aspect-ratio, lazy loading hazır (img varsa)
-- Makale içi ana görsel alanına dokunulmadı
+- Kategoriye göre etiket (Aile Hukuku, Boşanma Hukuku, Miras Hukuku, vb.)
+- 16:9 aspect-ratio, lacivert gradient + altın etiket
+- Öne çıkan görseli olan yazılarda normal thumbnail
+- Ek görsel dosyası yok — yalnızca CSS + hafif inline JS

@@ -48,7 +48,7 @@ async function ensureSnippet() {
   let snippet = snippets.find((s) => s.name === POST_CARD_SNIPPET_NAME);
   const payload = {
     name: POST_CARD_SNIPPET_NAME,
-    desc: 'Astra arşiv/kategori/ilgili yazı kartları için hafif placeholder CSS.',
+    desc: 'Astra blog kartları için kategori etiketli placeholder (PHP+CSS).',
     code: buildPostCardSnippetPhp(),
     tags: ['design', 'placeholder', 'adanaavukat'],
     scope: 'global',
@@ -60,14 +60,19 @@ async function ensureSnippet() {
     snippet = await wpPost(`/wp-json/code-snippets/v1/snippets/${snippet.id}`, payload);
     try {
       await wpPost(`/wp-json/code-snippets/v1/snippets/${snippet.id}/activate`, {});
-    } catch {
-      /* already active */
+    } catch (e) {
+      throw new Error(`Snippet aktivasyonu başarısız (ID ${snippet.id}): ${e.message}`);
     }
-    return { action: 'updated', id: snippet.id };
+    return { action: 'updated', id: snippet.id, active: snippet.active };
   }
 
   snippet = await wpPost('/wp-json/code-snippets/v1/snippets', payload);
-  return { action: 'created', id: snippet.id };
+  try {
+    await wpPost(`/wp-json/code-snippets/v1/snippets/${snippet.id}/activate`, {});
+  } catch (e) {
+    throw new Error(`Snippet aktivasyonu başarısız (ID ${snippet.id}): ${e.message}`);
+  }
+  return { action: 'created', id: snippet.id, active: snippet.active };
 }
 
 async function purgeCache() {
@@ -83,7 +88,7 @@ async function purgeCache() {
 
 async function verify() {
   const home = await fetch(`${BASE}/?v=${Date.now()}`).then((r) => r.text());
-  const cat = await fetch(`${BASE}/category/hukuk-rehberi/?v=${Date.now()}`).then((r) => r.text());
+  const cat = await fetch(`${BASE}/aile-hukuku-rehberi/?v=${Date.now()}`).then((r) => r.text());
   const single = await fetch(`${BASE}/adanada-bosanma-davasi-sureci/?v=${Date.now()}`).then((r) => r.text());
 
   return {
@@ -94,9 +99,11 @@ async function verify() {
       hasPlaceholderCss: home.includes('aa-post-thumb'),
     },
     category: {
-      hasAstraCss: cat.includes('aa-post-card-placeholder') || cat.includes('ast-no-thumb'),
       hasPlaceholderStyle: cat.includes('aa-post-card-placeholder'),
-      articleNoThumb: cat.includes('ast-no-thumb'),
+      hasPostCardPlaceholderClass: cat.includes('post-card-placeholder'),
+      hasLabelCss: cat.includes('#f5d77a'),
+      hasPlaceholderJs: cat.includes('aa-post-card-placeholder-js'),
+      placeholderSpanCount: (cat.match(/post-card-placeholder/g) || []).length,
     },
     single: {
       articleSingle: single.includes('ast-article-single'),
@@ -106,18 +113,22 @@ async function verify() {
 }
 
 async function main() {
-  console.log('Yazı kartı placeholder uygulanıyor...');
+  const snippetOnly = process.argv.includes('--snippet-only');
+  console.log(snippetOnly ? 'Placeholder snippet güncelleniyor...' : 'Yazı kartı placeholder uygulanıyor...');
 
-  const backup = await backupHomepage();
-  console.log('Yedek:', backup.json);
+  let backup = null;
+  if (!snippetOnly) {
+    backup = await backupHomepage();
+    console.log('Yedek:', backup.json);
 
-  const content = buildHomepageContent();
-  await wpPost(`/wp-json/wp/v2/pages/${HOMEPAGE_ID}`, {
-    content,
-    status: 'publish',
-    meta: { 'site-post-title': 'disabled', 'ast-banner-title-visibility': 'disabled' },
-  });
-  console.log('Ana sayfa güncellendi');
+    const content = buildHomepageContent();
+    await wpPost(`/wp-json/wp/v2/pages/${HOMEPAGE_ID}`, {
+      content,
+      status: 'publish',
+      meta: { 'site-post-title': 'disabled', 'ast-banner-title-visibility': 'disabled' },
+    });
+    console.log('Ana sayfa güncellendi');
+  }
 
   const snippet = await ensureSnippet();
   console.log('Snippet:', snippet);
@@ -130,11 +141,12 @@ async function main() {
   const report = `# Yazı Kartı Placeholder — Uygulama Raporu
 
 > ${new Date().toISOString()}
+> Mod: ${snippetOnly ? 'snippet-only' : 'tam uygulama'}
 
-## Yedek
+${backup ? `## Yedek
 
 - \`${backup.json}\`
-- \`${backup.html}\`
+- \`${backup.html}\`` : '## Yedek\n\n- Snippet-only modu — ana sayfa yedeklenmedi'}
 
 ## Değiştirilen dosyalar (repo)
 
@@ -159,15 +171,17 @@ async function main() {
 | Ana sayfa aa-post-card | ${check.homepage.hasPostCard ? '✅' : '❌'} |
 | Ana sayfa placeholder SVG | ${check.homepage.hasPlaceholder ? '✅' : '❌'} |
 | Tek H1 | ${check.homepage.h1Count === 1 ? '✅ (' + check.homepage.h1Count + ')' : '❌ (' + check.homepage.h1Count + ')'} |
-| Kategori snippet CSS | ${check.category.hasPlaceholderStyle ? '✅' : '⚠️ (önbellek gecikmesi olabilir)'} |
-| Kategori ast-no-thumb | ${check.category.articleNoThumb ? '✅' : '❌'} |
+| Aile Hukuku Rehberi CSS | ${check.category.hasPlaceholderStyle ? '✅' : '❌'} |
+| post-card-placeholder sınıfı | ${check.category.hasPostCardPlaceholderClass ? '✅' : '❌'} |
+| Etiket stili (#f5d77a) | ${check.category.hasLabelCss ? '✅' : '❌'} |
+| Placeholder JS (Astra boş thumb) | ${check.category.hasPlaceholderJs ? '✅' : '❌'} |
 
 ## Tasarım
 
-- Tek inline SVG (belge ikonu, ~56px)
-- Lacivert gradient arka plan (#0a1f38 → #1a3a5c)
-- 16:9 aspect-ratio, lazy loading hazır (img varsa)
-- Makale içi ana görsel alanına dokunulmadı
+- Kategoriye göre etiket (Aile Hukuku, Boşanma Hukuku, Miras Hukuku, vb.)
+- 16:9 aspect-ratio, lacivert gradient + altın etiket
+- Öne çıkan görseli olan yazılarda normal thumbnail
+- Ek görsel dosyası yok — yalnızca CSS + hafif inline JS
 `;
 
   const reportPath = resolve(rootDir, 'reports/post-card-placeholder-report.md');

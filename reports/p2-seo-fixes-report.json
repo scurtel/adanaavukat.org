@@ -1,0 +1,128 @@
+{
+  "generatedAt": "2026-06-15T09:08:14.870Z",
+  "duplicatePages": [
+    {
+      "id": 25,
+      "slug": "about-us",
+      "redirectTo": "/hakkimizda/",
+      "rankMath": {
+        "ok": true
+      },
+      "action": "noindex+canonical"
+    },
+    {
+      "id": 29,
+      "slug": "contact",
+      "redirectTo": "/iletisim/",
+      "rankMath": {
+        "ok": true
+      },
+      "action": "noindex+canonical"
+    }
+  ],
+  "redirectSnippet": {
+    "action": "updated",
+    "id": 9
+  },
+  "media": [
+    {
+      "mediaId": 100,
+      "postId": 98,
+      "altText": "Anlaşmalı Boşanma Davası konusu: Şartları, Süreci ve Güncel Uygulamalar — Adana Avukat",
+      "beforeAlt": "Anlaşmalı Boşanma Davası konusu: Şartları, Süreci ve Güncel Uygulamalar — Adana Avukat",
+      "afterAlt": "Anlaşmalı Boşanma Davası konusu: Şartları, Süreci ve Güncel Uygulamalar — Adana Avukat",
+      "action": "updated"
+    },
+    {
+      "mediaId": 123,
+      "postId": 122,
+      "altText": "Boşanma Davası konusu: Hakimin Takdir Yetkisi Nedir? — Adana Avukat",
+      "beforeAlt": "Boşanma Davası konusu: Hakimin Takdir Yetkisi Nedir? — Adana Avukat",
+      "afterAlt": "Boşanma Davası konusu: Hakimin Takdir Yetkisi Nedir? — Adana Avukat",
+      "action": "updated"
+    },
+    {
+      "mediaId": 151,
+      "postId": 131,
+      "altText": "Nafaka Hukuku konusu: Nafaka Türleri — Tedbir, İştirak ve Yoksulluk Nafakası — Adana Avukat",
+      "beforeAlt": "Nafaka Hukuku konusu: Nafaka Türleri — Tedbir, İştirak ve Yoksulluk Nafakası — Adana Avukat",
+      "afterAlt": "Nafaka Hukuku konusu: Nafaka Türleri — Tedbir, İştirak ve Yoksulluk Nafakası — Adana Avukat",
+      "action": "updated"
+    }
+  ],
+  "content": [
+    {
+      "type": "pages",
+      "id": 41,
+      "slug": "hakkimizda",
+      "changed": true,
+      "notes": [
+        "https://www.cerensumer.av.tr/adana-bosanma-avukati-ceren-sumer-cilli-kimdir/ → https://adanaavukat.org/avukat-ceren-sumer-cilli-kimdir-adana-bosanma-ve-aile-hukuku/",
+        "https://www.cerensumer.av.tr/adana-bosanma-avukati-ceren-sumer-cilli-kimdir/ → https://adanaavukat.org/avukat-ceren-sumer-cilli-kimdir-adana-bosanma-ve-aile-hukuku/"
+      ],
+      "action": "content-updated"
+    },
+    {
+      "type": "pages",
+      "id": 268,
+      "slug": "avukat-ceren-sumer-cilli-kimdir-adana-bosanma-ve-aile-hukuku",
+      "changed": true,
+      "notes": [
+        "https://www.cerensumer.av.tr/adana-bosanma-avukati-ceren-sumer-cilli-kimdir/ → https://adanaavukat.org/avukat-ceren-sumer-cilli-kimdir-adana-bosanma-ve-aile-hukuku/",
+        "https://www.cerensumer.av.tr/adana-bosanma-avukati-ceren-sumer-cilli-kimdir/ → https://adanaavukat.org/avukat-ceren-sumer-cilli-kimdir-adana-bosanma-ve-aile-hukuku/"
+      ],
+      "action": "content-updated"
+    },
+    {
+      "type": "pages",
+      "id": 7,
+      "slug": "adana-avukat",
+      "changed": false,
+      "notes": [],
+      "action": "no-change"
+    }
+  ],
+  "cachePurged": true,
+  "verification": [
+    {
+      "slug": "about-us",
+      "status": 301,
+      "location": "https://adanaavukat.org/hakkimizda/"
+    },
+    {
+      "slug": "contact",
+      "status": 301,
+      "location": "https://adanaavukat.org/iletisim/"
+    },
+    {
+      "mediaId": 100,
+      "altText": "Anlaşmalı Boşanma Davası konusu: Şartları, Süreci ve Güncel Uygulamalar — Adana Avukat",
+      "altOk": true
+    },
+    {
+      "mediaId": 123,
+      "altText": "Boşanma Davası konusu: Hakimin Takdir Yetkisi Nedir? — Adana Avukat",
+      "altOk": true
+    },
+    {
+      "mediaId": 151,
+      "altText": "Nafaka Hukuku konusu: Nafaka Türleri — Tedbir, İştirak ve Yoksulluk Nafakası — Adana Avukat",
+      "altOk": true
+    },
+    {
+      "slug": "hakkimizda",
+      "hasCerensumerHref": false,
+      "hasCerensumerPrimaryId": false
+    },
+    {
+      "slug": "avukat-ceren-sumer-cilli-kimdir-adana-bosanma-ve-aile-hukuku",
+      "hasCerensumerHref": false,
+      "hasCerensumerPrimaryId": false
+    },
+    {
+      "slug": "adana-avukat",
+      "hasCerensumerHref": false,
+      "hasCerensumerPrimaryId": false
+    }
+  ]
+}

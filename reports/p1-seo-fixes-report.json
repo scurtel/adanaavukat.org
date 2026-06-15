@@ -1,0 +1,139 @@
+{
+  "generatedAt": "2026-06-15T09:00:27.427Z",
+  "menu": [
+    {
+      "id": 344,
+      "slug": "adana-aile-hukuku-avukati",
+      "menuTitle": "Aile Hukuku Avukatı",
+      "action": "exists",
+      "menuOrder": 14
+    },
+    {
+      "id": 345,
+      "slug": "adana-anlasmali-bosanma-avukati",
+      "menuTitle": "Anlaşmalı Boşanma",
+      "action": "exists",
+      "menuOrder": 15
+    },
+    {
+      "id": 346,
+      "slug": "velayet-davasi-avukati-adana",
+      "menuTitle": "Velayet Davası",
+      "action": "exists",
+      "menuOrder": 16
+    },
+    {
+      "id": 347,
+      "slug": "gayrimenkul-avukati-adana",
+      "menuTitle": "Gayrimenkul Hukuku",
+      "action": "exists",
+      "menuOrder": 17
+    }
+  ],
+  "blogHub": {
+    "page": {
+      "id": 105,
+      "title": "Adana Aile Hukuku Rehberi",
+      "link": "https://adanaavukat.org/aile-hukuku-rehberi/"
+    },
+    "rankMath": [
+      {
+        "method": "adanaavukat/v1",
+        "ok": true
+      },
+      {
+        "method": "wp/v2/pages meta",
+        "ok": true
+      }
+    ]
+  },
+  "snippet": {
+    "action": "updated",
+    "id": 8,
+    "active": true
+  },
+  "h1Fixes": [
+    {
+      "id": 237,
+      "slug": "hizmetlerimiz",
+      "changed": false,
+      "h1Before": 0,
+      "action": "no-change"
+    },
+    {
+      "id": 216,
+      "slug": "cekismeli-bosanma-davasi",
+      "changed": false,
+      "h1Before": 0,
+      "action": "no-change"
+    },
+    {
+      "id": 223,
+      "slug": "nafaka-davasi",
+      "changed": false,
+      "h1Before": 0,
+      "action": "no-change"
+    },
+    {
+      "id": 287,
+      "slug": "adana-miras-hukuku",
+      "changed": false,
+      "h1Before": 0,
+      "action": "no-change"
+    },
+    {
+      "id": 288,
+      "slug": "adana-kira-hukuku",
+      "changed": false,
+      "h1Before": 0,
+      "action": "no-change"
+    },
+    {
+      "id": 289,
+      "slug": "adana-is-hukuku",
+      "changed": false,
+      "h1Before": 0,
+      "action": "no-change"
+    }
+  ],
+  "cachePurged": true,
+  "verification": [
+    {
+      "url": "/aile-hukuku-rehberi/",
+      "title": "Adana Aile Hukuku Rehberi | Boşanma, Nafaka ve Velayet",
+      "description": "Adana aile hukuku rehberi: boşanma, nafaka, velayet, miras ve iş hukuku yazıları. Av. Ceren Sümer Cilli ile güncel hukuki bilgilendirme.",
+      "h1s": [
+        "Adana Aile Hukuku Rehberi"
+      ],
+      "hasBlogIntro": true
+    },
+    {
+      "url": "/hizmetlerimiz/",
+      "h1Count": 1,
+      "h1s": [
+        "Hizmetlerimiz | Adana Avukatlık Hizmetleri"
+      ]
+    },
+    {
+      "url": "/cekismeli-bosanma-davasi/",
+      "h1Count": 1,
+      "h1s": [
+        "Adana Çekişmeli Boşanma Avukatı"
+      ]
+    },
+    {
+      "url": "/nafaka-davasi/",
+      "h1Count": 1,
+      "h1s": [
+        "Adana Nafaka Davası Avukatı"
+      ]
+    },
+    {
+      "url": "/adana-miras-hukuku/",
+      "h1Count": 1,
+      "h1s": [
+        "Adana Miras Hukuku Avukatı"
+      ]
+    }
+  ]
+}

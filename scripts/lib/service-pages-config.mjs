@@ -7,6 +7,7 @@ export const ENTITY = {
   profileUrl: `${BASE_URL}/avukat-ceren-sumer-cilli-kimdir-adana-bosanma-ve-aile-hukuku/`,
   contactUrl: `${BASE_URL}/iletisim/`,
   sameAs: [
+    'https://www.cerensumer.av.tr/',
     'https://www.linkedin.com/in/avukat-ceren-s%C3%BCmer-cilli-375873b0/',
     'https://www.instagram.com/av.cerensumercilli/',
     'https://www.facebook.com/cerensumercilli/',
