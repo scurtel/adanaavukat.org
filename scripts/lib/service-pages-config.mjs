@@ -18,18 +18,28 @@ export const ENTITY = {
 export const FORBIDDEN_PHRASES = [
   'en iyi avukat',
   'en iyi boşanma avukatı',
+  'en iyi şekilde',
   'uzman avukat',
+  'uzman hukuki destek',
+  'uzman hukuki',
   'lider avukat',
   'garantili sonuç',
   'kesin kazanılır',
   'kesin kazanırız',
   'mutlaka kazanılır',
+  'nasıl kazanılır',
   'başarı garantisi',
   'davayı kesin kazanır',
   'en başarılı',
   'rakipsiz',
   'güvence altına alın',
   'güçlü hukuki süreç',
+  'güçlü temsil',
+  'hemen iletişime geçin',
+  'hemen inceleyin',
+  'hemen bilgi alın',
+  'doğru yerdesiniz',
+  'sonuç odaklı',
 ];
 
 export const DISCLAIMER =

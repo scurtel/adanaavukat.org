@@ -1,0 +1,210 @@
+{
+  "generatedAt": "2026-06-19T09:26:07.596Z",
+  "backupPath": "C:\\Users\\scurt\\Desktop\\Cursor Dosyalar\\adanaavukat.org\\reports\\backups\\k1-advertising-before-2026-06-19T09-25-43.json",
+  "targetSlugs": [
+    "hizmetlerimiz",
+    "adana-bosanma-avukati",
+    "cekismeli-bosanma-davasi",
+    "nafaka-davasi",
+    "adana-ortakligin-giderilmesi-davasi-avukat",
+    "adana-aile-hukuku-avukati",
+    "adana-anlasmali-bosanma-avukati",
+    "velayet-davasi-avukati-adana",
+    "gayrimenkul-avukati-adana",
+    "adana-kira-hukuku",
+    "adana-is-hukuku",
+    "adana-miras-hukuku"
+  ],
+  "results": [
+    {
+      "id": 313,
+      "slug": "gayrimenkul-avukati-adana",
+      "actions": [
+        "content/title updated"
+      ],
+      "beforeRisks": [],
+      "afterRisks": []
+    },
+    {
+      "id": 311,
+      "slug": "velayet-davasi-avukati-adana",
+      "actions": [
+        "content/title updated",
+        "en iyi şekilde → üstün yarar ilkesi çerçevesinde"
+      ],
+      "beforeRisks": [
+        "en iyi şekilde"
+      ],
+      "afterRisks": []
+    },
+    {
+      "id": 307,
+      "slug": "adana-anlasmali-bosanma-avukati",
+      "actions": [
+        "content/title updated"
+      ],
+      "beforeRisks": [],
+      "afterRisks": []
+    },
+    {
+      "id": 305,
+      "slug": "adana-aile-hukuku-avukati",
+      "actions": [
+        "content/title updated",
+        "sonuç odaklı → süreç odaklı",
+        "en iyi şekilde → üstün yarar ilkesi çerçevesinde"
+      ],
+      "beforeRisks": [
+        "en iyi şekilde",
+        "sonuç odaklı"
+      ],
+      "afterRisks": []
+    },
+    {
+      "id": 288,
+      "slug": "adana-kira-hukuku",
+      "actions": [
+        "content/title updated"
+      ],
+      "beforeRisks": [],
+      "afterRisks": []
+    },
+    {
+      "id": 289,
+      "slug": "adana-is-hukuku",
+      "actions": [
+        "content/title updated",
+        "güvence altına alın → usulüne uygun yürütün"
+      ],
+      "beforeRisks": [
+        "güvence altına alın",
+        "Güvence Altına Alın"
+      ],
+      "afterRisks": []
+    },
+    {
+      "id": 287,
+      "slug": "adana-miras-hukuku",
+      "actions": [
+        "content/title updated"
+      ],
+      "beforeRisks": [],
+      "afterRisks": []
+    },
+    {
+      "id": 241,
+      "slug": "adana-ortakligin-giderilmesi-davasi-avukat",
+      "actions": [
+        "content/title updated"
+      ],
+      "beforeRisks": [],
+      "afterRisks": []
+    },
+    {
+      "id": 237,
+      "slug": "hizmetlerimiz",
+      "actions": [
+        "content/title updated"
+      ],
+      "beforeRisks": [],
+      "afterRisks": []
+    },
+    {
+      "id": 223,
+      "slug": "nafaka-davasi",
+      "actions": [
+        "content/title updated"
+      ],
+      "beforeRisks": [],
+      "afterRisks": []
+    },
+    {
+      "id": 216,
+      "slug": "cekismeli-bosanma-davasi",
+      "actions": [
+        "content/title updated",
+        "Çekişmeli boşanma davası nasıl kazanılır? → Çekişmeli boşanma davasında süreç nasıl ilerler?"
+      ],
+      "beforeRisks": [
+        "nasıl kazanılır",
+        "Çekişmeli boşanma davası nasıl kazanılır?"
+      ],
+      "afterRisks": []
+    },
+    {
+      "id": 205,
+      "slug": "adana-bosanma-avukati",
+      "actions": [
+        "content/title updated",
+        "Adana Boşanma Avukatı ile Sürecinizi Güvence Altına Alın → Adana Boşanma Davası Süreci Hakkında",
+        "Çekişmeli boşanma davası nasıl kazanılır? → Çekişmeli boşanma davasında süreç nasıl ilerler?",
+        "Neden Profesyonel Boşanma Avukatı ile Çalışmalısınız? → Boşanma Sürecinde Hukuki Destek Neden Önemlidir?",
+        "güçlü temsil → hukuki temsil",
+        "sonuç odaklı → süreç odaklı",
+        "davanın sonucunu doğrudan etkiler → sürecin seyrini etkileyebilir",
+        "Adana Boşanma Avukatı | Anlaşmalı ve Çekişmeli Davalarda Uzman Hukuki Destek → Adana Boşanma Avukatı",
+        "rank math (adanaavukat/v1, wp/v2/pages meta)",
+        "Adana Boşanma Avukatı | Ceren Sümer Cilli ile Güçlü Hukuki Süreç → Adana Boşanma Avukatı | Anlaşmalı ve Çekişmeli Davalar",
+        "uzman hukuki destek → hukuki destek",
+        "hemen iletişime geçin → iletişim sayfasından bilgi alabilirsiniz",
+        "meta override uygulandı"
+      ],
+      "beforeRisks": [
+        "uzman hukuki destek",
+        "uzman hukuki",
+        "nasıl kazanılır",
+        "güvence altına alın",
+        "güçlü hukuki süreç",
+        "güçlü temsil",
+        "hemen iletişime geçin",
+        "sonuç odaklı",
+        "Adana Boşanma Avukatı | Anlaşmalı ve Çekişmeli Davalarda Uzman Hukuki Destek",
+        "Adana Boşanma Avukatı | Ceren Sümer Cilli ile Güçlü Hukuki Süreç",
+        "Adana Boşanma Avukatı ile Sürecinizi Güvence Altına Alın",
+        "Çekişmeli boşanma davası nasıl kazanılır?",
+        "Neden Profesyonel Boşanma Avukatı ile Çalışmalısınız?",
+        "Uzman Hukuki Destek",
+        "Güçlü Hukuki Süreç",
+        "Güçlü temsil",
+        "Güvence Altına Alın",
+        "Hemen iletişime geçin",
+        "davanın sonucunu doğrudan etkiler",
+        "pratik ve sonuç odaklı",
+        "hemen iletişim"
+      ],
+      "afterRisks": []
+    }
+  ],
+  "verification": [
+    {
+      "slug": "velayet-davasi-avukati-adana",
+      "riskyInHtml": [],
+      "title": "Adana Velayet Davası Avukatı | Velayet Süreci",
+      "description": "Adana velayet davalarında çocuğun üstün yararı, kişisel ilişki düzenlemesi ve dava süreci hakkında bilgilendirici rehber."
+    },
+    {
+      "slug": "adana-aile-hukuku-avukati",
+      "riskyInHtml": [],
+      "title": "Adana Aile Hukuku Avukatı | Aile Davaları",
+      "description": "Adana aile hukuku kapsamında boşanma, velayet, nafaka ve mal paylaşımı uyuşmazlıkları hakkında bilgilendirici hukuki rehber."
+    },
+    {
+      "slug": "adana-is-hukuku",
+      "riskyInHtml": [],
+      "title": "Adana İş Hukuku Avukatı | İşçi-İşveren",
+      "description": "Adana iş hukuku kapsamında işe iade, kıdem tazminatı, ihbar tazminatı ve arabuluculuk süreçleri hakkında bilgilendirme."
+    },
+    {
+      "slug": "cekismeli-bosanma-davasi",
+      "riskyInHtml": [],
+      "title": "Adana Çekişmeli Boşanma Avukatı | Dava Süreci",
+      "description": "Adana çekişmeli boşanma davası açılışı, kusur tespiti, delil sunumu ve yargılama süreci hakkında bilgilendirici rehber."
+    },
+    {
+      "slug": "adana-bosanma-avukati",
+      "riskyInHtml": [],
+      "title": "Adana Boşanma Avukatı | Anlaşmalı ve Çekişmeli Davalar",
+      "description": "Adana boşanma davalarında anlaşmalı ve çekişmeli süreç, velayet, nafaka ve mal paylaşımı hakkında bilgilendirici hukuki rehber."
+    }
+  ]
+}
