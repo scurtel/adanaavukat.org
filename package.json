@@ -30,6 +30,7 @@
     "apply:p2-seo": "node scripts/apply-p2-seo-fixes.mjs",
     "apply:k1-advertising": "node scripts/apply-k1-advertising-fixes.mjs",
     "apply:o1-homepage-images": "node scripts/apply-o1-homepage-images.mjs",
+    "apply:o2-menu": "node scripts/apply-o2-menu-simplify.mjs",
     "audit:all": "npm run check:wp && npm run fetch:wp && npm run analyze:entity && npm run plan:links && npm run generate:authority"
   },
   "dependencies": {

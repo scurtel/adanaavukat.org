@@ -1,0 +1,252 @@
+{
+  "generatedAt": "2026-06-19T10:44:31.340Z",
+  "backupPath": "C:\\Users\\scurt\\Desktop\\Cursor Dosyalar\\adanaavukat.org\\reports\\backups\\menu-11-pre-o2-2026-06-19T10-44-18.json",
+  "actions": [
+    {
+      "slug": "aile-hukuku-rehberi",
+      "menuItemId": 196,
+      "action": "top-level",
+      "menuOrder": 1,
+      "parent": 0,
+      "previousParent": 0
+    },
+    {
+      "slug": "hizmetlerimiz",
+      "menuItemId": 239,
+      "action": "hub-top-level",
+      "menuOrder": 2,
+      "parent": 0
+    },
+    {
+      "slug": "adana-aile-hukuku-avukati",
+      "action": "updated",
+      "menuItemId": 344,
+      "parent": 239,
+      "menuOrder": 3,
+      "title": "Aile Hukuku",
+      "childOrder": 1
+    },
+    {
+      "slug": "adana-bosanma-avukati",
+      "action": "updated",
+      "menuItemId": 236,
+      "parent": 239,
+      "menuOrder": 4,
+      "title": "Boşanma Davaları",
+      "childOrder": 2
+    },
+    {
+      "slug": "adana-anlasmali-bosanma-avukati",
+      "action": "updated",
+      "menuItemId": 345,
+      "parent": 239,
+      "menuOrder": 5,
+      "title": "Anlaşmalı Boşanma",
+      "childOrder": 3
+    },
+    {
+      "slug": "cekismeli-bosanma-davasi",
+      "action": "updated",
+      "menuItemId": 235,
+      "parent": 239,
+      "menuOrder": 6,
+      "title": "Çekişmeli Boşanma",
+      "childOrder": 4
+    },
+    {
+      "slug": "velayet-davasi-avukati-adana",
+      "action": "updated",
+      "menuItemId": 346,
+      "parent": 239,
+      "menuOrder": 7,
+      "title": "Velayet Davası",
+      "childOrder": 5
+    },
+    {
+      "slug": "nafaka-davasi",
+      "action": "updated",
+      "menuItemId": 240,
+      "parent": 239,
+      "menuOrder": 8,
+      "title": "Nafaka Davası",
+      "childOrder": 6
+    },
+    {
+      "slug": "adana-ortakligin-giderilmesi-davasi-avukat",
+      "action": "updated",
+      "menuItemId": 243,
+      "parent": 239,
+      "menuOrder": 9,
+      "title": "Mal Paylaşımı",
+      "childOrder": 7
+    },
+    {
+      "slug": "adana-miras-hukuku",
+      "action": "updated",
+      "menuItemId": 292,
+      "parent": 239,
+      "menuOrder": 10,
+      "title": "Miras Hukuku",
+      "childOrder": 8
+    },
+    {
+      "slug": "gayrimenkul-avukati-adana",
+      "action": "updated",
+      "menuItemId": 347,
+      "parent": 239,
+      "menuOrder": 11,
+      "title": "Gayrimenkul Hukuku",
+      "childOrder": 9
+    },
+    {
+      "slug": "adana-kira-hukuku",
+      "action": "updated",
+      "menuItemId": 293,
+      "parent": 239,
+      "menuOrder": 12,
+      "title": "Kira Hukuku",
+      "childOrder": 10
+    },
+    {
+      "slug": "adana-is-hukuku",
+      "action": "updated",
+      "menuItemId": 294,
+      "parent": 239,
+      "menuOrder": 13,
+      "title": "İş Hukuku",
+      "childOrder": 11
+    },
+    {
+      "slug": "hakkimizda",
+      "menuItemId": 198,
+      "action": "top-level",
+      "menuOrder": 14,
+      "parent": 0,
+      "previousParent": 197
+    },
+    {
+      "slug": "avukat-ceren-sumer-cilli-kimdir-adana-bosanma-ve-aile-hukuku",
+      "menuItemId": 271,
+      "action": "top-level",
+      "menuOrder": 15,
+      "parent": 0,
+      "previousParent": 197
+    },
+    {
+      "slug": "faq",
+      "menuItemId": 199,
+      "action": "top-level",
+      "menuOrder": 16,
+      "parent": 0,
+      "previousParent": 0
+    },
+    {
+      "slug": "iletisim",
+      "menuItemId": 197,
+      "action": "top-level",
+      "menuOrder": 17,
+      "parent": 0,
+      "previousParent": 0
+    }
+  ],
+  "removals": [],
+  "verification": {
+    "total": 17,
+    "topLevelCount": 6,
+    "topLevel": [
+      {
+        "id": 196,
+        "order": 1,
+        "title": "Adana Aile Hukuku Rehberi"
+      },
+      {
+        "id": 239,
+        "order": 2,
+        "title": "Hizmetlerimiz"
+      },
+      {
+        "id": 198,
+        "order": 14,
+        "title": "Hakkımızda"
+      },
+      {
+        "id": 271,
+        "order": 15,
+        "title": "Avukat Ceren Sümer Cilli Kimdir?"
+      },
+      {
+        "id": 199,
+        "order": 16,
+        "title": "Sıkça Sorulan Sorular"
+      },
+      {
+        "id": 197,
+        "order": 17,
+        "title": "İletişim"
+      }
+    ],
+    "hubChildCount": 11,
+    "hubChildren": [
+      {
+        "id": 344,
+        "order": 3,
+        "title": "Aile Hukuku"
+      },
+      {
+        "id": 236,
+        "order": 4,
+        "title": "Boşanma Davaları"
+      },
+      {
+        "id": 345,
+        "order": 5,
+        "title": "Anlaşmalı Boşanma"
+      },
+      {
+        "id": 235,
+        "order": 6,
+        "title": "Çekişmeli Boşanma"
+      },
+      {
+        "id": 346,
+        "order": 7,
+        "title": "Velayet Davası"
+      },
+      {
+        "id": 240,
+        "order": 8,
+        "title": "Nafaka Davası"
+      },
+      {
+        "id": 243,
+        "order": 9,
+        "title": "Mal Paylaşımı"
+      },
+      {
+        "id": 292,
+        "order": 10,
+        "title": "Miras Hukuku"
+      },
+      {
+        "id": 347,
+        "order": 11,
+        "title": "Gayrimenkul Hukuku"
+      },
+      {
+        "id": 293,
+        "order": 12,
+        "title": "Kira Hukuku"
+      },
+      {
+        "id": 294,
+        "order": 13,
+        "title": "İş Hukuku"
+      }
+    ],
+    "iletisimChildren": []
+  },
+  "live": {
+    "hasSubMenu": true,
+    "menuItemCount": 17
+  }
+}
