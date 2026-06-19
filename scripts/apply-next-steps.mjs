@@ -10,6 +10,7 @@ import { fileURLToPath } from 'url';
 import { wpFetch, wpFetchAll } from './lib/wp-client.mjs';
 import { getWpConfig, getAuthHeader } from './lib/env.mjs';
 import { buildHomepageContent, HOMEPAGE_META } from './lib/homepage-content.mjs';
+import { fetchHomepagePostCards } from './lib/homepage-post-cards.mjs';
 
 const __dirname = dirname(fileURLToPath(import.meta.url));
 const rootDir = resolve(__dirname, '..');
@@ -133,7 +134,8 @@ async function createOrUpdateServicePage(def) {
 }
 
 async function updateHomepage() {
-  const content = buildHomepageContent();
+  const postCards = await fetchHomepagePostCards(wpFetch);
+  const content = buildHomepageContent({ postCards });
   const payload = {
     content,
     status: 'publish',

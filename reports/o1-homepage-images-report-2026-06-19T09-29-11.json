@@ -1,0 +1,104 @@
+{
+  "generatedAt": "2026-06-19T09:29:21.197Z",
+  "backupPath": "C:\\Users\\scurt\\Desktop\\Cursor Dosyalar\\adanaavukat.org\\data\\backups\\homepage-7-pre-o1-images-2026-06-19T09-29-11.json",
+  "homepageId": 7,
+  "modified": "2026-06-19T09:29:15",
+  "postCards": [
+    {
+      "slug": "adanada-aile-hukuku-davalarinda-avukat-destegi",
+      "link": "https://adanaavukat.org/adanada-aile-hukuku-davalarinda-avukat-destegi/",
+      "imageUrl": "https://adanaavukat.org/wp-content/uploads/2026/06/adana-aile-hukuku-adanada-aile-hukuku-davalarinda-avukat-destegi-768x512.webp",
+      "label": "Aile Hukuku",
+      "altText": "Aile Hukuku konusu: Adana Aile Hukuku Davaları: Avukat Desteği ve Süreç Rehberi — Adana Avukat",
+      "date": "Haziran 2026",
+      "title": "Adana Aile Hukuku Davaları: Avukat Desteği ve Süreç Rehberi",
+      "excerpt": "Adana da aile hukuku davalarında profesyonel avukat desteğiyle haklarınızı koruyun. Boşanma, nafaka, velayet ve mal paylaşımı süreçlerinde adım adım rehberlik alın.",
+      "postId": 273,
+      "mediaId": 329,
+      "missing": false
+    },
+    {
+      "slug": "adanada-avukat-secerken-nelere-dikkat-edilmeli",
+      "link": "https://adanaavukat.org/adanada-avukat-secerken-nelere-dikkat-edilmeli/",
+      "imageUrl": "https://adanaavukat.org/wp-content/uploads/2026/06/adana-aile-hukuku-adanada-avukat-secerken-nelere-dikkat-edilmeli-768x512.webp",
+      "label": "Hukuk Rehberi",
+      "altText": "Aile Hukuku konusu: Adana’da Avukat Seçimi: Doğru Hukuki Destek Rehberi — Adana Avukat",
+      "date": "Haziran 2026",
+      "title": "Adana da Avukat Seçimi: Doğru Hukuki Destek Rehberi",
+      "excerpt": "Adana da hukuki bir süreçle karşılaştığınızda doğru avukatı seçmek kritik öneme sahiptir. Bu rehber, avukatın deneyimi, iletişim ve ücret şeffaflığı gibi faktörleri ele alarak bili",
+      "postId": 274,
+      "mediaId": 333,
+      "missing": false
+    },
+    {
+      "slug": "adanada-bosanma-davasi-sureci",
+      "link": "https://adanaavukat.org/adanada-bosanma-davasi-sureci/",
+      "imageUrl": "https://adanaavukat.org/wp-content/uploads/2026/06/adana-bosanma-davalari-adanada-bosanma-davasi-sureci-768x512.webp",
+      "label": "Boşanma Hukuku",
+      "altText": "Boşanma Davaları konusu: Adana’da Boşanma Davası Süreci: Kapsamlı Rehber ve Hukuki Detaylar — Adana Avukat",
+      "date": "Haziran 2026",
+      "title": "Adana da Boşanma Davası Süreci: Kapsamlı Rehber ve Hukuki Detaylar",
+      "excerpt": "Adana da boşanma davası sürecini adım adım öğrenin. Anlaşmalı ve çekişmeli boşanma türleri, nafaka, velayet, mal paylaşımı ve hukuki destek hakkında detaylı bilgiler. Adana Aile Ma",
+      "postId": 275,
+      "mediaId": 324,
+      "missing": false
+    },
+    {
+      "slug": "adanada-miras-kira-is-hukuku-avukat-destegi",
+      "link": "https://adanaavukat.org/adanada-miras-kira-is-hukuku-avukat-destegi/",
+      "imageUrl": "https://adanaavukat.org/wp-content/uploads/2026/06/adana-genel-hukuk-rehberi-adanada-miras-kira-is-hukuku-avukat-destegi-768x512.webp",
+      "label": "Miras Hukuku",
+      "altText": "Genel Hukuk Rehberi konusu: Adana Miras, Kira, İş Hukuku Avukatı | Hukuki Destek ve Danışmanlık — Adana Avukat",
+      "date": "Haziran 2026",
+      "title": "Adana Miras, Kira, İş Hukuku Avukatı | Hukuki Destek ve Danışmanlık",
+      "excerpt": "Adana da miras, kira ve iş hukuku alanlarındaki uyuşmazlıklarınız için profesyonel avukat desteği mi arıyorsunuz? Haklarınızı korumak ve adil çözümlere ulaşmak için Av. Ceren Sümer",
+      "postId": 276,
+      "mediaId": 343,
+      "missing": false
+    },
+    {
+      "slug": "adanada-nafaka-ve-velayet-uyusmazliklari",
+      "link": "https://adanaavukat.org/adanada-nafaka-ve-velayet-uyusmazliklari/",
+      "imageUrl": "https://adanaavukat.org/wp-content/uploads/2026/06/adana-aile-hukuku-adanada-nafaka-ve-velayet-uyusmazliklari-768x512.webp",
+      "label": "Aile Hukuku",
+      "altText": "Aile Hukuku konusu: Adana Nafaka ve Velayet Davaları: Hukuki Süreç ve Haklarınız — Adana Avukat",
+      "date": "Haziran 2026",
+      "title": "Adana Nafaka ve Velayet Davaları: Hukuki Süreç ve Haklarınız",
+      "excerpt": "Adana da nafaka ve velayet davalarına dair kapsamlı rehber. Tedbir, iştirak, yoksulluk nafakası türleri, velayet ilkesi ve hukuki süreçler hakkında bilgi alın. Haklarınızı korumak ",
+      "postId": 277,
+      "mediaId": 332,
+      "missing": false
+    }
+  ],
+  "verification": {
+    "imageCount": 5,
+    "placeholderCount": 0,
+    "images": [
+      {
+        "src": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSI2NDAiIGhlaWdodD0iMzYwIiB2aWV3Qm94PSIwIDAgNjQwIDM2MCI+PHJlY3Qgd2lkdGg9IjEwMCUiIGhlaWdodD0iMTAwJSIgc3R5bGU9ImZpbGw6I2NmZDRkYjtmaWxsLW9wYWNpdHk6IDAuMTsiLz48L3N2Zz4=",
+        "alt": "Aile Hukuku konusu: Adana Aile Hukuku Davaları: Avukat Desteği ve Süreç Rehberi — Adana Avukat",
+        "lazy": true
+      },
+      {
+        "src": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSI2NDAiIGhlaWdodD0iMzYwIiB2aWV3Qm94PSIwIDAgNjQwIDM2MCI+PHJlY3Qgd2lkdGg9IjEwMCUiIGhlaWdodD0iMTAwJSIgc3R5bGU9ImZpbGw6I2NmZDRkYjtmaWxsLW9wYWNpdHk6IDAuMTsiLz48L3N2Zz4=",
+        "alt": "Aile Hukuku konusu: Adana’da Avukat Seçimi: Doğru Hukuki Destek Rehberi — Adana Avukat",
+        "lazy": true
+      },
+      {
+        "src": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSI2NDAiIGhlaWdodD0iMzYwIiB2aWV3Qm94PSIwIDAgNjQwIDM2MCI+PHJlY3Qgd2lkdGg9IjEwMCUiIGhlaWdodD0iMTAwJSIgc3R5bGU9ImZpbGw6I2NmZDRkYjtmaWxsLW9wYWNpdHk6IDAuMTsiLz48L3N2Zz4=",
+        "alt": "Boşanma Davaları konusu: Adana’da Boşanma Davası Süreci: Kapsamlı Rehber ve Hukuki Detaylar — Adana Avukat",
+        "lazy": true
+      },
+      {
+        "src": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSI2NDAiIGhlaWdodD0iMzYwIiB2aWV3Qm94PSIwIDAgNjQwIDM2MCI+PHJlY3Qgd2lkdGg9IjEwMCUiIGhlaWdodD0iMTAwJSIgc3R5bGU9ImZpbGw6I2NmZDRkYjtmaWxsLW9wYWNpdHk6IDAuMTsiLz48L3N2Zz4=",
+        "alt": "Genel Hukuk Rehberi konusu: Adana Miras, Kira, İş Hukuku Avukatı | Hukuki Destek ve Danışmanlık — Adana Avukat",
+        "lazy": true
+      },
+      {
+        "src": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSI2NDAiIGhlaWdodD0iMzYwIiB2aWV3Qm94PSIwIDAgNjQwIDM2MCI+PHJlY3Qgd2lkdGg9IjEwMCUiIGhlaWdodD0iMTAwJSIgc3R5bGU9ImZpbGw6I2NmZDRkYjtmaWxsLW9wYWNpdHk6IDAuMTsiLz48L3N2Zz4=",
+        "alt": "Aile Hukuku konusu: Adana Nafaka ve Velayet Davaları: Hukuki Süreç ve Haklarınız — Adana Avukat",
+        "lazy": true
+      }
+    ]
+  }
+}

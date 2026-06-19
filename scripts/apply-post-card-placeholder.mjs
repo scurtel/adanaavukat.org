@@ -8,6 +8,7 @@ import { fileURLToPath } from 'url';
 import { wpFetch } from './lib/wp-client.mjs';
 import { getWpConfig, getAuthHeader } from './lib/env.mjs';
 import { buildHomepageContent } from './lib/homepage-content.mjs';
+import { fetchHomepagePostCards } from './lib/homepage-post-cards.mjs';
 import { POST_CARD_SNIPPET_NAME, buildPostCardSnippetPhp } from './lib/post-card-placeholder.mjs';
 
 const __dirname = dirname(fileURLToPath(import.meta.url));
@@ -121,7 +122,8 @@ async function main() {
     backup = await backupHomepage();
     console.log('Yedek:', backup.json);
 
-    const content = buildHomepageContent();
+    const postCards = await fetchHomepagePostCards(wpFetch);
+    const content = buildHomepageContent({ postCards });
     await wpPost(`/wp-json/wp/v2/pages/${HOMEPAGE_ID}`, {
       content,
       status: 'publish',

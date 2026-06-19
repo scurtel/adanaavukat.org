@@ -8,6 +8,7 @@ import { fileURLToPath } from 'url';
 import { wpFetch } from './lib/wp-client.mjs';
 import { getWpConfig, getAuthHeader } from './lib/env.mjs';
 import { buildHomepageContent, buildSchemaJson, HOMEPAGE_META } from './lib/homepage-content.mjs';
+import { fetchHomepagePostCards } from './lib/homepage-post-cards.mjs';
 
 const __dirname = dirname(fileURLToPath(import.meta.url));
 const rootDir = resolve(__dirname, '..');
@@ -89,7 +90,8 @@ async function main() {
   const { backupFile, contentFile, page } = await backupHomepage();
   console.log(`Yedek alındı: ${backupFile}`);
 
-  const newContent = buildHomepageContent();
+  const postCards = await fetchHomepagePostCards(wpFetch);
+  const newContent = buildHomepageContent({ postCards });
   const localContentPath = resolve(rootDir, 'generated/homepage-gutenberg-content.html');
   writeFileSync(localContentPath, newContent, 'utf8');
 

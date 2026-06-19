@@ -101,9 +101,18 @@ export const POST_CARD_PLACEHOLDER_CSS = `
 }
 `;
 
-export function buildPostCardThumb(link, imageUrl = null, label = POST_CARD_LABELS.default) {
+export function buildPostCardThumb(
+  link,
+  imageUrl = null,
+  label = POST_CARD_LABELS.default,
+  altText = label
+) {
   if (imageUrl) {
-    return `<a href="${link}" class="aa-post-thumb" tabindex="-1" aria-hidden="true"><img src="${imageUrl}" alt="" width="640" height="360" loading="lazy" decoding="async" class="aa-post-thumb__img post-card-image"/></a>`;
+    const safeAlt = String(altText || label)
+      .replace(/&/g, '&amp;')
+      .replace(/"/g, '&quot;')
+      .replace(/</g, '&lt;');
+    return `<a href="${link}" class="aa-post-thumb" tabindex="-1" aria-hidden="true"><img src="${imageUrl}" alt="${safeAlt}" width="640" height="360" loading="lazy" decoding="async" class="aa-post-thumb__img post-card-image"/></a>`;
   }
   return `<a href="${link}" class="aa-post-thumb" tabindex="-1" aria-hidden="true"><span class="aa-post-thumb__ph post-card-placeholder" role="presentation"><span>${label}</span></span></a>`;
 }

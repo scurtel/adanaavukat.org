@@ -3,7 +3,8 @@
  * Reklam yasağına uygun metinler.
  */
 
-import { buildPostCardThumb, POST_CARD_LABELS, POST_CARD_PLACEHOLDER_CSS } from './post-card-placeholder.mjs';
+import { buildPostCardThumb, POST_CARD_PLACEHOLDER_CSS } from './post-card-placeholder.mjs';
+import { getDefaultHomepagePostCards } from './homepage-post-cards.mjs';
 
 const BASE = 'https://adanaavukat.org';
 
@@ -171,7 +172,25 @@ export function buildSchemaJson() {
   return JSON.stringify(graph, null, 2);
 }
 
-export function buildHomepageContent() {
+function escapeHtml(text = '') {
+  return String(text)
+    .replace(/&/g, '&amp;')
+    .replace(/</g, '&lt;')
+    .replace(/>/g, '&gt;')
+    .replace(/"/g, '&quot;');
+}
+
+function buildPostCardHtml(card) {
+  const thumb = buildPostCardThumb(card.link, card.imageUrl, card.label, card.altText);
+  return `<div class="aa-card aa-post-card">${thumb}<div class="aa-post-body"><div class="aa-date">${escapeHtml(card.date)}</div><h3>${escapeHtml(card.title)}</h3><p>${escapeHtml(card.excerpt)}</p><a class="aa-card-link" href="${card.link}">Yazıyı Oku</a></div></div>`;
+}
+
+function buildPostCardsSection(postCards) {
+  return postCards.map(buildPostCardHtml).join('\n');
+}
+
+export function buildHomepageContent({ postCards } = {}) {
+  const cards = postCards?.length ? postCards : getDefaultHomepagePostCards();
   const schema = buildSchemaJson();
 
   return `<!-- wp:html -->
@@ -469,11 +488,7 @@ ${POST_CARD_PLACEHOLDER_CSS}
 <h2>Hukuk Rehberi — Son Yazılar</h2>
 <p class="aa-section-lead">Aile ve özel hukuk alanlarında güncel bilgilendirme yazıları.</p>
 <div class="aa-grid-3">
-<div class="aa-card aa-post-card">${buildPostCardThumb(`${BASE}/adanada-aile-hukuku-davalarinda-avukat-destegi/`, null, POST_CARD_LABELS.aile)}<div class="aa-post-body"><div class="aa-date">Haziran 2026</div><h3>Adana Aile Hukuku Davalarında Avukat Desteği</h3><p>Aile mahkemelerinde görülen davalarda süreç, delil ve hukuki destek konularına genel bakış.</p><a class="aa-card-link" href="${BASE}/adanada-aile-hukuku-davalarinda-avukat-destegi/">Yazıyı Oku</a></div></div>
-<div class="aa-card aa-post-card">${buildPostCardThumb(`${BASE}/adanada-avukat-secerken-nelere-dikkat-edilmeli/`, null, POST_CARD_LABELS.default)}<div class="aa-post-body"><div class="aa-date">Haziran 2026</div><h3>Adana'da Avukat Seçimi Rehberi</h3><p>Hukuki süreç öncesinde dikkat edilmesi gereken genel kriterler ve bilgilendirme.</p><a class="aa-card-link" href="${BASE}/adanada-avukat-secerken-nelere-dikkat-edilmeli/">Yazıyı Oku</a></div></div>
-<div class="aa-card aa-post-card">${buildPostCardThumb(`${BASE}/adanada-bosanma-davasi-sureci/`, null, POST_CARD_LABELS.bosanma)}<div class="aa-post-body"><div class="aa-date">Haziran 2026</div><h3>Adana'da Boşanma Davası Süreci</h3><p>Anlaşmalı ve çekişmeli boşanma türleri, nafaka, velayet ve mal paylaşımı adımları.</p><a class="aa-card-link" href="${BASE}/adanada-bosanma-davasi-sureci/">Yazıyı Oku</a></div></div>
-<div class="aa-card aa-post-card">${buildPostCardThumb(`${BASE}/adanada-miras-kira-is-hukuku-avukat-destegi/`, null, POST_CARD_LABELS.miras)}<div class="aa-post-body"><div class="aa-date">Haziran 2026</div><h3>Adana Miras, Kira, İş Hukuku</h3><p>Miras, kira ve iş hukuku alanlarındaki uyuşmazlıklara ilişkin genel rehber.</p><a class="aa-card-link" href="${BASE}/adanada-miras-kira-is-hukuku-avukat-destegi/">Yazıyı Oku</a></div></div>
-<div class="aa-card aa-post-card">${buildPostCardThumb(`${BASE}/adanada-nafaka-ve-velayet-uyusmazliklari/`, null, POST_CARD_LABELS.aile)}<div class="aa-post-body"><div class="aa-date">Haziran 2026</div><h3>Adana Nafaka ve Velayet Davaları</h3><p>Nafaka türleri, velayet ilkesi ve süreç adımlarına dair bilgilendirme.</p><a class="aa-card-link" href="${BASE}/adanada-nafaka-ve-velayet-uyusmazliklari/">Yazıyı Oku</a></div></div>
+${buildPostCardsSection(cards)}
 </div>
 </div>
 </section>
