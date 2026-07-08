@@ -1,0 +1,3724 @@
+{
+  "backedUpAt": "2026-07-08T09:57:04.584Z",
+  "menusMeta": [
+    {
+      "id": 11,
+      "description": "",
+      "name": "Ana Menü",
+      "slug": "ana-menu",
+      "meta": [],
+      "locations": [
+        "primary",
+        "mobile_menu"
+      ],
+      "auto_add": false,
+      "_links": {
+        "self": [
+          {
+            "href": "https://adanaavukat.org/wp-json/wp/v2/menus/11",
+            "targetHints": {
+              "allow": [
+                "GET",
+                "POST",
+                "PUT",
+                "PATCH",
+                "DELETE"
+              ]
+            }
+          }
+        ],
+        "collection": [
+          {
+            "href": "https://adanaavukat.org/wp-json/wp/v2/menus"
+          }
+        ],
+        "about": [
+          {
+            "href": "https://adanaavukat.org/wp-json/wp/v2/taxonomies/nav_menu"
+          }
+        ],
+        "wp:post_type": [
+          {
+            "href": "https://adanaavukat.org/wp-json/wp/v2/menu-items?menus=11"
+          }
+        ],
+        "wp:menu-location": [
+          {
+            "embeddable": true,
+            "href": "https://adanaavukat.org/wp-json/wp/v2/menu-locations/primary"
+          },
+          {
+            "embeddable": true,
+            "href": "https://adanaavukat.org/wp-json/wp/v2/menu-locations/mobile_menu"
+          }
+        ],
+        "curies": [
+          {
+            "name": "wp",
+            "href": "https://api.w.org/{rel}",
+            "templated": true
+          }
+        ]
+      }
+    }
+  ],
+  "locations": {
+    "primary": {
+      "name": "primary",
+      "description": "Birincil menü",
+      "menu": 11,
+      "_links": {
+        "self": [
+          {
+            "href": "https://adanaavukat.org/wp-json/wp/v2/menu-locations/primary",
+            "targetHints": {
+              "allow": [
+                "GET"
+              ]
+            }
+          }
+        ],
+        "collection": [
+          {
+            "href": "https://adanaavukat.org/wp-json/wp/v2/menu-locations"
+          }
+        ],
+        "wp:menu": [
+          {
+            "embeddable": true,
+            "href": "https://adanaavukat.org/wp-json/wp/v2/menus/11"
+          }
+        ],
+        "curies": [
+          {
+            "name": "wp",
+            "href": "https://api.w.org/{rel}",
+            "templated": true
+          }
+        ]
+      }
+    },
+    "secondary_menu": {
+      "name": "secondary_menu",
+      "description": "İkincil Mönü",
+      "menu": 0,
+      "_links": {
+        "self": [
+          {
+            "href": "https://adanaavukat.org/wp-json/wp/v2/menu-locations/secondary_menu",
+            "targetHints": {
+              "allow": [
+                "GET"
+              ]
+            }
+          }
+        ],
+        "collection": [
+          {
+            "href": "https://adanaavukat.org/wp-json/wp/v2/menu-locations"
+          }
+        ]
+      }
+    },
+    "mobile_menu": {
+      "name": "mobile_menu",
+      "description": "Off-Canvas Menu",
+      "menu": 11,
+      "_links": {
+        "self": [
+          {
+            "href": "https://adanaavukat.org/wp-json/wp/v2/menu-locations/mobile_menu",
+            "targetHints": {
+              "allow": [
+                "GET"
+              ]
+            }
+          }
+        ],
+        "collection": [
+          {
+            "href": "https://adanaavukat.org/wp-json/wp/v2/menu-locations"
+          }
+        ],
+        "wp:menu": [
+          {
+            "embeddable": true,
+            "href": "https://adanaavukat.org/wp-json/wp/v2/menus/11"
+          }
+        ],
+        "curies": [
+          {
+            "name": "wp",
+            "href": "https://api.w.org/{rel}",
+            "templated": true
+          }
+        ]
+      }
+    },
+    "loggedin_account_menu": {
+      "name": "loggedin_account_menu",
+      "description": "Logged In Account Menu",
+      "menu": 0,
+      "_links": {
+        "self": [
+          {
+            "href": "https://adanaavukat.org/wp-json/wp/v2/menu-locations/loggedin_account_menu",
+            "targetHints": {
+              "allow": [
+                "GET"
+              ]
+            }
+          }
+        ],
+        "collection": [
+          {
+            "href": "https://adanaavukat.org/wp-json/wp/v2/menu-locations"
+          }
+        ]
+      }
+    },
+    "footer_menu": {
+      "name": "footer_menu",
+      "description": "Alt kısım menüsü",
+      "menu": 0,
+      "_links": {
+        "self": [
+          {
+            "href": "https://adanaavukat.org/wp-json/wp/v2/menu-locations/footer_menu",
+            "targetHints": {
+              "allow": [
+                "GET"
+              ]
+            }
+          }
+        ],
+        "collection": [
+          {
+            "href": "https://adanaavukat.org/wp-json/wp/v2/menu-locations"
+          }
+        ]
+      }
+    }
+  },
+  "items": [
+    {
+      "id": 196,
+      "title": {
+        "raw": "Adana Aile Hukuku Rehberi",
+        "rendered": "Adana Aile Hukuku Rehberi"
+      },
+      "status": "publish",
+      "url": "https://adanaavukat.org/aile-hukuku-rehberi/",
+      "attr_title": "",
+      "description": "",
+      "type": "post_type",
+      "type_label": "Sayfa",
+      "object": "page",
+      "object_id": 105,
+      "parent": 0,
+      "menu_order": 1,
+      "target": "",
+      "classes": [
+        ""
+      ],
+      "xfn": [
+        ""
+      ],
+      "invalid": false,
+      "meta": {
+        "site-sidebar-layout": "default",
+        "site-content-layout": "",
+        "ast-site-content-layout": "default",
+        "site-content-style": "default",
+        "site-sidebar-style": "default",
+        "ast-global-header-display": "",
+        "ast-banner-title-visibility": "",
+        "ast-main-header-display": "",
+        "ast-hfb-above-header-display": "",
+        "ast-hfb-below-header-display": "",
+        "ast-hfb-mobile-header-display": "",
+        "site-post-title": "",
+        "ast-breadcrumbs-content": "",
+        "ast-featured-img": "",
+        "footer-sml-layout": "",
+        "ast-disable-related-posts": "",
+        "theme-transparent-header-meta": "",
+        "adv-header-id-meta": "",
+        "stick-header-meta": "",
+        "header-above-stick-meta": "",
+        "header-main-stick-meta": "",
+        "header-below-stick-meta": "",
+        "astra-migrate-meta-layouts": "default",
+        "ast-page-background-enabled": "default",
+        "ast-page-background-meta": {
+          "desktop": {
+            "background-color": "var(--ast-global-color-5)",
+            "background-image": "",
+            "background-repeat": "repeat",
+            "background-position": "center center",
+            "background-size": "auto",
+            "background-attachment": "scroll",
+            "background-type": "",
+            "background-media": "",
+            "overlay-type": "",
+            "overlay-color": "",
+            "overlay-opacity": "",
+            "overlay-gradient": ""
+          },
+          "tablet": {
+            "background-color": "",
+            "background-image": "",
+            "background-repeat": "repeat",
+            "background-position": "center center",
+            "background-size": "auto",
+            "background-attachment": "scroll",
+            "background-type": "",
+            "background-media": "",
+            "overlay-type": "",
+            "overlay-color": "",
+            "overlay-opacity": "",
+            "overlay-gradient": ""
+          },
+          "mobile": {
+            "background-color": "",
+            "background-image": "",
+            "background-repeat": "repeat",
+            "background-position": "center center",
+            "background-size": "auto",
+            "background-attachment": "scroll",
+            "background-type": "",
+            "background-media": "",
+            "overlay-type": "",
+            "overlay-color": "",
+            "overlay-opacity": "",
+            "overlay-gradient": ""
+          }
+        },
+        "ast-content-background-meta": {
+          "desktop": {
+            "background-color": "var(--ast-global-color-4)",
+            "background-image": "",
+            "background-repeat": "repeat",
+            "background-position": "center center",
+            "background-size": "auto",
+            "background-attachment": "scroll",
+            "background-type": "",
+            "background-media": "",
+            "overlay-type": "",
+            "overlay-color": "",
+            "overlay-opacity": "",
+            "overlay-gradient": ""
+          },
+          "tablet": {
+            "background-color": "var(--ast-global-color-4)",
+            "background-image": "",
+            "background-repeat": "repeat",
+            "background-position": "center center",
+            "background-size": "auto",
+            "background-attachment": "scroll",
+            "background-type": "",
+            "background-media": "",
+            "overlay-type": "",
+            "overlay-color": "",
+            "overlay-opacity": "",
+            "overlay-gradient": ""
+          },
+          "mobile": {
+            "background-color": "var(--ast-global-color-4)",
+            "background-image": "",
+            "background-repeat": "repeat",
+            "background-position": "center center",
+            "background-size": "auto",
+            "background-attachment": "scroll",
+            "background-type": "",
+            "background-media": "",
+            "overlay-type": "",
+            "overlay-color": "",
+            "overlay-opacity": "",
+            "overlay-gradient": ""
+          }
+        }
+      },
+      "menus": 11,
+      "_links": {
+        "self": [
+          {
+            "href": "https://adanaavukat.org/wp-json/wp/v2/menu-items/196",
+            "targetHints": {
+              "allow": [
+                "GET",
+                "POST",
+                "PUT",
+                "PATCH",
+                "DELETE"
+              ]
+            }
+          }
+        ],
+        "collection": [
+          {
+            "href": "https://adanaavukat.org/wp-json/wp/v2/menu-items"
+          }
+        ],
+        "about": [
+          {
+            "href": "https://adanaavukat.org/wp-json/wp/v2/types/nav_menu_item"
+          }
+        ],
+        "wp:term": [
+          {
+            "taxonomy": "nav_menu",
+            "embeddable": true,
+            "href": "https://adanaavukat.org/wp-json/wp/v2/menus?post=196"
+          }
+        ],
+        "wp:menu-item-object": [
+          {
+            "post_type": "page",
+            "embeddable": true,
+            "href": "https://adanaavukat.org/wp-json/wp/v2/pages/105"
+          }
+        ],
+        "wp:action-publish": [
+          {
+            "href": "https://adanaavukat.org/wp-json/wp/v2/menu-items/196"
+          }
+        ],
+        "wp:action-unfiltered-html": [
+          {
+            "href": "https://adanaavukat.org/wp-json/wp/v2/menu-items/196"
+          }
+        ],
+        "wp:action-create-menus": [
+          {
+            "href": "https://adanaavukat.org/wp-json/wp/v2/menu-items/196"
+          }
+        ],
+        "wp:action-assign-menus": [
+          {
+            "href": "https://adanaavukat.org/wp-json/wp/v2/menu-items/196"
+          }
+        ],
+        "curies": [
+          {
+            "name": "wp",
+            "href": "https://api.w.org/{rel}",
+            "templated": true
+          }
+        ]
+      }
+    },
+    {
+      "id": 239,
+      "title": {
+        "raw": "Hizmetlerimiz",
+        "rendered": "Hizmetlerimiz"
+      },
+      "status": "publish",
+      "url": "https://adanaavukat.org/hizmetlerimiz/",
+      "attr_title": "",
+      "description": "",
+      "type": "post_type",
+      "type_label": "Sayfa",
+      "object": "page",
+      "object_id": 237,
+      "parent": 0,
+      "menu_order": 2,
+      "target": "",
+      "classes": [
+        ""
+      ],
+      "xfn": [
+        ""
+      ],
+      "invalid": false,
+      "meta": {
+        "site-sidebar-layout": "default",
+        "site-content-layout": "",
+        "ast-site-content-layout": "default",
+        "site-content-style": "default",
+        "site-sidebar-style": "default",
+        "ast-global-header-display": "",
+        "ast-banner-title-visibility": "",
+        "ast-main-header-display": "",
+        "ast-hfb-above-header-display": "",
+        "ast-hfb-below-header-display": "",
+        "ast-hfb-mobile-header-display": "",
+        "site-post-title": "",
+        "ast-breadcrumbs-content": "",
+        "ast-featured-img": "",
+        "footer-sml-layout": "",
+        "ast-disable-related-posts": "",
+        "theme-transparent-header-meta": "",
+        "adv-header-id-meta": "",
+        "stick-header-meta": "",
+        "header-above-stick-meta": "",
+        "header-main-stick-meta": "",
+        "header-below-stick-meta": "",
+        "astra-migrate-meta-layouts": "default",
+        "ast-page-background-enabled": "default",
+        "ast-page-background-meta": {
+          "desktop": {
+            "background-color": "var(--ast-global-color-5)",
+            "background-image": "",
+            "background-repeat": "repeat",
+            "background-position": "center center",
+            "background-size": "auto",
+            "background-attachment": "scroll",
+            "background-type": "",
+            "background-media": "",
+            "overlay-type": "",
+            "overlay-color": "",
+            "overlay-opacity": "",
+            "overlay-gradient": ""
+          },
+          "tablet": {
+            "background-color": "",
+            "background-image": "",
+            "background-repeat": "repeat",
+            "background-position": "center center",
+            "background-size": "auto",
+            "background-attachment": "scroll",
+            "background-type": "",
+            "background-media": "",
+            "overlay-type": "",
+            "overlay-color": "",
+            "overlay-opacity": "",
+            "overlay-gradient": ""
+          },
+          "mobile": {
+            "background-color": "",
+            "background-image": "",
+            "background-repeat": "repeat",
+            "background-position": "center center",
+            "background-size": "auto",
+            "background-attachment": "scroll",
+            "background-type": "",
+            "background-media": "",
+            "overlay-type": "",
+            "overlay-color": "",
+            "overlay-opacity": "",
+            "overlay-gradient": ""
+          }
+        },
+        "ast-content-background-meta": {
+          "desktop": {
+            "background-color": "var(--ast-global-color-4)",
+            "background-image": "",
+            "background-repeat": "repeat",
+            "background-position": "center center",
+            "background-size": "auto",
+            "background-attachment": "scroll",
+            "background-type": "",
+            "background-media": "",
+            "overlay-type": "",
+            "overlay-color": "",
+            "overlay-opacity": "",
+            "overlay-gradient": ""
+          },
+          "tablet": {
+            "background-color": "var(--ast-global-color-4)",
+            "background-image": "",
+            "background-repeat": "repeat",
+            "background-position": "center center",
+            "background-size": "auto",
+            "background-attachment": "scroll",
+            "background-type": "",
+            "background-media": "",
+            "overlay-type": "",
+            "overlay-color": "",
+            "overlay-opacity": "",
+            "overlay-gradient": ""
+          },
+          "mobile": {
+            "background-color": "var(--ast-global-color-4)",
+            "background-image": "",
+            "background-repeat": "repeat",
+            "background-position": "center center",
+            "background-size": "auto",
+            "background-attachment": "scroll",
+            "background-type": "",
+            "background-media": "",
+            "overlay-type": "",
+            "overlay-color": "",
+            "overlay-opacity": "",
+            "overlay-gradient": ""
+          }
+        }
+      },
+      "menus": 11,
+      "_links": {
+        "self": [
+          {
+            "href": "https://adanaavukat.org/wp-json/wp/v2/menu-items/239",
+            "targetHints": {
+              "allow": [
+                "GET",
+                "POST",
+                "PUT",
+                "PATCH",
+                "DELETE"
+              ]
+            }
+          }
+        ],
+        "collection": [
+          {
+            "href": "https://adanaavukat.org/wp-json/wp/v2/menu-items"
+          }
+        ],
+        "about": [
+          {
+            "href": "https://adanaavukat.org/wp-json/wp/v2/types/nav_menu_item"
+          }
+        ],
+        "wp:term": [
+          {
+            "taxonomy": "nav_menu",
+            "embeddable": true,
+            "href": "https://adanaavukat.org/wp-json/wp/v2/menus?post=239"
+          }
+        ],
+        "wp:menu-item-object": [
+          {
+            "post_type": "page",
+            "embeddable": true,
+            "href": "https://adanaavukat.org/wp-json/wp/v2/pages/237"
+          }
+        ],
+        "wp:action-publish": [
+          {
+            "href": "https://adanaavukat.org/wp-json/wp/v2/menu-items/239"
+          }
+        ],
+        "wp:action-unfiltered-html": [
+          {
+            "href": "https://adanaavukat.org/wp-json/wp/v2/menu-items/239"
+          }
+        ],
+        "wp:action-create-menus": [
+          {
+            "href": "https://adanaavukat.org/wp-json/wp/v2/menu-items/239"
+          }
+        ],
+        "wp:action-assign-menus": [
+          {
+            "href": "https://adanaavukat.org/wp-json/wp/v2/menu-items/239"
+          }
+        ],
+        "curies": [
+          {
+            "name": "wp",
+            "href": "https://api.w.org/{rel}",
+            "templated": true
+          }
+        ]
+      }
+    },
+    {
+      "id": 344,
+      "title": {
+        "raw": "Aile Hukuku",
+        "rendered": "Aile Hukuku"
+      },
+      "status": "publish",
+      "url": "https://adanaavukat.org/adana-aile-hukuku-avukati/",
+      "attr_title": "",
+      "description": "",
+      "type": "post_type",
+      "type_label": "Sayfa",
+      "object": "page",
+      "object_id": 305,
+      "parent": 239,
+      "menu_order": 3,
+      "target": "",
+      "classes": [
+        ""
+      ],
+      "xfn": [
+        ""
+      ],
+      "invalid": false,
+      "meta": {
+        "site-sidebar-layout": "default",
+        "site-content-layout": "",
+        "ast-site-content-layout": "default",
+        "site-content-style": "default",
+        "site-sidebar-style": "default",
+        "ast-global-header-display": "",
+        "ast-banner-title-visibility": "",
+        "ast-main-header-display": "",
+        "ast-hfb-above-header-display": "",
+        "ast-hfb-below-header-display": "",
+        "ast-hfb-mobile-header-display": "",
+        "site-post-title": "",
+        "ast-breadcrumbs-content": "",
+        "ast-featured-img": "",
+        "footer-sml-layout": "",
+        "ast-disable-related-posts": "",
+        "theme-transparent-header-meta": "",
+        "adv-header-id-meta": "",
+        "stick-header-meta": "",
+        "header-above-stick-meta": "",
+        "header-main-stick-meta": "",
+        "header-below-stick-meta": "",
+        "astra-migrate-meta-layouts": "default",
+        "ast-page-background-enabled": "default",
+        "ast-page-background-meta": {
+          "desktop": {
+            "background-color": "var(--ast-global-color-5)",
+            "background-image": "",
+            "background-repeat": "repeat",
+            "background-position": "center center",
+            "background-size": "auto",
+            "background-attachment": "scroll",
+            "background-type": "",
+            "background-media": "",
+            "overlay-type": "",
+            "overlay-color": "",
+            "overlay-opacity": "",
+            "overlay-gradient": ""
+          },
+          "tablet": {
+            "background-color": "",
+            "background-image": "",
+            "background-repeat": "repeat",
+            "background-position": "center center",
+            "background-size": "auto",
+            "background-attachment": "scroll",
+            "background-type": "",
+            "background-media": "",
+            "overlay-type": "",
+            "overlay-color": "",
+            "overlay-opacity": "",
+            "overlay-gradient": ""
+          },
+          "mobile": {
+            "background-color": "",
+            "background-image": "",
+            "background-repeat": "repeat",
+            "background-position": "center center",
+            "background-size": "auto",
+            "background-attachment": "scroll",
+            "background-type": "",
+            "background-media": "",
+            "overlay-type": "",
+            "overlay-color": "",
+            "overlay-opacity": "",
+            "overlay-gradient": ""
+          }
+        },
+        "ast-content-background-meta": {
+          "desktop": {
+            "background-color": "var(--ast-global-color-4)",
+            "background-image": "",
+            "background-repeat": "repeat",
+            "background-position": "center center",
+            "background-size": "auto",
+            "background-attachment": "scroll",
+            "background-type": "",
+            "background-media": "",
+            "overlay-type": "",
+            "overlay-color": "",
+            "overlay-opacity": "",
+            "overlay-gradient": ""
+          },
+          "tablet": {
+            "background-color": "var(--ast-global-color-4)",
+            "background-image": "",
+            "background-repeat": "repeat",
+            "background-position": "center center",
+            "background-size": "auto",
+            "background-attachment": "scroll",
+            "background-type": "",
+            "background-media": "",
+            "overlay-type": "",
+            "overlay-color": "",
+            "overlay-opacity": "",
+            "overlay-gradient": ""
+          },
+          "mobile": {
+            "background-color": "var(--ast-global-color-4)",
+            "background-image": "",
+            "background-repeat": "repeat",
+            "background-position": "center center",
+            "background-size": "auto",
+            "background-attachment": "scroll",
+            "background-type": "",
+            "background-media": "",
+            "overlay-type": "",
+            "overlay-color": "",
+            "overlay-opacity": "",
+            "overlay-gradient": ""
+          }
+        }
+      },
+      "menus": 11,
+      "_links": {
+        "self": [
+          {
+            "href": "https://adanaavukat.org/wp-json/wp/v2/menu-items/344",
+            "targetHints": {
+              "allow": [
+                "GET",
+                "POST",
+                "PUT",
+                "PATCH",
+                "DELETE"
+              ]
+            }
+          }
+        ],
+        "collection": [
+          {
+            "href": "https://adanaavukat.org/wp-json/wp/v2/menu-items"
+          }
+        ],
+        "about": [
+          {
+            "href": "https://adanaavukat.org/wp-json/wp/v2/types/nav_menu_item"
+          }
+        ],
+        "wp:term": [
+          {
+            "taxonomy": "nav_menu",
+            "embeddable": true,
+            "href": "https://adanaavukat.org/wp-json/wp/v2/menus?post=344"
+          }
+        ],
+        "wp:menu-item-object": [
+          {
+            "post_type": "page",
+            "embeddable": true,
+            "href": "https://adanaavukat.org/wp-json/wp/v2/pages/305"
+          }
+        ],
+        "wp:action-publish": [
+          {
+            "href": "https://adanaavukat.org/wp-json/wp/v2/menu-items/344"
+          }
+        ],
+        "wp:action-unfiltered-html": [
+          {
+            "href": "https://adanaavukat.org/wp-json/wp/v2/menu-items/344"
+          }
+        ],
+        "wp:action-create-menus": [
+          {
+            "href": "https://adanaavukat.org/wp-json/wp/v2/menu-items/344"
+          }
+        ],
+        "wp:action-assign-menus": [
+          {
+            "href": "https://adanaavukat.org/wp-json/wp/v2/menu-items/344"
+          }
+        ],
+        "curies": [
+          {
+            "name": "wp",
+            "href": "https://api.w.org/{rel}",
+            "templated": true
+          }
+        ]
+      }
+    },
+    {
+      "id": 236,
+      "title": {
+        "raw": "Boşanma Davaları",
+        "rendered": "Boşanma Davaları"
+      },
+      "status": "publish",
+      "url": "https://adanaavukat.org/adana-bosanma-avukati/",
+      "attr_title": "",
+      "description": "",
+      "type": "post_type",
+      "type_label": "Sayfa",
+      "object": "page",
+      "object_id": 205,
+      "parent": 239,
+      "menu_order": 4,
+      "target": "",
+      "classes": [
+        ""
+      ],
+      "xfn": [
+        ""
+      ],
+      "invalid": false,
+      "meta": {
+        "site-sidebar-layout": "default",
+        "site-content-layout": "",
+        "ast-site-content-layout": "default",
+        "site-content-style": "default",
+        "site-sidebar-style": "default",
+        "ast-global-header-display": "",
+        "ast-banner-title-visibility": "",
+        "ast-main-header-display": "",
+        "ast-hfb-above-header-display": "",
+        "ast-hfb-below-header-display": "",
+        "ast-hfb-mobile-header-display": "",
+        "site-post-title": "",
+        "ast-breadcrumbs-content": "",
+        "ast-featured-img": "",
+        "footer-sml-layout": "",
+        "ast-disable-related-posts": "",
+        "theme-transparent-header-meta": "",
+        "adv-header-id-meta": "",
+        "stick-header-meta": "",
+        "header-above-stick-meta": "",
+        "header-main-stick-meta": "",
+        "header-below-stick-meta": "",
+        "astra-migrate-meta-layouts": "default",
+        "ast-page-background-enabled": "default",
+        "ast-page-background-meta": {
+          "desktop": {
+            "background-color": "var(--ast-global-color-5)",
+            "background-image": "",
+            "background-repeat": "repeat",
+            "background-position": "center center",
+            "background-size": "auto",
+            "background-attachment": "scroll",
+            "background-type": "",
+            "background-media": "",
+            "overlay-type": "",
+            "overlay-color": "",
+            "overlay-opacity": "",
+            "overlay-gradient": ""
+          },
+          "tablet": {
+            "background-color": "",
+            "background-image": "",
+            "background-repeat": "repeat",
+            "background-position": "center center",
+            "background-size": "auto",
+            "background-attachment": "scroll",
+            "background-type": "",
+            "background-media": "",
+            "overlay-type": "",
+            "overlay-color": "",
+            "overlay-opacity": "",
+            "overlay-gradient": ""
+          },
+          "mobile": {
+            "background-color": "",
+            "background-image": "",
+            "background-repeat": "repeat",
+            "background-position": "center center",
+            "background-size": "auto",
+            "background-attachment": "scroll",
+            "background-type": "",
+            "background-media": "",
+            "overlay-type": "",
+            "overlay-color": "",
+            "overlay-opacity": "",
+            "overlay-gradient": ""
+          }
+        },
+        "ast-content-background-meta": {
+          "desktop": {
+            "background-color": "var(--ast-global-color-4)",
+            "background-image": "",
+            "background-repeat": "repeat",
+            "background-position": "center center",
+            "background-size": "auto",
+            "background-attachment": "scroll",
+            "background-type": "",
+            "background-media": "",
+            "overlay-type": "",
+            "overlay-color": "",
+            "overlay-opacity": "",
+            "overlay-gradient": ""
+          },
+          "tablet": {
+            "background-color": "var(--ast-global-color-4)",
+            "background-image": "",
+            "background-repeat": "repeat",
+            "background-position": "center center",
+            "background-size": "auto",
+            "background-attachment": "scroll",
+            "background-type": "",
+            "background-media": "",
+            "overlay-type": "",
+            "overlay-color": "",
+            "overlay-opacity": "",
+            "overlay-gradient": ""
+          },
+          "mobile": {
+            "background-color": "var(--ast-global-color-4)",
+            "background-image": "",
+            "background-repeat": "repeat",
+            "background-position": "center center",
+            "background-size": "auto",
+            "background-attachment": "scroll",
+            "background-type": "",
+            "background-media": "",
+            "overlay-type": "",
+            "overlay-color": "",
+            "overlay-opacity": "",
+            "overlay-gradient": ""
+          }
+        }
+      },
+      "menus": 11,
+      "_links": {
+        "self": [
+          {
+            "href": "https://adanaavukat.org/wp-json/wp/v2/menu-items/236",
+            "targetHints": {
+              "allow": [
+                "GET",
+                "POST",
+                "PUT",
+                "PATCH",
+                "DELETE"
+              ]
+            }
+          }
+        ],
+        "collection": [
+          {
+            "href": "https://adanaavukat.org/wp-json/wp/v2/menu-items"
+          }
+        ],
+        "about": [
+          {
+            "href": "https://adanaavukat.org/wp-json/wp/v2/types/nav_menu_item"
+          }
+        ],
+        "wp:term": [
+          {
+            "taxonomy": "nav_menu",
+            "embeddable": true,
+            "href": "https://adanaavukat.org/wp-json/wp/v2/menus?post=236"
+          }
+        ],
+        "wp:menu-item-object": [
+          {
+            "post_type": "page",
+            "embeddable": true,
+            "href": "https://adanaavukat.org/wp-json/wp/v2/pages/205"
+          }
+        ],
+        "wp:action-publish": [
+          {
+            "href": "https://adanaavukat.org/wp-json/wp/v2/menu-items/236"
+          }
+        ],
+        "wp:action-unfiltered-html": [
+          {
+            "href": "https://adanaavukat.org/wp-json/wp/v2/menu-items/236"
+          }
+        ],
+        "wp:action-create-menus": [
+          {
+            "href": "https://adanaavukat.org/wp-json/wp/v2/menu-items/236"
+          }
+        ],
+        "wp:action-assign-menus": [
+          {
+            "href": "https://adanaavukat.org/wp-json/wp/v2/menu-items/236"
+          }
+        ],
+        "curies": [
+          {
+            "name": "wp",
+            "href": "https://api.w.org/{rel}",
+            "templated": true
+          }
+        ]
+      }
+    },
+    {
+      "id": 345,
+      "title": {
+        "raw": "Anlaşmalı Boşanma",
+        "rendered": "Anlaşmalı Boşanma"
+      },
+      "status": "publish",
+      "url": "https://adanaavukat.org/adana-anlasmali-bosanma-avukati/",
+      "attr_title": "",
+      "description": "",
+      "type": "post_type",
+      "type_label": "Sayfa",
+      "object": "page",
+      "object_id": 307,
+      "parent": 239,
+      "menu_order": 5,
+      "target": "",
+      "classes": [
+        ""
+      ],
+      "xfn": [
+        ""
+      ],
+      "invalid": false,
+      "meta": {
+        "site-sidebar-layout": "default",
+        "site-content-layout": "",
+        "ast-site-content-layout": "default",
+        "site-content-style": "default",
+        "site-sidebar-style": "default",
+        "ast-global-header-display": "",
+        "ast-banner-title-visibility": "",
+        "ast-main-header-display": "",
+        "ast-hfb-above-header-display": "",
+        "ast-hfb-below-header-display": "",
+        "ast-hfb-mobile-header-display": "",
+        "site-post-title": "",
+        "ast-breadcrumbs-content": "",
+        "ast-featured-img": "",
+        "footer-sml-layout": "",
+        "ast-disable-related-posts": "",
+        "theme-transparent-header-meta": "",
+        "adv-header-id-meta": "",
+        "stick-header-meta": "",
+        "header-above-stick-meta": "",
+        "header-main-stick-meta": "",
+        "header-below-stick-meta": "",
+        "astra-migrate-meta-layouts": "default",
+        "ast-page-background-enabled": "default",
+        "ast-page-background-meta": {
+          "desktop": {
+            "background-color": "var(--ast-global-color-5)",
+            "background-image": "",
+            "background-repeat": "repeat",
+            "background-position": "center center",
+            "background-size": "auto",
+            "background-attachment": "scroll",
+            "background-type": "",
+            "background-media": "",
+            "overlay-type": "",
+            "overlay-color": "",
+            "overlay-opacity": "",
+            "overlay-gradient": ""
+          },
+          "tablet": {
+            "background-color": "",
+            "background-image": "",
+            "background-repeat": "repeat",
+            "background-position": "center center",
+            "background-size": "auto",
+            "background-attachment": "scroll",
+            "background-type": "",
+            "background-media": "",
+            "overlay-type": "",
+            "overlay-color": "",
+            "overlay-opacity": "",
+            "overlay-gradient": ""
+          },
+          "mobile": {
+            "background-color": "",
+            "background-image": "",
+            "background-repeat": "repeat",
+            "background-position": "center center",
+            "background-size": "auto",
+            "background-attachment": "scroll",
+            "background-type": "",
+            "background-media": "",
+            "overlay-type": "",
+            "overlay-color": "",
+            "overlay-opacity": "",
+            "overlay-gradient": ""
+          }
+        },
+        "ast-content-background-meta": {
+          "desktop": {
+            "background-color": "var(--ast-global-color-4)",
+            "background-image": "",
+            "background-repeat": "repeat",
+            "background-position": "center center",
+            "background-size": "auto",
+            "background-attachment": "scroll",
+            "background-type": "",
+            "background-media": "",
+            "overlay-type": "",
+            "overlay-color": "",
+            "overlay-opacity": "",
+            "overlay-gradient": ""
+          },
+          "tablet": {
+            "background-color": "var(--ast-global-color-4)",
+            "background-image": "",
+            "background-repeat": "repeat",
+            "background-position": "center center",
+            "background-size": "auto",
+            "background-attachment": "scroll",
+            "background-type": "",
+            "background-media": "",
+            "overlay-type": "",
+            "overlay-color": "",
+            "overlay-opacity": "",
+            "overlay-gradient": ""
+          },
+          "mobile": {
+            "background-color": "var(--ast-global-color-4)",
+            "background-image": "",
+            "background-repeat": "repeat",
+            "background-position": "center center",
+            "background-size": "auto",
+            "background-attachment": "scroll",
+            "background-type": "",
+            "background-media": "",
+            "overlay-type": "",
+            "overlay-color": "",
+            "overlay-opacity": "",
+            "overlay-gradient": ""
+          }
+        }
+      },
+      "menus": 11,
+      "_links": {
+        "self": [
+          {
+            "href": "https://adanaavukat.org/wp-json/wp/v2/menu-items/345",
+            "targetHints": {
+              "allow": [
+                "GET",
+                "POST",
+                "PUT",
+                "PATCH",
+                "DELETE"
+              ]
+            }
+          }
+        ],
+        "collection": [
+          {
+            "href": "https://adanaavukat.org/wp-json/wp/v2/menu-items"
+          }
+        ],
+        "about": [
+          {
+            "href": "https://adanaavukat.org/wp-json/wp/v2/types/nav_menu_item"
+          }
+        ],
+        "wp:term": [
+          {
+            "taxonomy": "nav_menu",
+            "embeddable": true,
+            "href": "https://adanaavukat.org/wp-json/wp/v2/menus?post=345"
+          }
+        ],
+        "wp:menu-item-object": [
+          {
+            "post_type": "page",
+            "embeddable": true,
+            "href": "https://adanaavukat.org/wp-json/wp/v2/pages/307"
+          }
+        ],
+        "wp:action-publish": [
+          {
+            "href": "https://adanaavukat.org/wp-json/wp/v2/menu-items/345"
+          }
+        ],
+        "wp:action-unfiltered-html": [
+          {
+            "href": "https://adanaavukat.org/wp-json/wp/v2/menu-items/345"
+          }
+        ],
+        "wp:action-create-menus": [
+          {
+            "href": "https://adanaavukat.org/wp-json/wp/v2/menu-items/345"
+          }
+        ],
+        "wp:action-assign-menus": [
+          {
+            "href": "https://adanaavukat.org/wp-json/wp/v2/menu-items/345"
+          }
+        ],
+        "curies": [
+          {
+            "name": "wp",
+            "href": "https://api.w.org/{rel}",
+            "templated": true
+          }
+        ]
+      }
+    },
+    {
+      "id": 235,
+      "title": {
+        "raw": "Çekişmeli Boşanma",
+        "rendered": "Çekişmeli Boşanma"
+      },
+      "status": "publish",
+      "url": "https://adanaavukat.org/cekismeli-bosanma-davasi/",
+      "attr_title": "",
+      "description": "",
+      "type": "post_type",
+      "type_label": "Sayfa",
+      "object": "page",
+      "object_id": 216,
+      "parent": 239,
+      "menu_order": 6,
+      "target": "",
+      "classes": [
+        ""
+      ],
+      "xfn": [
+        ""
+      ],
+      "invalid": false,
+      "meta": {
+        "site-sidebar-layout": "default",
+        "site-content-layout": "",
+        "ast-site-content-layout": "default",
+        "site-content-style": "default",
+        "site-sidebar-style": "default",
+        "ast-global-header-display": "",
+        "ast-banner-title-visibility": "",
+        "ast-main-header-display": "",
+        "ast-hfb-above-header-display": "",
+        "ast-hfb-below-header-display": "",
+        "ast-hfb-mobile-header-display": "",
+        "site-post-title": "",
+        "ast-breadcrumbs-content": "",
+        "ast-featured-img": "",
+        "footer-sml-layout": "",
+        "ast-disable-related-posts": "",
+        "theme-transparent-header-meta": "",
+        "adv-header-id-meta": "",
+        "stick-header-meta": "",
+        "header-above-stick-meta": "",
+        "header-main-stick-meta": "",
+        "header-below-stick-meta": "",
+        "astra-migrate-meta-layouts": "default",
+        "ast-page-background-enabled": "default",
+        "ast-page-background-meta": {
+          "desktop": {
+            "background-color": "var(--ast-global-color-5)",
+            "background-image": "",
+            "background-repeat": "repeat",
+            "background-position": "center center",
+            "background-size": "auto",
+            "background-attachment": "scroll",
+            "background-type": "",
+            "background-media": "",
+            "overlay-type": "",
+            "overlay-color": "",
+            "overlay-opacity": "",
+            "overlay-gradient": ""
+          },
+          "tablet": {
+            "background-color": "",
+            "background-image": "",
+            "background-repeat": "repeat",
+            "background-position": "center center",
+            "background-size": "auto",
+            "background-attachment": "scroll",
+            "background-type": "",
+            "background-media": "",
+            "overlay-type": "",
+            "overlay-color": "",
+            "overlay-opacity": "",
+            "overlay-gradient": ""
+          },
+          "mobile": {
+            "background-color": "",
+            "background-image": "",
+            "background-repeat": "repeat",
+            "background-position": "center center",
+            "background-size": "auto",
+            "background-attachment": "scroll",
+            "background-type": "",
+            "background-media": "",
+            "overlay-type": "",
+            "overlay-color": "",
+            "overlay-opacity": "",
+            "overlay-gradient": ""
+          }
+        },
+        "ast-content-background-meta": {
+          "desktop": {
+            "background-color": "var(--ast-global-color-4)",
+            "background-image": "",
+            "background-repeat": "repeat",
+            "background-position": "center center",
+            "background-size": "auto",
+            "background-attachment": "scroll",
+            "background-type": "",
+            "background-media": "",
+            "overlay-type": "",
+            "overlay-color": "",
+            "overlay-opacity": "",
+            "overlay-gradient": ""
+          },
+          "tablet": {
+            "background-color": "var(--ast-global-color-4)",
+            "background-image": "",
+            "background-repeat": "repeat",
+            "background-position": "center center",
+            "background-size": "auto",
+            "background-attachment": "scroll",
+            "background-type": "",
+            "background-media": "",
+            "overlay-type": "",
+            "overlay-color": "",
+            "overlay-opacity": "",
+            "overlay-gradient": ""
+          },
+          "mobile": {
+            "background-color": "var(--ast-global-color-4)",
+            "background-image": "",
+            "background-repeat": "repeat",
+            "background-position": "center center",
+            "background-size": "auto",
+            "background-attachment": "scroll",
+            "background-type": "",
+            "background-media": "",
+            "overlay-type": "",
+            "overlay-color": "",
+            "overlay-opacity": "",
+            "overlay-gradient": ""
+          }
+        }
+      },
+      "menus": 11,
+      "_links": {
+        "self": [
+          {
+            "href": "https://adanaavukat.org/wp-json/wp/v2/menu-items/235",
+            "targetHints": {
+              "allow": [
+                "GET",
+                "POST",
+                "PUT",
+                "PATCH",
+                "DELETE"
+              ]
+            }
+          }
+        ],
+        "collection": [
+          {
+            "href": "https://adanaavukat.org/wp-json/wp/v2/menu-items"
+          }
+        ],
+        "about": [
+          {
+            "href": "https://adanaavukat.org/wp-json/wp/v2/types/nav_menu_item"
+          }
+        ],
+        "wp:term": [
+          {
+            "taxonomy": "nav_menu",
+            "embeddable": true,
+            "href": "https://adanaavukat.org/wp-json/wp/v2/menus?post=235"
+          }
+        ],
+        "wp:menu-item-object": [
+          {
+            "post_type": "page",
+            "embeddable": true,
+            "href": "https://adanaavukat.org/wp-json/wp/v2/pages/216"
+          }
+        ],
+        "wp:action-publish": [
+          {
+            "href": "https://adanaavukat.org/wp-json/wp/v2/menu-items/235"
+          }
+        ],
+        "wp:action-unfiltered-html": [
+          {
+            "href": "https://adanaavukat.org/wp-json/wp/v2/menu-items/235"
+          }
+        ],
+        "wp:action-create-menus": [
+          {
+            "href": "https://adanaavukat.org/wp-json/wp/v2/menu-items/235"
+          }
+        ],
+        "wp:action-assign-menus": [
+          {
+            "href": "https://adanaavukat.org/wp-json/wp/v2/menu-items/235"
+          }
+        ],
+        "curies": [
+          {
+            "name": "wp",
+            "href": "https://api.w.org/{rel}",
+            "templated": true
+          }
+        ]
+      }
+    },
+    {
+      "id": 346,
+      "title": {
+        "raw": "Velayet Davası",
+        "rendered": "Velayet Davası"
+      },
+      "status": "publish",
+      "url": "https://adanaavukat.org/velayet-davasi-avukati-adana/",
+      "attr_title": "",
+      "description": "",
+      "type": "post_type",
+      "type_label": "Sayfa",
+      "object": "page",
+      "object_id": 311,
+      "parent": 239,
+      "menu_order": 7,
+      "target": "",
+      "classes": [
+        ""
+      ],
+      "xfn": [
+        ""
+      ],
+      "invalid": false,
+      "meta": {
+        "site-sidebar-layout": "default",
+        "site-content-layout": "",
+        "ast-site-content-layout": "default",
+        "site-content-style": "default",
+        "site-sidebar-style": "default",
+        "ast-global-header-display": "",
+        "ast-banner-title-visibility": "",
+        "ast-main-header-display": "",
+        "ast-hfb-above-header-display": "",
+        "ast-hfb-below-header-display": "",
+        "ast-hfb-mobile-header-display": "",
+        "site-post-title": "",
+        "ast-breadcrumbs-content": "",
+        "ast-featured-img": "",
+        "footer-sml-layout": "",
+        "ast-disable-related-posts": "",
+        "theme-transparent-header-meta": "",
+        "adv-header-id-meta": "",
+        "stick-header-meta": "",
+        "header-above-stick-meta": "",
+        "header-main-stick-meta": "",
+        "header-below-stick-meta": "",
+        "astra-migrate-meta-layouts": "default",
+        "ast-page-background-enabled": "default",
+        "ast-page-background-meta": {
+          "desktop": {
+            "background-color": "var(--ast-global-color-5)",
+            "background-image": "",
+            "background-repeat": "repeat",
+            "background-position": "center center",
+            "background-size": "auto",
+            "background-attachment": "scroll",
+            "background-type": "",
+            "background-media": "",
+            "overlay-type": "",
+            "overlay-color": "",
+            "overlay-opacity": "",
+            "overlay-gradient": ""
+          },
+          "tablet": {
+            "background-color": "",
+            "background-image": "",
+            "background-repeat": "repeat",
+            "background-position": "center center",
+            "background-size": "auto",
+            "background-attachment": "scroll",
+            "background-type": "",
+            "background-media": "",
+            "overlay-type": "",
+            "overlay-color": "",
+            "overlay-opacity": "",
+            "overlay-gradient": ""
+          },
+          "mobile": {
+            "background-color": "",
+            "background-image": "",
+            "background-repeat": "repeat",
+            "background-position": "center center",
+            "background-size": "auto",
+            "background-attachment": "scroll",
+            "background-type": "",
+            "background-media": "",
+            "overlay-type": "",
+            "overlay-color": "",
+            "overlay-opacity": "",
+            "overlay-gradient": ""
+          }
+        },
+        "ast-content-background-meta": {
+          "desktop": {
+            "background-color": "var(--ast-global-color-4)",
+            "background-image": "",
+            "background-repeat": "repeat",
+            "background-position": "center center",
+            "background-size": "auto",
+            "background-attachment": "scroll",
+            "background-type": "",
+            "background-media": "",
+            "overlay-type": "",
+            "overlay-color": "",
+            "overlay-opacity": "",
+            "overlay-gradient": ""
+          },
+          "tablet": {
+            "background-color": "var(--ast-global-color-4)",
+            "background-image": "",
+            "background-repeat": "repeat",
+            "background-position": "center center",
+            "background-size": "auto",
+            "background-attachment": "scroll",
+            "background-type": "",
+            "background-media": "",
+            "overlay-type": "",
+            "overlay-color": "",
+            "overlay-opacity": "",
+            "overlay-gradient": ""
+          },
+          "mobile": {
+            "background-color": "var(--ast-global-color-4)",
+            "background-image": "",
+            "background-repeat": "repeat",
+            "background-position": "center center",
+            "background-size": "auto",
+            "background-attachment": "scroll",
+            "background-type": "",
+            "background-media": "",
+            "overlay-type": "",
+            "overlay-color": "",
+            "overlay-opacity": "",
+            "overlay-gradient": ""
+          }
+        }
+      },
+      "menus": 11,
+      "_links": {
+        "self": [
+          {
+            "href": "https://adanaavukat.org/wp-json/wp/v2/menu-items/346",
+            "targetHints": {
+              "allow": [
+                "GET",
+                "POST",
+                "PUT",
+                "PATCH",
+                "DELETE"
+              ]
+            }
+          }
+        ],
+        "collection": [
+          {
+            "href": "https://adanaavukat.org/wp-json/wp/v2/menu-items"
+          }
+        ],
+        "about": [
+          {
+            "href": "https://adanaavukat.org/wp-json/wp/v2/types/nav_menu_item"
+          }
+        ],
+        "wp:term": [
+          {
+            "taxonomy": "nav_menu",
+            "embeddable": true,
+            "href": "https://adanaavukat.org/wp-json/wp/v2/menus?post=346"
+          }
+        ],
+        "wp:menu-item-object": [
+          {
+            "post_type": "page",
+            "embeddable": true,
+            "href": "https://adanaavukat.org/wp-json/wp/v2/pages/311"
+          }
+        ],
+        "wp:action-publish": [
+          {
+            "href": "https://adanaavukat.org/wp-json/wp/v2/menu-items/346"
+          }
+        ],
+        "wp:action-unfiltered-html": [
+          {
+            "href": "https://adanaavukat.org/wp-json/wp/v2/menu-items/346"
+          }
+        ],
+        "wp:action-create-menus": [
+          {
+            "href": "https://adanaavukat.org/wp-json/wp/v2/menu-items/346"
+          }
+        ],
+        "wp:action-assign-menus": [
+          {
+            "href": "https://adanaavukat.org/wp-json/wp/v2/menu-items/346"
+          }
+        ],
+        "curies": [
+          {
+            "name": "wp",
+            "href": "https://api.w.org/{rel}",
+            "templated": true
+          }
+        ]
+      }
+    },
+    {
+      "id": 240,
+      "title": {
+        "raw": "Nafaka Davası",
+        "rendered": "Nafaka Davası"
+      },
+      "status": "publish",
+      "url": "https://adanaavukat.org/nafaka-davasi/",
+      "attr_title": "",
+      "description": "",
+      "type": "post_type",
+      "type_label": "Sayfa",
+      "object": "page",
+      "object_id": 223,
+      "parent": 239,
+      "menu_order": 8,
+      "target": "",
+      "classes": [
+        ""
+      ],
+      "xfn": [
+        ""
+      ],
+      "invalid": false,
+      "meta": {
+        "site-sidebar-layout": "default",
+        "site-content-layout": "",
+        "ast-site-content-layout": "default",
+        "site-content-style": "default",
+        "site-sidebar-style": "default",
+        "ast-global-header-display": "",
+        "ast-banner-title-visibility": "",
+        "ast-main-header-display": "",
+        "ast-hfb-above-header-display": "",
+        "ast-hfb-below-header-display": "",
+        "ast-hfb-mobile-header-display": "",
+        "site-post-title": "",
+        "ast-breadcrumbs-content": "",
+        "ast-featured-img": "",
+        "footer-sml-layout": "",
+        "ast-disable-related-posts": "",
+        "theme-transparent-header-meta": "",
+        "adv-header-id-meta": "",
+        "stick-header-meta": "",
+        "header-above-stick-meta": "",
+        "header-main-stick-meta": "",
+        "header-below-stick-meta": "",
+        "astra-migrate-meta-layouts": "default",
+        "ast-page-background-enabled": "default",
+        "ast-page-background-meta": {
+          "desktop": {
+            "background-color": "var(--ast-global-color-5)",
+            "background-image": "",
+            "background-repeat": "repeat",
+            "background-position": "center center",
+            "background-size": "auto",
+            "background-attachment": "scroll",
+            "background-type": "",
+            "background-media": "",
+            "overlay-type": "",
+            "overlay-color": "",
+            "overlay-opacity": "",
+            "overlay-gradient": ""
+          },
+          "tablet": {
+            "background-color": "",
+            "background-image": "",
+            "background-repeat": "repeat",
+            "background-position": "center center",
+            "background-size": "auto",
+            "background-attachment": "scroll",
+            "background-type": "",
+            "background-media": "",
+            "overlay-type": "",
+            "overlay-color": "",
+            "overlay-opacity": "",
+            "overlay-gradient": ""
+          },
+          "mobile": {
+            "background-color": "",
+            "background-image": "",
+            "background-repeat": "repeat",
+            "background-position": "center center",
+            "background-size": "auto",
+            "background-attachment": "scroll",
+            "background-type": "",
+            "background-media": "",
+            "overlay-type": "",
+            "overlay-color": "",
+            "overlay-opacity": "",
+            "overlay-gradient": ""
+          }
+        },
+        "ast-content-background-meta": {
+          "desktop": {
+            "background-color": "var(--ast-global-color-4)",
+            "background-image": "",
+            "background-repeat": "repeat",
+            "background-position": "center center",
+            "background-size": "auto",
+            "background-attachment": "scroll",
+            "background-type": "",
+            "background-media": "",
+            "overlay-type": "",
+            "overlay-color": "",
+            "overlay-opacity": "",
+            "overlay-gradient": ""
+          },
+          "tablet": {
+            "background-color": "var(--ast-global-color-4)",
+            "background-image": "",
+            "background-repeat": "repeat",
+            "background-position": "center center",
+            "background-size": "auto",
+            "background-attachment": "scroll",
+            "background-type": "",
+            "background-media": "",
+            "overlay-type": "",
+            "overlay-color": "",
+            "overlay-opacity": "",
+            "overlay-gradient": ""
+          },
+          "mobile": {
+            "background-color": "var(--ast-global-color-4)",
+            "background-image": "",
+            "background-repeat": "repeat",
+            "background-position": "center center",
+            "background-size": "auto",
+            "background-attachment": "scroll",
+            "background-type": "",
+            "background-media": "",
+            "overlay-type": "",
+            "overlay-color": "",
+            "overlay-opacity": "",
+            "overlay-gradient": ""
+          }
+        }
+      },
+      "menus": 11,
+      "_links": {
+        "self": [
+          {
+            "href": "https://adanaavukat.org/wp-json/wp/v2/menu-items/240",
+            "targetHints": {
+              "allow": [
+                "GET",
+                "POST",
+                "PUT",
+                "PATCH",
+                "DELETE"
+              ]
+            }
+          }
+        ],
+        "collection": [
+          {
+            "href": "https://adanaavukat.org/wp-json/wp/v2/menu-items"
+          }
+        ],
+        "about": [
+          {
+            "href": "https://adanaavukat.org/wp-json/wp/v2/types/nav_menu_item"
+          }
+        ],
+        "wp:term": [
+          {
+            "taxonomy": "nav_menu",
+            "embeddable": true,
+            "href": "https://adanaavukat.org/wp-json/wp/v2/menus?post=240"
+          }
+        ],
+        "wp:menu-item-object": [
+          {
+            "post_type": "page",
+            "embeddable": true,
+            "href": "https://adanaavukat.org/wp-json/wp/v2/pages/223"
+          }
+        ],
+        "wp:action-publish": [
+          {
+            "href": "https://adanaavukat.org/wp-json/wp/v2/menu-items/240"
+          }
+        ],
+        "wp:action-unfiltered-html": [
+          {
+            "href": "https://adanaavukat.org/wp-json/wp/v2/menu-items/240"
+          }
+        ],
+        "wp:action-create-menus": [
+          {
+            "href": "https://adanaavukat.org/wp-json/wp/v2/menu-items/240"
+          }
+        ],
+        "wp:action-assign-menus": [
+          {
+            "href": "https://adanaavukat.org/wp-json/wp/v2/menu-items/240"
+          }
+        ],
+        "curies": [
+          {
+            "name": "wp",
+            "href": "https://api.w.org/{rel}",
+            "templated": true
+          }
+        ]
+      }
+    },
+    {
+      "id": 243,
+      "title": {
+        "raw": "Mal Paylaşımı",
+        "rendered": "Mal Paylaşımı"
+      },
+      "status": "publish",
+      "url": "https://adanaavukat.org/adana-ortakligin-giderilmesi-davasi-avukat/",
+      "attr_title": "",
+      "description": "",
+      "type": "post_type",
+      "type_label": "Sayfa",
+      "object": "page",
+      "object_id": 241,
+      "parent": 239,
+      "menu_order": 9,
+      "target": "",
+      "classes": [
+        ""
+      ],
+      "xfn": [
+        ""
+      ],
+      "invalid": false,
+      "meta": {
+        "site-sidebar-layout": "default",
+        "site-content-layout": "",
+        "ast-site-content-layout": "default",
+        "site-content-style": "default",
+        "site-sidebar-style": "default",
+        "ast-global-header-display": "",
+        "ast-banner-title-visibility": "",
+        "ast-main-header-display": "",
+        "ast-hfb-above-header-display": "",
+        "ast-hfb-below-header-display": "",
+        "ast-hfb-mobile-header-display": "",
+        "site-post-title": "",
+        "ast-breadcrumbs-content": "",
+        "ast-featured-img": "",
+        "footer-sml-layout": "",
+        "ast-disable-related-posts": "",
+        "theme-transparent-header-meta": "",
+        "adv-header-id-meta": "",
+        "stick-header-meta": "",
+        "header-above-stick-meta": "",
+        "header-main-stick-meta": "",
+        "header-below-stick-meta": "",
+        "astra-migrate-meta-layouts": "default",
+        "ast-page-background-enabled": "default",
+        "ast-page-background-meta": {
+          "desktop": {
+            "background-color": "var(--ast-global-color-5)",
+            "background-image": "",
+            "background-repeat": "repeat",
+            "background-position": "center center",
+            "background-size": "auto",
+            "background-attachment": "scroll",
+            "background-type": "",
+            "background-media": "",
+            "overlay-type": "",
+            "overlay-color": "",
+            "overlay-opacity": "",
+            "overlay-gradient": ""
+          },
+          "tablet": {
+            "background-color": "",
+            "background-image": "",
+            "background-repeat": "repeat",
+            "background-position": "center center",
+            "background-size": "auto",
+            "background-attachment": "scroll",
+            "background-type": "",
+            "background-media": "",
+            "overlay-type": "",
+            "overlay-color": "",
+            "overlay-opacity": "",
+            "overlay-gradient": ""
+          },
+          "mobile": {
+            "background-color": "",
+            "background-image": "",
+            "background-repeat": "repeat",
+            "background-position": "center center",
+            "background-size": "auto",
+            "background-attachment": "scroll",
+            "background-type": "",
+            "background-media": "",
+            "overlay-type": "",
+            "overlay-color": "",
+            "overlay-opacity": "",
+            "overlay-gradient": ""
+          }
+        },
+        "ast-content-background-meta": {
+          "desktop": {
+            "background-color": "var(--ast-global-color-4)",
+            "background-image": "",
+            "background-repeat": "repeat",
+            "background-position": "center center",
+            "background-size": "auto",
+            "background-attachment": "scroll",
+            "background-type": "",
+            "background-media": "",
+            "overlay-type": "",
+            "overlay-color": "",
+            "overlay-opacity": "",
+            "overlay-gradient": ""
+          },
+          "tablet": {
+            "background-color": "var(--ast-global-color-4)",
+            "background-image": "",
+            "background-repeat": "repeat",
+            "background-position": "center center",
+            "background-size": "auto",
+            "background-attachment": "scroll",
+            "background-type": "",
+            "background-media": "",
+            "overlay-type": "",
+            "overlay-color": "",
+            "overlay-opacity": "",
+            "overlay-gradient": ""
+          },
+          "mobile": {
+            "background-color": "var(--ast-global-color-4)",
+            "background-image": "",
+            "background-repeat": "repeat",
+            "background-position": "center center",
+            "background-size": "auto",
+            "background-attachment": "scroll",
+            "background-type": "",
+            "background-media": "",
+            "overlay-type": "",
+            "overlay-color": "",
+            "overlay-opacity": "",
+            "overlay-gradient": ""
+          }
+        }
+      },
+      "menus": 11,
+      "_links": {
+        "self": [
+          {
+            "href": "https://adanaavukat.org/wp-json/wp/v2/menu-items/243",
+            "targetHints": {
+              "allow": [
+                "GET",
+                "POST",
+                "PUT",
+                "PATCH",
+                "DELETE"
+              ]
+            }
+          }
+        ],
+        "collection": [
+          {
+            "href": "https://adanaavukat.org/wp-json/wp/v2/menu-items"
+          }
+        ],
+        "about": [
+          {
+            "href": "https://adanaavukat.org/wp-json/wp/v2/types/nav_menu_item"
+          }
+        ],
+        "wp:term": [
+          {
+            "taxonomy": "nav_menu",
+            "embeddable": true,
+            "href": "https://adanaavukat.org/wp-json/wp/v2/menus?post=243"
+          }
+        ],
+        "wp:menu-item-object": [
+          {
+            "post_type": "page",
+            "embeddable": true,
+            "href": "https://adanaavukat.org/wp-json/wp/v2/pages/241"
+          }
+        ],
+        "wp:action-publish": [
+          {
+            "href": "https://adanaavukat.org/wp-json/wp/v2/menu-items/243"
+          }
+        ],
+        "wp:action-unfiltered-html": [
+          {
+            "href": "https://adanaavukat.org/wp-json/wp/v2/menu-items/243"
+          }
+        ],
+        "wp:action-create-menus": [
+          {
+            "href": "https://adanaavukat.org/wp-json/wp/v2/menu-items/243"
+          }
+        ],
+        "wp:action-assign-menus": [
+          {
+            "href": "https://adanaavukat.org/wp-json/wp/v2/menu-items/243"
+          }
+        ],
+        "curies": [
+          {
+            "name": "wp",
+            "href": "https://api.w.org/{rel}",
+            "templated": true
+          }
+        ]
+      }
+    },
+    {
+      "id": 292,
+      "title": {
+        "raw": "Miras Hukuku",
+        "rendered": "Miras Hukuku"
+      },
+      "status": "publish",
+      "url": "https://adanaavukat.org/adana-miras-hukuku/",
+      "attr_title": "",
+      "description": "",
+      "type": "post_type",
+      "type_label": "Sayfa",
+      "object": "page",
+      "object_id": 287,
+      "parent": 239,
+      "menu_order": 10,
+      "target": "",
+      "classes": [
+        ""
+      ],
+      "xfn": [
+        ""
+      ],
+      "invalid": false,
+      "meta": {
+        "site-sidebar-layout": "default",
+        "site-content-layout": "",
+        "ast-site-content-layout": "default",
+        "site-content-style": "default",
+        "site-sidebar-style": "default",
+        "ast-global-header-display": "",
+        "ast-banner-title-visibility": "",
+        "ast-main-header-display": "",
+        "ast-hfb-above-header-display": "",
+        "ast-hfb-below-header-display": "",
+        "ast-hfb-mobile-header-display": "",
+        "site-post-title": "",
+        "ast-breadcrumbs-content": "",
+        "ast-featured-img": "",
+        "footer-sml-layout": "",
+        "ast-disable-related-posts": "",
+        "theme-transparent-header-meta": "",
+        "adv-header-id-meta": "",
+        "stick-header-meta": "",
+        "header-above-stick-meta": "",
+        "header-main-stick-meta": "",
+        "header-below-stick-meta": "",
+        "astra-migrate-meta-layouts": "default",
+        "ast-page-background-enabled": "default",
+        "ast-page-background-meta": {
+          "desktop": {
+            "background-color": "var(--ast-global-color-5)",
+            "background-image": "",
+            "background-repeat": "repeat",
+            "background-position": "center center",
+            "background-size": "auto",
+            "background-attachment": "scroll",
+            "background-type": "",
+            "background-media": "",
+            "overlay-type": "",
+            "overlay-color": "",
+            "overlay-opacity": "",
+            "overlay-gradient": ""
+          },
+          "tablet": {
+            "background-color": "",
+            "background-image": "",
+            "background-repeat": "repeat",
+            "background-position": "center center",
+            "background-size": "auto",
+            "background-attachment": "scroll",
+            "background-type": "",
+            "background-media": "",
+            "overlay-type": "",
+            "overlay-color": "",
+            "overlay-opacity": "",
+            "overlay-gradient": ""
+          },
+          "mobile": {
+            "background-color": "",
+            "background-image": "",
+            "background-repeat": "repeat",
+            "background-position": "center center",
+            "background-size": "auto",
+            "background-attachment": "scroll",
+            "background-type": "",
+            "background-media": "",
+            "overlay-type": "",
+            "overlay-color": "",
+            "overlay-opacity": "",
+            "overlay-gradient": ""
+          }
+        },
+        "ast-content-background-meta": {
+          "desktop": {
+            "background-color": "var(--ast-global-color-4)",
+            "background-image": "",
+            "background-repeat": "repeat",
+            "background-position": "center center",
+            "background-size": "auto",
+            "background-attachment": "scroll",
+            "background-type": "",
+            "background-media": "",
+            "overlay-type": "",
+            "overlay-color": "",
+            "overlay-opacity": "",
+            "overlay-gradient": ""
+          },
+          "tablet": {
+            "background-color": "var(--ast-global-color-4)",
+            "background-image": "",
+            "background-repeat": "repeat",
+            "background-position": "center center",
+            "background-size": "auto",
+            "background-attachment": "scroll",
+            "background-type": "",
+            "background-media": "",
+            "overlay-type": "",
+            "overlay-color": "",
+            "overlay-opacity": "",
+            "overlay-gradient": ""
+          },
+          "mobile": {
+            "background-color": "var(--ast-global-color-4)",
+            "background-image": "",
+            "background-repeat": "repeat",
+            "background-position": "center center",
+            "background-size": "auto",
+            "background-attachment": "scroll",
+            "background-type": "",
+            "background-media": "",
+            "overlay-type": "",
+            "overlay-color": "",
+            "overlay-opacity": "",
+            "overlay-gradient": ""
+          }
+        }
+      },
+      "menus": 11,
+      "_links": {
+        "self": [
+          {
+            "href": "https://adanaavukat.org/wp-json/wp/v2/menu-items/292",
+            "targetHints": {
+              "allow": [
+                "GET",
+                "POST",
+                "PUT",
+                "PATCH",
+                "DELETE"
+              ]
+            }
+          }
+        ],
+        "collection": [
+          {
+            "href": "https://adanaavukat.org/wp-json/wp/v2/menu-items"
+          }
+        ],
+        "about": [
+          {
+            "href": "https://adanaavukat.org/wp-json/wp/v2/types/nav_menu_item"
+          }
+        ],
+        "wp:term": [
+          {
+            "taxonomy": "nav_menu",
+            "embeddable": true,
+            "href": "https://adanaavukat.org/wp-json/wp/v2/menus?post=292"
+          }
+        ],
+        "wp:menu-item-object": [
+          {
+            "post_type": "page",
+            "embeddable": true,
+            "href": "https://adanaavukat.org/wp-json/wp/v2/pages/287"
+          }
+        ],
+        "wp:action-publish": [
+          {
+            "href": "https://adanaavukat.org/wp-json/wp/v2/menu-items/292"
+          }
+        ],
+        "wp:action-unfiltered-html": [
+          {
+            "href": "https://adanaavukat.org/wp-json/wp/v2/menu-items/292"
+          }
+        ],
+        "wp:action-create-menus": [
+          {
+            "href": "https://adanaavukat.org/wp-json/wp/v2/menu-items/292"
+          }
+        ],
+        "wp:action-assign-menus": [
+          {
+            "href": "https://adanaavukat.org/wp-json/wp/v2/menu-items/292"
+          }
+        ],
+        "curies": [
+          {
+            "name": "wp",
+            "href": "https://api.w.org/{rel}",
+            "templated": true
+          }
+        ]
+      }
+    },
+    {
+      "id": 347,
+      "title": {
+        "raw": "Gayrimenkul Hukuku",
+        "rendered": "Gayrimenkul Hukuku"
+      },
+      "status": "publish",
+      "url": "https://adanaavukat.org/gayrimenkul-avukati-adana/",
+      "attr_title": "",
+      "description": "",
+      "type": "post_type",
+      "type_label": "Sayfa",
+      "object": "page",
+      "object_id": 313,
+      "parent": 239,
+      "menu_order": 11,
+      "target": "",
+      "classes": [
+        ""
+      ],
+      "xfn": [
+        ""
+      ],
+      "invalid": false,
+      "meta": {
+        "site-sidebar-layout": "default",
+        "site-content-layout": "",
+        "ast-site-content-layout": "default",
+        "site-content-style": "default",
+        "site-sidebar-style": "default",
+        "ast-global-header-display": "",
+        "ast-banner-title-visibility": "",
+        "ast-main-header-display": "",
+        "ast-hfb-above-header-display": "",
+        "ast-hfb-below-header-display": "",
+        "ast-hfb-mobile-header-display": "",
+        "site-post-title": "",
+        "ast-breadcrumbs-content": "",
+        "ast-featured-img": "",
+        "footer-sml-layout": "",
+        "ast-disable-related-posts": "",
+        "theme-transparent-header-meta": "",
+        "adv-header-id-meta": "",
+        "stick-header-meta": "",
+        "header-above-stick-meta": "",
+        "header-main-stick-meta": "",
+        "header-below-stick-meta": "",
+        "astra-migrate-meta-layouts": "default",
+        "ast-page-background-enabled": "default",
+        "ast-page-background-meta": {
+          "desktop": {
+            "background-color": "var(--ast-global-color-5)",
+            "background-image": "",
+            "background-repeat": "repeat",
+            "background-position": "center center",
+            "background-size": "auto",
+            "background-attachment": "scroll",
+            "background-type": "",
+            "background-media": "",
+            "overlay-type": "",
+            "overlay-color": "",
+            "overlay-opacity": "",
+            "overlay-gradient": ""
+          },
+          "tablet": {
+            "background-color": "",
+            "background-image": "",
+            "background-repeat": "repeat",
+            "background-position": "center center",
+            "background-size": "auto",
+            "background-attachment": "scroll",
+            "background-type": "",
+            "background-media": "",
+            "overlay-type": "",
+            "overlay-color": "",
+            "overlay-opacity": "",
+            "overlay-gradient": ""
+          },
+          "mobile": {
+            "background-color": "",
+            "background-image": "",
+            "background-repeat": "repeat",
+            "background-position": "center center",
+            "background-size": "auto",
+            "background-attachment": "scroll",
+            "background-type": "",
+            "background-media": "",
+            "overlay-type": "",
+            "overlay-color": "",
+            "overlay-opacity": "",
+            "overlay-gradient": ""
+          }
+        },
+        "ast-content-background-meta": {
+          "desktop": {
+            "background-color": "var(--ast-global-color-4)",
+            "background-image": "",
+            "background-repeat": "repeat",
+            "background-position": "center center",
+            "background-size": "auto",
+            "background-attachment": "scroll",
+            "background-type": "",
+            "background-media": "",
+            "overlay-type": "",
+            "overlay-color": "",
+            "overlay-opacity": "",
+            "overlay-gradient": ""
+          },
+          "tablet": {
+            "background-color": "var(--ast-global-color-4)",
+            "background-image": "",
+            "background-repeat": "repeat",
+            "background-position": "center center",
+            "background-size": "auto",
+            "background-attachment": "scroll",
+            "background-type": "",
+            "background-media": "",
+            "overlay-type": "",
+            "overlay-color": "",
+            "overlay-opacity": "",
+            "overlay-gradient": ""
+          },
+          "mobile": {
+            "background-color": "var(--ast-global-color-4)",
+            "background-image": "",
+            "background-repeat": "repeat",
+            "background-position": "center center",
+            "background-size": "auto",
+            "background-attachment": "scroll",
+            "background-type": "",
+            "background-media": "",
+            "overlay-type": "",
+            "overlay-color": "",
+            "overlay-opacity": "",
+            "overlay-gradient": ""
+          }
+        }
+      },
+      "menus": 11,
+      "_links": {
+        "self": [
+          {
+            "href": "https://adanaavukat.org/wp-json/wp/v2/menu-items/347",
+            "targetHints": {
+              "allow": [
+                "GET",
+                "POST",
+                "PUT",
+                "PATCH",
+                "DELETE"
+              ]
+            }
+          }
+        ],
+        "collection": [
+          {
+            "href": "https://adanaavukat.org/wp-json/wp/v2/menu-items"
+          }
+        ],
+        "about": [
+          {
+            "href": "https://adanaavukat.org/wp-json/wp/v2/types/nav_menu_item"
+          }
+        ],
+        "wp:term": [
+          {
+            "taxonomy": "nav_menu",
+            "embeddable": true,
+            "href": "https://adanaavukat.org/wp-json/wp/v2/menus?post=347"
+          }
+        ],
+        "wp:menu-item-object": [
+          {
+            "post_type": "page",
+            "embeddable": true,
+            "href": "https://adanaavukat.org/wp-json/wp/v2/pages/313"
+          }
+        ],
+        "wp:action-publish": [
+          {
+            "href": "https://adanaavukat.org/wp-json/wp/v2/menu-items/347"
+          }
+        ],
+        "wp:action-unfiltered-html": [
+          {
+            "href": "https://adanaavukat.org/wp-json/wp/v2/menu-items/347"
+          }
+        ],
+        "wp:action-create-menus": [
+          {
+            "href": "https://adanaavukat.org/wp-json/wp/v2/menu-items/347"
+          }
+        ],
+        "wp:action-assign-menus": [
+          {
+            "href": "https://adanaavukat.org/wp-json/wp/v2/menu-items/347"
+          }
+        ],
+        "curies": [
+          {
+            "name": "wp",
+            "href": "https://api.w.org/{rel}",
+            "templated": true
+          }
+        ]
+      }
+    },
+    {
+      "id": 293,
+      "title": {
+        "raw": "Kira Hukuku",
+        "rendered": "Kira Hukuku"
+      },
+      "status": "publish",
+      "url": "https://adanaavukat.org/adana-kira-hukuku/",
+      "attr_title": "",
+      "description": "",
+      "type": "post_type",
+      "type_label": "Sayfa",
+      "object": "page",
+      "object_id": 288,
+      "parent": 239,
+      "menu_order": 12,
+      "target": "",
+      "classes": [
+        ""
+      ],
+      "xfn": [
+        ""
+      ],
+      "invalid": false,
+      "meta": {
+        "site-sidebar-layout": "default",
+        "site-content-layout": "",
+        "ast-site-content-layout": "default",
+        "site-content-style": "default",
+        "site-sidebar-style": "default",
+        "ast-global-header-display": "",
+        "ast-banner-title-visibility": "",
+        "ast-main-header-display": "",
+        "ast-hfb-above-header-display": "",
+        "ast-hfb-below-header-display": "",
+        "ast-hfb-mobile-header-display": "",
+        "site-post-title": "",
+        "ast-breadcrumbs-content": "",
+        "ast-featured-img": "",
+        "footer-sml-layout": "",
+        "ast-disable-related-posts": "",
+        "theme-transparent-header-meta": "",
+        "adv-header-id-meta": "",
+        "stick-header-meta": "",
+        "header-above-stick-meta": "",
+        "header-main-stick-meta": "",
+        "header-below-stick-meta": "",
+        "astra-migrate-meta-layouts": "default",
+        "ast-page-background-enabled": "default",
+        "ast-page-background-meta": {
+          "desktop": {
+            "background-color": "var(--ast-global-color-5)",
+            "background-image": "",
+            "background-repeat": "repeat",
+            "background-position": "center center",
+            "background-size": "auto",
+            "background-attachment": "scroll",
+            "background-type": "",
+            "background-media": "",
+            "overlay-type": "",
+            "overlay-color": "",
+            "overlay-opacity": "",
+            "overlay-gradient": ""
+          },
+          "tablet": {
+            "background-color": "",
+            "background-image": "",
+            "background-repeat": "repeat",
+            "background-position": "center center",
+            "background-size": "auto",
+            "background-attachment": "scroll",
+            "background-type": "",
+            "background-media": "",
+            "overlay-type": "",
+            "overlay-color": "",
+            "overlay-opacity": "",
+            "overlay-gradient": ""
+          },
+          "mobile": {
+            "background-color": "",
+            "background-image": "",
+            "background-repeat": "repeat",
+            "background-position": "center center",
+            "background-size": "auto",
+            "background-attachment": "scroll",
+            "background-type": "",
+            "background-media": "",
+            "overlay-type": "",
+            "overlay-color": "",
+            "overlay-opacity": "",
+            "overlay-gradient": ""
+          }
+        },
+        "ast-content-background-meta": {
+          "desktop": {
+            "background-color": "var(--ast-global-color-4)",
+            "background-image": "",
+            "background-repeat": "repeat",
+            "background-position": "center center",
+            "background-size": "auto",
+            "background-attachment": "scroll",
+            "background-type": "",
+            "background-media": "",
+            "overlay-type": "",
+            "overlay-color": "",
+            "overlay-opacity": "",
+            "overlay-gradient": ""
+          },
+          "tablet": {
+            "background-color": "var(--ast-global-color-4)",
+            "background-image": "",
+            "background-repeat": "repeat",
+            "background-position": "center center",
+            "background-size": "auto",
+            "background-attachment": "scroll",
+            "background-type": "",
+            "background-media": "",
+            "overlay-type": "",
+            "overlay-color": "",
+            "overlay-opacity": "",
+            "overlay-gradient": ""
+          },
+          "mobile": {
+            "background-color": "var(--ast-global-color-4)",
+            "background-image": "",
+            "background-repeat": "repeat",
+            "background-position": "center center",
+            "background-size": "auto",
+            "background-attachment": "scroll",
+            "background-type": "",
+            "background-media": "",
+            "overlay-type": "",
+            "overlay-color": "",
+            "overlay-opacity": "",
+            "overlay-gradient": ""
+          }
+        }
+      },
+      "menus": 11,
+      "_links": {
+        "self": [
+          {
+            "href": "https://adanaavukat.org/wp-json/wp/v2/menu-items/293",
+            "targetHints": {
+              "allow": [
+                "GET",
+                "POST",
+                "PUT",
+                "PATCH",
+                "DELETE"
+              ]
+            }
+          }
+        ],
+        "collection": [
+          {
+            "href": "https://adanaavukat.org/wp-json/wp/v2/menu-items"
+          }
+        ],
+        "about": [
+          {
+            "href": "https://adanaavukat.org/wp-json/wp/v2/types/nav_menu_item"
+          }
+        ],
+        "wp:term": [
+          {
+            "taxonomy": "nav_menu",
+            "embeddable": true,
+            "href": "https://adanaavukat.org/wp-json/wp/v2/menus?post=293"
+          }
+        ],
+        "wp:menu-item-object": [
+          {
+            "post_type": "page",
+            "embeddable": true,
+            "href": "https://adanaavukat.org/wp-json/wp/v2/pages/288"
+          }
+        ],
+        "wp:action-publish": [
+          {
+            "href": "https://adanaavukat.org/wp-json/wp/v2/menu-items/293"
+          }
+        ],
+        "wp:action-unfiltered-html": [
+          {
+            "href": "https://adanaavukat.org/wp-json/wp/v2/menu-items/293"
+          }
+        ],
+        "wp:action-create-menus": [
+          {
+            "href": "https://adanaavukat.org/wp-json/wp/v2/menu-items/293"
+          }
+        ],
+        "wp:action-assign-menus": [
+          {
+            "href": "https://adanaavukat.org/wp-json/wp/v2/menu-items/293"
+          }
+        ],
+        "curies": [
+          {
+            "name": "wp",
+            "href": "https://api.w.org/{rel}",
+            "templated": true
+          }
+        ]
+      }
+    },
+    {
+      "id": 294,
+      "title": {
+        "raw": "İş Hukuku",
+        "rendered": "İş Hukuku"
+      },
+      "status": "publish",
+      "url": "https://adanaavukat.org/adana-is-hukuku/",
+      "attr_title": "",
+      "description": "",
+      "type": "post_type",
+      "type_label": "Sayfa",
+      "object": "page",
+      "object_id": 289,
+      "parent": 239,
+      "menu_order": 13,
+      "target": "",
+      "classes": [
+        ""
+      ],
+      "xfn": [
+        ""
+      ],
+      "invalid": false,
+      "meta": {
+        "site-sidebar-layout": "default",
+        "site-content-layout": "",
+        "ast-site-content-layout": "default",
+        "site-content-style": "default",
+        "site-sidebar-style": "default",
+        "ast-global-header-display": "",
+        "ast-banner-title-visibility": "",
+        "ast-main-header-display": "",
+        "ast-hfb-above-header-display": "",
+        "ast-hfb-below-header-display": "",
+        "ast-hfb-mobile-header-display": "",
+        "site-post-title": "",
+        "ast-breadcrumbs-content": "",
+        "ast-featured-img": "",
+        "footer-sml-layout": "",
+        "ast-disable-related-posts": "",
+        "theme-transparent-header-meta": "",
+        "adv-header-id-meta": "",
+        "stick-header-meta": "",
+        "header-above-stick-meta": "",
+        "header-main-stick-meta": "",
+        "header-below-stick-meta": "",
+        "astra-migrate-meta-layouts": "default",
+        "ast-page-background-enabled": "default",
+        "ast-page-background-meta": {
+          "desktop": {
+            "background-color": "var(--ast-global-color-5)",
+            "background-image": "",
+            "background-repeat": "repeat",
+            "background-position": "center center",
+            "background-size": "auto",
+            "background-attachment": "scroll",
+            "background-type": "",
+            "background-media": "",
+            "overlay-type": "",
+            "overlay-color": "",
+            "overlay-opacity": "",
+            "overlay-gradient": ""
+          },
+          "tablet": {
+            "background-color": "",
+            "background-image": "",
+            "background-repeat": "repeat",
+            "background-position": "center center",
+            "background-size": "auto",
+            "background-attachment": "scroll",
+            "background-type": "",
+            "background-media": "",
+            "overlay-type": "",
+            "overlay-color": "",
+            "overlay-opacity": "",
+            "overlay-gradient": ""
+          },
+          "mobile": {
+            "background-color": "",
+            "background-image": "",
+            "background-repeat": "repeat",
+            "background-position": "center center",
+            "background-size": "auto",
+            "background-attachment": "scroll",
+            "background-type": "",
+            "background-media": "",
+            "overlay-type": "",
+            "overlay-color": "",
+            "overlay-opacity": "",
+            "overlay-gradient": ""
+          }
+        },
+        "ast-content-background-meta": {
+          "desktop": {
+            "background-color": "var(--ast-global-color-4)",
+            "background-image": "",
+            "background-repeat": "repeat",
+            "background-position": "center center",
+            "background-size": "auto",
+            "background-attachment": "scroll",
+            "background-type": "",
+            "background-media": "",
+            "overlay-type": "",
+            "overlay-color": "",
+            "overlay-opacity": "",
+            "overlay-gradient": ""
+          },
+          "tablet": {
+            "background-color": "var(--ast-global-color-4)",
+            "background-image": "",
+            "background-repeat": "repeat",
+            "background-position": "center center",
+            "background-size": "auto",
+            "background-attachment": "scroll",
+            "background-type": "",
+            "background-media": "",
+            "overlay-type": "",
+            "overlay-color": "",
+            "overlay-opacity": "",
+            "overlay-gradient": ""
+          },
+          "mobile": {
+            "background-color": "var(--ast-global-color-4)",
+            "background-image": "",
+            "background-repeat": "repeat",
+            "background-position": "center center",
+            "background-size": "auto",
+            "background-attachment": "scroll",
+            "background-type": "",
+            "background-media": "",
+            "overlay-type": "",
+            "overlay-color": "",
+            "overlay-opacity": "",
+            "overlay-gradient": ""
+          }
+        }
+      },
+      "menus": 11,
+      "_links": {
+        "self": [
+          {
+            "href": "https://adanaavukat.org/wp-json/wp/v2/menu-items/294",
+            "targetHints": {
+              "allow": [
+                "GET",
+                "POST",
+                "PUT",
+                "PATCH",
+                "DELETE"
+              ]
+            }
+          }
+        ],
+        "collection": [
+          {
+            "href": "https://adanaavukat.org/wp-json/wp/v2/menu-items"
+          }
+        ],
+        "about": [
+          {
+            "href": "https://adanaavukat.org/wp-json/wp/v2/types/nav_menu_item"
+          }
+        ],
+        "wp:term": [
+          {
+            "taxonomy": "nav_menu",
+            "embeddable": true,
+            "href": "https://adanaavukat.org/wp-json/wp/v2/menus?post=294"
+          }
+        ],
+        "wp:menu-item-object": [
+          {
+            "post_type": "page",
+            "embeddable": true,
+            "href": "https://adanaavukat.org/wp-json/wp/v2/pages/289"
+          }
+        ],
+        "wp:action-publish": [
+          {
+            "href": "https://adanaavukat.org/wp-json/wp/v2/menu-items/294"
+          }
+        ],
+        "wp:action-unfiltered-html": [
+          {
+            "href": "https://adanaavukat.org/wp-json/wp/v2/menu-items/294"
+          }
+        ],
+        "wp:action-create-menus": [
+          {
+            "href": "https://adanaavukat.org/wp-json/wp/v2/menu-items/294"
+          }
+        ],
+        "wp:action-assign-menus": [
+          {
+            "href": "https://adanaavukat.org/wp-json/wp/v2/menu-items/294"
+          }
+        ],
+        "curies": [
+          {
+            "name": "wp",
+            "href": "https://api.w.org/{rel}",
+            "templated": true
+          }
+        ]
+      }
+    },
+    {
+      "id": 198,
+      "title": {
+        "raw": "Hakkımızda",
+        "rendered": "Hakkımızda"
+      },
+      "status": "publish",
+      "url": "https://adanaavukat.org/hakkimizda/",
+      "attr_title": "",
+      "description": "",
+      "type": "post_type",
+      "type_label": "Sayfa",
+      "object": "page",
+      "object_id": 41,
+      "parent": 0,
+      "menu_order": 14,
+      "target": "",
+      "classes": [
+        ""
+      ],
+      "xfn": [
+        ""
+      ],
+      "invalid": false,
+      "meta": {
+        "site-sidebar-layout": "default",
+        "site-content-layout": "",
+        "ast-site-content-layout": "default",
+        "site-content-style": "default",
+        "site-sidebar-style": "default",
+        "ast-global-header-display": "",
+        "ast-banner-title-visibility": "",
+        "ast-main-header-display": "",
+        "ast-hfb-above-header-display": "",
+        "ast-hfb-below-header-display": "",
+        "ast-hfb-mobile-header-display": "",
+        "site-post-title": "",
+        "ast-breadcrumbs-content": "",
+        "ast-featured-img": "",
+        "footer-sml-layout": "",
+        "ast-disable-related-posts": "",
+        "theme-transparent-header-meta": "",
+        "adv-header-id-meta": "",
+        "stick-header-meta": "",
+        "header-above-stick-meta": "",
+        "header-main-stick-meta": "",
+        "header-below-stick-meta": "",
+        "astra-migrate-meta-layouts": "default",
+        "ast-page-background-enabled": "default",
+        "ast-page-background-meta": {
+          "desktop": {
+            "background-color": "var(--ast-global-color-5)",
+            "background-image": "",
+            "background-repeat": "repeat",
+            "background-position": "center center",
+            "background-size": "auto",
+            "background-attachment": "scroll",
+            "background-type": "",
+            "background-media": "",
+            "overlay-type": "",
+            "overlay-color": "",
+            "overlay-opacity": "",
+            "overlay-gradient": ""
+          },
+          "tablet": {
+            "background-color": "",
+            "background-image": "",
+            "background-repeat": "repeat",
+            "background-position": "center center",
+            "background-size": "auto",
+            "background-attachment": "scroll",
+            "background-type": "",
+            "background-media": "",
+            "overlay-type": "",
+            "overlay-color": "",
+            "overlay-opacity": "",
+            "overlay-gradient": ""
+          },
+          "mobile": {
+            "background-color": "",
+            "background-image": "",
+            "background-repeat": "repeat",
+            "background-position": "center center",
+            "background-size": "auto",
+            "background-attachment": "scroll",
+            "background-type": "",
+            "background-media": "",
+            "overlay-type": "",
+            "overlay-color": "",
+            "overlay-opacity": "",
+            "overlay-gradient": ""
+          }
+        },
+        "ast-content-background-meta": {
+          "desktop": {
+            "background-color": "var(--ast-global-color-4)",
+            "background-image": "",
+            "background-repeat": "repeat",
+            "background-position": "center center",
+            "background-size": "auto",
+            "background-attachment": "scroll",
+            "background-type": "",
+            "background-media": "",
+            "overlay-type": "",
+            "overlay-color": "",
+            "overlay-opacity": "",
+            "overlay-gradient": ""
+          },
+          "tablet": {
+            "background-color": "var(--ast-global-color-4)",
+            "background-image": "",
+            "background-repeat": "repeat",
+            "background-position": "center center",
+            "background-size": "auto",
+            "background-attachment": "scroll",
+            "background-type": "",
+            "background-media": "",
+            "overlay-type": "",
+            "overlay-color": "",
+            "overlay-opacity": "",
+            "overlay-gradient": ""
+          },
+          "mobile": {
+            "background-color": "var(--ast-global-color-4)",
+            "background-image": "",
+            "background-repeat": "repeat",
+            "background-position": "center center",
+            "background-size": "auto",
+            "background-attachment": "scroll",
+            "background-type": "",
+            "background-media": "",
+            "overlay-type": "",
+            "overlay-color": "",
+            "overlay-opacity": "",
+            "overlay-gradient": ""
+          }
+        }
+      },
+      "menus": 11,
+      "_links": {
+        "self": [
+          {
+            "href": "https://adanaavukat.org/wp-json/wp/v2/menu-items/198",
+            "targetHints": {
+              "allow": [
+                "GET",
+                "POST",
+                "PUT",
+                "PATCH",
+                "DELETE"
+              ]
+            }
+          }
+        ],
+        "collection": [
+          {
+            "href": "https://adanaavukat.org/wp-json/wp/v2/menu-items"
+          }
+        ],
+        "about": [
+          {
+            "href": "https://adanaavukat.org/wp-json/wp/v2/types/nav_menu_item"
+          }
+        ],
+        "wp:term": [
+          {
+            "taxonomy": "nav_menu",
+            "embeddable": true,
+            "href": "https://adanaavukat.org/wp-json/wp/v2/menus?post=198"
+          }
+        ],
+        "wp:menu-item-object": [
+          {
+            "post_type": "page",
+            "embeddable": true,
+            "href": "https://adanaavukat.org/wp-json/wp/v2/pages/41"
+          }
+        ],
+        "wp:action-publish": [
+          {
+            "href": "https://adanaavukat.org/wp-json/wp/v2/menu-items/198"
+          }
+        ],
+        "wp:action-unfiltered-html": [
+          {
+            "href": "https://adanaavukat.org/wp-json/wp/v2/menu-items/198"
+          }
+        ],
+        "wp:action-create-menus": [
+          {
+            "href": "https://adanaavukat.org/wp-json/wp/v2/menu-items/198"
+          }
+        ],
+        "wp:action-assign-menus": [
+          {
+            "href": "https://adanaavukat.org/wp-json/wp/v2/menu-items/198"
+          }
+        ],
+        "curies": [
+          {
+            "name": "wp",
+            "href": "https://api.w.org/{rel}",
+            "templated": true
+          }
+        ]
+      }
+    },
+    {
+      "id": 271,
+      "title": {
+        "raw": "Avukat Ceren Sümer Cilli Kimdir?",
+        "rendered": "Avukat Ceren Sümer Cilli Kimdir?"
+      },
+      "status": "publish",
+      "url": "https://adanaavukat.org/avukat-ceren-sumer-cilli-kimdir-adana-bosanma-ve-aile-hukuku/",
+      "attr_title": "",
+      "description": "",
+      "type": "post_type",
+      "type_label": "Sayfa",
+      "object": "page",
+      "object_id": 268,
+      "parent": 0,
+      "menu_order": 15,
+      "target": "",
+      "classes": [
+        ""
+      ],
+      "xfn": [
+        ""
+      ],
+      "invalid": false,
+      "meta": {
+        "site-sidebar-layout": "default",
+        "site-content-layout": "",
+        "ast-site-content-layout": "default",
+        "site-content-style": "default",
+        "site-sidebar-style": "default",
+        "ast-global-header-display": "",
+        "ast-banner-title-visibility": "",
+        "ast-main-header-display": "",
+        "ast-hfb-above-header-display": "",
+        "ast-hfb-below-header-display": "",
+        "ast-hfb-mobile-header-display": "",
+        "site-post-title": "",
+        "ast-breadcrumbs-content": "",
+        "ast-featured-img": "",
+        "footer-sml-layout": "",
+        "ast-disable-related-posts": "",
+        "theme-transparent-header-meta": "",
+        "adv-header-id-meta": "",
+        "stick-header-meta": "",
+        "header-above-stick-meta": "",
+        "header-main-stick-meta": "",
+        "header-below-stick-meta": "",
+        "astra-migrate-meta-layouts": "default",
+        "ast-page-background-enabled": "default",
+        "ast-page-background-meta": {
+          "desktop": {
+            "background-color": "var(--ast-global-color-5)",
+            "background-image": "",
+            "background-repeat": "repeat",
+            "background-position": "center center",
+            "background-size": "auto",
+            "background-attachment": "scroll",
+            "background-type": "",
+            "background-media": "",
+            "overlay-type": "",
+            "overlay-color": "",
+            "overlay-opacity": "",
+            "overlay-gradient": ""
+          },
+          "tablet": {
+            "background-color": "",
+            "background-image": "",
+            "background-repeat": "repeat",
+            "background-position": "center center",
+            "background-size": "auto",
+            "background-attachment": "scroll",
+            "background-type": "",
+            "background-media": "",
+            "overlay-type": "",
+            "overlay-color": "",
+            "overlay-opacity": "",
+            "overlay-gradient": ""
+          },
+          "mobile": {
+            "background-color": "",
+            "background-image": "",
+            "background-repeat": "repeat",
+            "background-position": "center center",
+            "background-size": "auto",
+            "background-attachment": "scroll",
+            "background-type": "",
+            "background-media": "",
+            "overlay-type": "",
+            "overlay-color": "",
+            "overlay-opacity": "",
+            "overlay-gradient": ""
+          }
+        },
+        "ast-content-background-meta": {
+          "desktop": {
+            "background-color": "var(--ast-global-color-4)",
+            "background-image": "",
+            "background-repeat": "repeat",
+            "background-position": "center center",
+            "background-size": "auto",
+            "background-attachment": "scroll",
+            "background-type": "",
+            "background-media": "",
+            "overlay-type": "",
+            "overlay-color": "",
+            "overlay-opacity": "",
+            "overlay-gradient": ""
+          },
+          "tablet": {
+            "background-color": "var(--ast-global-color-4)",
+            "background-image": "",
+            "background-repeat": "repeat",
+            "background-position": "center center",
+            "background-size": "auto",
+            "background-attachment": "scroll",
+            "background-type": "",
+            "background-media": "",
+            "overlay-type": "",
+            "overlay-color": "",
+            "overlay-opacity": "",
+            "overlay-gradient": ""
+          },
+          "mobile": {
+            "background-color": "var(--ast-global-color-4)",
+            "background-image": "",
+            "background-repeat": "repeat",
+            "background-position": "center center",
+            "background-size": "auto",
+            "background-attachment": "scroll",
+            "background-type": "",
+            "background-media": "",
+            "overlay-type": "",
+            "overlay-color": "",
+            "overlay-opacity": "",
+            "overlay-gradient": ""
+          }
+        }
+      },
+      "menus": 11,
+      "_links": {
+        "self": [
+          {
+            "href": "https://adanaavukat.org/wp-json/wp/v2/menu-items/271",
+            "targetHints": {
+              "allow": [
+                "GET",
+                "POST",
+                "PUT",
+                "PATCH",
+                "DELETE"
+              ]
+            }
+          }
+        ],
+        "collection": [
+          {
+            "href": "https://adanaavukat.org/wp-json/wp/v2/menu-items"
+          }
+        ],
+        "about": [
+          {
+            "href": "https://adanaavukat.org/wp-json/wp/v2/types/nav_menu_item"
+          }
+        ],
+        "wp:term": [
+          {
+            "taxonomy": "nav_menu",
+            "embeddable": true,
+            "href": "https://adanaavukat.org/wp-json/wp/v2/menus?post=271"
+          }
+        ],
+        "wp:menu-item-object": [
+          {
+            "post_type": "page",
+            "embeddable": true,
+            "href": "https://adanaavukat.org/wp-json/wp/v2/pages/268"
+          }
+        ],
+        "wp:action-publish": [
+          {
+            "href": "https://adanaavukat.org/wp-json/wp/v2/menu-items/271"
+          }
+        ],
+        "wp:action-unfiltered-html": [
+          {
+            "href": "https://adanaavukat.org/wp-json/wp/v2/menu-items/271"
+          }
+        ],
+        "wp:action-create-menus": [
+          {
+            "href": "https://adanaavukat.org/wp-json/wp/v2/menu-items/271"
+          }
+        ],
+        "wp:action-assign-menus": [
+          {
+            "href": "https://adanaavukat.org/wp-json/wp/v2/menu-items/271"
+          }
+        ],
+        "curies": [
+          {
+            "name": "wp",
+            "href": "https://api.w.org/{rel}",
+            "templated": true
+          }
+        ]
+      }
+    },
+    {
+      "id": 199,
+      "title": {
+        "raw": "Sıkça Sorulan Sorular",
+        "rendered": "Sıkça Sorulan Sorular"
+      },
+      "status": "publish",
+      "url": "https://adanaavukat.org/faq/",
+      "attr_title": "",
+      "description": "",
+      "type": "post_type",
+      "type_label": "Sayfa",
+      "object": "page",
+      "object_id": 27,
+      "parent": 0,
+      "menu_order": 16,
+      "target": "",
+      "classes": [
+        ""
+      ],
+      "xfn": [
+        ""
+      ],
+      "invalid": false,
+      "meta": {
+        "site-sidebar-layout": "default",
+        "site-content-layout": "",
+        "ast-site-content-layout": "default",
+        "site-content-style": "default",
+        "site-sidebar-style": "default",
+        "ast-global-header-display": "",
+        "ast-banner-title-visibility": "",
+        "ast-main-header-display": "",
+        "ast-hfb-above-header-display": "",
+        "ast-hfb-below-header-display": "",
+        "ast-hfb-mobile-header-display": "",
+        "site-post-title": "",
+        "ast-breadcrumbs-content": "",
+        "ast-featured-img": "",
+        "footer-sml-layout": "",
+        "ast-disable-related-posts": "",
+        "theme-transparent-header-meta": "",
+        "adv-header-id-meta": "",
+        "stick-header-meta": "",
+        "header-above-stick-meta": "",
+        "header-main-stick-meta": "",
+        "header-below-stick-meta": "",
+        "astra-migrate-meta-layouts": "default",
+        "ast-page-background-enabled": "default",
+        "ast-page-background-meta": {
+          "desktop": {
+            "background-color": "var(--ast-global-color-5)",
+            "background-image": "",
+            "background-repeat": "repeat",
+            "background-position": "center center",
+            "background-size": "auto",
+            "background-attachment": "scroll",
+            "background-type": "",
+            "background-media": "",
+            "overlay-type": "",
+            "overlay-color": "",
+            "overlay-opacity": "",
+            "overlay-gradient": ""
+          },
+          "tablet": {
+            "background-color": "",
+            "background-image": "",
+            "background-repeat": "repeat",
+            "background-position": "center center",
+            "background-size": "auto",
+            "background-attachment": "scroll",
+            "background-type": "",
+            "background-media": "",
+            "overlay-type": "",
+            "overlay-color": "",
+            "overlay-opacity": "",
+            "overlay-gradient": ""
+          },
+          "mobile": {
+            "background-color": "",
+            "background-image": "",
+            "background-repeat": "repeat",
+            "background-position": "center center",
+            "background-size": "auto",
+            "background-attachment": "scroll",
+            "background-type": "",
+            "background-media": "",
+            "overlay-type": "",
+            "overlay-color": "",
+            "overlay-opacity": "",
+            "overlay-gradient": ""
+          }
+        },
+        "ast-content-background-meta": {
+          "desktop": {
+            "background-color": "var(--ast-global-color-4)",
+            "background-image": "",
+            "background-repeat": "repeat",
+            "background-position": "center center",
+            "background-size": "auto",
+            "background-attachment": "scroll",
+            "background-type": "",
+            "background-media": "",
+            "overlay-type": "",
+            "overlay-color": "",
+            "overlay-opacity": "",
+            "overlay-gradient": ""
+          },
+          "tablet": {
+            "background-color": "var(--ast-global-color-4)",
+            "background-image": "",
+            "background-repeat": "repeat",
+            "background-position": "center center",
+            "background-size": "auto",
+            "background-attachment": "scroll",
+            "background-type": "",
+            "background-media": "",
+            "overlay-type": "",
+            "overlay-color": "",
+            "overlay-opacity": "",
+            "overlay-gradient": ""
+          },
+          "mobile": {
+            "background-color": "var(--ast-global-color-4)",
+            "background-image": "",
+            "background-repeat": "repeat",
+            "background-position": "center center",
+            "background-size": "auto",
+            "background-attachment": "scroll",
+            "background-type": "",
+            "background-media": "",
+            "overlay-type": "",
+            "overlay-color": "",
+            "overlay-opacity": "",
+            "overlay-gradient": ""
+          }
+        }
+      },
+      "menus": 11,
+      "_links": {
+        "self": [
+          {
+            "href": "https://adanaavukat.org/wp-json/wp/v2/menu-items/199",
+            "targetHints": {
+              "allow": [
+                "GET",
+                "POST",
+                "PUT",
+                "PATCH",
+                "DELETE"
+              ]
+            }
+          }
+        ],
+        "collection": [
+          {
+            "href": "https://adanaavukat.org/wp-json/wp/v2/menu-items"
+          }
+        ],
+        "about": [
+          {
+            "href": "https://adanaavukat.org/wp-json/wp/v2/types/nav_menu_item"
+          }
+        ],
+        "wp:term": [
+          {
+            "taxonomy": "nav_menu",
+            "embeddable": true,
+            "href": "https://adanaavukat.org/wp-json/wp/v2/menus?post=199"
+          }
+        ],
+        "wp:menu-item-object": [
+          {
+            "post_type": "page",
+            "embeddable": true,
+            "href": "https://adanaavukat.org/wp-json/wp/v2/pages/27"
+          }
+        ],
+        "wp:action-publish": [
+          {
+            "href": "https://adanaavukat.org/wp-json/wp/v2/menu-items/199"
+          }
+        ],
+        "wp:action-unfiltered-html": [
+          {
+            "href": "https://adanaavukat.org/wp-json/wp/v2/menu-items/199"
+          }
+        ],
+        "wp:action-create-menus": [
+          {
+            "href": "https://adanaavukat.org/wp-json/wp/v2/menu-items/199"
+          }
+        ],
+        "wp:action-assign-menus": [
+          {
+            "href": "https://adanaavukat.org/wp-json/wp/v2/menu-items/199"
+          }
+        ],
+        "curies": [
+          {
+            "name": "wp",
+            "href": "https://api.w.org/{rel}",
+            "templated": true
+          }
+        ]
+      }
+    },
+    {
+      "id": 197,
+      "title": {
+        "raw": "İletişim",
+        "rendered": "İletişim"
+      },
+      "status": "publish",
+      "url": "https://adanaavukat.org/iletisim/",
+      "attr_title": "",
+      "description": "",
+      "type": "post_type",
+      "type_label": "Sayfa",
+      "object": "page",
+      "object_id": 47,
+      "parent": 0,
+      "menu_order": 17,
+      "target": "",
+      "classes": [
+        ""
+      ],
+      "xfn": [
+        ""
+      ],
+      "invalid": false,
+      "meta": {
+        "site-sidebar-layout": "default",
+        "site-content-layout": "",
+        "ast-site-content-layout": "default",
+        "site-content-style": "default",
+        "site-sidebar-style": "default",
+        "ast-global-header-display": "",
+        "ast-banner-title-visibility": "",
+        "ast-main-header-display": "",
+        "ast-hfb-above-header-display": "",
+        "ast-hfb-below-header-display": "",
+        "ast-hfb-mobile-header-display": "",
+        "site-post-title": "",
+        "ast-breadcrumbs-content": "",
+        "ast-featured-img": "",
+        "footer-sml-layout": "",
+        "ast-disable-related-posts": "",
+        "theme-transparent-header-meta": "",
+        "adv-header-id-meta": "",
+        "stick-header-meta": "",
+        "header-above-stick-meta": "",
+        "header-main-stick-meta": "",
+        "header-below-stick-meta": "",
+        "astra-migrate-meta-layouts": "default",
+        "ast-page-background-enabled": "default",
+        "ast-page-background-meta": {
+          "desktop": {
+            "background-color": "var(--ast-global-color-5)",
+            "background-image": "",
+            "background-repeat": "repeat",
+            "background-position": "center center",
+            "background-size": "auto",
+            "background-attachment": "scroll",
+            "background-type": "",
+            "background-media": "",
+            "overlay-type": "",
+            "overlay-color": "",
+            "overlay-opacity": "",
+            "overlay-gradient": ""
+          },
+          "tablet": {
+            "background-color": "",
+            "background-image": "",
+            "background-repeat": "repeat",
+            "background-position": "center center",
+            "background-size": "auto",
+            "background-attachment": "scroll",
+            "background-type": "",
+            "background-media": "",
+            "overlay-type": "",
+            "overlay-color": "",
+            "overlay-opacity": "",
+            "overlay-gradient": ""
+          },
+          "mobile": {
+            "background-color": "",
+            "background-image": "",
+            "background-repeat": "repeat",
+            "background-position": "center center",
+            "background-size": "auto",
+            "background-attachment": "scroll",
+            "background-type": "",
+            "background-media": "",
+            "overlay-type": "",
+            "overlay-color": "",
+            "overlay-opacity": "",
+            "overlay-gradient": ""
+          }
+        },
+        "ast-content-background-meta": {
+          "desktop": {
+            "background-color": "var(--ast-global-color-4)",
+            "background-image": "",
+            "background-repeat": "repeat",
+            "background-position": "center center",
+            "background-size": "auto",
+            "background-attachment": "scroll",
+            "background-type": "",
+            "background-media": "",
+            "overlay-type": "",
+            "overlay-color": "",
+            "overlay-opacity": "",
+            "overlay-gradient": ""
+          },
+          "tablet": {
+            "background-color": "var(--ast-global-color-4)",
+            "background-image": "",
+            "background-repeat": "repeat",
+            "background-position": "center center",
+            "background-size": "auto",
+            "background-attachment": "scroll",
+            "background-type": "",
+            "background-media": "",
+            "overlay-type": "",
+            "overlay-color": "",
+            "overlay-opacity": "",
+            "overlay-gradient": ""
+          },
+          "mobile": {
+            "background-color": "var(--ast-global-color-4)",
+            "background-image": "",
+            "background-repeat": "repeat",
+            "background-position": "center center",
+            "background-size": "auto",
+            "background-attachment": "scroll",
+            "background-type": "",
+            "background-media": "",
+            "overlay-type": "",
+            "overlay-color": "",
+            "overlay-opacity": "",
+            "overlay-gradient": ""
+          }
+        }
+      },
+      "menus": 11,
+      "_links": {
+        "self": [
+          {
+            "href": "https://adanaavukat.org/wp-json/wp/v2/menu-items/197",
+            "targetHints": {
+              "allow": [
+                "GET",
+                "POST",
+                "PUT",
+                "PATCH",
+                "DELETE"
+              ]
+            }
+          }
+        ],
+        "collection": [
+          {
+            "href": "https://adanaavukat.org/wp-json/wp/v2/menu-items"
+          }
+        ],
+        "about": [
+          {
+            "href": "https://adanaavukat.org/wp-json/wp/v2/types/nav_menu_item"
+          }
+        ],
+        "wp:term": [
+          {
+            "taxonomy": "nav_menu",
+            "embeddable": true,
+            "href": "https://adanaavukat.org/wp-json/wp/v2/menus?post=197"
+          }
+        ],
+        "wp:menu-item-object": [
+          {
+            "post_type": "page",
+            "embeddable": true,
+            "href": "https://adanaavukat.org/wp-json/wp/v2/pages/47"
+          }
+        ],
+        "wp:action-publish": [
+          {
+            "href": "https://adanaavukat.org/wp-json/wp/v2/menu-items/197"
+          }
+        ],
+        "wp:action-unfiltered-html": [
+          {
+            "href": "https://adanaavukat.org/wp-json/wp/v2/menu-items/197"
+          }
+        ],
+        "wp:action-create-menus": [
+          {
+            "href": "https://adanaavukat.org/wp-json/wp/v2/menu-items/197"
+          }
+        ],
+        "wp:action-assign-menus": [
+          {
+            "href": "https://adanaavukat.org/wp-json/wp/v2/menu-items/197"
+          }
+        ],
+        "curies": [
+          {
+            "name": "wp",
+            "href": "https://api.w.org/{rel}",
+            "templated": true
+          }
+        ]
+      }
+    }
+  ]
+}

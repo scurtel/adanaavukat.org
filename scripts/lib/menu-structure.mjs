@@ -1,7 +1,10 @@
 export const MAIN_MENU_ID = 11;
 export const HIZMETLERIMIZ_PAGE_ID = 237;
 
-/** Üst seviye menü sırası (page slug veya posts_page özel anahtarı) */
+/** Astra tema menü konumları — primary + mobile aynı Ana Menü'yü kullanır */
+export const MENU_LOCATIONS = ['primary', 'mobile_menu'];
+
+/** Üst seviye menü sırası (page slug) */
 export const TOP_LEVEL_MENU_ORDER = [
   'aile-hukuku-rehberi',
   'hizmetlerimiz',
@@ -11,7 +14,17 @@ export const TOP_LEVEL_MENU_ORDER = [
   'iletisim',
 ];
 
-/** Hizmetlerimiz alt menüsü — hub sayfasındaki kart sırasıyla uyumlu */
+export const TOP_LEVEL_TITLES = {
+  'aile-hukuku-rehberi': 'Aile Hukuku Rehberi',
+  hizmetlerimiz: 'Hizmetlerimiz',
+  hakkimizda: 'Hakkımızda',
+  'avukat-ceren-sumer-cilli-kimdir-adana-bosanma-ve-aile-hukuku':
+    'Avukat Ceren Sümer Cilli Kimdir?',
+  faq: 'Sıkça Sorulan Sorular',
+  iletisim: 'İletişim',
+};
+
+/** Hizmetlerimiz alt menüsü */
 export const SERVICE_MENU_SLUGS = [
   'adana-aile-hukuku-avukati',
   'adana-bosanma-avukati',
@@ -39,3 +52,8 @@ export const SERVICE_MENU_TITLES = {
   'adana-kira-hukuku': 'Kira Hukuku',
   'adana-is-hukuku': 'İş Hukuku',
 };
+
+/** Ana menüden çıkarılacak İngilizce/kopya sayfa slugları (sayfa silinmez) */
+export const EXCLUDED_MENU_SLUGS = ['about-us', 'contact'];
+
+export const EXCLUDED_TITLE_PATTERNS = [/^about us$/i, /^contact$/i, /^about$/i];

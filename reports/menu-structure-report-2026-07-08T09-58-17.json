@@ -1,0 +1,148 @@
+{
+  "generatedAt": "2026-07-08T09:58:17.506Z",
+  "mode": "verify-only",
+  "applyResult": null,
+  "verification": {
+    "ok": true,
+    "failed": [],
+    "checks": {
+      "allServicesUnderHub": true,
+      "noTopLevelServiceDupes": true,
+      "hakkimizdaNotUnderIletisim": true,
+      "hakkimizdaNotUnderHub": true,
+      "profileNotUnderHub": true,
+      "profileNotUnderIletisim": true,
+      "noEnglishAboutContact": true,
+      "topLevelOrderMatches": true,
+      "primaryLocationAssigned": true,
+      "mobileLocationAssigned": true,
+      "mobileNotPageFallback": true
+    },
+    "topLevel": [
+      {
+        "id": 196,
+        "order": 1,
+        "title": "Aile Hukuku Rehberi",
+        "slug": "aile-hukuku-rehberi",
+        "parent": 0
+      },
+      {
+        "id": 239,
+        "order": 2,
+        "title": "Hizmetlerimiz",
+        "slug": "hizmetlerimiz",
+        "parent": 0
+      },
+      {
+        "id": 198,
+        "order": 14,
+        "title": "Hakkımızda",
+        "slug": "hakkimizda",
+        "parent": 0
+      },
+      {
+        "id": 271,
+        "order": 15,
+        "title": "Avukat Ceren Sümer Cilli Kimdir?",
+        "slug": "avukat-ceren-sumer-cilli-kimdir-adana-bosanma-ve-aile-hukuku",
+        "parent": 0
+      },
+      {
+        "id": 199,
+        "order": 16,
+        "title": "Sıkça Sorulan Sorular",
+        "slug": "faq",
+        "parent": 0
+      },
+      {
+        "id": 197,
+        "order": 17,
+        "title": "İletişim",
+        "slug": "iletisim",
+        "parent": 0
+      }
+    ],
+    "hubChildren": [
+      {
+        "id": 344,
+        "order": 3,
+        "title": "Aile Hukuku",
+        "slug": "adana-aile-hukuku-avukati"
+      },
+      {
+        "id": 236,
+        "order": 4,
+        "title": "Boşanma Davaları",
+        "slug": "adana-bosanma-avukati"
+      },
+      {
+        "id": 345,
+        "order": 5,
+        "title": "Anlaşmalı Boşanma",
+        "slug": "adana-anlasmali-bosanma-avukati"
+      },
+      {
+        "id": 235,
+        "order": 6,
+        "title": "Çekişmeli Boşanma",
+        "slug": "cekismeli-bosanma-davasi"
+      },
+      {
+        "id": 346,
+        "order": 7,
+        "title": "Velayet Davası",
+        "slug": "velayet-davasi-avukati-adana"
+      },
+      {
+        "id": 240,
+        "order": 8,
+        "title": "Nafaka Davası",
+        "slug": "nafaka-davasi"
+      },
+      {
+        "id": 243,
+        "order": 9,
+        "title": "Mal Paylaşımı",
+        "slug": "adana-ortakligin-giderilmesi-davasi-avukat"
+      },
+      {
+        "id": 292,
+        "order": 10,
+        "title": "Miras Hukuku",
+        "slug": "adana-miras-hukuku"
+      },
+      {
+        "id": 347,
+        "order": 11,
+        "title": "Gayrimenkul Hukuku",
+        "slug": "gayrimenkul-avukati-adana"
+      },
+      {
+        "id": 293,
+        "order": 12,
+        "title": "Kira Hukuku",
+        "slug": "adana-kira-hukuku"
+      },
+      {
+        "id": 294,
+        "order": 13,
+        "title": "İş Hukuku",
+        "slug": "adana-is-hukuku"
+      }
+    ],
+    "iletisimChildren": [],
+    "missingServices": [],
+    "unexpectedHubChildren": [],
+    "topLevelServiceDupes": [],
+    "englishLeft": [],
+    "locations": {
+      "primary": 11,
+      "mobile_menu": 11,
+      "footer_menu": 0
+    },
+    "live": {
+      "livePrimaryOk": true,
+      "mobileFallbackPages": false
+    }
+  }
+}

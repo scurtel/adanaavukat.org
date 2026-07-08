@@ -30,7 +30,9 @@
     "apply:p2-seo": "node scripts/apply-p2-seo-fixes.mjs",
     "apply:k1-advertising": "node scripts/apply-k1-advertising-fixes.mjs",
     "apply:o1-homepage-images": "node scripts/apply-o1-homepage-images.mjs",
-    "apply:o2-menu": "node scripts/apply-o2-menu-simplify.mjs",
+    "apply:o2-menu": "node scripts/apply-menu-structure.mjs",
+    "apply:menu": "node scripts/apply-menu-structure.mjs",
+    "verify:menu": "node scripts/verify-menu-structure.mjs",
     "auto:article": "node scripts/generate-auto-article.mjs",
     "auto:article:publish": "node scripts/generate-auto-article.mjs --publish",
     "audit:all": "npm run check:wp && npm run fetch:wp && npm run analyze:entity && npm run plan:links && npm run generate:authority"
