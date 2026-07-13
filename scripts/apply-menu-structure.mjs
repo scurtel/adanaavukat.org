@@ -437,7 +437,7 @@ function buildVerification(items, pageSlugById, locations, liveHtml) {
   const profile = published.find(
     (i) =>
       pageSlugById.get(i.object_id) ===
-      'avukat-ceren-sumer-cilli-kimdir-adana-bosanma-ve-aile-hukuku'
+      'avukat-ceren-sumer-cilli'
   );
 
   const englishLeft = published.filter((i) => {
