@@ -35,6 +35,7 @@
     "verify:menu": "node scripts/verify-menu-structure.mjs",
     "apply:ceren-authority": "node scripts/apply-ceren-authority.mjs",
     "verify:ceren-authority": "node scripts/apply-ceren-authority.mjs --verify-only",
+    "apply:official-profiles": "node scripts/apply-official-profiles.mjs",
     "inventory:family-law": "node scripts/inventory-family-law-content.mjs",
     "report:ceren-authority": "node scripts/generate-ceren-authority-reports.mjs",
     "auto:article": "node scripts/generate-auto-article.mjs",

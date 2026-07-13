@@ -19,7 +19,7 @@ export function buildSchemaJson() {
         name: 'Adana Avukat',
         description:
           "Adana'da aile hukuku, boşanma, nafaka, velayet ve özel hukuk uyuşmazlıklarında hukuki destek ve genel bilgilendirme.",
-        publisher: { '@id': `${BASE}/#person` },
+        publisher: { '@id': `${BASE}/avukat-ceren-sumer-cilli/#person` },
         inLanguage: 'tr-TR',
         potentialAction: {
           '@type': 'SearchAction',
@@ -32,9 +32,11 @@ export function buildSchemaJson() {
       },
       {
         '@type': 'Person',
-        '@id': `${BASE}/#person`,
+        '@id': `${BASE}/avukat-ceren-sumer-cilli/#person`,
         name: 'Avukat Ceren Sümer Cilli',
+        honorificPrefix: 'Av.',
         url: `${BASE}/avukat-ceren-sumer-cilli/`,
+        mainEntityOfPage: `${BASE}/avukat-ceren-sumer-cilli/`,
         jobTitle: 'Avukat',
         image: 'https://adanaavukat.org/wp-content/uploads/2026/05/Avukat-Ceren-Sumer-Cilli.jpg',
         email: 'av.cerensumer@gmail.com',
@@ -48,12 +50,16 @@ export function buildSchemaJson() {
           addressCountry: 'TR',
         },
         sameAs: [
-          'https://www.cerensumer.av.tr/',
+          'https://www.cerensumer.av.tr/adana-bosanma-avukati-ceren-sumer-cilli-kimdir/',
           'https://www.linkedin.com/in/avukat-ceren-s%C3%BCmer-cilli-375873b0/',
           'https://www.instagram.com/av.cerensumercilli/',
           'https://www.facebook.com/cerensumercilli/',
-          'https://www.google.com/maps/search/?api=1&query=Avukat+Ceren+S%C3%BCmer+Cilli+Adana',
         ],
+        subjectOf: {
+          '@type': 'WebPage',
+          name: 'Avukat Ceren Sümer Cilli Kimdir?',
+          url: 'https://www.cerensumer.av.tr/adana-bosanma-avukati-ceren-sumer-cilli-kimdir/',
+        },
         worksFor: { '@id': `${BASE}/#legalservice` },
         knowsAbout: [
           'Aile Hukuku',
@@ -84,7 +90,9 @@ export function buildSchemaJson() {
           "Adana'da aile hukuku, boşanma, nafaka, velayet ve özel hukuk uyuşmazlıklarında hukuki destek ve genel bilgilendirme.",
         telephone: '+90 533 634 24 25',
         email: 'av.cerensumer@gmail.com',
-        provider: { '@id': `${BASE}/#person` },
+        provider: { '@id': `${BASE}/avukat-ceren-sumer-cilli/#person` },
+        hasMap:
+          'https://www.google.com/maps/search/?api=1&query=Avukat+Ceren+S%C3%BCmer+Cilli+Adana',
         areaServed: { '@type': 'City', name: 'Adana' },
         address: {
           '@type': 'PostalAddress',

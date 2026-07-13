@@ -41,12 +41,53 @@ export const KNOWS_ABOUT = [
   '6284 Sayılı Kanun',
 ];
 
-/** Doğrulanmış sameAs (proje ENTITY + mevcut içerik) */
+/** Site genelinde tutarlı Person @id */
+export const PERSON_ID = `${PROFILE_URL_NEW}#person`;
+export const LEGAL_SERVICE_ID = `${BASE_URL}/#legalservice`;
+
+/** Doğrulanmış resmi özgeçmiş (Person.sameAs + subjectOf) */
+export const OFFICIAL_BIO_URL =
+  'https://www.cerensumer.av.tr/adana-bosanma-avukati-ceren-sumer-cilli-kimdir/';
+
+/** Google Haritalar — Person.sameAs değil; LegalService.hasMap */
+export const HAS_MAP_URL =
+  'https://www.google.com/maps/search/?api=1&query=Avukat+Ceren+S%C3%BCmer+Cilli+Adana';
+
+/** Person.sameAs — yalnızca doğrulanmış kişi profilleri (Maps yok) */
 export const SAME_AS = [
-  'https://www.cerensumer.av.tr/',
+  OFFICIAL_BIO_URL,
   'https://www.linkedin.com/in/avukat-ceren-s%C3%BCmer-cilli-375873b0/',
   'https://www.instagram.com/av.cerensumercilli/',
   'https://www.facebook.com/cerensumercilli/',
+];
+
+/** Profil sayfasında gösterilecek resmi bağlantılar (Maps dahil; tek kez) */
+export const OFFICIAL_PROFILE_LINKS = [
+  {
+    href: OFFICIAL_BIO_URL,
+    label: 'Avukat Ceren Sümer Cilli resmî web sitesi',
+    ariaLabel: 'Avukat Ceren Sümer Cilli resmî web sitesi (yeni sekmede açılır)',
+  },
+  {
+    href: HAS_MAP_URL,
+    label: 'Avukat Ceren Sümer Cilli Google Haritalar profili',
+    ariaLabel: 'Avukat Ceren Sümer Cilli Google Haritalar profili (yeni sekmede açılır)',
+  },
+  {
+    href: 'https://www.linkedin.com/in/avukat-ceren-s%C3%BCmer-cilli-375873b0/',
+    label: 'Avukat Ceren Sümer Cilli LinkedIn profili',
+    ariaLabel: 'Avukat Ceren Sümer Cilli LinkedIn profili (yeni sekmede açılır)',
+  },
+  {
+    href: 'https://www.instagram.com/av.cerensumercilli/',
+    label: 'Avukat Ceren Sümer Cilli Instagram profili',
+    ariaLabel: 'Avukat Ceren Sümer Cilli Instagram profili (yeni sekmede açılır)',
+  },
+  {
+    href: 'https://www.facebook.com/cerensumercilli/',
+    label: 'Avukat Ceren Sümer Cilli Facebook sayfası',
+    ariaLabel: 'Avukat Ceren Sümer Cilli Facebook sayfası (yeni sekmede açılır)',
+  },
 ];
 
 export const CLUSTER_HUBS = [

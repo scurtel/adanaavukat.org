@@ -6,7 +6,23 @@ import {
   KNOWS_ABOUT,
   SAME_AS,
   CLUSTER_HUBS,
+  PERSON_ID,
+  LEGAL_SERVICE_ID,
+  OFFICIAL_BIO_URL,
+  HAS_MAP_URL,
+  OFFICIAL_PROFILE_LINKS,
 } from './ceren-authority-config.mjs';
+
+function buildOfficialProfilesHtml() {
+  const items = OFFICIAL_PROFILE_LINKS.map(
+    (link) =>
+      `    <li><a href="${link.href}" target="_blank" rel="noopener noreferrer" aria-label="${link.ariaLabel}">${link.label}</a></li>`
+  ).join('\n');
+  return `  <h2>Avukat Ceren Sümer Cilli’yi Diğer Platformlarda Görüntüleyin</h2>
+  <ul class="aa-official-profiles">
+${items}
+  </ul>`;
+}
 
 export function buildProfilePageHtml() {
   const knowsList = KNOWS_ABOUT.map((k) => `<li>${k}</li>`).join('\n');
@@ -65,11 +81,21 @@ ${clusters}
   <h2>Son güncellenen içerikler</h2>
   [ceren_son_guncellenen]
 
+${buildOfficialProfilesHtml()}
+
   <h2>İletişim</h2>
   <p>Hukuki süreçlerinize ilişkin bilgi almak için <a href="${BASE_URL}/iletisim/">iletişim</a> sayfasını kullanabilirsiniz. Bu sayfa genel bilgilendirme amaçlıdır; her dosya kendi koşulları içinde değerlendirilir.</p>
 
   <p class="aa-profile__meta">Profil sayfası: <a itemprop="url" href="${PROFILE_URL_NEW}">${PROFILE_URL_NEW}</a></p>
 </article>
+<style>
+.aa-official-profiles{list-style:disc;padding-left:1.25rem;margin:0 0 1.5rem;max-width:40rem}
+.aa-official-profiles li{margin:.45rem 0;line-height:1.5}
+.aa-official-profiles a{word-break:break-word}
+@media (max-width:640px){
+  .aa-official-profiles{padding-left:1rem}
+}
+</style>
 <!-- /wp:html -->`;
 }
 
@@ -83,27 +109,36 @@ export function buildProfileJsonLd() {
         url: PROFILE_URL_NEW,
         name: AUTHOR_DISPLAY_NAME,
         isPartOf: { '@id': `${BASE_URL}/#website` },
-        mainEntity: { '@id': `${BASE_URL}/#person` },
-        about: { '@id': `${BASE_URL}/#person` },
+        mainEntity: { '@id': PERSON_ID },
+        about: { '@id': PERSON_ID },
       },
       {
         '@type': 'Person',
-        '@id': `${BASE_URL}/#person`,
+        '@id': PERSON_ID,
         name: AUTHOR_DISPLAY_NAME,
-        honorificPrefix: 'Avukat',
+        honorificPrefix: 'Av.',
         jobTitle: 'Avukat',
         description:
           'Adana’da aile hukuku alanında çalışan avukat. Boşanma, velayet, nafaka, mal rejimi, ziynet alacağı, aile konutu ve 6284 sayılı Kanun konularında bilgilendirici içerikler yayımlar.',
         url: PROFILE_URL_NEW,
+        mainEntityOfPage: PROFILE_URL_NEW,
         image: PROFILE_IMAGE,
-        worksFor: {
-          '@type': 'LegalService',
-          '@id': `${BASE_URL}/#legalservice`,
-          name: 'Ceren Sümer Cilli Hukuk ve Danışmanlık',
-          url: BASE_URL,
+        subjectOf: {
+          '@type': 'WebPage',
+          name: 'Avukat Ceren Sümer Cilli Kimdir?',
+          url: OFFICIAL_BIO_URL,
         },
+        worksFor: { '@id': LEGAL_SERVICE_ID },
         knowsAbout: KNOWS_ABOUT,
         sameAs: SAME_AS,
+      },
+      {
+        '@type': 'LegalService',
+        '@id': LEGAL_SERVICE_ID,
+        name: 'Ceren Sümer Cilli Hukuk ve Danışmanlık',
+        url: BASE_URL,
+        provider: { '@id': PERSON_ID },
+        hasMap: HAS_MAP_URL,
       },
       {
         '@type': 'BreadcrumbList',
