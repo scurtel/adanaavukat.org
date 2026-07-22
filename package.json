@@ -30,6 +30,7 @@
     "apply:p2-seo": "node scripts/apply-p2-seo-fixes.mjs",
     "apply:k1-advertising": "node scripts/apply-k1-advertising-fixes.mjs",
     "apply:o1-homepage-images": "node scripts/apply-o1-homepage-images.mjs",
+    "apply:image-fixes": "node scripts/apply-image-lazyload-fixes.mjs",
     "apply:o2-menu": "node scripts/apply-menu-structure.mjs",
     "apply:menu": "node scripts/apply-menu-structure.mjs",
     "verify:menu": "node scripts/verify-menu-structure.mjs",

@@ -1,0 +1,183 @@
+{
+  "generatedAt": "2026-07-22T10:14:57.483Z",
+  "siteLogoMediaId": 18,
+  "profilePhotoMediaId": 269,
+  "profilePhotoNativeSize": "225x225 (kaynak dosya; büyütülmedi)",
+  "snippets": {
+    "imageSnippet": {
+      "action": "created",
+      "id": 13,
+      "active": true
+    },
+    "postCardSnippet": {
+      "action": "updated",
+      "id": 7,
+      "active": true
+    }
+  },
+  "homepageModified": "2026-07-22T10:14:48",
+  "profileModified": "2026-07-22T10:14:49",
+  "cssResult": {
+    "id": 415,
+    "updated": true
+  },
+  "purge": {
+    "changed": {
+      "purge_litespeed": true
+    }
+  },
+  "verification": {
+    "home": {
+      "hasCustomLogo": true,
+      "logo": [
+        {
+          "srcIsData": true,
+          "hasDataSrc": true,
+          "hasSkipLazy": false,
+          "loading": null,
+          "fetchpriority": null,
+          "src": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyNDAiIGhlaW"
+        },
+        {
+          "srcIsData": true,
+          "hasDataSrc": true,
+          "hasSkipLazy": false,
+          "loading": null,
+          "fetchpriority": null,
+          "src": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyNDAiIGhlaW"
+        }
+      ],
+      "cards": [
+        {
+          "srcIsData": false,
+          "hasDataSrc": false,
+          "hasSkipLazy": true,
+          "loading": "eager",
+          "fetchpriority": "high",
+          "src": "https://adanaavukat.org/wp-content/uploads/2026/06/adana-aile-hukuku-adanada-aile-hukuku-davalarinda"
+        },
+        {
+          "srcIsData": false,
+          "hasDataSrc": false,
+          "hasSkipLazy": true,
+          "loading": "eager",
+          "fetchpriority": null,
+          "src": "https://adanaavukat.org/wp-content/uploads/2026/06/adana-aile-hukuku-adanada-avukat-secerken-nelere-"
+        },
+        {
+          "srcIsData": false,
+          "hasDataSrc": false,
+          "hasSkipLazy": true,
+          "loading": "eager",
+          "fetchpriority": null,
+          "src": "https://adanaavukat.org/wp-content/uploads/2026/06/adana-bosanma-davalari-adanada-bosanma-davasi-sur"
+        },
+        {
+          "srcIsData": true,
+          "hasDataSrc": true,
+          "hasSkipLazy": false,
+          "loading": "lazy",
+          "fetchpriority": null,
+          "src": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSI2NDAiIGhlaW"
+        },
+        {
+          "srcIsData": true,
+          "hasDataSrc": true,
+          "hasSkipLazy": false,
+          "loading": "lazy",
+          "fetchpriority": null,
+          "src": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSI2NDAiIGhlaW"
+        }
+      ],
+      "criticalCardCount": 3
+    },
+    "blog": {
+      "thumbs": [
+        {
+          "srcIsData": true,
+          "hasDataSrc": true,
+          "hasSkipLazy": false,
+          "loading": null,
+          "fetchpriority": "high",
+          "src": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIxMDI0IiBoZW"
+        },
+        {
+          "srcIsData": true,
+          "hasDataSrc": true,
+          "hasSkipLazy": false,
+          "loading": null,
+          "fetchpriority": null,
+          "src": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIxMDI0IiBoZW"
+        },
+        {
+          "srcIsData": true,
+          "hasDataSrc": true,
+          "hasSkipLazy": false,
+          "loading": "lazy",
+          "fetchpriority": null,
+          "src": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIxMDI0IiBoZW"
+        },
+        {
+          "srcIsData": true,
+          "hasDataSrc": true,
+          "hasSkipLazy": false,
+          "loading": "lazy",
+          "fetchpriority": null,
+          "src": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIxMDI0IiBoZW"
+        },
+        {
+          "srcIsData": true,
+          "hasDataSrc": true,
+          "hasSkipLazy": false,
+          "loading": "lazy",
+          "fetchpriority": null,
+          "src": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIxMDI0IiBoZW"
+        },
+        {
+          "srcIsData": true,
+          "hasDataSrc": true,
+          "hasSkipLazy": false,
+          "loading": "lazy",
+          "fetchpriority": null,
+          "src": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIxMDI0IiBoZW"
+        },
+        {
+          "srcIsData": true,
+          "hasDataSrc": true,
+          "hasSkipLazy": false,
+          "loading": "lazy",
+          "fetchpriority": null,
+          "src": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIxMDI0IiBoZW"
+        },
+        {
+          "srcIsData": true,
+          "hasDataSrc": true,
+          "hasSkipLazy": false,
+          "loading": "lazy",
+          "fetchpriority": null,
+          "src": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIxMDI0IiBoZW"
+        }
+      ],
+      "skipLazyCount": 0
+    },
+    "profile": {
+      "images": [
+        {
+          "srcIsData": false,
+          "hasDataSrc": false,
+          "hasSkipLazy": true,
+          "loading": "eager",
+          "fetchpriority": "high",
+          "src": "https://adanaavukat.org/wp-content/uploads/2026/05/Avukat-Ceren-Sumer-Cilli.jpg"
+        }
+      ]
+    }
+  },
+  "manualNextSteps": [
+    "LiteSpeed Cache → Toolbox → Purge All (gerekirse tekrar)",
+    "QUIC.cloud / CDN varsa cache temizle",
+    "Profil için WordPress Medya’da en az 800×800 px yeni foto yükle ve sayfadaki görseli değiştir (mevcut #269 yalnızca 225×225)",
+    "Retina logo için ~480×144 (veya 2x) webp yükleyip Görünüm → Özelleştir → Logo olarak ata",
+    "Gizli sekmede masaüstü + mobil: ana sayfa, blog listesi, profil"
+  ]
+}

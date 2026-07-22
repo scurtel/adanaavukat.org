@@ -180,13 +180,15 @@ function escapeHtml(text = '') {
     .replace(/"/g, '&quot;');
 }
 
-function buildPostCardHtml(card) {
-  const thumb = buildPostCardThumb(card.link, card.imageUrl, card.label, card.altText);
+function buildPostCardHtml(card, index = 0) {
+  const thumb = buildPostCardThumb(card.link, card.imageUrl, card.label, card.altText, {
+    critical: index < 3,
+  });
   return `<div class="aa-card aa-post-card">${thumb}<div class="aa-post-body"><div class="aa-date">${escapeHtml(card.date)}</div><h3>${escapeHtml(card.title)}</h3><p>${escapeHtml(card.excerpt)}</p><a class="aa-card-link" href="${card.link}">Yazıyı Oku</a></div></div>`;
 }
 
 function buildPostCardsSection(postCards) {
-  return postCards.map(buildPostCardHtml).join('\n');
+  return postCards.map((card, index) => buildPostCardHtml(card, index)).join('\n');
 }
 
 export function buildHomepageContent({ postCards } = {}) {

@@ -105,14 +105,18 @@ export function buildPostCardThumb(
   link,
   imageUrl = null,
   label = POST_CARD_LABELS.default,
-  altText = label
+  altText = label,
+  { critical = false } = {}
 ) {
   if (imageUrl) {
     const safeAlt = String(altText || label)
       .replace(/&/g, '&amp;')
       .replace(/"/g, '&quot;')
       .replace(/</g, '&lt;');
-    return `<a href="${link}" class="aa-post-thumb" tabindex="-1" aria-hidden="true"><img src="${imageUrl}" alt="${safeAlt}" width="640" height="360" loading="lazy" decoding="async" class="aa-post-thumb__img post-card-image"/></a>`;
+    const loading = critical ? 'eager' : 'lazy';
+    const criticalClass = critical ? ' skip-lazy aa-skip-lazy aa-critical-img' : '';
+    const noLazy = critical ? ' data-no-lazy="1"' : '';
+    return `<a href="${link}" class="aa-post-thumb" tabindex="-1" aria-hidden="true"><img src="${imageUrl}" alt="${safeAlt}" width="640" height="360" loading="${loading}" decoding="async"${noLazy} class="aa-post-thumb__img post-card-image${criticalClass}"/></a>`;
   }
   return `<a href="${link}" class="aa-post-thumb" tabindex="-1" aria-hidden="true"><span class="aa-post-thumb__ph post-card-placeholder" role="presentation"><span>${label}</span></span></a>`;
 }
@@ -178,8 +182,17 @@ add_filter('wp_get_attachment_image_attributes', function ($attr) {
     if (!aa_post_card_should_apply()) {
         return $attr;
     }
-    $attr['class'] = trim(($attr['class'] ?? '') . ' post-card-image');
-    $attr['loading'] = 'lazy';
+    static $aa_pc_thumb_i = 0;
+    $aa_pc_thumb_i++;
+    $critical = $aa_pc_thumb_i <= 3;
+    if ($critical) {
+        $attr['class'] = trim(($attr['class'] ?? '') . ' post-card-image skip-lazy aa-skip-lazy aa-critical-img');
+        $attr['loading'] = 'eager';
+        $attr['data-no-lazy'] = '1';
+    } else {
+        $attr['class'] = trim(($attr['class'] ?? '') . ' post-card-image');
+        $attr['loading'] = 'lazy';
+    }
     $attr['decoding'] = 'async';
     return $attr;
 }, 12);
@@ -213,7 +226,7 @@ add_action('wp_footer', function () {
     $json = wp_json_encode($aa_post_card_placeholder_map);
     echo '<div id="aa-post-card-data" data-labels="' . esc_attr($json) . '" hidden></div>';
     echo '<script id="aa-post-card-placeholder-js">';
-    echo "(function(){function run(){var el=document.getElementById('aa-post-card-data');if(!el)return;var map={};try{map=JSON.parse(el.getAttribute('data-labels')||'{}');}catch(e){return;}Object.keys(map).forEach(function(id){var article=document.getElementById('post-'+id);if(!article)return;var thumb=article.querySelector('.ast-blog-featured-section.post-thumb');if(!thumb||thumb.querySelector('img'))return;var titleLink=article.querySelector('.entry-title a');var href=titleLink?titleLink.href:'#';var label=String(map[id]||'');thumb.className='ast-blog-featured-section post-thumb post-card-placeholder ast-blog-single-element';thumb.innerHTML='<a href=\"'+href+'\" class=\"post-card-placeholder-link\" tabindex=\"-1\" aria-hidden=\"true\"><span>'+label.replace(/</g,'&lt;')+'</span></a>';});}if(document.readyState==='loading'){document.addEventListener('DOMContentLoaded',run);}else{run();}})();";
+    echo '(function(){function run(){var el=document.getElementById("aa-post-card-data");if(!el)return;var map={};try{map=JSON.parse(el.getAttribute("data-labels")||"{}");}catch(e){return;}Object.keys(map).forEach(function(id){var article=document.getElementById("post-"+id);if(!article)return;var thumb=article.querySelector(".ast-blog-featured-section.post-thumb");if(!thumb||thumb.querySelector("img"))return;var titleLink=article.querySelector(".entry-title a");var href=titleLink?titleLink.href:"#";var label=String(map[id]||"");thumb.className="ast-blog-featured-section post-thumb post-card-placeholder ast-blog-single-element";thumb.innerHTML="<a href=\\""+href+"\\" class=\\"post-card-placeholder-link\\" tabindex=\\"-1\\" aria-hidden=\\"true\\"><span>"+label.replace(/</g,"&lt;")+"</span></a>";});}if(document.readyState==="loading"){document.addEventListener("DOMContentLoaded",run);}else{run();}})();';
     echo '</script>';
 }, 20);
 }`;
