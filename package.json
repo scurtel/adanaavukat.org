@@ -14,6 +14,7 @@
     "audit:site": "node scripts/audit-site-structure.mjs",
     "apply:homepage": "node scripts/apply-homepage-redesign.mjs",
     "apply:header-polish": "node scripts/apply-header-polish.mjs",
+    "apply:header-layout": "node scripts/apply-header-layout-fixes.mjs",
     "apply:rankmath-seo": "node scripts/apply-rankmath-seo.mjs",
     "purge:sitemap": "node scripts/purge-and-submit-sitemap.mjs",
     "apply:post-card-placeholder": "node scripts/apply-post-card-placeholder.mjs",

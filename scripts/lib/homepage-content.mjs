@@ -217,22 +217,32 @@ body.page-id-7 .entry-content{margin-top:0}
   border-radius:6px;transition:color .15s,background .15s
 }
 .site-header .main-header-menu .menu-item>a:hover{color:#0f2747;background:rgba(15,39,71,.04)}
-.site-header .site-title a,.site-header .site-title{
-  font-weight:700;font-size:1.0625rem;letter-spacing:-.02em;color:#0f2747
-}
 .site-header .ast-site-identity{padding:0}
+/* İletişim CTA: Astra height/line-height çakışmasını kır; kompakt hiza */
 .main-header-menu .menu-item a[href*="/iletisim/"]{
+  height:auto!important;min-height:0!important;line-height:1.25!important;
+  display:inline-flex!important;align-items:center!important;align-self:center!important;
   background:#0f2747!important;color:#fff!important;border-radius:8px!important;
-  padding:.55rem 1.2rem!important;margin-left:.4rem;font-weight:600!important;
-  box-shadow:0 2px 10px rgba(15,39,71,.18);transition:background .2s,transform .2s,box-shadow .2s!important
+  padding:.45rem 1.1rem!important;margin-left:.4rem;font-weight:600!important;
+  box-shadow:0 2px 10px rgba(15,39,71,.18);transition:background .2s,transform .2s,box-shadow .2s!important;
+  box-sizing:border-box!important
 }
 .main-header-menu .menu-item a[href*="/iletisim/"]:hover{
   background:#1a3a5c!important;color:#fff!important;transform:translateY(-1px);
   box-shadow:0 4px 14px rgba(15,39,71,.22)
 }
+/* Logo varken site-title sr-only (semantik korunur) */
+body.wp-custom-logo .site-header .ast-site-title-wrap{
+  position:absolute!important;width:1px!important;height:1px!important;padding:0!important;
+  margin:-1px!important;overflow:hidden!important;clip:rect(0,0,0,0)!important;
+  white-space:nowrap!important;border:0!important
+}
 @media(max-width:921px){
   .site-header .main-header-bar{padding:.65rem 1rem!important}
-  .main-header-menu .menu-item a[href*="/iletisim/"]{margin-left:0;margin-top:.5rem;display:inline-block}
+  .main-header-menu .menu-item a[href*="/iletisim/"]{
+    margin-left:0;margin-top:.5rem;display:inline-flex!important;
+    height:auto!important;line-height:1.25!important;align-self:flex-start!important
+  }
 }
 
 /* ── Ana sayfa tasarım sistemi v2 ── */
