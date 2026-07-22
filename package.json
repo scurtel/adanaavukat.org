@@ -13,6 +13,7 @@
     "plan:links": "node scripts/internal-link-plan.mjs",
     "audit:site": "node scripts/audit-site-structure.mjs",
     "apply:homepage": "node scripts/apply-homepage-redesign.mjs",
+    "enrich:profile": "node scripts/enrich-lawyer-profile.mjs",
     "apply:header-polish": "node scripts/apply-header-polish.mjs",
     "apply:header-layout": "node scripts/apply-header-layout-fixes.mjs",
     "apply:rankmath-seo": "node scripts/apply-rankmath-seo.mjs",

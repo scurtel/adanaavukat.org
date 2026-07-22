@@ -1,0 +1,168 @@
+{
+  "generatedAt": "2026-07-22T14:52:37.005Z",
+  "model": "gemini-2.5-flash",
+  "groundingEnabled": true,
+  "groundingSources": [
+    {
+      "title": "sengunavukatlikburosu.com",
+      "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQECbG_AK85g49R5o1oryc4vNJ21hbobXWfY4r7gKvbuaWU-oAAOGPnq5vuFOiuz4sQ2n8YUgAi7tSy12LGniwOxkD0HTUQX-QkactcsksYPAZTBeXwKvN5QjMK4P-xIwOWAxtWxY8astlbW5b_i"
+    },
+    {
+      "title": "ozdipi.av.tr",
+      "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFhl-t3UfFt0kwpNUJUmkhEuaIMD2nxa4YPPXdT-gkXV5SJgQ9h4d9SSdcNUEOIobztrqPR6t8JTj4Pcb8bBR2-P7CzpG41t2bWkLOoyUO7uEiC8b-aVrtwirA0g3AAWxaSOW-yi3MmF7cLPJvfqt6HfjrRacw="
+    },
+    {
+      "title": "agahhukuk.com",
+      "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEcp_kEYE5KWfOPpuinF_8DR0Rd26DV7ygyuU4Cv5zp6NmoXb2mdkspNVgddfg_hnDy9xXDn9IIzUQn61N5XDMidgH9D81b-QDUpSgKP0dJ1zmIhyWt_hfS9lOH4yJoHoTxOrxJ16UGJcb1nRDVjYACsCgxSDPcSsxz2zZpviwcsS5WM4Gthc4omLCDV37qvKwfNrSSXE5lwdM-"
+    },
+    {
+      "title": "erdemakcay.av.tr",
+      "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQE9VDIn77TvB6AhTg7G4zW6LoCBWiEgQqSgf9MmsRW2qzwInvFigRsyTxDzVqjl52Sea2LPpOz8FI5CIWkLdWibQXynkEgC3QuktBX4s8byrO4-xnc9f77NK8bU_3v5oHdMTL5NuIXAJ3mCpk1OZ2YRx0fBbdL_erduUl-I7wDCOOU9szyM8FP5nlrnpmXqfHwD4IQGcQQ="
+    },
+    {
+      "title": "serkahukuk.com",
+      "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQH7QCDrZ3JxXh0mj4nbbLmyOqt0WIecMuR1NHat7asbNTXBBEp5aOOq5ozxPgl__Gjlvzt204sbA9JtnoiaUMHkewURhGK95tFfgQLcXdeY83-Qd-29L6M08Z27CCQxY1plAIhcCBt859ffkQ=="
+    },
+    {
+      "title": "ucar-ucar.av.tr",
+      "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFp7Cz4uvVldRNOj6DevrphTw2OKy7TX0ph96Bg50NWcairvccwqEnaxf4rcGd8Dlvlzm8MPLZNQCGUzKCnAzoDtZTo8jWHLQ1oc4PQT1Sv0FOgmkNTD8AeL3mxaG1UOw3xKw=="
+    },
+    {
+      "title": "feyzahazar.av.tr",
+      "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFhapB2CnNYACIIuAmaKrhcuPEeSsSmuSGxd4LOnW-8P9hN-jt1zi8cp3Qpa0oLQFCqIg1AKLmKiCKsMC7XC49A35YLl5VQFyq1Sgze-fkeBaM0lM5kNK_noSpRilm3zAMKyhI6PYA5E9wFLTgQ_hYrNxB6uxXgRM97k5Tq2MU="
+    },
+    {
+      "title": "meldaozkara.av.tr",
+      "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGT2_p9AIvLzPqD6KZ6CKkWfBlSWpPbJF66aNNlxM12geJ3WqeF2DehgW-fGNYmbLhSFgiXWI8dm4EqYNob9avPOUI2CVZNsx8az09xJJZ4GRQbPI212-mI8TKUH21um_BY1FGjQEZ1MNwByQwuFhIanvH36D4yJ2DW"
+    },
+    {
+      "title": "avaliyeniay.com",
+      "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEwg4NAj2-kp6_Y2700Dp_KxWgL25LCXQPyJGj8HkkpQ5L3YcO6iAi7KPhI3KHYXHoOfeXKnqm-qj4yWp0qMRgjkT-UVmFi3_tduy5YsHkXCk-mD_k-jvEcXj8VUuZiRswL8MW2TL16LU5umv54-ZBesQybrLzVmVzvEzu31L8OZIeD8rJrUYWiYH-Skfk="
+    },
+    {
+      "title": "delilavukatlik.com",
+      "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGhvVL51f3fG4IYs8Z241HPvyV53fM6hJAZgrGR7Y6awxbYpG5Ayrl4rUFaT7MfwyZ-vgjcMCmSuH0ytGLJbuINmqDh2VBWTbr-x3-tIFgknMtNk9H76HLCXhnmxDWUMUaORzFpG6SG4Uz1SN5KVXNFvPSZ07RExRIXLmL44nsEW16bUjXr_1StVbhxzpU="
+    },
+    {
+      "title": "ragipbasol.com",
+      "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHh1ThEHivWfNRlfulp9924TpD80cwqszSwoGmRJj3xImEWeYgN49IJZcUDA2ufCnUDzAvHFd2gybBjnpspQQ76kfre3EV5YwbIb2ZUtvW_bK2ENvE4gtb-BrmbpC1pMkyWuH6IPPaoAytffzLgTfJiO7g7wpLpLz2lE5qZw_xMhKN7sFba448="
+    },
+    {
+      "title": "dogus.edu.tr",
+      "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHtoVBWMJASTuK-l1E2-kjjbgtd1Ph-QGozLe7mrPGkmERWv_iIJzwZxeLmYhDTzMjVhhXGaC_8HI2V9b44k0OWX31MpcZPTbpmjlsCX5zhApiz2MUXLI1eAL2ti5Wp_Q1HxhdZqokNzKqy-SpUe7-gzg=="
+    }
+  ],
+  "content": {
+    "lead": "Avukat Ceren Sümer Cilli, Adana’da aile hukuku ve özel hukuk uyuşmazlıkları alanında çalışan bir avukattır. Çalışma alanlarında özellikle boşanma, velayet, nafaka, mal rejiminin tasfiyesi, ziynet alacağı, aile konutu ve 6284 sayılı Kanun kapsamındaki tedbirler yer alır.",
+    "approach": [
+      "Aile hukuku uyuşmazlıkları; kişisel, ekonomik ve çocuklara ilişkin sonuçları birlikte doğurabilir. Bu nedenle boşanma süreci ile velayet, nafaka, aile konutu ve mal rejimi konularının birbirinden kopuk ele alınması çoğu zaman eksik kalır.",
+      "Boşanma, mal paylaşımı ve taşınmaz kaynaklı uyuşmazlıklar sıklıkla iç içe geçer. Evlilik birliği içinde edinilen mallar, aile konutu ve ortak mülkiyet ilişkileri; boşanma sonrasında farklı dava türlerini gündeme getirebilir. Hukuki değerlendirme yalnızca dava açmakla sınırlı tutulmaz; boşanmanın mali sonuçları ve çocuklara ilişkin düzenlemeler birlikte incelenir.",
+      "Her dosya kendi olayları ve delilleri çerçevesinde değerlendirilir. Bu sayfadaki açıklamalar genel bilgilendirme niteliğindedir; somut olaya özgü hukuki değerlendirme, dosyanın belgelerine ve koşullarına göre ayrıca yapılır."
+    ],
+    "disclaimer": "Üniversite, baro sicil numarası, sertifika veya mesleki deneyim yılı gibi alanlar bu sayfada uydurulmamıştır. Doğrulanabilir resmî bilgiler yalnızca kaynak gösterilerek eklenebilir.",
+    "practiceAreas": [
+      "Aile Hukuku",
+      "Boşanma Hukuku",
+      "Velayet",
+      "Nafaka",
+      "Mal Rejiminin Tasfiyesi",
+      "Ziynet Alacağı",
+      "Aile Konutu",
+      "6284 Sayılı Kanun"
+    ],
+    "divorce": {
+      "intro": [
+        "Evlilik birliğinin sona ermesi kararı, taraflar için hem duygusal hem de hukuki açıdan önemli sonuçlar doğuran karmaşık bir süreçtir. Türk Medeni Kanunu'nda düzenlenen [[bosanma|boşanma davaları]], eşlerin kişisel durumları, çocukların menfaatleri ve mal varlığı ilişkileri gibi birçok faktörü kapsar. Süreçler, dosyanın koşullarına göre değerlendirilir.",
+        "Boşanma davaları, tarafların uzlaşma derecesine göre [[anlasmali|anlaşmalı boşanma]] veya [[cekismeli|çekişmeli boşanma]] olarak iki ana kategoriye ayrılır. Her iki durumda da, sürecin hukuka uygun ve usule uygun biçimde yürütülmesi önemlidir. Bu süreçte, delillerin toplanması, dilekçelerin hazırlanması ve mahkeme önünde etkili temsil, sürecin seyrini etkileyebilir."
+      ],
+      "consensual": [
+        "Eşlerin boşanma ve boşanmanın sonuçları üzerinde tam bir mutabakata varması durumunda [[anlasmali|anlaşmalı boşanma]] yoluna gidilebilir. Bu süreçte, tarafların özgür iradeleriyle hazırladıkları bir anlaşmalı boşanma protokolü, mahkeme tarafından incelenir ve uygun bulunması halinde boşanma kararı verilir. Protokol, velayet, iştirak nafakası, yoksulluk nafakası, maddi ve manevi tazminat ile [[malPaylasimi|mal paylaşımı]] gibi temel konuları içermelidir.",
+        "Anlaşmalı boşanma protokolünün hazırlanması aşamasında, her bir maddenin hukuki sonuçlarının doğru bir şekilde değerlendirilmesi ve gelecekte ortaya çıkabilecek olası uyuşmazlıkların önüne geçilmesi hedeflenir. Özellikle çocukların [[velayet|velayeti]] ve onlarla kişisel ilişki kurulması, nafaka miktarları ve mal rejiminin tasfiyesi gibi konularda detaylı ve adil düzenlemeler yapılması, sürecin sağlıklı ilerlemesi için önemlidir. Protokol maddeleri, gelecekte doğabilecek belirsizlikleri azaltacak şekilde açık yazılmalıdır."
+      ],
+      "contested": [
+        "Eşlerin boşanma veya boşanmanın sonuçları üzerinde anlaşamaması halinde [[cekismeli|çekişmeli boşanma]] davası açılır. Bu tür davalar, Türk Medeni Kanunu'nda belirtilen boşanma sebeplerinden birine dayanır ve mahkeme tarafından delillerin değerlendirilmesiyle sonuca bağlanır. Evlilik birliğinin temelinden sarsılması (şiddetli geçimsizlik), zina, hayata kast, pek kötü veya onur kırıcı davranış, suç işleme ve haysiyetsiz hayat sürme, terk ve akıl hastalığı gibi özel ve genel boşanma sebepleri çekişmeli boşanma davasına dayanak oluşturabilir.",
+        "Çekişmeli boşanma sürecinde, dava dilekçesinin hukuki dayanakları ile birlikte hazırlanması, iddiaları destekleyen somut delillerin (tanık beyanları, yazılı belgeler, fotoğraf, video vb.) mahkemeye sunulması ve karşı tarafın iddialarına karşı hukuka uygun savunmaların yapılması önemlidir. Delillerin hukuka uygun yollarla elde edilmesi ve sunulması, davanın kabulü veya reddi açısından belirleyici rol oynar."
+      ]
+    },
+    "custody": [
+      "Evlilik birliğinin sona ermesiyle birlikte, varsa ortak çocukların [[velayet|velayeti]] konusu gündeme gelir. Türk Medeni Kanunu'na göre velayet düzenlemelerinde temel ilke, çocuğun üstün yararıdır. Bu ilke, çocuğun fiziksel, ruhsal, ahlaki, sosyal ve eğitimsel gelişimini en iyi şekilde destekleyecek kararların alınmasını gerektirir.",
+      "Velayet davasında, mahkeme çocuğun üstün yararını belirlerken birçok faktörü göz önünde bulundurur. Bu faktörler arasında çocuğun yaşı, gelişim düzeyi, eğitim durumu, ebeveynlerin yaşam koşulları, ekonomik durumları, çocukla kurdukları kişisel ilişki ve çocuğun kendi görüşü (yaşı ve idrak gücü elveriyorsa) yer alır. Gerekli görüldüğünde, mahkeme pedagog, psikolog veya sosyal hizmet uzmanı aracılığıyla sosyal inceleme raporu ve uzman görüşü alabilir.",
+      "Velayet hakkı, çocuğun bakımı, eğitimi, korunması ve temsili gibi geniş yetkileri kapsar. Velayetin bir ebeveyne verilmesi, diğer ebeveynin çocukla kişisel ilişki kurma hakkını ortadan kaldırmaz. Mahkeme, velayeti kendisine verilmeyen eş ile çocuk arasında uygun bir kişisel ilişki tesis eder. Bu kişisel ilişki, çocuğun yaşına ve ihtiyaçlarına göre düzenlenir ve çocuğun üstün yararına aykırı olmamalıdır."
+    ],
+    "alimony": [
+      "Boşanma veya ayrılık süreçlerinde, eşlerin ve çocukların maddi ihtiyaçlarını karşılamak üzere [[nafaka|nafaka davası]] gündeme gelir. Türk Medeni Kanunu, farklı türlerde nafaka düzenlemeleri içermektedir: tedbir nafakası, iştirak nafakası, yoksulluk nafakası ve yardım nafakası.",
+      "**Tedbir Nafakası:** Boşanma veya ayrılık davası devam ederken, eşlerin ve çocukların geçimini sağlamak amacıyla mahkeme tarafından hükmedilen geçici bir nafakadır. Hakim, davanın devamı süresince eşlerin barınmasına, geçimine, mallarının yönetimine ve çocukların bakım ve korunmasına ilişkin geçici önlemleri resen alabilir. Bu nafaka, davanın kesinleşmesiyle sona erer.",
+      "**İştirak Nafakası:** Boşanma kararı kesinleştikten sonra, velayeti kendisine verilmeyen eşin, ortak çocuğun bakım ve eğitim giderlerine gücü oranında katılması amacıyla ödediği nafakadır. Çocuğun ergin olmasına kadar devam eder ve çocuğun üstün yararı gözetilerek belirlenir. **Yoksulluk Nafakası:** Boşanma yüzünden yoksulluğa düşecek olan tarafın, kusuru diğer eşten daha ağır olmamak kaydıyla, geçimi için diğer taraftan talep edebileceği nafakadır. Kural olarak süresiz bağlanabilir, ancak nafaka alacaklısının yeniden evlenmesi, yoksulluğunun ortadan kalkması veya haysiyetsiz hayat sürmesi gibi durumlarda mahkeme kararıyla kaldırılabilir."
+    ],
+    "propertyRegime": [
+      "Evlilik birliği içinde edinilen malların tasfiyesi, boşanma sürecinin en önemli ve karmaşık konularından biridir. Türk Medeni Kanunu (TMK) 1 Ocak 2002 tarihinden itibaren yasal mal rejimi olarak 'edinilmiş mallara katılma rejimi'ni kabul etmiştir. Bu rejimde, evlilik birliği içinde edinilen mallar üzerinde eşlerin eşit haklara sahip olduğu kabul edilir.",
+      "Mal rejiminin tasfiyesi sürecinde, öncelikle eşlerin 'kişisel malları' ile 'edinilmiş malları' birbirinden ayrılır. Kişisel mallar, eşlerden birinin yalnızca kişisel kullanımına yarayan eşyalar, mal rejiminin başlangıcında kendisine ait olan mallar, miras veya karşılıksız kazanma yoluyla elde edilen mallar ve manevi tazminat alacakları gibi değerlerdir. Bu mallar, mal paylaşımı dışında tutulur. Edinilmiş mallar ise, evlilik birliği süresince çalışmanın karşılığı olarak elde edilen gelirler, sosyal güvenlik ödemeleri, kişisel malların gelirleri ve çalışma gücü kaybı tazminatları gibi değerlerdir.",
+      "Tasfiye sürecinde 'katılma alacağı' ve 'değer artış payı' gibi kavramlar önem kazanır. Katılma alacağı, edinilmiş malların toplam değerinden borçlar çıkarıldıktan sonra kalan 'artık değer'in yarısı üzerindeki diğer eşin alacak hakkıdır. Değer artış payı ise, bir eşin diğerine ait bir malın edinilmesine, iyileştirilmesine veya korunmasına yaptığı katkının, tasfiye sırasında bu malda meydana gelen değer artışı oranında sahip olduğu alacak hakkıdır. Bu alacaklar, boşanma davasının kesinleşmesinden itibaren 10 yıllık zamanaşımı süresine tabidir.",
+      "Mal paylaşımı davalarında sıkça karşılaşılan durumlardan biri de 'mal kaçırma' iddialarıdır. Eşlerden birinin, boşanma sürecinde veya öncesinde diğer eşin mal paylaşımındaki hakkını azaltmak amacıyla malvarlığını gizlemesi, devretmesi veya değersiz şekilde elden çıkarması mal kaçırma olarak nitelendirilir. Bu tür işlemler, Türk Medeni Kanunu'nun 229. maddesi uyarınca 'eklenecek değerler' olarak kabul edilir ve tasfiyede hiç yapılmamış gibi hesaba katılır. Mal kaçırma iddialarının ispatı için tapu kayıtları, banka hesap dökümleri, tanık ifadeleri ve diğer yazılı belgeler gibi somut deliller önemlidir. Mağdur eş, ihtiyati tedbir kararı alarak malların devrini engelleyebilir veya tasarrufun iptali davası açarak muvazaalı işlemlerin geçersizliğini ileri."
+    ],
+    "jewelry": [
+      "Evlilik birliği içinde edinilen ziynet eşyaları, özellikle boşanma davalarında sıkça uyuşmazlık konusu olan önemli bir malvarlığı değeridir. Ziynet alacağı davaları, genellikle kadın eş tarafından düğünde takılan altın, bilezik, kolye gibi takıların iadesi veya bedelinin ödenmesi talebiyle açılır.",
+      "Türk Medeni Kanunu'nda ziynet eşyalarına ilişkin özel bir düzenleme bulunmamakla birlikte, Yargıtay içtihatları bu konuda yol göstericidir. Yargıtay kararlarına göre, düğünde takılan ziynet eşyaları kime takılırsa takılsın, kural olarak kadın eşe ait kabul edilir ve kadının kişisel malı niteliğindedir. Bu durum, ziynet eşyalarının evlilik birliğine katkı amacıyla verildiği iddia edilse dahi geçerlidir."
+    ],
+    "familyHome": [
+      "Aile konutu, Türk Medeni Kanunu'nun 194. maddesi ile özel bir koruma altına alınan, eşlerin bütün yaşam faaliyetlerini gerçekleştirdiği, yaşantılarına yön verdiği ve anılarla dolu bir mekan olarak tanımlanan konuttur. Bu özel statü, ailenin temelini oluşturan konutun korunmasını ve eşlerin rızası olmaksızın tasarruf işlemlerine konu olmamasını amaçlar.",
+      "Eşlerden biri, diğer eşin açık rızası bulunmadıkça [[aileKonutu|aile konutu]] ile ilgili kira sözleşmesini feshedemez, aile konutunu devredemez veya aile konutu üzerindeki hakları sınırlayamaz. Bu korumadan yararlanmak için, aile konutu olarak kullanılan taşınmazın tapu kaydına 'aile konutu şerhi' düşülmesi mümkündür. Şerh, malik olmayan eş tarafından tapu müdürlüğüne başvurularak, yerleşim yeri belgesi ve evlilik birliğinin devam ettiğini gösteren nüfus kayıt örneği ile konulabilir."
+    ],
+    "law6284": [
+      "6284 sayılı 'Ailenin Korunması ve Kadına Karşı Şiddetin Önlenmesine Dair Kanun', şiddete uğrayan veya şiddete uğrama tehlikesi bulunan kadınların, çocukların, aile bireylerinin ve tek taraflı ısrarlı takip mağduru olan kişilerin korunması ve bu kişilere yönelik şiddetin önlenmesi amacıyla çıkarılmış önemli bir yasadır. Kanun, yalnızca fiziksel şiddeti değil; cinsel, psikolojik ve ekonomik şiddeti de kapsar.",
+      "Bu Kanun kapsamında, şiddet mağdurları için çeşitli koruyucu ve önleyici tedbir kararları alınabilir. Koruyucu tedbirler arasında barınma yeri sağlanması, geçici maddi yardım yapılması, psikolojik, mesleki, hukuki ve sosyal bakımdan rehberlik ve danışmanlık hizmeti verilmesi yer alır. Önleyici tedbirler ise şiddet uygulayan kişinin mağdura ve bulunduğu yere yaklaşmaması, ortak konuttan uzaklaştırılması, iletişim araçlarıyla rahatsız etmemesi gibi kararları içerir."
+    ],
+    "evaluationIntro": [
+      "Aile hukuku uyuşmazlıkları, kişisel ve mali birçok boyutu barındırdığından, doğru hukuki adımların atılması için detaylı bir değerlendirme süreci şarttır."
+    ],
+    "evaluationProcess": [
+      "İlk görüşme ve durum tespiti yapılır.",
+      "Müvekkilin beyanları ve mevcut belgeler detaylıca incelenir.",
+      "Hukuki riskler ve olası çözüm yolları belirlenir.",
+      "Müvekkilin hedefleri ve beklentileri netleştirilir.",
+      "Hukuki strateji oluşturulur ve müvekkile sunulur.",
+      "Süreç boyunca düzenli bilgilendirme ve iletişim sağlanır."
+    ],
+    "faq": [
+      {
+        "question": "Anlaşmalı boşanmada protokol neleri kapsamalıdır?",
+        "answer": "Anlaşmalı boşanma protokolü, eşlerin boşanma konusunda tam bir uzlaşıya vardığını gösteren yazılı bir belgedir. Bu protokolde, ortak çocukların velayeti, velayeti almayan eş ile çocuk arasındaki kişisel ilişki, iştirak nafakası, yoksulluk nafakası, maddi ve manevi tazminat talepleri, evlilik birliği içinde edinilen malların paylaşımı ve aile konutunun durumu gibi tüm temel konuların açıkça ve detaylıca düzenlenmesi gerekmektedir. Protokolün hukuka uygun olması ve tarafların menfaatlerini dengelemesi önemlidir."
+      },
+      {
+        "question": "Çekişmeli boşanma davasında hangi deliller kullanılabilir?",
+        "answer": "Çekişmeli boşanma davalarında, iddiaları ispatlamak için çeşitli deliller kullanılabilir. Bunlar arasında tanık beyanları, yazılı belgeler (banka kayıtları, tapu kayıtları, mesajlaşmalar, e-postalar), fotoğraf ve video kayıtları, uzman raporları (pedagog, psikolog raporları), sosyal inceleme raporları ve yemin gibi deliller yer alabilir. Delillerin hukuka uygun yollarla elde edilmiş olması ve mahkemeye usulüne uygun sunulması önemlidir."
+      },
+      {
+        "question": "Velayet düzenlemesinde çocuğun üstün yararı ne anlama gelir?",
+        "answer": "Velayet düzenlemesinde 'çocuğun üstün yararı' ilkesi, mahkemenin velayet konusunda karar verirken çocuğun fiziksel, ruhsal, ahlaki, sosyal ve eğitimsel gelişimini en iyi şekilde sağlayacak koşulları esas alması demektir. Bu ilke, çocuğun yaşına, gelişim düzeyine, ebeveynlerle olan ilişkisine, yaşam koşullarına ve idrak gücü elveriyorsa kendi görüşüne bakılarak somut olayın özelliklerine göre belirlenir. Çocuğun gelecekteki refahı ve mutluluğu bu ilkenin merkezindedir."
+      },
+      {
+        "question": "Nafaka artırım veya azaltım davası hangi durumlarda açılabilir?",
+        "answer": "Nafaka artırım veya azaltım davası, mevcut nafaka kararının üzerinden zaman geçmesiyle tarafların mali durumlarında önemli değişiklikler olması veya hakkaniyetin bunu gerektirmesi halinde açılabilir. Örneğin, nafaka ödeyenin gelirinde düşüş, iş kaybı, yeni evlilik veya çocuk sahibi olması; nafaka alanın gelirinde artış, iş bulması veya yoksulluğunun ortadan kalkması gibi durumlar bu tür davaların açılmasına neden olabilir."
+      },
+      {
+        "question": "Mal paylaşımı davası boşanma davasıyla birlikte mi açılmalıdır?",
+        "answer": "Mal paylaşımı davası (mal rejiminin tasfiyesi davası), boşanma davasından ayrı bir dava olup, boşanma davasının açıldığı tarihte mal rejimi sona erer ancak tasfiye kendiliğinden gerçekleşmez. Mal paylaşımı davası, boşanma kararının kesinleşmesinden sonraki 10 yıllık zamanaşımı süresi içinde açılabilir. Ancak, uygulamada boşanma davasıyla birlikte veya boşanma davası devam ederken açılması, sürecin daha etkin yönetilmesi açısından tercih edilebilir."
+      },
+      {
+        "question": "Evlilik öncesi edinilen mallar mal paylaşımına dahil edilir mi?",
+        "answer": "Türk Medeni Kanunu'na göre, evlilik öncesi edinilen mallar 'kişisel mal' niteliğindedir ve edinilmiş mallara katılma rejiminde mal paylaşımı dışında tutulur. Kişisel mallar, eşlerden birinin mal rejiminin başlangıcında sahip olduğu veya sonradan miras yoluyla ya da karşılıksız kazanma yoluyla elde ettiği malvarlığı değerleridir. Bu mallar üzerinde diğer eşin katılma alacağı hakkı bulunmaz."
+      },
+      {
+        "question": "Ziynet eşyalarının iadesi davasında ispat yükü kime aittir?",
+        "answer": "Ziynet eşyalarının iadesi davasında ispat yükü, ziynet eşyalarının varlığını ve kimde kaldığını iddia eden tarafa aittir. Genellikle kadın eş, ziynet eşyalarının kendisine ait olduğunu ve evlilik birliği içinde elinden çıktığını veya bozdurulduğunu ispatlamakla yükümlüdür. Bu ispat, tanık beyanları, düğün videoları, fotoğraflar, banka kayıtları gibi somut delillerle yapılabilir. Yargıtay, ziynet eşyalarının kadının kişisel malı olduğunu kabul eder."
+      },
+      {
+        "question": "Aile konutu şerhi nasıl konulur ve ne işe yarar?",
+        "answer": "Aile konutu şerhi, eşlerden birinin diğer eşin açık rızası olmadan aile konutunu satmasını, ipotek ettirmesini veya devretmesini engellemek amacıyla tapu kaydına işlenen bir beyandır. Malik olmayan eş, nüfus müdürlüğünden alacağı yerleşim yeri belgesi ve evlilik birliğinin devam ettiğini gösteren nüfus kayıt örneği ile tapu müdürlüğüne başvurarak bu şerhi koydurabilir. Şerh, aile konutunun hukuki güvenliğini sağlar ve eşin rızası olmadan yapılan tasarruf işlemlerini geçersiz kılar."
+      },
+      {
+        "question": "6284 sayılı Kanun kapsamında hangi tedbirler alınabilir?",
+        "answer": "6284 sayılı Kanun kapsamında, şiddet mağdurları için koruyucu ve önleyici tedbirler alınabilir. Koruyucu tedbirler arasında barınma yeri sağlanması, geçici maddi yardım yapılması, psikolojik, mesleki, hukuki ve sosyal danışmanlık hizmetleri yer alır. Önleyici tedbirler ise şiddet uygulayanın mağdura ve bulunduğu yere yaklaşmaması, ortak konuttan uzaklaştırılması, iletişim araçlarıyla rahatsız etmemesi gibi kararları içerir. Bu tedbirler, mahkeme, mülki amir veya gecikmesinde sakınca bulunan hallerde kolluk amiri tarafından verilebilir."
+      }
+    ]
+  },
+  "editedAt": "2026-07-22T14:53:49.820Z",
+  "editNotes": "Softened sales/unverifiable phrasing; restored measured approach; capped section lengths",
+  "trimmedAt": "2026-07-22T14:53:59.068Z"
+}
