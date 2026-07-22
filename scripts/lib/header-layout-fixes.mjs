@@ -1,10 +1,23 @@
 /**
- * Header layout fixes — İletişim CTA, logo yanındaki site-title, profil tek H1.
+ * Header layout fixes — İletişim CTA, logo yanındaki site-title, tek H1 sayfaları.
  * Code Snippets üzerinden wp_head CSS + Astra title filter.
  */
 
 export const HEADER_LAYOUT_SNIPPET_NAME = 'Adana Avukat Header Layout Fixes';
 export const PROFILE_PAGE_ID = 268;
+
+/** Astra entry-title kapatılacak sayfalar (içerikte kendi H1'leri var). */
+export const SINGLE_H1_PAGE_IDS = [
+  PROFILE_PAGE_ID, // profil
+  305, // adana-aile-hukuku-avukati
+  307, // adana-anlasmali-bosanma-avukati
+  311, // velayet-davasi-avukati-adana
+  313, // gayrimenkul-avukati-adana
+];
+
+function pageIdCssSelectors(ids, suffix) {
+  return ids.map((id) => `body.page-id-${id} ${suffix}`).join(',\n');
+}
 
 export const HEADER_LAYOUT_CSS = `/* aa-header-layout-fixes */
 /* 1) İletişim CTA: Astra height:100% / line-height çakışmasını kır */
@@ -60,9 +73,9 @@ body.wp-custom-logo .site-header .ast-site-title-wrap{
   border:0!important
 }
 
-/* 3) Profil: Astra entry-title yedek gizleme (PHP filter birincil) */
-body.page-id-${PROFILE_PAGE_ID} .entry-header .entry-title,
-body.page-id-${PROFILE_PAGE_ID} .ast-single-entry-header .entry-title{
+/* 3) Tek-H1 sayfalar: entry-title yedek (PHP filter birincil; DOM'dan kaldırır) */
+${pageIdCssSelectors(SINGLE_H1_PAGE_IDS, '.entry-header .entry-title')},
+${pageIdCssSelectors(SINGLE_H1_PAGE_IDS, '.ast-single-entry-header .entry-title')}{
   display:none!important;
   height:0!important;
   margin:0!important;
@@ -97,16 +110,18 @@ body.wp-custom-logo .site-header .ast-site-title-wrap{
 }`;
 
 export function buildHeaderLayoutSnippetPhp() {
+  const idsPhp = SINGLE_H1_PAGE_IDS.join(', ');
   return `/**
  * Adana Avukat — header layout fixes
- * İletişim CTA kompakt hiza, logo varken site-title sr-only, profil tek H1.
+ * İletişim CTA kompakt hiza, logo varken site-title sr-only,
+ * seçili sayfalarda Astra entry-title kapat (tek H1).
  */
 if (!defined('ABSPATH')) {
     exit;
 }
 
 add_filter('astra_the_title_enabled', function ($enabled) {
-    if (is_page(${PROFILE_PAGE_ID})) {
+    if (is_page(array(${idsPhp}))) {
         return false;
     }
     return $enabled;
