@@ -196,7 +196,6 @@ async function generateArticle(topicSpec, relatedLinks) {
     json: true,
     temperature: 0.45,
     maxOutputTokens: 16384,
-    grounding: false,
   });
   const parsed = parseGeminiJson(raw);
 

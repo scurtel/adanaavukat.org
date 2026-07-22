@@ -1,5 +1,25 @@
 import { getGeminiConfig } from './env.mjs';
 
+export function extractGroundingMetadata(data) {
+  const gm = data?.candidates?.[0]?.groundingMetadata;
+  if (!gm) return null;
+
+  const chunks = gm.groundingChunks || [];
+  const sources = chunks
+    .map((chunk) => ({
+      title: chunk.web?.title || chunk.retrievedContext?.title || null,
+      url: chunk.web?.uri || chunk.retrievedContext?.uri || null,
+    }))
+    .filter((source) => source.url);
+
+  return {
+    sources,
+    webSearchQueries: gm.webSearchQueries || [],
+    groundingSupports: gm.groundingSupports || [],
+    searchEntryPoint: gm.searchEntryPoint || null,
+  };
+}
+
 export async function callGemini(prompt, options = {}) {
   const config = getGeminiConfig();
   if (!config.apiKey) {
@@ -8,14 +28,17 @@ export async function callGemini(prompt, options = {}) {
 
   const url = `https://generativelanguage.googleapis.com/v1beta/models/${config.model}:generateContent?key=${config.apiKey}`;
 
-  const useGrounding = config.searchGrounding && options.grounding !== false && !options.json;
+  // Prefer Google Search when enabled; JSON mime type is incompatible with grounding.
+  const searchWanted = config.searchGrounding && options.grounding !== false;
+  const useGrounding = searchWanted && options.forceJson !== true;
+  const useJsonMime = Boolean(options.json) && !useGrounding;
 
   const body = {
     contents: [{ parts: [{ text: prompt }] }],
     generationConfig: {
       temperature: options.temperature ?? 0.5,
       maxOutputTokens: options.maxOutputTokens ?? 16384,
-      responseMimeType: options.json && !useGrounding ? 'application/json' : undefined,
+      responseMimeType: useJsonMime ? 'application/json' : undefined,
     },
   };
 
@@ -38,6 +61,11 @@ export async function callGemini(prompt, options = {}) {
   const text = data.candidates?.[0]?.content?.parts?.[0]?.text;
   if (!text) {
     throw new Error('Gemini yanıtı boş veya beklenmeyen formatta');
+  }
+
+  const grounding = extractGroundingMetadata(data);
+  if (options.includeGrounding) {
+    return { text, grounding };
   }
   return text;
 }
