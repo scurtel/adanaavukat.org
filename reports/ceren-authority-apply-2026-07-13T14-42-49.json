@@ -1,0 +1,24 @@
+{
+  "generatedAt": "2026-07-13T14:42:47.743Z",
+  "mode": "verify-only",
+  "entityConfigNote": {
+    "previousProfileSlug": "avukat-ceren-sumer-cilli",
+    "nextProfileSlug": "avukat-ceren-sumer-cilli"
+  },
+  "verification": {
+    "ok": true,
+    "failed": [],
+    "checks": {
+      "authorSlug": true,
+      "authorName": true,
+      "profileSlug": true,
+      "authorOldRedirect": true,
+      "profileOldRedirect": true,
+      "profileLive200": true,
+      "profileHasJsonLd": true,
+      "profileHasArticlesShortcodeResolved": true,
+      "hubHasClusters": true,
+      "hubCollectionSchema": true
+    }
+  }
+}

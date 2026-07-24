@@ -360,12 +360,13 @@ function buildSchema(pageUrl, def, faq) {
         url: pageUrl,
         areaServed: { '@type': 'City', name: 'Adana' },
         serviceType: def.serviceArea,
-        provider: { '@id': `${BASE_URL}/#person` },
+        provider: { '@id': `${BASE_URL}/avukat-ceren-sumer-cilli/#person` },
       },
       {
         '@type': 'Person',
-        '@id': `${BASE_URL}/#person`,
+        '@id': `${BASE_URL}/avukat-ceren-sumer-cilli/#person`,
         name: ENTITY.name,
+        honorificPrefix: 'Av.',
         jobTitle: 'Avukat',
         url: ENTITY.profileUrl,
         worksFor: {
