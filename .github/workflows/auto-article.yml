@@ -43,6 +43,8 @@ jobs:
           AUTO_ARTICLE_FEATURED_IMAGE: "true"
         run: node scripts/generate-auto-article.mjs --publish
 
+      # Commit: generate adımı teknik olarak başarılıysa (kalite uyarıları exit 0 ile geçer).
+      # quality-only sorunlar generate'i düşürmez; artifact commit/push devam eder.
       - name: Commit report artifacts
         if: success()
         run: |
@@ -53,6 +55,20 @@ jobs:
           SLUG="${{ steps.generate.outputs.slug }}"
           if [ -z "$SLUG" ] && [ -f .auto-article-last-run.json ]; then
             SLUG="$(node -e "console.log(JSON.parse(require('fs').readFileSync('.auto-article-last-run.json','utf8')).slug || '')")"
+          fi
+
+          if [ -f .auto-article-last-run.json ]; then
+            node <<'NODE'
+          const fs = require('fs');
+          const r = JSON.parse(fs.readFileSync('.auto-article-last-run.json', 'utf8'));
+          const warnings = Array.isArray(r.qualityWarnings) ? r.qualityWarnings : [];
+          for (const w of warnings) {
+            console.warn(`::warning title=Makale kalite uyarısı::${w}`);
+          }
+          if (warnings.length) {
+            console.log(`Kalite uyarıları raporlandı (${warnings.length}); commit/push devam ediyor.`);
+          }
+          NODE
           fi
 
           mkdir -p reports generated/auto-articles

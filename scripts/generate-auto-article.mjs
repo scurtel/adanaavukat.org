@@ -67,17 +67,29 @@ function setGithubOutput(key, value) {
   }
 }
 
-function findRisky(text) {
-  const lower = text.toLowerCase();
-  return FORBIDDEN_PHRASES.filter((p) => lower.includes(p.toLowerCase()));
+const qualityWarnings = [];
+
+function warnQuality(message) {
+  qualityWarnings.push(message);
+  console.warn(`::warning title=Makale kalite uyarısı::${message}`);
 }
 
-function sanitizeHtml(html) {
-  let out = html;
-  for (const phrase of FORBIDDEN_PHRASES) {
-    out = out.replace(new RegExp(phrase.replace(/[.*+?^${}()|[\]\\]/g, '\\$&'), 'gi'), '');
+/**
+ * Yasaklı / reklam ifadeleri: yalnızca tespit + GHA annotation.
+ * İçerik silinmez, sanitize edilmez, yeniden üretilmez, red edilmez.
+ */
+function warnForbiddenPhrases(text) {
+  const haystack = String(text || '');
+  const detected = FORBIDDEN_PHRASES.filter((phrase) =>
+    haystack.toLocaleLowerCase('tr-TR').includes(phrase.toLocaleLowerCase('tr-TR')),
+  );
+  for (const phrase of detected) {
+    console.warn(
+      `::warning title=Yasaklı ifade uyarısı::Makalede kontrol listesindeki ifade bulundu: ${phrase}. İçerik değiştirilmeden yayınlanıyor.`,
+    );
+    qualityWarnings.push(`Yasaklı ifade: ${phrase}`);
   }
-  return out.replace(/\s{2,}/g, ' ').trim();
+  return detected;
 }
 
 function parseGeminiJson(raw) {
@@ -204,36 +216,69 @@ async function generateArticle(topicSpec, relatedLinks) {
   }
 
   const slug = slugify(parsed.slug || parsed.title);
-  let html = sanitizeHtml(parsed.content_html);
+  if (!slug) {
+    throw new Error('Geçerli slug üretilemedi');
+  }
 
-  // Tek H1 — temada zaten entry-title olur; içerikteki h1 → h2
+  // İçerik olduğu gibi korunur; yasaklı ifade sanitize edilmez.
+  let html = String(parsed.content_html);
+  if (!html.trim()) {
+    throw new Error('Makale gövdesi boş — teknik olarak yayınlanamaz');
+  }
+
+  // Tek H1 — temada zaten entry-title olur; içerikteki h1 → h2 (yapısal, ifade silme değil)
   html = html.replace(/<h1(\s[^>]*)?>/gi, '<h2$1>').replace(/<\/h1>/gi, '</h2>');
 
   if (!html.includes(DISCLAIMER.slice(0, 40))) {
     html += `\n<p><em>${DISCLAIMER}</em></p>`;
+    warnQuality('Disclaimer gövdede yoktu; otomatik eklendi.');
   }
 
-  const risks = findRisky(`${parsed.title} ${html} ${parsed.meta_description || ''}`);
-  if (risks.length) {
-    html = sanitizeHtml(html);
-  }
+  warnForbiddenPhrases(
+    `${parsed.title} ${html} ${parsed.meta_description || ''} ${parsed.seo_title || ''}`,
+  );
 
   const words = countWords(html);
+  // Teknik alt sınır: tamamen boş/yetersiz çıktı. Kalite hedefi 1000-1400 — yalnızca uyarı.
+  if (words < 50) {
+    throw new Error(`Makale gövdesi neredeyse boş (${words} kelime) — teknik hata`);
+  }
   if (words < 700) {
-    throw new Error(`Makale çok kısa: ${words} kelime`);
+    warnQuality(
+      `Kelime sayısı hedef altında. Hedef ≥700 (ideal 1000-1400), mevcut: ${words}. Makale yine de commit/publish edilecek.`,
+    );
+  } else if (words > 1800) {
+    warnQuality(
+      `Kelime sayısı hedef üstünde. Mevcut: ${words} (ideal 1000-1400). Makale yine de yayınlanacak.`,
+    );
+  }
+
+  const metaDescription = (parsed.meta_description || parsed.excerpt || '').trim().slice(0, 160);
+  if (!metaDescription) {
+    warnQuality('Meta description eksik veya boş.');
+  } else if (metaDescription.length < 120 || metaDescription.length > 160) {
+    warnQuality(
+      `Meta description uzunluğu hedef dışı (${metaDescription.length} karakter; hedef 150-160).`,
+    );
+  }
+
+  const seoTitle = (parsed.seo_title || parsed.title).trim().slice(0, 65);
+  if (seoTitle.length < 30 || seoTitle.length > 60) {
+    warnQuality(`SEO title uzunluğu hedef dışı (${seoTitle.length} karakter; hedef ~50-60).`);
   }
 
   return {
     title: parsed.title.trim(),
     slug,
-    seo_title: (parsed.seo_title || parsed.title).trim().slice(0, 65),
-    meta_description: (parsed.meta_description || parsed.excerpt || '').trim().slice(0, 160),
+    seo_title: seoTitle,
+    meta_description: metaDescription,
     focus_keyword: (parsed.focus_keyword || topicSpec.topic).trim().slice(0, 80),
     excerpt: (parsed.excerpt || '').trim(),
     content_html: html,
     word_count: words,
     category: topicSpec.category,
     topic: topicSpec.topic,
+    quality_warnings: [...qualityWarnings],
   };
 }
 
@@ -333,6 +378,7 @@ async function publishArticle(article) {
 }
 
 async function main() {
+  qualityWarnings.length = 0;
   console.log('=== adanaavukat.org otomatik makale ===');
   console.log(`Publish: ${PUBLISH} | Featured image: ${ASSIGN_IMAGE}`);
   console.log(`Gemini: ${getGeminiConfig().model}`);
@@ -363,6 +409,17 @@ async function main() {
   console.log('WordPress’e gönderiliyor...');
   const result = await publishArticle(article);
 
+  if (result.featured?.skipped && result.featured.reason !== 'disabled') {
+    warnQuality(
+      `Öne çıkan görsel atlanamadı/atanamadı: ${result.featured.reason || 'bilinmiyor'}. Makale yine de yayınlandı.`,
+    );
+  }
+  if (result.rankMath && result.rankMath.ok === false) {
+    warnQuality(
+      `Rank Math meta yazılamadı: ${result.rankMath.error || 'bilinmiyor'}. Yazı yine de oluşturuldu.`,
+    );
+  }
+
   const report = {
     generatedAt: new Date().toISOString(),
     topic: topicSpec.topic,
@@ -374,6 +431,7 @@ async function main() {
     link: result.created.link,
     rankMath: result.rankMath,
     featured: result.featured,
+    qualityWarnings: [...qualityWarnings],
     localPath,
   };
 
@@ -395,6 +453,10 @@ async function main() {
   console.log(`ID: ${result.created.id} (${result.status})`);
   console.log(`URL: ${result.created.link}`);
   console.log(`Rapor: ${reportPath}`);
+  if (qualityWarnings.length) {
+    console.log(`Kalite uyarıları (${qualityWarnings.length}):`);
+    for (const w of qualityWarnings) console.log(`- ${w}`);
+  }
 }
 
 const isMain = process.argv[1] === fileURLToPath(import.meta.url);
