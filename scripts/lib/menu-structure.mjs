@@ -9,7 +9,7 @@ export const TOP_LEVEL_MENU_ORDER = [
   'aile-hukuku-rehberi',
   'hizmetlerimiz',
   'hakkimizda',
-  'avukat-ceren-sumer-cilli-kimdir-adana-bosanma-ve-aile-hukuku',
+  'avukat-ceren-sumer-cilli',
   'faq',
   'iletisim',
 ];
@@ -18,8 +18,7 @@ export const TOP_LEVEL_TITLES = {
   'aile-hukuku-rehberi': 'Aile Hukuku Rehberi',
   hizmetlerimiz: 'Hizmetlerimiz',
   hakkimizda: 'Hakkımızda',
-  'avukat-ceren-sumer-cilli-kimdir-adana-bosanma-ve-aile-hukuku':
-    'Avukat Ceren Sümer Cilli Kimdir?',
+  'avukat-ceren-sumer-cilli': 'Avukat Ceren Sümer Cilli',
   faq: 'Sıkça Sorulan Sorular',
   iletisim: 'İletişim',
 };

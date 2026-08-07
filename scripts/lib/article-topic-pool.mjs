@@ -169,7 +169,7 @@ export const HUB_LINKS = [
   { title: 'Hizmetlerimiz', url: 'https://adanaavukat.org/hizmetlerimiz/' },
   {
     title: 'Av. Ceren Sümer Cilli Kimdir?',
-    url: 'https://adanaavukat.org/avukat-ceren-sumer-cilli-kimdir-adana-bosanma-ve-aile-hukuku/',
+    url: 'https://adanaavukat.org/avukat-ceren-sumer-cilli/',
   },
   { title: 'İletişim', url: 'https://adanaavukat.org/iletisim/' },
   { title: 'Adana Boşanma Avukatı', url: 'https://adanaavukat.org/adana-bosanma-avukati/' },

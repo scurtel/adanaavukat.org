@@ -93,7 +93,7 @@ ${sections}
 <!-- /wp:heading -->
 
 <!-- wp:paragraph -->
-<p>Detaylı bilgi için <a href="${BASE}${page.relatedPost}">hukuk rehberi yazısını</a> inceleyebilirsiniz. <a href="${BASE}/avukat-ceren-sumer-cilli-kimdir-adana-bosanma-ve-aile-hukuku/">Profil</a> · <a href="${BASE}/iletisim/">İletişim</a> · <a href="${BASE}/hizmetlerimiz/">Hizmetlerimiz</a></p>
+<p>Detaylı bilgi için <a href="${BASE}${page.relatedPost}">hukuk rehberi yazısını</a> inceleyebilirsiniz. <a href="${BASE}/avukat-ceren-sumer-cilli/">Profil</a> · <a href="${BASE}/iletisim/">İletişim</a> · <a href="${BASE}/hizmetlerimiz/">Hizmetlerimiz</a></p>
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph -->

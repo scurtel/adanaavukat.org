@@ -1,0 +1,755 @@
+{
+  "generatedAt": "2026-07-13T14:36:11.200Z",
+  "users": [
+    {
+      "id": 1,
+      "name": "Avukat Ceren Sümer Cilli",
+      "slug": "yigit-cilligmail-com",
+      "link": "https://adanaavukat.org/author/yigit-cilligmail-com/",
+      "roles": [
+        "administrator"
+      ]
+    }
+  ],
+  "posts": [
+    {
+      "id": 375,
+      "slug": "adana-nafaka-artirim-azaltim-davasi",
+      "title": "Adana&#8217;da Nafaka Artırım ve Azaltım Davası: Hukuki Süreçler ve Bilinmesi Gerekenler",
+      "link": "https://adanaavukat.org/adana-nafaka-artirim-azaltim-davasi/",
+      "date": "2026-07-10T06:04:42",
+      "modified": "2026-07-10T06:04:44",
+      "author": 1,
+      "categories": [
+        {
+          "id": 3,
+          "slug": "aile-hukuku",
+          "name": "Aile Hukuku"
+        }
+      ],
+      "wordCount": 1189,
+      "internalLinkCount": 3,
+      "hasAuthorBox": false,
+      "authorArchiveLinks": [],
+      "profileSlugHits": [
+        "avukat-ceren-sumer-cilli-kimdir-adana-bosanma-ve-aile-hukuku/"
+      ],
+      "flags": {
+        "yargiPaketi": false,
+        "aileArabuluculukZorunlu": false,
+        "cerenummer": false,
+        "cerensumerAv": false,
+        "garantili": false
+      }
+    },
+    {
+      "id": 372,
+      "slug": "adana-cekismeli-bosanma-delil-stratejisi-4193",
+      "title": "Adana&#8217;da Çekişmeli Boşanma Davalarında Delil Stratejisi Nasıl Kurulur?",
+      "link": "https://adanaavukat.org/adana-cekismeli-bosanma-delil-stratejisi-4193/",
+      "date": "2026-07-08T09:21:54",
+      "modified": "2026-07-08T09:21:57",
+      "author": 1,
+      "categories": [
+        {
+          "id": 5,
+          "slug": "bosanma-davalari",
+          "name": "Boşanma Davaları"
+        }
+      ],
+      "wordCount": 1537,
+      "internalLinkCount": 5,
+      "hasAuthorBox": false,
+      "authorArchiveLinks": [],
+      "profileSlugHits": [
+        "avukat-ceren-sumer-cilli-kimdir-adana-bosanma-ve-aile-hukuku/"
+      ],
+      "flags": {
+        "yargiPaketi": false,
+        "aileArabuluculukZorunlu": false,
+        "cerenummer": false,
+        "cerensumerAv": false,
+        "garantili": false
+      }
+    },
+    {
+      "id": 277,
+      "slug": "adanada-nafaka-ve-velayet-uyusmazliklari",
+      "title": "Adana Nafaka ve Velayet Davaları: Hukuki Süreç ve Haklarınız",
+      "link": "https://adanaavukat.org/adanada-nafaka-ve-velayet-uyusmazliklari/",
+      "date": "2026-06-13T20:38:24",
+      "modified": "2026-06-13T22:27:31",
+      "author": 1,
+      "categories": [
+        {
+          "id": 3,
+          "slug": "aile-hukuku",
+          "name": "Aile Hukuku"
+        }
+      ],
+      "wordCount": 1591,
+      "internalLinkCount": 9,
+      "hasAuthorBox": true,
+      "authorArchiveLinks": [],
+      "profileSlugHits": [
+        "avukat-ceren-sumer-cilli-kimdir-adana-bosanma-ve-aile-hukuku/"
+      ],
+      "flags": {
+        "yargiPaketi": false,
+        "aileArabuluculukZorunlu": false,
+        "cerenummer": false,
+        "cerensumerAv": false,
+        "garantili": false
+      }
+    },
+    {
+      "id": 276,
+      "slug": "adanada-miras-kira-is-hukuku-avukat-destegi",
+      "title": "Adana Miras, Kira, İş Hukuku Avukatı | Hukuki Destek ve Danışmanlık",
+      "link": "https://adanaavukat.org/adanada-miras-kira-is-hukuku-avukat-destegi/",
+      "date": "2026-06-13T20:37:26",
+      "modified": "2026-06-13T22:28:00",
+      "author": 1,
+      "categories": [
+        {
+          "id": 38,
+          "slug": "hukuk-rehberi",
+          "name": "Hukuk Rehberi"
+        }
+      ],
+      "wordCount": 1660,
+      "internalLinkCount": 8,
+      "hasAuthorBox": true,
+      "authorArchiveLinks": [],
+      "profileSlugHits": [
+        "avukat-ceren-sumer-cilli-kimdir-adana-bosanma-ve-aile-hukuku/",
+        "avukat-ceren-sumer-cilli-kimdir-adana-bosanma-ve-aile-hukuku/"
+      ],
+      "flags": {
+        "yargiPaketi": false,
+        "aileArabuluculukZorunlu": false,
+        "cerenummer": false,
+        "cerensumerAv": false,
+        "garantili": false
+      }
+    },
+    {
+      "id": 275,
+      "slug": "adanada-bosanma-davasi-sureci",
+      "title": "Adana&#8217;da Boşanma Davası Süreci: Kapsamlı Rehber ve Hukuki Detaylar",
+      "link": "https://adanaavukat.org/adanada-bosanma-davasi-sureci/",
+      "date": "2026-06-13T20:36:25",
+      "modified": "2026-06-13T22:27:12",
+      "author": 1,
+      "categories": [
+        {
+          "id": 5,
+          "slug": "bosanma-davalari",
+          "name": "Boşanma Davaları"
+        }
+      ],
+      "wordCount": 1779,
+      "internalLinkCount": 9,
+      "hasAuthorBox": true,
+      "authorArchiveLinks": [],
+      "profileSlugHits": [
+        "avukat-ceren-sumer-cilli-kimdir-adana-bosanma-ve-aile-hukuku/"
+      ],
+      "flags": {
+        "yargiPaketi": false,
+        "aileArabuluculukZorunlu": false,
+        "cerenummer": false,
+        "cerensumerAv": false,
+        "garantili": false
+      }
+    },
+    {
+      "id": 274,
+      "slug": "adanada-avukat-secerken-nelere-dikkat-edilmeli",
+      "title": "Adana&#8217;da Avukat Seçimi: Doğru Hukuki Destek Rehberi",
+      "link": "https://adanaavukat.org/adanada-avukat-secerken-nelere-dikkat-edilmeli/",
+      "date": "2026-06-13T20:35:34",
+      "modified": "2026-06-13T22:27:34",
+      "author": 1,
+      "categories": [
+        {
+          "id": 3,
+          "slug": "aile-hukuku",
+          "name": "Aile Hukuku"
+        }
+      ],
+      "wordCount": 1663,
+      "internalLinkCount": 8,
+      "hasAuthorBox": true,
+      "authorArchiveLinks": [],
+      "profileSlugHits": [
+        "avukat-ceren-sumer-cilli-kimdir-adana-bosanma-ve-aile-hukuku/"
+      ],
+      "flags": {
+        "yargiPaketi": false,
+        "aileArabuluculukZorunlu": false,
+        "cerenummer": false,
+        "cerensumerAv": false,
+        "garantili": false
+      }
+    },
+    {
+      "id": 273,
+      "slug": "adanada-aile-hukuku-davalarinda-avukat-destegi",
+      "title": "Adana Aile Hukuku Davaları: Avukat Desteği ve Süreç Rehberi",
+      "link": "https://adanaavukat.org/adanada-aile-hukuku-davalarinda-avukat-destegi/",
+      "date": "2026-06-13T20:34:49",
+      "modified": "2026-06-13T22:27:25",
+      "author": 1,
+      "categories": [
+        {
+          "id": 3,
+          "slug": "aile-hukuku",
+          "name": "Aile Hukuku"
+        }
+      ],
+      "wordCount": 1791,
+      "internalLinkCount": 8,
+      "hasAuthorBox": true,
+      "authorArchiveLinks": [],
+      "profileSlugHits": [
+        "avukat-ceren-sumer-cilli-kimdir-adana-bosanma-ve-aile-hukuku/"
+      ],
+      "flags": {
+        "yargiPaketi": false,
+        "aileArabuluculukZorunlu": false,
+        "cerenummer": false,
+        "cerensumerAv": false,
+        "garantili": false
+      }
+    },
+    {
+      "id": 260,
+      "slug": "adana-bosanma-davasi-nasil-acilir",
+      "title": "Adana’da Boşanma Davası Nasıl Açılır? 2026 Güncel Rehber",
+      "link": "https://adanaavukat.org/adana-bosanma-davasi-nasil-acilir/",
+      "date": "2026-04-21T09:58:58",
+      "modified": "2026-06-13T22:27:37",
+      "author": 1,
+      "categories": [
+        {
+          "id": 3,
+          "slug": "aile-hukuku",
+          "name": "Aile Hukuku"
+        }
+      ],
+      "wordCount": 1392,
+      "internalLinkCount": 0,
+      "hasAuthorBox": false,
+      "authorArchiveLinks": [],
+      "profileSlugHits": [],
+      "flags": {
+        "yargiPaketi": false,
+        "aileArabuluculukZorunlu": false,
+        "cerenummer": false,
+        "cerensumerAv": false,
+        "garantili": false
+      }
+    },
+    {
+      "id": 167,
+      "slug": "bosanmada-gizlenen-mallar-nasil-tespit-edilir-1474",
+      "title": "Boşanmada Gizlenen Mallar Nasıl Tespit Edilir? Süreç, Delil Stratejisi ve Adana Uygulama Notları",
+      "link": "https://adanaavukat.org/bosanmada-gizlenen-mallar-nasil-tespit-edilir-1474/",
+      "date": "2026-04-04T19:00:46",
+      "modified": "2026-06-13T22:27:18",
+      "author": 1,
+      "categories": [
+        {
+          "id": 3,
+          "slug": "aile-hukuku",
+          "name": "Aile Hukuku"
+        },
+        {
+          "id": 5,
+          "slug": "bosanma-davalari",
+          "name": "Boşanma Davaları"
+        }
+      ],
+      "wordCount": 854,
+      "internalLinkCount": 1,
+      "hasAuthorBox": false,
+      "authorArchiveLinks": [],
+      "profileSlugHits": [],
+      "flags": {
+        "yargiPaketi": false,
+        "aileArabuluculukZorunlu": false,
+        "cerenummer": false,
+        "cerensumerAv": false,
+        "garantili": false
+      }
+    },
+    {
+      "id": 164,
+      "slug": "12-yargi-paketi-aile-arabuluculugu-3901",
+      "title": "12. Yargı Paketi: Aile Arabuluculuğu ve Uygulamadaki Yenilikler",
+      "link": "https://adanaavukat.org/12-yargi-paketi-aile-arabuluculugu-3901/",
+      "date": "2026-04-04T14:47:36",
+      "modified": "2026-06-13T22:27:22",
+      "author": 1,
+      "categories": [
+        {
+          "id": 3,
+          "slug": "aile-hukuku",
+          "name": "Aile Hukuku"
+        }
+      ],
+      "wordCount": 1023,
+      "internalLinkCount": 0,
+      "hasAuthorBox": false,
+      "authorArchiveLinks": [],
+      "profileSlugHits": [],
+      "flags": {
+        "yargiPaketi": true,
+        "aileArabuluculukZorunlu": true,
+        "cerenummer": true,
+        "cerensumerAv": false,
+        "garantili": false
+      }
+    },
+    {
+      "id": 159,
+      "slug": "adana-cekismeli-bosanma-davasi-adim-adim-5986",
+      "title": "Adana’da Çekişmeli Boşanma Davası Nasıl İlerler? (Adım Adım Rehber)",
+      "link": "https://adanaavukat.org/adana-cekismeli-bosanma-davasi-adim-adim-5986/",
+      "date": "2026-04-04T14:31:24",
+      "modified": "2026-06-13T22:27:41",
+      "author": 1,
+      "categories": [
+        {
+          "id": 3,
+          "slug": "aile-hukuku",
+          "name": "Aile Hukuku"
+        }
+      ],
+      "wordCount": 1115,
+      "internalLinkCount": 0,
+      "hasAuthorBox": false,
+      "authorArchiveLinks": [],
+      "profileSlugHits": [],
+      "flags": {
+        "yargiPaketi": false,
+        "aileArabuluculukZorunlu": false,
+        "cerenummer": false,
+        "cerensumerAv": false,
+        "garantili": false
+      }
+    },
+    {
+      "id": 131,
+      "slug": "nafaka-turleri-nelerdir-tedbir-istirak-ve-yoksulluk-nafakasi",
+      "title": "Nafaka Türleri Nelerdir? Tedbir, İştirak ve Yoksulluk Nafakası",
+      "link": "https://adanaavukat.org/nafaka-turleri-nelerdir-tedbir-istirak-ve-yoksulluk-nafakasi/",
+      "date": "2026-02-24T08:13:16",
+      "modified": "2026-02-24T13:00:56",
+      "author": 1,
+      "categories": [
+        {
+          "id": 3,
+          "slug": "aile-hukuku",
+          "name": "Aile Hukuku"
+        },
+        {
+          "id": 4,
+          "slug": "nafaka",
+          "name": "Nafaka"
+        }
+      ],
+      "wordCount": 631,
+      "internalLinkCount": 0,
+      "hasAuthorBox": false,
+      "authorArchiveLinks": [],
+      "profileSlugHits": [],
+      "flags": {
+        "yargiPaketi": false,
+        "aileArabuluculukZorunlu": false,
+        "cerenummer": false,
+        "cerensumerAv": true,
+        "garantili": false
+      }
+    },
+    {
+      "id": 126,
+      "slug": "velayet-davasinda-hakim-nelere-dikkat-eder",
+      "title": "Velayet Davasında Hakim Nelere Dikkat Eder?",
+      "link": "https://adanaavukat.org/velayet-davasinda-hakim-nelere-dikkat-eder/",
+      "date": "2026-02-24T07:58:21",
+      "modified": "2026-02-24T13:01:15",
+      "author": 1,
+      "categories": [
+        {
+          "id": 3,
+          "slug": "aile-hukuku",
+          "name": "Aile Hukuku"
+        },
+        {
+          "id": 6,
+          "slug": "velayet",
+          "name": "Velayet"
+        }
+      ],
+      "wordCount": 983,
+      "internalLinkCount": 0,
+      "hasAuthorBox": false,
+      "authorArchiveLinks": [],
+      "profileSlugHits": [],
+      "flags": {
+        "yargiPaketi": false,
+        "aileArabuluculukZorunlu": false,
+        "cerenummer": false,
+        "cerensumerAv": true,
+        "garantili": false
+      }
+    },
+    {
+      "id": 122,
+      "slug": "bosanma-davasinda-hakimin-takdir-yetkisi-nedir",
+      "title": "Boşanma Davasında Hakimin Takdir Yetkisi Nedir?",
+      "link": "https://adanaavukat.org/bosanma-davasinda-hakimin-takdir-yetkisi-nedir/",
+      "date": "2026-02-24T07:43:15",
+      "modified": "2026-02-24T13:01:32",
+      "author": 1,
+      "categories": [
+        {
+          "id": 3,
+          "slug": "aile-hukuku",
+          "name": "Aile Hukuku"
+        },
+        {
+          "id": 5,
+          "slug": "bosanma-davalari",
+          "name": "Boşanma Davaları"
+        }
+      ],
+      "wordCount": 1125,
+      "internalLinkCount": 0,
+      "hasAuthorBox": false,
+      "authorArchiveLinks": [],
+      "profileSlugHits": [],
+      "flags": {
+        "yargiPaketi": false,
+        "aileArabuluculukZorunlu": false,
+        "cerenummer": false,
+        "cerensumerAv": true,
+        "garantili": false
+      }
+    },
+    {
+      "id": 98,
+      "slug": "anlasmali-bosanma-davasi-nedir-sartlari-sureci-ve-guncel-uygulamalar",
+      "title": "Anlaşmalı Boşanma Davası Nedir? Şartları, Süreci ve Güncel Uygulamalar",
+      "link": "https://adanaavukat.org/anlasmali-bosanma-davasi-nedir-sartlari-sureci-ve-guncel-uygulamalar/",
+      "date": "2026-02-23T17:11:27",
+      "modified": "2026-02-24T13:01:44",
+      "author": 1,
+      "categories": [
+        {
+          "id": 3,
+          "slug": "aile-hukuku",
+          "name": "Aile Hukuku"
+        },
+        {
+          "id": 5,
+          "slug": "bosanma-davalari",
+          "name": "Boşanma Davaları"
+        }
+      ],
+      "wordCount": 1038,
+      "internalLinkCount": 0,
+      "hasAuthorBox": false,
+      "authorArchiveLinks": [],
+      "profileSlugHits": [],
+      "flags": {
+        "yargiPaketi": false,
+        "aileArabuluculukZorunlu": false,
+        "cerenummer": false,
+        "cerensumerAv": true,
+        "garantili": false
+      }
+    },
+    {
+      "id": 88,
+      "slug": "bosanma-davasinda-hakimin-takdir-yetkisi",
+      "title": "Boşanma Davasında Hâkimin Takdir Yetkisi Nedir?",
+      "link": "https://adanaavukat.org/bosanma-davasinda-hakimin-takdir-yetkisi/",
+      "date": "2026-02-22T21:19:19",
+      "modified": "2026-06-13T22:27:15",
+      "author": 1,
+      "categories": [
+        {
+          "id": 3,
+          "slug": "aile-hukuku",
+          "name": "Aile Hukuku"
+        },
+        {
+          "id": 5,
+          "slug": "bosanma-davalari",
+          "name": "Boşanma Davaları"
+        }
+      ],
+      "wordCount": 547,
+      "internalLinkCount": 0,
+      "hasAuthorBox": false,
+      "authorArchiveLinks": [],
+      "profileSlugHits": [],
+      "flags": {
+        "yargiPaketi": false,
+        "aileArabuluculukZorunlu": false,
+        "cerenummer": false,
+        "cerensumerAv": false,
+        "garantili": false
+      }
+    },
+    {
+      "id": 76,
+      "slug": "adanada-cekismeli-bosanma-davasi-nedir",
+      "title": "Adana’da Çekişmeli Boşanma Davası Nedir?",
+      "link": "https://adanaavukat.org/adanada-cekismeli-bosanma-davasi-nedir/",
+      "date": "2026-02-15T17:45:17",
+      "modified": "2026-06-13T22:27:44",
+      "author": 1,
+      "categories": [
+        {
+          "id": 3,
+          "slug": "aile-hukuku",
+          "name": "Aile Hukuku"
+        }
+      ],
+      "wordCount": 403,
+      "internalLinkCount": 0,
+      "hasAuthorBox": false,
+      "authorArchiveLinks": [],
+      "profileSlugHits": [],
+      "flags": {
+        "yargiPaketi": false,
+        "aileArabuluculukZorunlu": false,
+        "cerenummer": false,
+        "cerensumerAv": false,
+        "garantili": false
+      }
+    },
+    {
+      "id": 61,
+      "slug": "anlasmali-bosanma-davasi-nedir",
+      "title": "Anlaşmalı Boşanma Davası Nedir? Şartları ve Süreci (2026)",
+      "link": "https://adanaavukat.org/anlasmali-bosanma-davasi-nedir/",
+      "date": "2026-02-05T18:42:34",
+      "modified": "2026-06-13T22:27:47",
+      "author": 1,
+      "categories": [
+        {
+          "id": 3,
+          "slug": "aile-hukuku",
+          "name": "Aile Hukuku"
+        }
+      ],
+      "wordCount": 715,
+      "internalLinkCount": 0,
+      "hasAuthorBox": false,
+      "authorArchiveLinks": [],
+      "profileSlugHits": [],
+      "flags": {
+        "yargiPaketi": false,
+        "aileArabuluculukZorunlu": false,
+        "cerenummer": false,
+        "cerensumerAv": false,
+        "garantili": false
+      }
+    },
+    {
+      "id": 55,
+      "slug": "adana-nafaka-rehberi",
+      "title": "Adana Nafaka Rehberi – Tedbir, İştirak, Yoksulluk Nafakası",
+      "link": "https://adanaavukat.org/adana-nafaka-rehberi/",
+      "date": "2026-02-05T11:06:03",
+      "modified": "2026-06-13T22:27:28",
+      "author": 1,
+      "categories": [
+        {
+          "id": 4,
+          "slug": "nafaka",
+          "name": "Nafaka"
+        }
+      ],
+      "wordCount": 900,
+      "internalLinkCount": 0,
+      "hasAuthorBox": false,
+      "authorArchiveLinks": [],
+      "profileSlugHits": [],
+      "flags": {
+        "yargiPaketi": false,
+        "aileArabuluculukZorunlu": false,
+        "cerenummer": false,
+        "cerensumerAv": false,
+        "garantili": false
+      }
+    }
+  ],
+  "pages": [
+    {
+      "id": 313,
+      "slug": "gayrimenkul-avukati-adana",
+      "title": "Adana Gayrimenkul Avukatı",
+      "link": "https://adanaavukat.org/gayrimenkul-avukati-adana/",
+      "modified": "2026-06-19T09:25:45",
+      "wordCount": 1355
+    },
+    {
+      "id": 311,
+      "slug": "velayet-davasi-avukati-adana",
+      "title": "Adana Velayet Davası Avukatı",
+      "link": "https://adanaavukat.org/velayet-davasi-avukati-adana/",
+      "modified": "2026-06-19T09:25:47",
+      "wordCount": 1339
+    },
+    {
+      "id": 307,
+      "slug": "adana-anlasmali-bosanma-avukati",
+      "title": "Adana Anlaşmalı Boşanma Avukatı",
+      "link": "https://adanaavukat.org/adana-anlasmali-bosanma-avukati/",
+      "modified": "2026-06-19T09:25:49",
+      "wordCount": 1017
+    },
+    {
+      "id": 305,
+      "slug": "adana-aile-hukuku-avukati",
+      "title": "Adana Aile Hukuku Avukatı",
+      "link": "https://adanaavukat.org/adana-aile-hukuku-avukati/",
+      "modified": "2026-06-19T09:25:50",
+      "wordCount": 1142
+    },
+    {
+      "id": 289,
+      "slug": "adana-is-hukuku",
+      "title": "Adana İş Hukuku Avukatı",
+      "link": "https://adanaavukat.org/adana-is-hukuku/",
+      "modified": "2026-06-19T09:25:53",
+      "wordCount": 1241
+    },
+    {
+      "id": 288,
+      "slug": "adana-kira-hukuku",
+      "title": "Adana Kira Hukuku Avukatı",
+      "link": "https://adanaavukat.org/adana-kira-hukuku/",
+      "modified": "2026-06-19T09:25:51",
+      "wordCount": 1231
+    },
+    {
+      "id": 287,
+      "slug": "adana-miras-hukuku",
+      "title": "Adana Miras Hukuku Avukatı",
+      "link": "https://adanaavukat.org/adana-miras-hukuku/",
+      "modified": "2026-06-19T09:25:54",
+      "wordCount": 1048
+    },
+    {
+      "id": 268,
+      "slug": "avukat-ceren-sumer-cilli-kimdir-adana-bosanma-ve-aile-hukuku",
+      "title": "Avukat Ceren Sümer Cilli Kimdir?",
+      "link": "https://adanaavukat.org/avukat-ceren-sumer-cilli-kimdir-adana-bosanma-ve-aile-hukuku/",
+      "modified": "2026-06-15T09:08:07",
+      "wordCount": 1234
+    },
+    {
+      "id": 241,
+      "slug": "adana-ortakligin-giderilmesi-davasi-avukat",
+      "title": "Adana Ortaklığın Giderilmesi Davası Avukat",
+      "link": "https://adanaavukat.org/adana-ortakligin-giderilmesi-davasi-avukat/",
+      "modified": "2026-06-19T09:25:55",
+      "wordCount": 1620
+    },
+    {
+      "id": 237,
+      "slug": "hizmetlerimiz",
+      "title": "Hizmetlerimiz | Adana Avukatlık Hizmetleri",
+      "link": "https://adanaavukat.org/hizmetlerimiz/",
+      "modified": "2026-06-19T09:25:56",
+      "wordCount": 363
+    },
+    {
+      "id": 223,
+      "slug": "nafaka-davasi",
+      "title": "Adana Nafaka Davası Avukatı",
+      "link": "https://adanaavukat.org/nafaka-davasi/",
+      "modified": "2026-06-19T09:25:57",
+      "wordCount": 895
+    },
+    {
+      "id": 216,
+      "slug": "cekismeli-bosanma-davasi",
+      "title": "Adana Çekişmeli Boşanma Avukatı",
+      "link": "https://adanaavukat.org/cekismeli-bosanma-davasi/",
+      "modified": "2026-06-19T09:25:58",
+      "wordCount": 630
+    },
+    {
+      "id": 205,
+      "slug": "adana-bosanma-avukati",
+      "title": "Adana Boşanma Avukatı",
+      "link": "https://adanaavukat.org/adana-bosanma-avukati/",
+      "modified": "2026-06-19T09:26:00",
+      "wordCount": 712
+    },
+    {
+      "id": 105,
+      "slug": "aile-hukuku-rehberi",
+      "title": "Adana Aile Hukuku Rehberi",
+      "link": "https://adanaavukat.org/aile-hukuku-rehberi/",
+      "modified": "2026-06-15T09:00:18",
+      "wordCount": 629
+    },
+    {
+      "id": 47,
+      "slug": "iletisim",
+      "title": "İletişim",
+      "link": "https://adanaavukat.org/iletisim/",
+      "modified": "2026-01-25T16:27:25",
+      "wordCount": 53
+    },
+    {
+      "id": 41,
+      "slug": "hakkimizda",
+      "title": "Hakkımızda",
+      "link": "https://adanaavukat.org/hakkimizda/",
+      "modified": "2026-06-15T09:08:06",
+      "wordCount": 1107
+    },
+    {
+      "id": 29,
+      "slug": "contact",
+      "title": "Contact",
+      "link": "https://adanaavukat.org/contact/",
+      "modified": "2026-01-25T16:34:40",
+      "wordCount": 53
+    },
+    {
+      "id": 27,
+      "slug": "faq",
+      "title": "Sıkça Sorulan Sorular",
+      "link": "https://adanaavukat.org/faq/",
+      "modified": "2026-04-08T11:40:30",
+      "wordCount": 1367
+    },
+    {
+      "id": 25,
+      "slug": "about-us",
+      "title": "About Us",
+      "link": "https://adanaavukat.org/about-us/",
+      "modified": "2026-01-25T16:34:00",
+      "wordCount": 113
+    },
+    {
+      "id": 7,
+      "slug": "adana-avukat",
+      "title": "Adana Avukat | Ceren Sümer Cilli Hukuk ve Danışmanlık",
+      "link": "https://adanaavukat.org/",
+      "modified": "2026-06-19T09:29:15",
+      "wordCount": 649
+    }
+  ]
+}

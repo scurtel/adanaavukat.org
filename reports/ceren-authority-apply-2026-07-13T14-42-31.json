@@ -1,0 +1,224 @@
+{
+  "generatedAt": "2026-07-13T14:41:40.531Z",
+  "mode": "apply",
+  "entityConfigNote": {
+    "previousProfileSlug": "avukat-ceren-sumer-cilli",
+    "nextProfileSlug": "avukat-ceren-sumer-cilli"
+  },
+  "backupPath": "C:\\Users\\scurt\\Desktop\\Cursor Dosyalar\\adanaavukat.org\\reports\\backups\\ceren-authority-pre-apply-2026-07-13T14-41-40.json",
+  "author": {
+    "action": "updated",
+    "before": {
+      "name": "Avukat Ceren Sümer Cilli",
+      "slug": "yigit-cilligmail-com"
+    },
+    "after": {
+      "name": "Avukat Ceren Sümer Cilli",
+      "slug": "avukat-ceren-sumer-cilli",
+      "link": "https://adanaavukat.org/author/avukat-ceren-sumer-cilli/"
+    }
+  },
+  "profile": {
+    "action": "updated",
+    "id": 268,
+    "slug": "avukat-ceren-sumer-cilli",
+    "link": "https://adanaavukat.org/avukat-ceren-sumer-cilli/"
+  },
+  "eeatPages": [
+    {
+      "slug": "editoryal-politika",
+      "action": "created",
+      "id": 379,
+      "link": "https://adanaavukat.org/editoryal-politika/"
+    },
+    {
+      "slug": "icerik-guncelleme-politikasi",
+      "action": "created",
+      "id": 380,
+      "link": "https://adanaavukat.org/icerik-guncelleme-politikasi/"
+    },
+    {
+      "slug": "hukuki-bilgilendirme",
+      "action": "created",
+      "id": 381,
+      "link": "https://adanaavukat.org/hukuki-bilgilendirme/"
+    },
+    {
+      "slug": "gizlilik-politikasi",
+      "action": "created",
+      "id": 382,
+      "link": "https://adanaavukat.org/gizlilik-politikasi/"
+    },
+    {
+      "slug": "cerez-politikasi",
+      "action": "created",
+      "id": 383,
+      "link": "https://adanaavukat.org/cerez-politikasi/"
+    }
+  ],
+  "linkRewrites": [
+    {
+      "type": "posts",
+      "id": 375,
+      "slug": "adana-nafaka-artirim-azaltim-davasi",
+      "action": "updated-links"
+    },
+    {
+      "type": "posts",
+      "id": 372,
+      "slug": "adana-cekismeli-bosanma-delil-stratejisi-4193",
+      "action": "updated-links"
+    },
+    {
+      "type": "posts",
+      "id": 277,
+      "slug": "adanada-nafaka-ve-velayet-uyusmazliklari",
+      "action": "updated-links"
+    },
+    {
+      "type": "posts",
+      "id": 276,
+      "slug": "adanada-miras-kira-is-hukuku-avukat-destegi",
+      "action": "updated-links"
+    },
+    {
+      "type": "posts",
+      "id": 275,
+      "slug": "adanada-bosanma-davasi-sureci",
+      "action": "updated-links"
+    },
+    {
+      "type": "posts",
+      "id": 274,
+      "slug": "adanada-avukat-secerken-nelere-dikkat-edilmeli",
+      "action": "updated-links"
+    },
+    {
+      "type": "posts",
+      "id": 273,
+      "slug": "adanada-aile-hukuku-davalarinda-avukat-destegi",
+      "action": "updated-links"
+    },
+    {
+      "type": "pages",
+      "id": 313,
+      "slug": "gayrimenkul-avukati-adana",
+      "action": "updated-links"
+    },
+    {
+      "type": "pages",
+      "id": 311,
+      "slug": "velayet-davasi-avukati-adana",
+      "action": "updated-links"
+    },
+    {
+      "type": "pages",
+      "id": 307,
+      "slug": "adana-anlasmali-bosanma-avukati",
+      "action": "updated-links"
+    },
+    {
+      "type": "pages",
+      "id": 305,
+      "slug": "adana-aile-hukuku-avukati",
+      "action": "updated-links"
+    },
+    {
+      "type": "pages",
+      "id": 289,
+      "slug": "adana-is-hukuku",
+      "action": "updated-links"
+    },
+    {
+      "type": "pages",
+      "id": 288,
+      "slug": "adana-kira-hukuku",
+      "action": "updated-links"
+    },
+    {
+      "type": "pages",
+      "id": 287,
+      "slug": "adana-miras-hukuku",
+      "action": "updated-links"
+    },
+    {
+      "type": "pages",
+      "id": 237,
+      "slug": "hizmetlerimiz",
+      "action": "updated-links"
+    },
+    {
+      "type": "pages",
+      "id": 223,
+      "slug": "nafaka-davasi",
+      "action": "updated-links"
+    },
+    {
+      "type": "pages",
+      "id": 216,
+      "slug": "cekismeli-bosanma-davasi",
+      "action": "updated-links"
+    },
+    {
+      "type": "pages",
+      "id": 41,
+      "slug": "hakkimizda",
+      "action": "updated-links"
+    },
+    {
+      "type": "pages",
+      "id": 7,
+      "slug": "adana-avukat",
+      "action": "updated-links"
+    }
+  ],
+  "menu": {
+    "action": "updated",
+    "id": 271
+  },
+  "blogHubSeo": {
+    "action": "updated",
+    "id": 105
+  },
+  "snippets": {
+    "redirects": {
+      "action": "created",
+      "id": 10
+    },
+    "profileShortcodes": {
+      "action": "created",
+      "id": 11
+    },
+    "articleAuthority": {
+      "action": "created",
+      "id": 12
+    },
+    "blogHub": {
+      "action": "updated",
+      "id": 8
+    },
+    "oldRedirectDeactivate": {
+      "action": "deactivated",
+      "id": 9
+    }
+  },
+  "cachePurge": {
+    "ok": true
+  },
+  "verification": {
+    "ok": true,
+    "failed": [],
+    "checks": {
+      "authorSlug": true,
+      "authorName": true,
+      "profileSlug": true,
+      "authorOldRedirect": true,
+      "profileOldRedirect": true,
+      "profileLive200": true,
+      "profileHasJsonLd": true,
+      "profileHasArticlesShortcodeResolved": true,
+      "hubHasClusters": true,
+      "hubCollectionSchema": true
+    }
+  }
+}

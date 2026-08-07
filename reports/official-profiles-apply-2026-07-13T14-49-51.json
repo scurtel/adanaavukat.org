@@ -1,0 +1,237 @@
+{
+  "generatedAt": "2026-07-13T14:49:43.031Z",
+  "dryRun": false,
+  "personId": "https://adanaavukat.org/avukat-ceren-sumer-cilli/#person",
+  "sameAs": [
+    "https://www.cerensumer.av.tr/adana-bosanma-avukati-ceren-sumer-cilli-kimdir/",
+    "https://www.linkedin.com/in/avukat-ceren-s%C3%BCmer-cilli-375873b0/",
+    "https://www.instagram.com/av.cerensumercilli/",
+    "https://www.facebook.com/cerensumercilli/"
+  ],
+  "hasMap": "https://www.google.com/maps/search/?api=1&query=Avukat+Ceren+S%C3%BCmer+Cilli+Adana",
+  "officialBio": "https://www.cerensumer.av.tr/adana-bosanma-avukati-ceren-sumer-cilli-kimdir/",
+  "profile": {
+    "action": "updated",
+    "id": 268,
+    "link": "https://adanaavukat.org/avukat-ceren-sumer-cilli/"
+  },
+  "articleSnippet": {
+    "action": "updated",
+    "id": 12
+  },
+  "homepageSchema": {
+    "action": "updated",
+    "id": 7
+  },
+  "nameVariantScan": [
+    {
+      "id": 268,
+      "type": "page",
+      "slug": "avukat-ceren-sumer-cilli",
+      "hits": [
+        {
+          "key": "Ceren Sümer Cilli (Avukat/Av. öneksiz)",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "id": 205,
+      "type": "page",
+      "slug": "adana-bosanma-avukati",
+      "hits": [
+        {
+          "key": "Ceren Sümer Cilli (Avukat/Av. öneksiz)",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "id": 41,
+      "type": "page",
+      "slug": "hakkimizda",
+      "hits": [
+        {
+          "key": "Ceren Sümer Cilli (Avukat/Av. öneksiz)",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "id": 7,
+      "type": "page",
+      "slug": "adana-avukat",
+      "hits": [
+        {
+          "key": "Ceren Sümer (soyadsız)",
+          "count": 1
+        },
+        {
+          "key": "Ceren Sümer Cilli (Avukat/Av. öneksiz)",
+          "count": 1
+        },
+        {
+          "key": "Av. Ceren Sümer Cilli",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": 375,
+      "type": "post",
+      "slug": "adana-nafaka-artirim-azaltim-davasi",
+      "hits": [
+        {
+          "key": "Av. Ceren Sümer Cilli",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": 372,
+      "type": "post",
+      "slug": "adana-cekismeli-bosanma-delil-stratejisi-4193",
+      "hits": [
+        {
+          "key": "Av. Ceren Sümer Cilli",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": 277,
+      "type": "post",
+      "slug": "adanada-nafaka-ve-velayet-uyusmazliklari",
+      "hits": [
+        {
+          "key": "Av. Ceren Sümer Cilli",
+          "count": 4
+        }
+      ]
+    },
+    {
+      "id": 276,
+      "type": "post",
+      "slug": "adanada-miras-kira-is-hukuku-avukat-destegi",
+      "hits": [
+        {
+          "key": "Av. Ceren Sümer Cilli",
+          "count": 4
+        }
+      ]
+    },
+    {
+      "id": 275,
+      "type": "post",
+      "slug": "adanada-bosanma-davasi-sureci",
+      "hits": [
+        {
+          "key": "Av. Ceren Sümer Cilli",
+          "count": 4
+        }
+      ]
+    },
+    {
+      "id": 274,
+      "type": "post",
+      "slug": "adanada-avukat-secerken-nelere-dikkat-edilmeli",
+      "hits": [
+        {
+          "key": "Av. Ceren Sümer Cilli",
+          "count": 4
+        }
+      ]
+    },
+    {
+      "id": 273,
+      "type": "post",
+      "slug": "adanada-aile-hukuku-davalarinda-avukat-destegi",
+      "hits": [
+        {
+          "key": "Av. Ceren Sümer Cilli",
+          "count": 5
+        }
+      ]
+    },
+    {
+      "id": 131,
+      "type": "post",
+      "slug": "nafaka-turleri-nelerdir-tedbir-istirak-ve-yoksulluk-nafakasi",
+      "hits": [
+        {
+          "key": "Av. Ceren Sümer Cilli",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "id": 126,
+      "type": "post",
+      "slug": "velayet-davasinda-hakim-nelere-dikkat-eder",
+      "hits": [
+        {
+          "key": "Av. Ceren Sümer Cilli",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "id": 122,
+      "type": "post",
+      "slug": "bosanma-davasinda-hakimin-takdir-yetkisi-nedir",
+      "hits": [
+        {
+          "key": "Av. Ceren Sümer Cilli",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "id": 98,
+      "type": "post",
+      "slug": "anlasmali-bosanma-davasi-nedir-sartlari-sureci-ve-guncel-uygulamalar",
+      "hits": [
+        {
+          "key": "Av. Ceren Sümer Cilli",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": 88,
+      "type": "post",
+      "slug": "bosanma-davasinda-hakimin-takdir-yetkisi",
+      "hits": [
+        {
+          "key": "Av. Ceren Sümer Cilli",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "id": 61,
+      "type": "post",
+      "slug": "anlasmali-bosanma-davasi-nedir",
+      "hits": [
+        {
+          "key": "Av. Ceren Sümer Cilli",
+          "count": 1
+        }
+      ]
+    }
+  ],
+  "purge": {
+    "ok": true
+  },
+  "verification": {
+    "profile200": true,
+    "officialSection": true,
+    "hasOfficialBio": true,
+    "hasMapsCorrect": true,
+    "hasLinkedIn": true,
+    "sameAsInJsonLd": true,
+    "mapsNotInPersonSameAsBlock": true,
+    "nofollowNotForced": true,
+    "noopenerPresent": true
+  }
+}

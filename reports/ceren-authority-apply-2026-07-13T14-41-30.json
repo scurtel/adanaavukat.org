@@ -1,0 +1,226 @@
+{
+  "generatedAt": "2026-07-13T14:41:19.327Z",
+  "mode": "dry-run",
+  "entityConfigNote": {
+    "previousProfileSlug": "avukat-ceren-sumer-cilli",
+    "nextProfileSlug": "avukat-ceren-sumer-cilli"
+  },
+  "backupPath": "C:\\Users\\scurt\\Desktop\\Cursor Dosyalar\\adanaavukat.org\\reports\\backups\\ceren-authority-pre-apply-2026-07-13T14-41-19.json",
+  "author": {
+    "action": "would-update",
+    "before": {
+      "name": "Avukat Ceren Sümer Cilli",
+      "slug": "yigit-cilligmail-com"
+    },
+    "after": {
+      "name": "Avukat Ceren Sümer Cilli",
+      "slug": "avukat-ceren-sumer-cilli"
+    }
+  },
+  "profile": {
+    "action": "would-update",
+    "id": 268,
+    "slug": "avukat-ceren-sumer-cilli"
+  },
+  "eeatPages": [
+    {
+      "slug": "editoryal-politika",
+      "action": "would-create"
+    },
+    {
+      "slug": "icerik-guncelleme-politikasi",
+      "action": "would-create"
+    },
+    {
+      "slug": "hukuki-bilgilendirme",
+      "action": "would-create"
+    },
+    {
+      "slug": "gizlilik-politikasi",
+      "action": "would-create"
+    },
+    {
+      "slug": "cerez-politikasi",
+      "action": "would-create"
+    }
+  ],
+  "linkRewrites": [
+    {
+      "type": "posts",
+      "id": 375,
+      "slug": "adana-nafaka-artirim-azaltim-davasi",
+      "action": "would-update-links"
+    },
+    {
+      "type": "posts",
+      "id": 372,
+      "slug": "adana-cekismeli-bosanma-delil-stratejisi-4193",
+      "action": "would-update-links"
+    },
+    {
+      "type": "posts",
+      "id": 277,
+      "slug": "adanada-nafaka-ve-velayet-uyusmazliklari",
+      "action": "would-update-links"
+    },
+    {
+      "type": "posts",
+      "id": 276,
+      "slug": "adanada-miras-kira-is-hukuku-avukat-destegi",
+      "action": "would-update-links"
+    },
+    {
+      "type": "posts",
+      "id": 275,
+      "slug": "adanada-bosanma-davasi-sureci",
+      "action": "would-update-links"
+    },
+    {
+      "type": "posts",
+      "id": 274,
+      "slug": "adanada-avukat-secerken-nelere-dikkat-edilmeli",
+      "action": "would-update-links"
+    },
+    {
+      "type": "posts",
+      "id": 273,
+      "slug": "adanada-aile-hukuku-davalarinda-avukat-destegi",
+      "action": "would-update-links"
+    },
+    {
+      "type": "pages",
+      "id": 313,
+      "slug": "gayrimenkul-avukati-adana",
+      "action": "would-update-links"
+    },
+    {
+      "type": "pages",
+      "id": 311,
+      "slug": "velayet-davasi-avukati-adana",
+      "action": "would-update-links"
+    },
+    {
+      "type": "pages",
+      "id": 307,
+      "slug": "adana-anlasmali-bosanma-avukati",
+      "action": "would-update-links"
+    },
+    {
+      "type": "pages",
+      "id": 305,
+      "slug": "adana-aile-hukuku-avukati",
+      "action": "would-update-links"
+    },
+    {
+      "type": "pages",
+      "id": 289,
+      "slug": "adana-is-hukuku",
+      "action": "would-update-links"
+    },
+    {
+      "type": "pages",
+      "id": 288,
+      "slug": "adana-kira-hukuku",
+      "action": "would-update-links"
+    },
+    {
+      "type": "pages",
+      "id": 287,
+      "slug": "adana-miras-hukuku",
+      "action": "would-update-links"
+    },
+    {
+      "type": "pages",
+      "id": 268,
+      "slug": "avukat-ceren-sumer-cilli-kimdir-adana-bosanma-ve-aile-hukuku",
+      "action": "would-update-links"
+    },
+    {
+      "type": "pages",
+      "id": 237,
+      "slug": "hizmetlerimiz",
+      "action": "would-update-links"
+    },
+    {
+      "type": "pages",
+      "id": 223,
+      "slug": "nafaka-davasi",
+      "action": "would-update-links"
+    },
+    {
+      "type": "pages",
+      "id": 216,
+      "slug": "cekismeli-bosanma-davasi",
+      "action": "would-update-links"
+    },
+    {
+      "type": "pages",
+      "id": 41,
+      "slug": "hakkimizda",
+      "action": "would-update-links"
+    },
+    {
+      "type": "pages",
+      "id": 7,
+      "slug": "adana-avukat",
+      "action": "would-update-links"
+    }
+  ],
+  "menu": {
+    "action": "would-update",
+    "id": 271
+  },
+  "blogHubSeo": {
+    "action": "would-update",
+    "id": 105
+  },
+  "snippets": {
+    "redirects": {
+      "action": "would-create",
+      "id": null
+    },
+    "profileShortcodes": {
+      "action": "would-create",
+      "id": null
+    },
+    "articleAuthority": {
+      "action": "would-create",
+      "id": null
+    },
+    "blogHub": {
+      "action": "would-update",
+      "id": 8
+    },
+    "oldRedirectDeactivate": {
+      "action": "would-deactivate",
+      "id": 9
+    }
+  },
+  "cachePurge": {
+    "ok": true
+  },
+  "verification": {
+    "ok": false,
+    "failed": [
+      "authorSlug",
+      "profileSlug",
+      "authorOldRedirect",
+      "profileOldRedirect",
+      "profileHasJsonLd",
+      "profileHasArticlesShortcodeResolved",
+      "hubHasClusters"
+    ],
+    "checks": {
+      "authorSlug": false,
+      "authorName": true,
+      "profileSlug": false,
+      "authorOldRedirect": false,
+      "profileOldRedirect": false,
+      "profileLive200": true,
+      "profileHasJsonLd": false,
+      "profileHasArticlesShortcodeResolved": false,
+      "hubHasClusters": false,
+      "hubCollectionSchema": true
+    }
+  }
+}
