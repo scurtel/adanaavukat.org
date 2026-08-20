@@ -1,0 +1,632 @@
+{
+  "timestamp": "2026-08-20T14-39-17",
+  "dryRun": false,
+  "htaccess": {
+    "before": "e . /index.php [L]\n</IfModule>\n\n\n# END WordPress\n\nRedirectMatch 410 ^/(item|prizes|product|shop|urun|store)/.+$\nRedirectMatch 410 ^/(item|prizes|product|shop|urun|store)/.+$RewriteRule ^(.*)$ - [G,L]\n",
+    "after": "# ===============================\n# Canonical host redirects (safe SEO round 1)\n# www -> apex HTTPS, path + query preserved\n# ===============================\n<IfModule mod_rewrite.c>\nRewriteEngine On\nRewriteCond %{HTTP_HOST} ^www\\.adanaavukat\\.org$ [NC]\nRewriteRule ^(.*)$ https://adanaavukat.org/$1 [R=301,L,QSA]\n</IfModule>\n\nRedirectMatch 410 ^/showthread\\.php$\nRedirectMatch 410 ^/search\\.php$\nRed",
+    "uploaded": true
+  },
+  "snippets": [
+    {
+      "action": "updated",
+      "id": 10,
+      "name": "Adana Avukat Authority Redirects"
+    },
+    {
+      "action": "created",
+      "id": 18,
+      "name": "Adana Avukat Profile Redirect Guard"
+    },
+    {
+      "action": "created",
+      "id": 19,
+      "name": "Adana Avukat WWW Canonical Redirect"
+    },
+    {
+      "action": "created",
+      "id": 20,
+      "name": "Adana Avukat Homepage Paged Noindex"
+    }
+  ],
+  "homepage": {
+    "changed": true,
+    "patches": [
+      {
+        "type": "replace",
+        "from": "https://adanaavukat.org/anlasmali-bosanma-davasi-nedir/",
+        "to": "https://adanaavukat.org/adana-anlasmali-bosanma-avukati/",
+        "note": "Anlaşmalı Boşanma kartı → hizmet sayfası"
+      },
+      {
+        "type": "replace",
+        "from": "https://adanaavukat.org/velayet-davasinda-hakim-nelere-dikkat-eder/",
+        "to": "https://adanaavukat.org/velayet-davasi-avukati-adana/",
+        "note": "Velayet kartı → hizmet sayfası"
+      },
+      {
+        "type": "insert",
+        "note": "Aile Hukuku hizmet kartı eklendi"
+      },
+      {
+        "type": "insert",
+        "note": "Hizmetlerimiz iç linki eklendi"
+      }
+    ]
+  },
+  "hizmetlerimiz": {
+    "changed": false,
+    "patches": []
+  },
+  "postsProfileUrlFix": [
+    {
+      "id": 455,
+      "slug": "adana-ise-iade-davasi-sureci",
+      "type": "post"
+    },
+    {
+      "id": 451,
+      "slug": "adana-sakli-pay-tenkis-davasi-miras-hukuku",
+      "type": "post"
+    },
+    {
+      "id": 448,
+      "slug": "adana-kira-tahliye-davasi-rehberi",
+      "type": "post"
+    },
+    {
+      "id": 445,
+      "slug": "adana-cocugu-gostermeme-hukuki-yollar",
+      "type": "post"
+    },
+    {
+      "id": 442,
+      "slug": "adana-bosanmada-ziynet-esyasi-alacagi",
+      "type": "post"
+    },
+    {
+      "id": 439,
+      "slug": "adana-uzaklastirma-karari-koruma-tedbirleri",
+      "type": "post"
+    },
+    {
+      "id": 436,
+      "slug": "adana-bosanmada-maddi-manevi-tazminat",
+      "type": "post"
+    },
+    {
+      "id": 433,
+      "slug": "adana-aile-uyusmazliklarinda-arabuluculuk",
+      "type": "post"
+    },
+    {
+      "id": 430,
+      "slug": "adanada-veraset-ilami-nasil-alinir",
+      "type": "post"
+    },
+    {
+      "id": 427,
+      "slug": "adana-anlasmali-bosanma-protokolu-dikkat-edilecekler",
+      "type": "post"
+    },
+    {
+      "id": 424,
+      "slug": "adana-kidem-ihbar-tazminati-hesaplama",
+      "type": "post"
+    },
+    {
+      "id": 415,
+      "slug": "adana-mal-rejimi-tasfiyesi-rehber",
+      "type": "post"
+    },
+    {
+      "id": 412,
+      "slug": "adana-velayet-degisikligi-davasi-ne-zaman-acilir",
+      "type": "post"
+    },
+    {
+      "id": 409,
+      "slug": "adana-bosanma-davasi-tanik-beyani-etkisi",
+      "type": "post"
+    },
+    {
+      "id": 406,
+      "slug": "adanada-kira-bedeli-uyarlamasi-rehberi",
+      "type": "post"
+    },
+    {
+      "id": 7,
+      "slug": "adana-avukat",
+      "type": "page"
+    }
+  ],
+  "internalLinks": [
+    "Ana sayfa: Anlaşmalı Boşanma kartı → hizmet sayfası",
+    "Ana sayfa: Velayet kartı → hizmet sayfası",
+    "Ana sayfa: Aile Hukuku hizmet kartı eklendi",
+    "Ana sayfa: Hizmetlerimiz iç linki eklendi",
+    "adana-ise-iade-davasi-sureci: eski profil URL → yeni profil",
+    "adana-sakli-pay-tenkis-davasi-miras-hukuku: eski profil URL → yeni profil",
+    "adana-kira-tahliye-davasi-rehberi: eski profil URL → yeni profil",
+    "adana-cocugu-gostermeme-hukuki-yollar: eski profil URL → yeni profil",
+    "adana-bosanmada-ziynet-esyasi-alacagi: eski profil URL → yeni profil",
+    "adana-uzaklastirma-karari-koruma-tedbirleri: eski profil URL → yeni profil",
+    "adana-bosanmada-maddi-manevi-tazminat: eski profil URL → yeni profil",
+    "adana-aile-uyusmazliklarinda-arabuluculuk: eski profil URL → yeni profil",
+    "adanada-veraset-ilami-nasil-alinir: eski profil URL → yeni profil",
+    "adana-anlasmali-bosanma-protokolu-dikkat-edilecekler: eski profil URL → yeni profil",
+    "adana-kidem-ihbar-tazminati-hesaplama: eski profil URL → yeni profil",
+    "adana-mal-rejimi-tasfiyesi-rehber: eski profil URL → yeni profil",
+    "adana-velayet-degisikligi-davasi-ne-zaman-acilir: eski profil URL → yeni profil",
+    "adana-bosanma-davasi-tanik-beyani-etkisi: eski profil URL → yeni profil",
+    "adanada-kira-bedeli-uyarlamasi-rehberi: eski profil URL → yeni profil",
+    "adana-avukat: eski profil URL → yeni profil",
+    "adana-bosanma-avukati: profil + hizmetlerimiz footer linki"
+  ],
+  "nearDuplicates": [
+    {
+      "topic": "Anlaşmalı boşanma",
+      "slugs": [
+        "anlasmali-bosanma-davasi-nedir",
+        "anlasmali-bosanma-davasi-nedir-sartlari-sureci-ve-guncel-uygulamalar"
+      ],
+      "primary": "anlasmali-bosanma-davasi-nedir",
+      "reason": "Daha kısa slug, genel tanım niteliğinde; diğeri süreç/şart odaklı alt konu olarak kalabilir.",
+      "items": [
+        {
+          "slug": "anlasmali-bosanma-davasi-nedir",
+          "url": "https://adanaavukat.org/anlasmali-bosanma-davasi-nedir/",
+          "title": "Anlaşmalı Boşanma Davası Nedir? Şartları ve Süreci (2026)",
+          "status": "publish",
+          "wordEstimate": 715
+        },
+        {
+          "slug": "anlasmali-bosanma-davasi-nedir-sartlari-sureci-ve-guncel-uygulamalar",
+          "url": "https://adanaavukat.org/anlasmali-bosanma-davasi-nedir-sartlari-sureci-ve-guncel-uygulamalar/",
+          "title": "Anlaşmalı Boşanma Davası Nedir? Şartları, Süreci ve Güncel Uygulamalar",
+          "status": "publish",
+          "wordEstimate": 1038
+        }
+      ]
+    },
+    {
+      "topic": "Çekişmeli boşanma",
+      "slugs": [
+        "adana-cekismeli-bosanma-davasi-nedir",
+        "adanada-cekismeli-bosanma-davasi-nedir",
+        "adana-cekismeli-bosanma-davasi-adim-adim"
+      ],
+      "primary": "adana-cekismeli-bosanma-davasi-nedir",
+      "reason": "Adana odaklı ana rehber; adim-adim ve yazım varyantı (adanada) destekleyici içerik.",
+      "items": [
+        {
+          "slug": "adana-cekismeli-bosanma-davasi-nedir",
+          "url": "https://adanaavukat.org/adana-cekismeli-bosanma-davasi-nedir/",
+          "title": "adana-cekismeli-bosanma-davasi-nedir",
+          "status": "unknown",
+          "wordEstimate": null
+        },
+        {
+          "slug": "adanada-cekismeli-bosanma-davasi-nedir",
+          "url": "https://adanaavukat.org/adanada-cekismeli-bosanma-davasi-nedir/",
+          "title": "Adana’da Çekişmeli Boşanma Davası Nedir?",
+          "status": "publish",
+          "wordEstimate": 403
+        },
+        {
+          "slug": "adana-cekismeli-bosanma-davasi-adim-adim",
+          "url": "https://adanaavukat.org/adana-cekismeli-bosanma-davasi-adim-adim/",
+          "title": "adana-cekismeli-bosanma-davasi-adim-adim",
+          "status": "unknown",
+          "wordEstimate": null
+        }
+      ]
+    },
+    {
+      "topic": "Hakimin takdir yetkisi",
+      "slugs": [
+        "bosanma-davasinda-hakimin-takdir-yetkisi",
+        "bosanma-davasinda-hakimin-takdir-yetkisi-nedir"
+      ],
+      "primary": "bosanma-davasinda-hakimin-takdir-yetkisi-nedir",
+      "reason": "“Nedir” sorusu arama niyetine daha uygun; kısa slug muhtemelen erken taslak.",
+      "items": [
+        {
+          "slug": "bosanma-davasinda-hakimin-takdir-yetkisi",
+          "url": "https://adanaavukat.org/bosanma-davasinda-hakimin-takdir-yetkisi/",
+          "title": "Boşanma Davasında Hâkimin Takdir Yetkisi Nedir?",
+          "status": "publish",
+          "wordEstimate": 547
+        },
+        {
+          "slug": "bosanma-davasinda-hakimin-takdir-yetkisi-nedir",
+          "url": "https://adanaavukat.org/bosanma-davasinda-hakimin-takdir-yetkisi-nedir/",
+          "title": "Boşanma Davasında Hakimin Takdir Yetkisi Nedir?",
+          "status": "publish",
+          "wordEstimate": 1125
+        }
+      ]
+    }
+  ],
+  "httpBefore": {
+    "homepage": {
+      "label": "homepage",
+      "url": "https://adanaavukat.org/",
+      "finalUrl": "https://adanaavukat.org/",
+      "status": 200,
+      "chain": [
+        {
+          "url": "https://adanaavukat.org/",
+          "status": 200
+        }
+      ]
+    },
+    "homepage-meta": {
+      "url": "https://adanaavukat.org/",
+      "status": 200,
+      "canonical": "https://adanaavukat.org/",
+      "robots": "index, follow, max-snippet:-1, max-video-preview:-1, max-image-preview:large"
+    },
+    "robots": {
+      "label": "robots",
+      "url": "https://adanaavukat.org/robots.txt",
+      "finalUrl": "https://adanaavukat.org/robots.txt",
+      "status": 200,
+      "chain": [
+        {
+          "url": "https://adanaavukat.org/robots.txt",
+          "status": 200
+        }
+      ]
+    },
+    "sitemap": {
+      "label": "sitemap",
+      "url": "https://adanaavukat.org/sitemap_index.xml",
+      "finalUrl": "https://adanaavukat.org/sitemap_index.xml",
+      "status": 200,
+      "chain": [
+        {
+          "url": "https://adanaavukat.org/sitemap_index.xml",
+          "status": 200
+        }
+      ]
+    },
+    "bosanma": {
+      "label": "bosanma",
+      "url": "https://adanaavukat.org/adana-bosanma-avukati/",
+      "finalUrl": "https://adanaavukat.org/adana-bosanma-avukati/",
+      "status": 200,
+      "chain": [
+        {
+          "url": "https://adanaavukat.org/adana-bosanma-avukati/",
+          "status": 200
+        }
+      ]
+    },
+    "bosanma-meta": {
+      "url": "https://adanaavukat.org/adana-bosanma-avukati/",
+      "status": 200,
+      "canonical": "https://adanaavukat.org/adana-bosanma-avukati/",
+      "robots": "follow, index, max-snippet:-1, max-video-preview:-1, max-image-preview:large"
+    },
+    "aile": {
+      "label": "aile",
+      "url": "https://adanaavukat.org/adana-aile-hukuku-avukati/",
+      "finalUrl": "https://adanaavukat.org/adana-aile-hukuku-avukati/",
+      "status": 200,
+      "chain": [
+        {
+          "url": "https://adanaavukat.org/adana-aile-hukuku-avukati/",
+          "status": 200
+        }
+      ]
+    },
+    "anlasmali": {
+      "label": "anlasmali",
+      "url": "https://adanaavukat.org/adana-anlasmali-bosanma-avukati/",
+      "finalUrl": "https://adanaavukat.org/adana-anlasmali-bosanma-avukati/",
+      "status": 200,
+      "chain": [
+        {
+          "url": "https://adanaavukat.org/adana-anlasmali-bosanma-avukati/",
+          "status": 200
+        }
+      ]
+    },
+    "hizmetler": {
+      "label": "hizmetler",
+      "url": "https://adanaavukat.org/hizmetlerimiz/",
+      "finalUrl": "https://adanaavukat.org/hizmetlerimiz/",
+      "status": 200,
+      "chain": [
+        {
+          "url": "https://adanaavukat.org/hizmetlerimiz/",
+          "status": 200
+        }
+      ]
+    },
+    "profil-yeni": {
+      "label": "profil-yeni",
+      "url": "https://adanaavukat.org/avukat-ceren-sumer-cilli/",
+      "finalUrl": "https://adanaavukat.org/avukat-ceren-sumer-cilli/",
+      "status": 200,
+      "chain": [
+        {
+          "url": "https://adanaavukat.org/avukat-ceren-sumer-cilli/",
+          "status": 200
+        }
+      ]
+    },
+    "profil-yeni-meta": {
+      "url": "https://adanaavukat.org/avukat-ceren-sumer-cilli/",
+      "status": 200,
+      "canonical": "https://adanaavukat.org/avukat-ceren-sumer-cilli/",
+      "robots": "index, follow, max-snippet:-1, max-video-preview:-1, max-image-preview:large"
+    },
+    "page2": {
+      "label": "page2",
+      "url": "https://adanaavukat.org/page/2/",
+      "finalUrl": "https://adanaavukat.org/page/2/",
+      "status": 200,
+      "chain": [
+        {
+          "url": "https://adanaavukat.org/page/2/",
+          "status": 200
+        }
+      ]
+    },
+    "page2-meta": {
+      "url": "https://adanaavukat.org/page/2/",
+      "status": 200,
+      "canonical": "https://adanaavukat.org/",
+      "robots": "index, follow, max-snippet:-1, max-video-preview:-1, max-image-preview:large"
+    },
+    "wp-admin": {
+      "label": "wp-admin",
+      "url": "https://adanaavukat.org/wp-admin/",
+      "finalUrl": "https://adanaavukat.org/wp-login.php?redirect_to=https%3A%2F%2Fadanaavukat.org%2Fwp-admin%2F&reauth=1",
+      "status": 200,
+      "chain": [
+        {
+          "url": "https://adanaavukat.org/wp-admin/",
+          "status": 200
+        }
+      ]
+    },
+    "oldProfileRedirect": {
+      "label": "old-profile",
+      "url": "https://adanaavukat.org/avukat-ceren-sumer-cilli-kimdir-adana-bosanma-ve-aile-hukuku/",
+      "finalUrl": "https://adanaavukat.org/avukat-ceren-sumer-cilli/",
+      "status": 200,
+      "chain": [
+        {
+          "url": "https://adanaavukat.org/avukat-ceren-sumer-cilli-kimdir-adana-bosanma-ve-aile-hukuku/",
+          "status": 301,
+          "location": "https://adanaavukat.org/avukat-ceren-sumer-cilli/"
+        },
+        {
+          "url": "https://adanaavukat.org/avukat-ceren-sumer-cilli/",
+          "status": 200,
+          "location": null
+        }
+      ]
+    },
+    "wwwHttpRedirect": {
+      "label": "www-http",
+      "url": "http://www.adanaavukat.org/test-path?x=1",
+      "finalUrl": "https://adanaavukat.org/test-path?x=1",
+      "status": 404,
+      "chain": [
+        {
+          "url": "http://www.adanaavukat.org/test-path?x=1",
+          "status": 301,
+          "location": "https://www.adanaavukat.org/test-path?x=1"
+        },
+        {
+          "url": "https://www.adanaavukat.org/test-path?x=1",
+          "status": 301,
+          "location": "https://adanaavukat.org/test-path?x=1"
+        },
+        {
+          "url": "https://adanaavukat.org/test-path?x=1",
+          "status": 404,
+          "location": null
+        }
+      ]
+    }
+  },
+  "httpAfter": {
+    "homepage": {
+      "label": "homepage",
+      "url": "https://adanaavukat.org/",
+      "finalUrl": "https://adanaavukat.org/",
+      "status": 200,
+      "chain": [
+        {
+          "url": "https://adanaavukat.org/",
+          "status": 200
+        }
+      ]
+    },
+    "homepage-meta": {
+      "url": "https://adanaavukat.org/",
+      "status": 200,
+      "canonical": "https://adanaavukat.org/",
+      "robots": "index, follow, max-snippet:-1, max-video-preview:-1, max-image-preview:large"
+    },
+    "robots": {
+      "label": "robots",
+      "url": "https://adanaavukat.org/robots.txt",
+      "finalUrl": "https://adanaavukat.org/robots.txt",
+      "status": 200,
+      "chain": [
+        {
+          "url": "https://adanaavukat.org/robots.txt",
+          "status": 200
+        }
+      ]
+    },
+    "sitemap": {
+      "label": "sitemap",
+      "url": "https://adanaavukat.org/sitemap_index.xml",
+      "finalUrl": "https://adanaavukat.org/sitemap_index.xml",
+      "status": 200,
+      "chain": [
+        {
+          "url": "https://adanaavukat.org/sitemap_index.xml",
+          "status": 200
+        }
+      ]
+    },
+    "bosanma": {
+      "label": "bosanma",
+      "url": "https://adanaavukat.org/adana-bosanma-avukati/",
+      "finalUrl": "https://adanaavukat.org/adana-bosanma-avukati/",
+      "status": 200,
+      "chain": [
+        {
+          "url": "https://adanaavukat.org/adana-bosanma-avukati/",
+          "status": 200
+        }
+      ]
+    },
+    "bosanma-meta": {
+      "url": "https://adanaavukat.org/adana-bosanma-avukati/",
+      "status": 200,
+      "canonical": "https://adanaavukat.org/adana-bosanma-avukati/",
+      "robots": "follow, index, max-snippet:-1, max-video-preview:-1, max-image-preview:large"
+    },
+    "aile": {
+      "label": "aile",
+      "url": "https://adanaavukat.org/adana-aile-hukuku-avukati/",
+      "finalUrl": "https://adanaavukat.org/adana-aile-hukuku-avukati/",
+      "status": 200,
+      "chain": [
+        {
+          "url": "https://adanaavukat.org/adana-aile-hukuku-avukati/",
+          "status": 200
+        }
+      ]
+    },
+    "anlasmali": {
+      "label": "anlasmali",
+      "url": "https://adanaavukat.org/adana-anlasmali-bosanma-avukati/",
+      "finalUrl": "https://adanaavukat.org/adana-anlasmali-bosanma-avukati/",
+      "status": 200,
+      "chain": [
+        {
+          "url": "https://adanaavukat.org/adana-anlasmali-bosanma-avukati/",
+          "status": 200
+        }
+      ]
+    },
+    "hizmetler": {
+      "label": "hizmetler",
+      "url": "https://adanaavukat.org/hizmetlerimiz/",
+      "finalUrl": "https://adanaavukat.org/hizmetlerimiz/",
+      "status": 200,
+      "chain": [
+        {
+          "url": "https://adanaavukat.org/hizmetlerimiz/",
+          "status": 200
+        }
+      ]
+    },
+    "profil-yeni": {
+      "label": "profil-yeni",
+      "url": "https://adanaavukat.org/avukat-ceren-sumer-cilli/",
+      "finalUrl": "https://adanaavukat.org/avukat-ceren-sumer-cilli/",
+      "status": 200,
+      "chain": [
+        {
+          "url": "https://adanaavukat.org/avukat-ceren-sumer-cilli/",
+          "status": 200
+        }
+      ]
+    },
+    "profil-yeni-meta": {
+      "url": "https://adanaavukat.org/avukat-ceren-sumer-cilli/",
+      "status": 200,
+      "canonical": "https://adanaavukat.org/avukat-ceren-sumer-cilli/",
+      "robots": "index, follow, max-snippet:-1, max-video-preview:-1, max-image-preview:large"
+    },
+    "page2": {
+      "label": "page2",
+      "url": "https://adanaavukat.org/page/2/",
+      "finalUrl": "https://adanaavukat.org/page/2/",
+      "status": 200,
+      "chain": [
+        {
+          "url": "https://adanaavukat.org/page/2/",
+          "status": 200
+        }
+      ]
+    },
+    "page2-meta": {
+      "url": "https://adanaavukat.org/page/2/",
+      "status": 200,
+      "canonical": null,
+      "robots": "noindex, follow"
+    },
+    "wp-admin": {
+      "label": "wp-admin",
+      "url": "https://adanaavukat.org/wp-admin/",
+      "finalUrl": "https://adanaavukat.org/wp-login.php?redirect_to=https%3A%2F%2Fadanaavukat.org%2Fwp-admin%2F&reauth=1",
+      "status": 200,
+      "chain": [
+        {
+          "url": "https://adanaavukat.org/wp-admin/",
+          "status": 200
+        }
+      ]
+    },
+    "oldProfileRedirect": {
+      "label": "old-profile",
+      "url": "https://adanaavukat.org/avukat-ceren-sumer-cilli-kimdir-adana-bosanma-ve-aile-hukuku/",
+      "finalUrl": "https://adanaavukat.org/avukat-ceren-sumer-cilli/",
+      "status": 200,
+      "chain": [
+        {
+          "url": "https://adanaavukat.org/avukat-ceren-sumer-cilli-kimdir-adana-bosanma-ve-aile-hukuku/",
+          "status": 301,
+          "location": "https://adanaavukat.org/avukat-ceren-sumer-cilli/"
+        },
+        {
+          "url": "https://adanaavukat.org/avukat-ceren-sumer-cilli/",
+          "status": 200,
+          "location": null
+        }
+      ]
+    },
+    "wwwHttpRedirect": {
+      "label": "www-http",
+      "url": "http://www.adanaavukat.org/test-path?x=1",
+      "finalUrl": "https://adanaavukat.org/test-path?x=1",
+      "status": 404,
+      "chain": [
+        {
+          "url": "http://www.adanaavukat.org/test-path?x=1",
+          "status": 301,
+          "location": "https://www.adanaavukat.org/test-path?x=1"
+        },
+        {
+          "url": "https://www.adanaavukat.org/test-path?x=1",
+          "status": 301,
+          "location": "https://adanaavukat.org/test-path?x=1"
+        },
+        {
+          "url": "https://adanaavukat.org/test-path?x=1",
+          "status": 404,
+          "location": null
+        }
+      ]
+    }
+  },
+  "skipped": [
+    "Kategori noindex ayarı değiştirilmedi",
+    "Category sitemap kapatılmadı",
+    "Trump/off-topic içerikler silinmedi veya noindex yapılmadı",
+    "Hiçbir yazı silinmedi",
+    "Yakın kopya makalelerde 301/canonical değişikliği yapılmadı",
+    "GSC URL indexing request gönderilmedi"
+  ]
+}

@@ -456,16 +456,18 @@ ${POST_CARD_PLACEHOLDER_CSS}
 <h2>Hizmet Alanları</h2>
 <p class="aa-section-lead">Aile ve özel hukuk alanlarında somut olaya göre genel bilgilendirme ve süreç desteği.</p>
 <div class="aa-grid-services">
+<div class="aa-card"><h3>Aile Hukuku</h3><p>Boşanma, nafaka, velayet ve mal rejimi gibi aile hukuku uyuşmazlıklarında genel bilgilendirme.</p><a class="aa-card-link" href="${BASE}/adana-aile-hukuku-avukati/">Detaylı Bilgi</a></div>
 <div class="aa-card"><h3>Boşanma Davaları</h3><p>Boşanma sürecinin planlanması, dilekçe hazırlığı ve delillerin usule uygun sunulması.</p><a class="aa-card-link" href="${BASE}/adana-bosanma-avukati/">Detaylı Bilgi</a></div>
-<div class="aa-card"><h3>Anlaşmalı Boşanma</h3><p>Tarafların uzlaştığı boşanma türünde protokol hazırlığı ve süreç bilgilendirmesi.</p><a class="aa-card-link" href="${BASE}/anlasmali-bosanma-davasi-nedir/">Detaylı Bilgi</a></div>
+<div class="aa-card"><h3>Anlaşmalı Boşanma</h3><p>Tarafların uzlaştığı boşanma türünde protokol hazırlığı ve süreç bilgilendirmesi.</p><a class="aa-card-link" href="${BASE}/adana-anlasmali-bosanma-avukati/">Detaylı Bilgi</a></div>
 <div class="aa-card"><h3>Çekişmeli Boşanma</h3><p>Uyuşmazlık halinde delil toplama, süre takibi ve usul adımlarının değerlendirilmesi.</p><a class="aa-card-link" href="${BASE}/cekismeli-bosanma-davasi/">Detaylı Bilgi</a></div>
 <div class="aa-card"><h3>Nafaka</h3><p>Tedbir, iştirak ve yoksulluk nafakası taleplerinin hukuki çerçevesi.</p><a class="aa-card-link" href="${BASE}/nafaka-davasi/">Detaylı Bilgi</a></div>
-<div class="aa-card"><h3>Velayet</h3><p>Çocuğun üstün yararı ilkesi çerçevesinde velayet talepleri ve süreç adımları.</p><a class="aa-card-link" href="${BASE}/velayet-davasinda-hakim-nelere-dikkat-eder/">Detaylı Bilgi</a></div>
+<div class="aa-card"><h3>Velayet</h3><p>Çocuğun üstün yararı ilkesi çerçevesinde velayet talepleri ve süreç adımları.</p><a class="aa-card-link" href="${BASE}/velayet-davasi-avukati-adana/">Detaylı Bilgi</a></div>
 <div class="aa-card"><h3>Mal Paylaşımı</h3><p>Edinilmiş mallara katılma rejimi ve ortaklığın giderilmesi uyuşmazlıkları.</p><a class="aa-card-link" href="${BASE}/adana-ortakligin-giderilmesi-davasi-avukat/">Detaylı Bilgi</a></div>
 <div class="aa-card"><h3>Miras Hukuku</h3><p>Veraset ilamı, miras paylaşımı ve tenkis süreçlerine ilişkin genel bilgilendirme.</p><a class="aa-card-link" href="${BASE}/adana-miras-hukuku/">Detaylı Bilgi</a></div>
 <div class="aa-card"><h3>Kira Hukuku</h3><p>Kira uyuşmazlıkları, tahliye süreçleri ve kira bedeli uyarlaması konuları.</p><a class="aa-card-link" href="${BASE}/adana-kira-hukuku/">Detaylı Bilgi</a></div>
 <div class="aa-card"><h3>İş Hukuku</h3><p>İşçi-işveren uyuşmazlıkları, işe iade ve arabuluculuk süreçleri.</p><a class="aa-card-link" href="${BASE}/adana-is-hukuku/">Detaylı Bilgi</a></div>
 </div>
+<p class="aa-section-lead" style="margin-top:2rem;margin-bottom:0"><a href="${BASE}/hizmetlerimiz/">Tüm hizmet alanlarını Hizmetlerimiz sayfasında inceleyebilirsiniz.</a></p>
 </div>
 </section>
 
