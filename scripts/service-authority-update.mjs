@@ -365,7 +365,7 @@ function buildSchema(pageUrl, def, faq) {
       {
         '@type': 'Person',
         '@id': `${BASE_URL}/avukat-ceren-sumer-cilli/#person`,
-        name: ENTITY.schemaPersonName,
+        name: ENTITY.name,
         honorificPrefix: 'Av.',
         jobTitle: 'Avukat',
         url: ENTITY.profileUrl,

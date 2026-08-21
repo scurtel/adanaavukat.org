@@ -3,7 +3,6 @@ import {
   PROFILE_URL_NEW,
   PROFILE_IMAGE,
   AUTHOR_DISPLAY_NAME,
-  PERSON_SCHEMA_NAME,
   KNOWS_ABOUT,
   SAME_AS,
   CLUSTER_HUBS,
@@ -120,7 +119,7 @@ export function buildProfileJsonLd() {
       {
         '@type': 'Person',
         '@id': PERSON_ID,
-        name: PERSON_SCHEMA_NAME,
+        name: AUTHOR_DISPLAY_NAME,
         honorificPrefix: 'Av.',
         jobTitle: 'Avukat',
         description:

@@ -5,7 +5,6 @@ import {
   AUTHOR_SLUG_OLD,
   AUTHOR_SLUG_NEW,
   AUTHOR_DISPLAY_NAME,
-  PERSON_SCHEMA_NAME,
   AUTHOR_USER_ID,
   FAMILY_LAW_CATEGORY_SLUGS,
   SNIPPET_NAMES,
@@ -245,68 +244,35 @@ add_filter('the_content', function ($content) {
 }, 25);
 
 add_filter('rank_math/json_ld', function ($data, $jsonld) {
-    if (!is_array($data)) {
+    if (!aa_is_family_law_authority_post() || !is_array($data)) {
         return $data;
     }
-    $on_profile = is_page('avukat-ceren-sumer-cilli');
-    $on_family_post = aa_is_family_law_authority_post();
-    if (!$on_profile && !$on_family_post) {
-        return $data;
-    }
-
-    $person_id = '${PERSON_ID}';
-    $schema_name = '${PERSON_SCHEMA_NAME}';
-    $profile_url = '${PROFILE_URL_NEW}';
-    $canonical = '${CANONICAL_PERSON_URL}';
-
-    $rewrite = function ($node) use (&$rewrite, $person_id, $schema_name, $profile_url, $canonical) {
-        if (!is_array($node)) {
-            return $node;
-        }
-        $types = isset($node['@type']) ? (array) $node['@type'] : array();
-        if (in_array('Person', $types, true)) {
-            $id = isset($node['@id']) ? (string) $node['@id'] : '';
-            $name = isset($node['name']) ? (string) $node['name'] : '';
-            $looks_ceren = (stripos($name, 'Ceren') !== false)
-                || (strpos($id, 'ceren') !== false)
-                || (strpos($id, '/author/') !== false);
-            if ($looks_ceren) {
-                $node['@type'] = 'Person';
-                $node['@id'] = $person_id;
-                $node['name'] = $schema_name;
-                if (empty($node['url'])) {
-                    $node['url'] = $profile_url;
-                }
-                if (empty($node['sameAs'])) {
-                    $node['sameAs'] = array($canonical);
-                }
-            }
-        }
-        if (isset($node['author'])) {
-            $node['author'] = $rewrite($node['author']);
-        }
-        if (isset($node['@graph']) && is_array($node['@graph'])) {
-            $out = array();
-            $seen_person = false;
-            foreach ($node['@graph'] as $child) {
-                $child = $rewrite($child);
-                $c_types = is_array($child) && isset($child['@type']) ? (array) $child['@type'] : array();
-                $c_id = is_array($child) && isset($child['@id']) ? $child['@id'] : '';
-                if (in_array('Person', $c_types, true) && $c_id === $person_id) {
-                    if ($seen_person) {
-                        continue;
-                    }
-                    $seen_person = true;
-                }
-                $out[] = $child;
-            }
-            $node['@graph'] = $out;
-        }
-        return $node;
-    };
-
+    $author = array(
+        '@type' => 'Person',
+        '@id' => '${PERSON_ID}',
+        'name' => '${AUTHOR_DISPLAY_NAME}',
+        'url' => '${PROFILE_URL_NEW}',
+        'sameAs' => array('${CANONICAL_PERSON_URL}'),
+    );
     foreach ($data as $key => $piece) {
-        $data[$key] = $rewrite($piece);
+        if (!is_array($piece)) {
+            continue;
+        }
+        $types = isset($piece['@type']) ? (array) $piece['@type'] : array();
+        if (in_array('Article', $types, true) || in_array('BlogPosting', $types, true) || in_array('NewsArticle', $types, true)) {
+            $data[$key]['author'] = $author;
+        }
+        if (isset($piece['@graph']) && is_array($piece['@graph'])) {
+            foreach ($piece['@graph'] as $gKey => $gPiece) {
+                if (!is_array($gPiece)) {
+                    continue;
+                }
+                $gTypes = isset($gPiece['@type']) ? (array) $gPiece['@type'] : array();
+                if (in_array('Article', $gTypes, true) || in_array('BlogPosting', $gTypes, true)) {
+                    $data[$key]['@graph'][$gKey]['author'] = $author;
+                }
+            }
+        }
     }
     return $data;
 }, 99, 2);
@@ -334,7 +300,7 @@ add_action('wp_footer', function () {
         'author' => array(
             '@type' => 'Person',
             '@id' => '${PERSON_ID}',
-            'name' => '${PERSON_SCHEMA_NAME}',
+            'name' => '${AUTHOR_DISPLAY_NAME}',
             'url' => '${PROFILE_URL_NEW}',
             'sameAs' => array('${CANONICAL_PERSON_URL}'),
         ),
@@ -417,7 +383,7 @@ add_action('wp_head', function () {
         'author' => array(
             '@type' => 'Person',
             '@id' => '${PERSON_ID}',
-            'name' => '${PERSON_SCHEMA_NAME}',
+            'name' => '${AUTHOR_DISPLAY_NAME}',
             'url' => '${PROFILE_URL_NEW}',
             'sameAs' => array('${CANONICAL_PERSON_URL}'),
         ),
