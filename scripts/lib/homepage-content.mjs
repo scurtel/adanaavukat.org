@@ -33,7 +33,7 @@ export function buildSchemaJson() {
       {
         '@type': 'Person',
         '@id': `${BASE}/avukat-ceren-sumer-cilli/#person`,
-        name: 'Avukat Ceren Sümer Cilli',
+        name: 'Ceren Sümer Cilli',
         honorificPrefix: 'Av.',
         url: `${BASE}/avukat-ceren-sumer-cilli/`,
         mainEntityOfPage: `${BASE}/avukat-ceren-sumer-cilli/`,

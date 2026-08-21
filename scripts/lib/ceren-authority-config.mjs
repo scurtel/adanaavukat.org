@@ -3,6 +3,8 @@ export const BASE_URL = 'https://adanaavukat.org';
 
 export const AUTHOR_USER_ID = 1;
 export const AUTHOR_DISPLAY_NAME = 'Avukat Ceren Sümer Cilli';
+/** Structured data Person.name — unvan jobTitle'da kalır */
+export const PERSON_SCHEMA_NAME = 'Ceren Sümer Cilli';
 export const AUTHOR_SLUG_NEW = 'avukat-ceren-sumer-cilli';
 export const AUTHOR_SLUG_OLD = 'yigit-cilligmail-com';
 export const AUTHOR_URL_NEW = `${BASE_URL}/author/${AUTHOR_SLUG_NEW}/`;

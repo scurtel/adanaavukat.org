@@ -2,6 +2,7 @@ export const BASE_URL = 'https://adanaavukat.org';
 
 export const ENTITY = {
   name: 'Avukat Ceren Sümer Cilli',
+  schemaPersonName: 'Ceren Sümer Cilli',
   shortName: 'Av. Ceren Sümer Cilli',
   profileSlug: 'avukat-ceren-sumer-cilli',
   profileUrl: `${BASE_URL}/avukat-ceren-sumer-cilli/`,

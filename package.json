@@ -36,6 +36,7 @@
     "apply:ceren-authority": "node scripts/apply-ceren-authority.mjs",
     "verify:ceren-authority": "node scripts/apply-ceren-authority.mjs --verify-only",
     "preview:credentials": "node scripts/preview-credential-entity.mjs",
+    "preview:round2": "node scripts/preview-round2-entity-cleanup.mjs",
     "apply:official-profiles": "node scripts/apply-official-profiles.mjs",
     "inventory:family-law": "node scripts/inventory-family-law-content.mjs",
     "report:ceren-authority": "node scripts/generate-ceren-authority-reports.mjs",
