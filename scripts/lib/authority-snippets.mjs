@@ -248,7 +248,6 @@ add_filter('rank_math/json_ld', function ($data, $jsonld) {
     if (!is_array($data)) {
         return $data;
     }
-    /* Rank Math global disable = NO. Schema türleri silinmez. */
     $on_profile = is_page('avukat-ceren-sumer-cilli');
     $on_family_post = aa_is_family_law_authority_post();
     if (!$on_profile && !$on_family_post) {
@@ -259,37 +258,6 @@ add_filter('rank_math/json_ld', function ($data, $jsonld) {
     $schema_name = '${PERSON_SCHEMA_NAME}';
     $profile_url = '${PROFILE_URL_NEW}';
     $canonical = '${CANONICAL_PERSON_URL}';
-    $author_ref = array(
-        '@type' => 'Person',
-        '@id' => $person_id,
-        'name' => $schema_name,
-        'url' => $profile_url,
-        'sameAs' => array($canonical),
-    );
-
-    if ($on_family_post) {
-        foreach ($data as $key => $piece) {
-            if (!is_array($piece)) {
-                continue;
-            }
-            $types = isset($piece['@type']) ? (array) $piece['@type'] : array();
-            if (in_array('Article', $types, true) || in_array('BlogPosting', $types, true) || in_array('NewsArticle', $types, true)) {
-                $data[$key]['author'] = $author_ref;
-            }
-            if (isset($piece['@graph']) && is_array($piece['@graph'])) {
-                foreach ($piece['@graph'] as $gKey => $gPiece) {
-                    if (!is_array($gPiece)) {
-                        continue;
-                    }
-                    $gTypes = isset($gPiece['@type']) ? (array) $gPiece['@type'] : array();
-                    if (in_array('Article', $gTypes, true) || in_array('BlogPosting', $gTypes, true)) {
-                        $data[$key]['@graph'][$gKey]['author'] = $author_ref;
-                    }
-                }
-            }
-        }
-        return $data;
-    }
 
     $rewrite = function ($node) use (&$rewrite, $person_id, $schema_name, $profile_url, $canonical) {
         if (!is_array($node)) {
@@ -299,15 +267,14 @@ add_filter('rank_math/json_ld', function ($data, $jsonld) {
         if (in_array('Person', $types, true)) {
             $id = isset($node['@id']) ? (string) $node['@id'] : '';
             $name = isset($node['name']) ? (string) $node['name'] : '';
-            $looks_duplicate = (stripos($name, 'Ceren') !== false)
+            $looks_ceren = (stripos($name, 'Ceren') !== false)
                 || (strpos($id, 'ceren') !== false)
-                || (strpos($id, '/author/avukat-ceren-sumer-cilli') !== false);
-            if ($looks_duplicate) {
+                || (strpos($id, '/author/') !== false);
+            if ($looks_ceren) {
                 $node['@type'] = 'Person';
                 $node['@id'] = $person_id;
                 $node['name'] = $schema_name;
-                $node['jobTitle'] = 'Avukat';
-                if (empty($node['url']) || strpos((string) $node['url'], '/author/') !== false) {
+                if (empty($node['url'])) {
                     $node['url'] = $profile_url;
                 }
                 if (empty($node['sameAs'])) {
