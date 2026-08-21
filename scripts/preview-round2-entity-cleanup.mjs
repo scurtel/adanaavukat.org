@@ -48,6 +48,7 @@ if (!snippet.includes("name' => 'Ceren Sümer Cilli'") && !snippet.includes('${P
   fails.push('snippet schema name');
 }
 if (!snippet.includes('rank_math/json_ld')) fails.push('missing json_ld filter');
+if (!snippet.includes('Rank Math global disable = NO')) fails.push('global disable comment missing');
 if (!snippet.includes("is_page('avukat-ceren-sumer-cilli')")) fails.push('profile page json_ld not covered');
 
 const report = {
