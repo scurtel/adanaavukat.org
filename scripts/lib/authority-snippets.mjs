@@ -9,6 +9,7 @@ import {
   FAMILY_LAW_CATEGORY_SLUGS,
   SNIPPET_NAMES,
   PERSON_ID,
+  CANONICAL_PERSON_URL,
 } from './ceren-authority-config.mjs';
 
 export function buildAuthorityRedirectSnippetPhp() {
@@ -251,6 +252,7 @@ add_filter('rank_math/json_ld', function ($data, $jsonld) {
         '@id' => '${PERSON_ID}',
         'name' => '${AUTHOR_DISPLAY_NAME}',
         'url' => '${PROFILE_URL_NEW}',
+        'sameAs' => array('${CANONICAL_PERSON_URL}'),
     );
     foreach ($data as $key => $piece) {
         if (!is_array($piece)) {
@@ -300,6 +302,7 @@ add_action('wp_footer', function () {
             '@id' => '${PERSON_ID}',
             'name' => '${AUTHOR_DISPLAY_NAME}',
             'url' => '${PROFILE_URL_NEW}',
+            'sameAs' => array('${CANONICAL_PERSON_URL}'),
         ),
         'publisher' => array(
             '@type' => 'Organization',
@@ -382,6 +385,7 @@ add_action('wp_head', function () {
             '@id' => '${PERSON_ID}',
             'name' => '${AUTHOR_DISPLAY_NAME}',
             'url' => '${PROFILE_URL_NEW}',
+            'sameAs' => array('${CANONICAL_PERSON_URL}'),
         ),
         'isPartOf' => array('@id' => '${BASE_URL}/#website'),
     );

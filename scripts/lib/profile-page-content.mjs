@@ -8,7 +8,9 @@ import {
   CLUSTER_HUBS,
   PERSON_ID,
   LEGAL_SERVICE_ID,
-  OFFICIAL_BIO_URL,
+  ALUMNI_OF,
+  MILLIYET_BLOG_URL,
+  CANONICAL_PERSON_URL,
   HAS_MAP_URL,
   OFFICIAL_PROFILE_LINKS,
 } from './ceren-authority-config.mjs';
@@ -42,8 +44,10 @@ export function buildProfilePageHtml() {
   </figure>
 
   <h2>Kısa mesleki tanıtım</h2>
+  <p>Avukat Ceren Sümer Cilli, Dokuz Eylül Üniversitesi Hukuk Fakültesi mezunudur. 2012 yılında 80,06 akademik ortalamayla mezun olmuş ve fakültenin Onur Listesi’nde yer almaya hak kazanmıştır. Avukatlık mesleğini Adana’da icra etmekte; 2020 yılında Arabulucular Siciline kayıtlı olarak arabuluculuk yetkisini almıştır.</p>
+  <p>Aile hukuku ve mal rejimleri alanında ileri eğitim programlarını tamamlamıştır. Av. Ceren Sümer Cilli’nin Milliyet Blog’da hukuk alanında yayımlanmış yazıları bulunmaktadır. Milliyet yazar profili: <a href="${MILLIYET_BLOG_URL}">blog.milliyet.com.tr/avcerensumercilli</a>.</p>
+  <p>Kişiye ilişkin ayrıntılı özgeçmiş ve eğitim kaydı <a href="${CANONICAL_PERSON_URL}">cerensumer.av.tr üzerindeki Avukat Ceren Sümer Cilli profilinde</a> yer alır.</p>
   <p>Boşanma, mal paylaşımı ve taşınmaz kaynaklı uyuşmazlıklar çoğu zaman birbirini etkileyen süreçlerdir. Evlilik birliği içinde edinilen mallar, aile konutu, hisseli taşınmazlar ve ortak mülkiyet ilişkileri; boşanma sonrasında farklı dava türlerini gündeme getirebilir. Bu nedenle hukuki değerlendirme, yalnızca dava açmakla sınırlı tutulmaz; boşanmanın mali sonuçları ve çocuklara ilişkin düzenlemeler birlikte ele alınır.</p>
-  <p><em>Not:</em> Üniversite, baro sicil numarası, sertifika veya mesleki deneyim yılı gibi alanlar bu sayfada uydurulmamıştır. Doğrulanabilir resmi bilgiler manuel olarak eklenebilir.</p>
 
   <h2>Aile hukuku çalışma alanları</h2>
   <ul>
@@ -123,10 +127,11 @@ export function buildProfileJsonLd() {
         url: PROFILE_URL_NEW,
         mainEntityOfPage: PROFILE_URL_NEW,
         image: PROFILE_IMAGE,
+        alumniOf: ALUMNI_OF,
         subjectOf: {
           '@type': 'WebPage',
-          name: 'Avukat Ceren Sümer Cilli Kimdir?',
-          url: OFFICIAL_BIO_URL,
+          name: 'Avukat Ceren Sümer Cilli',
+          url: CANONICAL_PERSON_URL,
         },
         worksFor: { '@id': LEGAL_SERVICE_ID },
         knowsAbout: KNOWS_ABOUT,
