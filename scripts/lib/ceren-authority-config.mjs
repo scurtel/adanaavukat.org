@@ -39,29 +39,15 @@ export const KNOWS_ABOUT = [
   'Ziynet Alacağı',
   'Aile Konutu',
   '6284 Sayılı Kanun',
-  'Arabuluculuk',
-  'Mal Rejimleri',
 ];
 
 /** Site genelinde tutarlı Person @id */
 export const PERSON_ID = `${PROFILE_URL_NEW}#person`;
 export const LEGAL_SERVICE_ID = `${BASE_URL}/#legalservice`;
 
-/** Doğrulanmış resmi özgeçmiş — kanonik kişi sayfası */
-export const CANONICAL_PERSON_URL =
-  'https://www.cerensumer.av.tr/av-ceren-sumer-cilli/';
-export const CANONICAL_PERSON_ID =
-  'https://www.cerensumer.av.tr/#ceren-sumer-cilli';
-export const MILLIYET_BLOG_URL =
-  'https://blog.milliyet.com.tr/avcerensumercilli';
-
-export const ALUMNI_OF = {
-  '@type': 'CollegeOrUniversity',
-  name: 'Dokuz Eylül Üniversitesi Hukuk Fakültesi',
-};
-
 /** Doğrulanmış resmi özgeçmiş (Person.sameAs + subjectOf) */
-export const OFFICIAL_BIO_URL = CANONICAL_PERSON_URL;
+export const OFFICIAL_BIO_URL =
+  'https://www.cerensumer.av.tr/adana-bosanma-avukati-ceren-sumer-cilli-kimdir/';
 
 /** Google Haritalar — Person.sameAs değil; LegalService.hasMap */
 export const HAS_MAP_URL =
@@ -70,7 +56,6 @@ export const HAS_MAP_URL =
 /** Person.sameAs — yalnızca doğrulanmış kişi profilleri (Maps yok) */
 export const SAME_AS = [
   OFFICIAL_BIO_URL,
-  MILLIYET_BLOG_URL,
   'https://www.linkedin.com/in/avukat-ceren-s%C3%BCmer-cilli-375873b0/',
   'https://www.instagram.com/av.cerensumercilli/',
   'https://www.facebook.com/cerensumercilli/',
@@ -82,11 +67,6 @@ export const OFFICIAL_PROFILE_LINKS = [
     href: OFFICIAL_BIO_URL,
     label: 'Avukat Ceren Sümer Cilli resmî web sitesi',
     ariaLabel: 'Avukat Ceren Sümer Cilli resmî web sitesi (yeni sekmede açılır)',
-  },
-  {
-    href: MILLIYET_BLOG_URL,
-    label: 'Avukat Ceren Sümer Cilli Milliyet Blog yazar profili',
-    ariaLabel: 'Avukat Ceren Sümer Cilli Milliyet Blog yazar profili (yeni sekmede açılır)',
   },
   {
     href: HAS_MAP_URL,

@@ -50,20 +50,15 @@ export function buildSchemaJson() {
           addressCountry: 'TR',
         },
         sameAs: [
-          'https://www.cerensumer.av.tr/av-ceren-sumer-cilli/',
-          'https://blog.milliyet.com.tr/avcerensumercilli',
+          'https://www.cerensumer.av.tr/adana-bosanma-avukati-ceren-sumer-cilli-kimdir/',
           'https://www.linkedin.com/in/avukat-ceren-s%C3%BCmer-cilli-375873b0/',
           'https://www.instagram.com/av.cerensumercilli/',
           'https://www.facebook.com/cerensumercilli/',
         ],
         subjectOf: {
           '@type': 'WebPage',
-          name: 'Avukat Ceren Sümer Cilli',
-          url: 'https://www.cerensumer.av.tr/av-ceren-sumer-cilli/',
-        },
-        alumniOf: {
-          '@type': 'CollegeOrUniversity',
-          name: 'Dokuz Eylül Üniversitesi Hukuk Fakültesi',
+          name: 'Avukat Ceren Sümer Cilli Kimdir?',
+          url: 'https://www.cerensumer.av.tr/adana-bosanma-avukati-ceren-sumer-cilli-kimdir/',
         },
         worksFor: { '@id': `${BASE}/#legalservice` },
         knowsAbout: [
@@ -77,8 +72,6 @@ export function buildSchemaJson() {
           '6284 Sayılı Kanun',
           'Mal Paylaşımı',
           'Miras Hukuku',
-          'Arabuluculuk',
-          'Mal Rejimleri',
           'Kira Hukuku',
           'İş Hukuku',
         ],
