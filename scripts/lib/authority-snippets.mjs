@@ -317,19 +317,6 @@ add_filter('rank_math/json_ld', function ($data, $jsonld) {
         }
         if (isset($node['author'])) {
             $node['author'] = $rewrite($node['author']);
-            if (is_array($node['author']) && !isset($node['author'][0])) {
-                $aid = isset($node['author']['@id']) ? (string) $node['author']['@id'] : '';
-                $aname = isset($node['author']['name']) ? (string) $node['author']['name'] : '';
-                if ((stripos($aname, 'Ceren') !== false)
-                    || (strpos($aid, 'ceren') !== false)
-                    || (strpos($aid, '/author/avukat-ceren-sumer-cilli') !== false)) {
-                    $node['author'] = array(
-                        '@type' => 'Person',
-                        '@id' => $person_id,
-                        'name' => $schema_name,
-                    );
-                }
-            }
         }
         if (isset($node['@graph']) && is_array($node['@graph'])) {
             $out = array();
