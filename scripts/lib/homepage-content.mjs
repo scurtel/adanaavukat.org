@@ -8,6 +8,46 @@ import { getDefaultHomepagePostCards } from './homepage-post-cards.mjs';
 
 const BASE = 'https://adanaavukat.org';
 
+/** Av. Ceren Sümer Cilli — Milliyet Gazetesi yayınları (hub sitesi seçkisi) */
+export const MILLIYET_ARTICLES_HUB = [
+  {
+    title: 'Çekişmeli Boşanma Davası',
+    url: 'https://blog.milliyet.com.tr/cekismeli-bosanma-davasi/Blog/?BlogNo=636105',
+  },
+  {
+    title: 'Boşanma Davaları',
+    url: 'https://blog.milliyet.com.tr/bosanma-davalari/Blog/?BlogNo=633766',
+  },
+  {
+    title: 'Evlenen Eski Eş Nafaka Alır Mı',
+    url: 'https://blog.milliyet.com.tr/evlenen-eski-es-nafaka-alir-mi/Blog/?BlogNo=632603',
+  },
+  {
+    title: 'Çocuğun Velayeti Kime Verilir?',
+    url: 'https://blog.milliyet.com.tr/cocugun-velayeti-kime-verilir-/Blog/?BlogNo=631566',
+  },
+  {
+    title: 'Miras Davası Nasıl Açılır?',
+    url: 'https://blog.milliyet.com.tr/miras-davasi-nasil-acilir-/Blog/?BlogNo=627938',
+  },
+  {
+    title: 'Whatsapp Kaydı Delil Olur Mu',
+    url: 'https://blog.milliyet.com.tr/whatsapp-kaydi-delil-olur-mu/Blog/?BlogNo=626957',
+  },
+];
+
+const CEREN_CANONICAL_PROFILE =
+  'https://www.cerensumer.av.tr/av-ceren-sumer-cilli/';
+
+function buildMilliyetCardsHtml(articles) {
+  return articles
+    .map(
+      (a) =>
+        `<div class="aa-card"><h3><a class="aa-card-link" href="${a.url}" target="_blank" rel="noopener noreferrer">${escapeHtml(a.title)}</a></h3><p>Milliyet Gazetesi</p></div>`,
+    )
+    .join('\n');
+}
+
 export function buildSchemaJson() {
   const graph = {
     '@context': 'https://schema.org',
@@ -49,6 +89,8 @@ export function buildSchemaJson() {
         },
         sameAs: [
           'https://www.cerensumer.av.tr/',
+          'https://www.cerensumer.av.tr/av-ceren-sumer-cilli/',
+          'https://blog.milliyet.com.tr/avcerensumercilli',
           'https://www.linkedin.com/in/avukat-ceren-s%C3%BCmer-cilli-375873b0/',
           'https://www.instagram.com/av.cerensumercilli/',
           'https://www.facebook.com/cerensumercilli/',
@@ -478,6 +520,17 @@ ${POST_CARD_PLACEHOLDER_CSS}
 <a href="${BASE}/avukat-ceren-sumer-cilli-kimdir-adana-bosanma-ve-aile-hukuku/" class="aa-btn aa-btn-navy">Profili İncele</a>
 </div>
 </div>
+</div>
+</section>
+
+<section id="milliyet-hukuk-yazilari">
+<div class="aa-container">
+<h2>Av. Ceren Sümer Cilli’nin Milliyet Gazetesi’nde Yayımlanan Hukuk Yazıları</h2>
+<p class="aa-section-lead">Av. Ceren Sümer Cilli’nin Milliyet Gazetesi’nde yayımlanan aile hukuku ve özel hukuk alanındaki yazılarından seçmeler.</p>
+<div class="aa-grid-3">
+${buildMilliyetCardsHtml(MILLIYET_ARTICLES_HUB)}
+</div>
+<p style="text-align:center;margin-top:1.75rem"><a class="aa-card-link" href="${CEREN_CANONICAL_PROFILE}">Av. Ceren Sümer Cilli’nin mesleki özgeçmişi ve yayınları</a></p>
 </div>
 </section>
 

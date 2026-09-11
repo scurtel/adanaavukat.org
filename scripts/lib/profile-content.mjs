@@ -51,7 +51,7 @@ export const LINKS = {
     label: 'iletişim',
   },
   resmiSite: {
-    href: 'https://www.cerensumer.av.tr/adana-bosanma-avukati-ceren-sumer-cilli-kimdir/',
+    href: 'https://www.cerensumer.av.tr/av-ceren-sumer-cilli/',
     label: 'resmî web sitesi',
   },
 };
@@ -264,7 +264,7 @@ export function buildProfileJsonLd(content) {
       image: PROFILE_PHOTO,
       subjectOf: {
         '@type': 'WebPage',
-        name: 'Avukat Ceren Sümer Cilli Kimdir?',
+        name: 'Avukat Ceren Sümer Cilli Resmî Profili',
         url: LINKS.resmiSite.href,
       },
       worksFor: { '@id': 'https://adanaavukat.org/#legalservice' },
@@ -279,7 +279,10 @@ export function buildProfileJsonLd(content) {
         '6284 Sayılı Kanun',
       ],
       sameAs: [
-        LINKS.resmiSite.href,
+        // Entity R1: sameAs only — kimdir → canonical; Milliyet additive.
+        // LINKS.resmiSite (görünür link / subjectOf) bu turda değiştirilmedi.
+        'https://www.cerensumer.av.tr/av-ceren-sumer-cilli/',
+        'https://blog.milliyet.com.tr/avcerensumercilli',
         'https://www.linkedin.com/in/avukat-ceren-s%C3%BCmer-cilli-375873b0/',
         'https://www.instagram.com/av.cerensumercilli/',
         'https://www.facebook.com/cerensumercilli/',
@@ -462,6 +465,7 @@ ${processSteps}
   <h2>Avukat Ceren Sümer Cilli’yi Diğer Platformlarda Görüntüleyin</h2>
   <ul class="aa-official-profiles">
     <li><a href="${LINKS.resmiSite.href}" target="_blank" rel="noopener noreferrer" aria-label="Avukat Ceren Sümer Cilli resmî web sitesi (yeni sekmede açılır)">Avukat Ceren Sümer Cilli resmî web sitesi</a></li>
+    <li><a href="https://blog.milliyet.com.tr/avcerensumercilli" target="_blank" rel="noopener noreferrer" aria-label="Avukat Ceren Sümer Cilli Milliyet blog köşe yazıları (yeni sekmede açılır)">Avukat Ceren Sümer Cilli Milliyet Köşe Yazıları</a></li>
     <li><a href="https://www.google.com/maps/search/?api=1&query=Avukat+Ceren+S%C3%BCmer+Cilli+Adana" target="_blank" rel="noopener noreferrer" aria-label="Avukat Ceren Sümer Cilli Google Haritalar profili (yeni sekmede açılır)">Avukat Ceren Sümer Cilli Google Haritalar profili</a></li>
     <li><a href="https://www.linkedin.com/in/avukat-ceren-s%C3%BCmer-cilli-375873b0/" target="_blank" rel="noopener noreferrer" aria-label="Avukat Ceren Sümer Cilli LinkedIn profili (yeni sekmede açılır)">Avukat Ceren Sümer Cilli LinkedIn profili</a></li>
     <li><a href="https://www.instagram.com/av.cerensumercilli/" target="_blank" rel="noopener noreferrer" aria-label="Avukat Ceren Sümer Cilli Instagram profili (yeni sekmede açılır)">Avukat Ceren Sümer Cilli Instagram profili</a></li>

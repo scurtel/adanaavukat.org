@@ -3,11 +3,13 @@ export const BASE_URL = 'https://adanaavukat.org';
 export const ENTITY = {
   name: 'Avukat Ceren Sümer Cilli',
   shortName: 'Av. Ceren Sümer Cilli',
-  profileSlug: 'avukat-ceren-sumer-cilli-kimdir-adana-bosanma-ve-aile-hukuku',
-  profileUrl: `${BASE_URL}/avukat-ceren-sumer-cilli-kimdir-adana-bosanma-ve-aile-hukuku/`,
+  profileSlug: 'avukat-ceren-sumer-cilli',
+  profileUrl: `${BASE_URL}/avukat-ceren-sumer-cilli/`,
   contactUrl: `${BASE_URL}/iletisim/`,
   sameAs: [
+    'https://www.cerensumer.av.tr/av-ceren-sumer-cilli/',
     'https://www.cerensumer.av.tr/',
+    'https://blog.milliyet.com.tr/avcerensumercilli',
     'https://www.linkedin.com/in/avukat-ceren-s%C3%BCmer-cilli-375873b0/',
     'https://www.instagram.com/av.cerensumercilli/',
     'https://www.facebook.com/cerensumercilli/',
