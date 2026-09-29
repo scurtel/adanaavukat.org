@@ -162,7 +162,148 @@ export const TOPIC_POOL = [
     type: 'rehber',
     matchPatterns: [/aile.*arabuluculuk|arabuluculuk.*aile/i],
   },
+  {
+    topic: "Adana'da boşanma davasında duruşmaya katılmamanın sonuçları nelerdir?",
+    category: 'Boşanma Hukuku',
+    type: 'rehber',
+    matchPatterns: [/durusmaya-katilmama|duruşmaya katılmama/i],
+  },
+  {
+    topic: "Adana'da nafaka borcunun icra yoluyla tahsili nasıl işler?",
+    category: 'Nafaka',
+    type: 'rehber',
+    matchPatterns: [/nafaka-borcu-icra|nafaka borcunun icra/i],
+  },
+  {
+    topic: "Adana'da aile konutu şerhi nasıl konulur?",
+    category: 'Aile Hukuku',
+    type: 'rehber',
+    matchPatterns: [/aile-konutu-serhi|aile konutu şerhi/i],
+  },
+  {
+    topic: "Adana'da boşanma sonrası soyadı değişikliği nasıl yapılır?",
+    category: 'Boşanma Hukuku',
+    type: 'rehber',
+    matchPatterns: [/soyadi-degisikligi|soyadı değişikliği/i],
+  },
+  {
+    topic: "Adana'da boşanma kararının kesinleşmesi ve nüfusa işlenmesi",
+    category: 'Boşanma Hukuku',
+    type: 'rehber',
+    matchPatterns: [/bosanma-kararinin-kesinlesmesi|kararının kesinleşmesi ve nüfus/i],
+  },
+  {
+    topic: "Adana'da evlilik dışı çocukta velayet nasıl belirlenir?",
+    category: 'Velayet',
+    type: 'rehber',
+    matchPatterns: [/evlilik-disi-cocuk-velayet|evlilik dışı çocuk/i],
+  },
+  {
+    topic: "Adana'da mal kaçırma iddiası ve tasarrufun iptali davası",
+    category: 'Mal Paylaşımı',
+    type: 'analiz',
+    matchPatterns: [/mal-kacirma|tasarrufun iptali/i],
+  },
+  {
+    topic: "Adana'da nafaka ödenmemesi halinde hangi hukuki yollar açıktır?",
+    category: 'Nafaka',
+    type: 'rehber',
+    matchPatterns: [/nafaka-odenmemesi|nafaka ödenmemesi halinde/i],
+  },
+  {
+    topic: "Adana'da çekişmeli boşanmada kusur isnadı nasıl değerlendirilir?",
+    category: 'Boşanma Hukuku',
+    type: 'analiz',
+    matchPatterns: [/kusur-isnadi|kusur isnadı/i],
+  },
+  {
+    topic: "Adana'da boşanma sonrası ortak konuttan tahliye süreci",
+    category: 'Boşanma Hukuku',
+    type: 'rehber',
+    matchPatterns: [/ortak-konuttan-tahliye|ortak konuttan tahliye/i],
+  },
+  {
+    topic: "Adana'da ortak velayet mümkün müdür?",
+    category: 'Velayet',
+    type: 'rehber',
+    matchPatterns: [/ortak-velayet|ortak velayet mümkün/i],
+  },
+  {
+    topic: "Adana'da iletişimsizlik nedeniyle boşanma davası",
+    category: 'Boşanma Hukuku',
+    type: 'rehber',
+    matchPatterns: [/iletisimsizlik-nedeniyle|iletişimsizlik nedeniyle boşanma/i],
+  },
+  {
+    topic: "Adana'da yabancı eşle boşanma davası nasıl yürür?",
+    category: 'Boşanma Hukuku',
+    type: 'rehber',
+    matchPatterns: [/yabanci-esle-bosanma|yabancı eşle boşanma/i],
+  },
+  {
+    topic: "Adana'da iştirak nafakasının sona ermesi hangi hallerde olur?",
+    category: 'Nafaka',
+    type: 'rehber',
+    matchPatterns: [/istirak-nafakasinin-sona|iştirak nafakasının sona ermesi/i],
+  },
+  {
+    topic: "Adana'da boşanma davasında harç ve yargılama giderleri",
+    category: 'Boşanma Hukuku',
+    type: 'rehber',
+    matchPatterns: [/bosanma-davasi-harc|boşanma davasında harç/i],
+  },
+  {
+    topic: "Adana'da nafaka takibinde icra dairesi süreci",
+    category: 'Nafaka',
+    type: 'rehber',
+    matchPatterns: [/nafaka-takibinde-icra|nafaka takibinde icra dairesi/i],
+  },
 ];
+
+function postHaystack(existingPosts) {
+  return existingPosts
+    .map((p) => {
+      const title = String(p.title?.rendered || p.title || '').replace(/<[^>]+>/g, '');
+      return `${p.slug || ''} ${title}`;
+    })
+    .join('\n')
+    .toLowerCase();
+}
+
+/** Mevcut yazılarla çakışmayan bir konu seçer; havuz boşsa null döner (throw etmez). */
+export function pickTopicFromPool(existingPosts, topicPool = TOPIC_POOL) {
+  const haystack = postHaystack(existingPosts);
+  const available = topicPool.filter((t) => !t.matchPatterns.some((re) => re.test(haystack)));
+  if (available.length === 0) return null;
+  const idx = (existingPosts.length + new Date().getUTCDate()) % available.length;
+  return available[idx];
+}
+
+export function isSafeArticleSlug(slug) {
+  return typeof slug === 'string' && /^[a-z0-9]+(?:-[a-z0-9]+)*$/.test(slug) && slug.length >= 3 && slug.length <= 90;
+}
+
+export function sanitizeArticleTitle(title) {
+  return String(title || '')
+    .replace(/[\u0000-\u0008\u000B\u000C\u000E-\u001F]/g, '')
+    .replace(/\s+/g, ' ')
+    .trim();
+}
+
+export function validateGeneratedArticle(article, existingPosts = []) {
+  const errors = [];
+  const title = sanitizeArticleTitle(article?.title);
+  if (!title) errors.push('title missing/empty');
+  if (!isSafeArticleSlug(article?.slug)) errors.push('slug missing or unsafe');
+  if (!String(article?.content_html || article?.bodyHtml || '').trim()) {
+    errors.push('content missing/empty');
+  }
+  const existingSlugs = new Set(existingPosts.map((p) => p.slug).filter(Boolean));
+  if (article?.slug && existingSlugs.has(article.slug)) {
+    errors.push(`duplicate slug: ${article.slug}`);
+  }
+  return errors;
+}
 
 export const HUB_LINKS = [
   { title: 'Ana Sayfa', url: 'https://adanaavukat.org/' },

@@ -19,9 +19,12 @@ import { callGemini } from './lib/gemini.mjs';
 import { stripHtml } from './lib/content-utils.mjs';
 import { FORBIDDEN_PHRASES, DISCLAIMER, ENTITY, BASE_URL } from './lib/service-pages-config.mjs';
 import {
-  TOPIC_POOL,
   CATEGORY_ALIASES,
   HUB_LINKS,
+  pickTopicFromPool,
+  isSafeArticleSlug,
+  sanitizeArticleTitle,
+  validateGeneratedArticle,
 } from './lib/article-topic-pool.mjs';
 import { findStockImage, downloadImage } from './lib/stock-image-apis.mjs';
 import { optimizeImageBuffer } from './lib/image-optimize.mjs';
@@ -36,6 +39,11 @@ const PUBLISH =
   process.env.AUTO_ARTICLE_PUBLISH === 'true' ||
   process.env.AUTO_ARTICLE_PUBLISH === '1' ||
   process.argv.includes('--publish');
+
+const VALIDATE_POOL =
+  process.env.AUTO_ARTICLE_VALIDATE_POOL === 'true' ||
+  process.env.AUTO_ARTICLE_VALIDATE_POOL === '1' ||
+  process.argv.includes('--validate-pool');
 
 const ASSIGN_IMAGE =
   process.env.AUTO_ARTICLE_FEATURED_IMAGE !== 'false' &&
@@ -145,23 +153,20 @@ async function resolveCategoryId(categoryName) {
   return created.id;
 }
 
-function pickTopic(existingPosts) {
-  const haystack = existingPosts
-    .map((p) => `${p.slug} ${stripHtml(p.title?.rendered || '')}`)
-    .join('\n')
-    .toLowerCase();
-
-  const available = TOPIC_POOL.filter(
-    (t) => !t.matchPatterns.some((re) => re.test(haystack))
-  );
-
-  if (available.length === 0) {
-    throw new Error('Konu havuzu tükendi — yeni konular eklenmeli');
-  }
-
-  // Deterministik: haftanın gününe + mevcut yazı sayısına göre seç
-  const idx = (existingPosts.length + new Date().getUTCDate()) % available.length;
-  return available[idx];
+function skipGeneration(reason) {
+  console.log('No unused topic found. Skipping article generation.');
+  console.log(`Sebep: ${reason}`);
+  mkdirSync(REPORT_DIR, { recursive: true });
+  const report = {
+    skipped: true,
+    article_generated: false,
+    reason,
+    generatedAt: new Date().toISOString(),
+  };
+  writeFileSync(LAST_RUN, JSON.stringify(report, null, 2), 'utf8');
+  setGithubOutput('article_generated', 'false');
+  setGithubOutput('skipped', 'true');
+  process.exit(0);
 }
 
 function buildPrompt(topicSpec, relatedLinks) {
@@ -215,9 +220,10 @@ async function generateArticle(topicSpec, relatedLinks) {
     throw new Error('Gemini çıktısı eksik (title/content_html)');
   }
 
-  const slug = slugify(parsed.slug || parsed.title);
-  if (!slug) {
-    throw new Error('Geçerli slug üretilemedi');
+  const title = sanitizeArticleTitle(parsed.title);
+  const slug = slugify(parsed.slug || title);
+  if (!isSafeArticleSlug(slug)) {
+    throw new Error(`Geçerli slug üretilemedi: ${slug || '(boş)'}`);
   }
 
   // İçerik olduğu gibi korunur; yasaklı ifade sanitize edilmez.
@@ -239,6 +245,13 @@ async function generateArticle(topicSpec, relatedLinks) {
   );
 
   const words = countWords(html);
+  const schemaErrors = validateGeneratedArticle(
+    { title, slug, content_html: html },
+    [],
+  );
+  if (schemaErrors.length) {
+    throw new Error(`Üretilen makale şema doğrulamasını geçemedi: ${schemaErrors.join('; ')}`);
+  }
   // Teknik alt sınır: tamamen boş/yetersiz çıktı. Kalite hedefi 1000-1400 — yalnızca uyarı.
   if (words < 50) {
     throw new Error(`Makale gövdesi neredeyse boş (${words} kelime) — teknik hata`);
@@ -268,7 +281,7 @@ async function generateArticle(topicSpec, relatedLinks) {
   }
 
   return {
-    title: parsed.title.trim(),
+    title,
     slug,
     seo_title: seoTitle,
     meta_description: metaDescription,
@@ -380,7 +393,7 @@ async function publishArticle(article) {
 async function main() {
   qualityWarnings.length = 0;
   console.log('=== adanaavukat.org otomatik makale ===');
-  console.log(`Publish: ${PUBLISH} | Featured image: ${ASSIGN_IMAGE}`);
+  console.log(`Publish: ${PUBLISH} | Validate pool: ${VALIDATE_POOL} | Featured image: ${ASSIGN_IMAGE}`);
   console.log(`Gemini: ${getGeminiConfig().model}`);
 
   mkdirSync(GENERATED_DIR, { recursive: true });
@@ -393,18 +406,60 @@ async function main() {
   });
   console.log(`Yayınlı yazı: ${posts.length}`);
 
-  const topicSpec = pickTopic(posts);
+  const topicSpec = pickTopicFromPool(posts);
+  if (!topicSpec) {
+    skipGeneration('Konu havuzundaki tüm başlıklar mevcut yazılarla çakışıyor; yeni konu eklenmeli.');
+  }
   console.log(`Seçilen konu: ${topicSpec.topic}`);
+
+  if (VALIDATE_POOL) {
+    const report = {
+      generatedAt: new Date().toISOString(),
+      validatePool: true,
+      article_generated: false,
+      topic: topicSpec.topic,
+      category: topicSpec.category,
+      publishedPostCount: posts.length,
+    };
+    writeFileSync(LAST_RUN, JSON.stringify(report, null, 2), 'utf8');
+    setGithubOutput('article_generated', 'false');
+    setGithubOutput('skipped', 'false');
+    setGithubOutput('validate_pool', 'true');
+    console.log('Validate-pool: kullanılabilir konu bulundu, Gemini/publish atlandı.');
+    return;
+  }
 
   // İlgili hub linkleri: kategorisine yakın + genel
   const relatedLinks = HUB_LINKS.slice(0, 8);
 
   console.log('Gemini ile içerik üretiliyor...');
   const article = await generateArticle(topicSpec, relatedLinks);
+  const dupErrors = validateGeneratedArticle(article, posts);
+  if (dupErrors.length) {
+    throw new Error(`Üretilen makale yayın öncesi doğrulamayı geçemedi: ${dupErrors.join('; ')}`);
+  }
   console.log(`Üretildi: ${article.title} (${article.word_count} kelime)`);
 
   const localPath = resolve(GENERATED_DIR, `${article.slug}.json`);
   writeFileSync(localPath, JSON.stringify(article, null, 2), 'utf8');
+
+  if (!PUBLISH) {
+    const report = {
+      generatedAt: new Date().toISOString(),
+      topic: topicSpec.topic,
+      slug: article.slug,
+      title: article.title,
+      wordCount: article.word_count,
+      status: 'local-only',
+      qualityWarnings: [...qualityWarnings],
+      localPath,
+    };
+    writeFileSync(LAST_RUN, JSON.stringify(report, null, 2), 'utf8');
+    setGithubOutput('slug', article.slug);
+    setGithubOutput('article_generated', 'true');
+    console.log('Publish kapalı — WordPress’e gönderilmedi.');
+    return;
+  }
 
   console.log('WordPress’e gönderiliyor...');
   const result = await publishArticle(article);
@@ -446,6 +501,7 @@ async function main() {
   setGithubOutput('post_id', String(result.created.id));
   setGithubOutput('status', result.status);
   setGithubOutput('link', result.created.link || '');
+  setGithubOutput('article_generated', 'true');
 
   console.log('');
   console.log('=== Tamamlandı ===');
