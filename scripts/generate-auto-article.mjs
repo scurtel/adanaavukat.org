@@ -363,6 +363,7 @@ async function publishArticle(article) {
     content: article.content_html,
     excerpt: article.excerpt || article.meta_description,
     status,
+    author: 1,
     categories: [categoryId],
   });
 

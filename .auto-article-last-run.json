@@ -1,21 +1,8 @@
 {
-  "generatedAt": "2026-10-05T08:27:17.613Z",
-  "topic": "Adana'da boşanma sonrası ortak konuttan tahliye süreci",
-  "slug": "adanada-bosanma-sonrasi-ortak-konuttan-tahliye",
-  "title": "Adana'da Boşanma Sonrası Ortak Konuttan Tahliye Süreci",
-  "wordCount": 1337,
-  "status": "publish",
-  "postId": 548,
-  "link": "https://adanaavukat.org/adanada-bosanma-sonrasi-ortak-konuttan-tahliye/",
-  "rankMath": {
-    "ok": true,
-    "method": "adanaavukat/v1"
-  },
-  "featured": {
-    "ok": true,
-    "mediaId": 549,
-    "source": "pexels"
-  },
-  "qualityWarnings": [],
-  "localPath": "/home/runner/work/adanaavukat.org/adanaavukat.org/generated/auto-articles/adanada-bosanma-sonrasi-ortak-konuttan-tahliye.json"
+  "generatedAt": "2026-09-29T11:07:31.472Z",
+  "validatePool": true,
+  "article_generated": false,
+  "topic": "Adana'da nafaka ödenmemesi halinde hangi hukuki yollar açıktır?",
+  "category": "Nafaka",
+  "publishedPostCount": 42
 }

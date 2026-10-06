@@ -240,6 +240,10 @@ function faqHtml(faqs = []) {
 
 export function buildProfileJsonLd(content) {
   const faqs = content.faq || [];
+  const canonicalPersonId = 'https://www.cerensumer.av.tr/#ceren-sumer-cilli';
+  const canonicalLegalServiceId = 'https://www.cerensumer.av.tr/#sumer-hukuk';
+  const canonicalProfileUrl = 'https://www.cerensumer.av.tr/av-ceren-sumer-cilli/';
+
   const graph = [
     {
       '@type': 'ProfilePage',
@@ -247,19 +251,19 @@ export function buildProfileJsonLd(content) {
       url: PROFILE_URL,
       name: 'Avukat Ceren Sümer Cilli',
       isPartOf: { '@id': 'https://adanaavukat.org/#website' },
-      mainEntity: { '@id': `${PROFILE_URL}#person` },
-      about: { '@id': `${PROFILE_URL}#person` },
+      mainEntity: { '@id': canonicalPersonId },
+      about: { '@id': canonicalPersonId },
     },
     {
       '@type': 'Person',
-      '@id': `${PROFILE_URL}#person`,
+      '@id': canonicalPersonId,
       name: 'Avukat Ceren Sümer Cilli',
       honorificPrefix: 'Av.',
       jobTitle: 'Avukat',
       description:
         content.lead ||
         'Adana’da aile hukuku alanında çalışan avukat. Boşanma, velayet, nafaka, mal rejimi, ziynet alacağı, aile konutu ve 6284 sayılı Kanun konularında bilgilendirici içerikler yayımlar.',
-      url: PROFILE_URL,
+      url: canonicalProfileUrl,
       mainEntityOfPage: PROFILE_URL,
       image: PROFILE_PHOTO,
       subjectOf: {
@@ -267,7 +271,7 @@ export function buildProfileJsonLd(content) {
         name: 'Avukat Ceren Sümer Cilli Resmî Profili',
         url: LINKS.resmiSite.href,
       },
-      worksFor: { '@id': 'https://adanaavukat.org/#legalservice' },
+      worksFor: { '@id': canonicalLegalServiceId },
       knowsAbout: [
         'Aile Hukuku',
         'Boşanma Hukuku',
@@ -279,23 +283,43 @@ export function buildProfileJsonLd(content) {
         '6284 Sayılı Kanun',
       ],
       sameAs: [
-        // Entity R1: sameAs only — kimdir → canonical; Milliyet additive.
-        // LINKS.resmiSite (görünür link / subjectOf) bu turda değiştirilmedi.
         'https://www.cerensumer.av.tr/av-ceren-sumer-cilli/',
+        'https://adanaavukat.org/avukat-ceren-sumer-cilli/',
         'https://blog.milliyet.com.tr/avcerensumercilli',
         'https://www.linkedin.com/in/avukat-ceren-s%C3%BCmer-cilli-375873b0/',
         'https://www.instagram.com/av.cerensumercilli/',
         'https://www.facebook.com/cerensumercilli/',
+        'https://www.google.com/maps/place/Adana+Avukat+Ceren+S%C3%BCmer+Cilli+%7C+Adana+Bo%C5%9Fanma+Avukat%C4%B1/@36.9917146,35.3294433,17z/data=!3m1!4b1!4m6!3m5!1s0x15288f6f3764072f:0x51c862d3a8658c0d!8m2!3d36.9917146!4d35.3294433!16s%2Fg%2F11c209qv9m',
       ],
     },
     {
       '@type': 'LegalService',
-      '@id': 'https://adanaavukat.org/#legalservice',
-      name: 'Ceren Sümer Cilli Hukuk ve Danışmanlık',
-      url: 'https://adanaavukat.org',
-      provider: { '@id': `${PROFILE_URL}#person` },
+      '@id': canonicalLegalServiceId,
+      name: 'Sümer Hukuk Bürosu',
+      legalName: 'Sümer Hukuk Bürosu',
+      url: 'https://www.cerensumer.av.tr/',
+      telephone: '+905336342425',
+      address: {
+        '@type': 'PostalAddress',
+        streetAddress: 'Gazipaşa Mah. Ordu Cad. No:7 Dinçkan Apt. A Blok Daire:3',
+        addressLocality: 'Seyhan',
+        addressRegion: 'Adana',
+        postalCode: '01010',
+        addressCountry: 'TR',
+      },
+      openingHoursSpecification: [
+        {
+          '@type': 'OpeningHoursSpecification',
+          dayOfWeek: ['Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday'],
+          opens: '09:00',
+          closes: '18:00',
+        },
+      ],
+      provider: { '@id': canonicalPersonId },
+      founder: { '@id': canonicalPersonId },
+      employee: { '@id': canonicalPersonId },
       hasMap:
-        'https://www.google.com/maps/search/?api=1&query=Avukat+Ceren+S%C3%BCmer+Cilli+Adana',
+        'https://www.google.com/maps/place/Adana+Avukat+Ceren+S%C3%BCmer+Cilli+%7C+Adana+Bo%C5%9Fanma+Avukat%C4%B1/@36.9917146,35.3294433,17z/data=!3m1!4b1!4m6!3m5!1s0x15288f6f3764072f:0x51c862d3a8658c0d!8m2!3d36.9917146!4d35.3294433!16s%2Fg%2F11c209qv9m',
     },
     {
       '@type': 'BreadcrumbList',
