@@ -6,5 +6,3 @@ node_modules/
 .DS_Store
 .codegraph/
 .auto-article-last-run.json
-credentials/
-generated/credentials/

@@ -24,7 +24,7 @@ Schedule: Pzt / Çar / Cum UTC 02:00 (~TR 05:00)
 | Secret / Var | Açıklama |
 |--------------|----------|
 | `ADANAAVUKAT_WP_BASE_URL` | Varsayılan: `https://adanaavukat.org` |
-| `GEMINI_MODEL` (Actions variable) | Varsayılan: `gemini-3.8-flash` |
+| `GEMINI_MODEL` (Actions variable) | Varsayılan: `gemini-2.5-flash` |
 
 ## Yerel test
 

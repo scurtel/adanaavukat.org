@@ -49,18 +49,6 @@ function buildMilliyetCardsHtml(articles) {
 }
 
 export function buildSchemaJson() {
-  const canonicalPersonId = 'https://www.cerensumer.av.tr/#ceren-sumer-cilli';
-  const canonicalLegalServiceId = 'https://www.cerensumer.av.tr/#sumer-hukuk';
-  const canonicalProfileUrl = 'https://www.cerensumer.av.tr/av-ceren-sumer-cilli/';
-  const canonicalAddress = {
-    '@type': 'PostalAddress',
-    streetAddress: 'Gazipaşa Mah. Ordu Cad. No:7 Dinçkan Apt. A Blok Daire:3',
-    addressLocality: 'Seyhan',
-    addressRegion: 'Adana',
-    postalCode: '01010',
-    addressCountry: 'TR',
-  };
-
   const graph = {
     '@context': 'https://schema.org',
     '@graph': [
@@ -71,7 +59,7 @@ export function buildSchemaJson() {
         name: 'Adana Avukat',
         description:
           "Adana'da aile hukuku, boşanma, nafaka, velayet ve özel hukuk uyuşmazlıklarında hukuki destek ve genel bilgilendirme.",
-        publisher: { '@id': canonicalPersonId },
+        publisher: { '@id': `${BASE}/#person` },
         inLanguage: 'tr-TR',
         potentialAction: {
           '@type': 'SearchAction',
@@ -84,36 +72,40 @@ export function buildSchemaJson() {
       },
       {
         '@type': 'Person',
-        '@id': canonicalPersonId,
-        name: 'Avukat Ceren Sümer Cilli',
-        honorificPrefix: 'Av.',
-        url: canonicalProfileUrl,
+        '@id': `${BASE}/#person`,
+        name: 'Av. Ceren Sümer Cilli',
+        url: `${BASE}/avukat-ceren-sumer-cilli-kimdir-adana-bosanma-ve-aile-hukuku/`,
         jobTitle: 'Avukat',
-        image: 'https://www.cerensumer.av.tr/wp-content/uploads/2024/11/avcerendilli.webp',
-        email: 'info@cerensumer.av.tr',
-        telephone: '+905336342425',
-        address: canonicalAddress,
+        image: 'https://www.cerensumer.av.tr/wp-content/uploads/2024/01/ceren-sumer-cilli.jpg',
+        email: 'av.cerensumer@gmail.com',
+        telephone: '+90 533 634 24 25',
+        address: {
+          '@type': 'PostalAddress',
+          streetAddress: 'Gazipaşa Mh, Ordu Cd. Dinçkan Apt No:7 A Blok Daire:3',
+          addressLocality: 'Seyhan',
+          addressRegion: 'Adana',
+          postalCode: '01010',
+          addressCountry: 'TR',
+        },
         sameAs: [
+          'https://www.cerensumer.av.tr/',
           'https://www.cerensumer.av.tr/av-ceren-sumer-cilli/',
-          'https://adanaavukat.org/avukat-ceren-sumer-cilli/',
           'https://blog.milliyet.com.tr/avcerensumercilli',
           'https://www.linkedin.com/in/avukat-ceren-s%C3%BCmer-cilli-375873b0/',
           'https://www.instagram.com/av.cerensumercilli/',
           'https://www.facebook.com/cerensumercilli/',
-          'https://www.google.com/maps/place/Adana+Avukat+Ceren+S%C3%BCmer+Cilli+%7C+Adana+Bo%C5%9Fanma+Avukat%C4%B1/@36.9917146,35.3294433,17z/data=!3m1!4b1!4m6!3m5!1s0x15288f6f3764072f:0x51c862d3a8658c0d!8m2!3d36.9917146!4d35.3294433!16s%2Fg%2F11c209qv9m',
+          'https://www.google.com/maps/search/?api=1&query=Avukat+Ceren+S%C3%BCmer+Cilli+Adana',
         ],
-        worksFor: { '@id': canonicalLegalServiceId },
+        worksFor: { '@id': `${BASE}/#legalservice` },
         knowsAbout: [
           'Aile Hukuku',
           'Boşanma Hukuku',
-          'Velayet',
           'Nafaka',
-          'Mal Rejiminin Tasfiyesi',
-          'Ziynet Alacağı',
-          'Aile Konutu',
-          '6284 Sayılı Kanun',
+          'Velayet',
+          'Mal Paylaşımı',
           'Miras Hukuku',
-          'Gayrimenkul Hukuku',
+          'Kira Hukuku',
+          'İş Hukuku',
         ],
         areaServed: {
           '@type': 'City',
@@ -123,35 +115,32 @@ export function buildSchemaJson() {
       },
       {
         '@type': 'LegalService',
-        '@id': canonicalLegalServiceId,
-        name: 'Sümer Hukuk Bürosu',
-        legalName: 'Sümer Hukuk Bürosu',
-        url: 'https://www.cerensumer.av.tr/',
+        '@id': `${BASE}/#legalservice`,
+        name: 'Adana Avukat — Av. Ceren Sümer Cilli',
+        url: `${BASE}/`,
         description:
           "Adana'da aile hukuku, boşanma, nafaka, velayet ve özel hukuk uyuşmazlıklarında hukuki destek ve genel bilgilendirme.",
-        telephone: '+905336342425',
-        email: 'info@cerensumer.av.tr',
-        provider: { '@id': canonicalPersonId },
-        founder: { '@id': canonicalPersonId },
-        employee: { '@id': canonicalPersonId },
+        telephone: '+90 533 634 24 25',
+        email: 'av.cerensumer@gmail.com',
+        provider: { '@id': `${BASE}/#person` },
         areaServed: { '@type': 'City', name: 'Adana' },
-        address: canonicalAddress,
-        openingHoursSpecification: [
-          {
-            '@type': 'OpeningHoursSpecification',
-            dayOfWeek: ['Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday'],
-            opens: '09:00',
-            closes: '18:00',
-          },
-        ],
+        address: {
+          '@type': 'PostalAddress',
+          streetAddress: 'Gazipaşa Mh, Ordu Cd. Dinçkan Apt No:7 A Blok Daire:3',
+          addressLocality: 'Seyhan',
+          addressRegion: 'Adana',
+          postalCode: '01010',
+          addressCountry: 'TR',
+        },
         serviceType: [
           'Aile Hukuku Danışmanlığı',
           'Boşanma Davası',
           'Nafaka Davası',
           'Velayet Davası',
-          'Mal Rejiminin Tasfiyesi',
-          'Ziynet Alacağı',
-          'Aile Konutu',
+          'Mal Paylaşımı',
+          'Miras Hukuku',
+          'Kira Hukuku',
+          'İş Hukuku',
         ],
       },
       {
@@ -234,9 +223,8 @@ function escapeHtml(text = '') {
 }
 
 function buildPostCardHtml(card, index = 0) {
-  // All post cards are below 3700px on the homepage; none are above the fold / LCP
   const thumb = buildPostCardThumb(card.link, card.imageUrl, card.label, card.altText, {
-    critical: false,
+    critical: index < 3,
   });
   return `<div class="aa-card aa-post-card">${thumb}<div class="aa-post-body"><div class="aa-date">${escapeHtml(card.date)}</div><h3>${escapeHtml(card.title)}</h3><p>${escapeHtml(card.excerpt)}</p><a class="aa-card-link" href="${card.link}">Yazıyı Oku</a></div></div>`;
 }
