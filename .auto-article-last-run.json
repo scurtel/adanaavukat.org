@@ -1,23 +1,24 @@
 {
-  "generatedAt": "2026-10-19T07:22:39.470Z",
-  "topic": "Adana'da iletişimsizlik nedeniyle boşanma davası",
-  "slug": "adanada-iletisimsizlik-nedeniyle-bosanma-davasi",
-  "title": "Adana'da İletişimsizlik Nedeniyle Boşanma Davası: Süreç ve Hukuki Boyutları",
-  "wordCount": 1101,
+  "generatedAt": "2026-10-23T07:02:14.266Z",
+  "topic": "Adana'da boşanma sonrası soyadı değişikliği nasıl yapılır?",
+  "slug": "adanada-bosanma-sonrasi-soyadi-degisikligi",
+  "title": "Adana'da Boşanma Sonrası Soyadı Değişikliği Nasıl Yapılır? Kapsamlı Rehber",
+  "wordCount": 1325,
   "status": "publish",
-  "postId": 575,
-  "link": "https://adanaavukat.org/adanada-iletisimsizlik-nedeniyle-bosanma-davasi/",
+  "postId": 578,
+  "link": "https://adanaavukat.org/adanada-bosanma-sonrasi-soyadi-degisikligi/",
   "rankMath": {
     "ok": true,
     "method": "adanaavukat/v1"
   },
   "featured": {
     "ok": true,
-    "mediaId": 576,
+    "mediaId": 579,
     "source": "pexels"
   },
   "qualityWarnings": [
-    "SEO title uzunluğu hedef dışı (63 karakter; hedef ~50-60)."
+    "Yasaklı ifade: güvence altına alın",
+    "SEO title uzunluğu hedef dışı (65 karakter; hedef ~50-60)."
   ],
-  "localPath": "/home/runner/work/adanaavukat.org/adanaavukat.org/generated/auto-articles/adanada-iletisimsizlik-nedeniyle-bosanma-davasi.json"
+  "localPath": "/home/runner/work/adanaavukat.org/adanaavukat.org/generated/auto-articles/adanada-bosanma-sonrasi-soyadi-degisikligi.json"
 }
